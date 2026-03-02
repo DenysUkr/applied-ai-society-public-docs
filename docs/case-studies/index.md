@@ -11,6 +11,14 @@ This section features two kinds of content: **project case studies** showing how
 
 ---
 
+## Personal Transformations
+
+| Case Study | Who | Summary |
+|------------|-----|---------|
+| [Tim Dort-Golts](./tim-dort-golts-personal-transformation) | Tim Dort-Golts | A non-technical business student rebuilds his entire personal and professional workflow with an AI agent |
+
+---
+
 ## Practitioner Profiles
 
 | Profile | Focus |
