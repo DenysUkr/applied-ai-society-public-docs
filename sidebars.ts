@@ -50,6 +50,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'case-studies/rostam-mahabadi',
+        'case-studies/tim-dort-golts-personal-transformation',
       ],
     },
     {
