@@ -27,6 +27,7 @@ const sidebars: SidebarsConfig = {
         'roles/ai-workflow-architect',
         'roles/ai-agent-consultant',
         'roles/fractional-ai-executive',
+        'roles/ai-enablement-coach',
       ],
     },
     {
