@@ -123,6 +123,8 @@ const sidebars: SidebarsConfig = {
             'playbooks/practitioner/icp-clarity',
             'playbooks/practitioner/experimental-improvement',
             'playbooks/practitioner/pricing',
+            'playbooks/practitioner/finding-clients',
+            'playbooks/practitioner/pilot-pitch',
           ],
         },
         {
