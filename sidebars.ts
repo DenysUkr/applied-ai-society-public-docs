@@ -135,6 +135,7 @@ const sidebars: SidebarsConfig = {
             id: 'playbooks/business-owner/index',
           },
           items: [
+            'playbooks/business-owner/why-ai',
             'playbooks/business-owner/quick-check',
             'playbooks/business-owner/situation-map',
             'playbooks/business-owner/pilot-scope',
