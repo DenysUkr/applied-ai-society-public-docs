@@ -17,7 +17,7 @@ To change the world meaningfully, individuals and organizations must be deeply g
 
 Truth management solves this by systematically documenting and evolving shared understanding. When truth is made explicit through version-controlled documentation, scattered assumptions are replaced by coherent foundations for aligned action for every human and AI involved.
 
-Read the [full argument](./why-it-matters) for the three interconnected claims that build toward this thesis.
+Read the [full argument](/docs/truth-management/why-it-matters) for the three interconnected claims that build toward this thesis.
 
 ## The Framework
 
@@ -25,25 +25,25 @@ Read the [full argument](./why-it-matters) for the three interconnected claims t
 
 Core operating principles for effective truth management:
 
-- [**Align Before Committing**](./align-before-committing) - Never start meaningful projects without explicit, documented alignment
-- [**Don't Assume Common Sense**](./dont-assume-common-sense) - Remove "common sense" from your vocabulary; only shared understanding exists
-- [**Empower Your Truth Manager**](./empower-your-truth-manager) - Truth management requires real authority to enforce organizational coherence
-- [**Make Every File Count**](./make-every-file-count) - Every document must actively support right action with minimal noise
-- [**Make Your Company Refactorable**](./make-your-company-refactorable) - Can you grep and edit your entire company OS with an agent call? If not, why?
-- [**Protect Your Truth**](./protect-your-truth) - Match security controls to sensitivity levels
+- [**Align Before Committing**](/docs/truth-management/align-before-committing) - Never start meaningful projects without explicit, documented alignment
+- [**Don't Assume Common Sense**](/docs/truth-management/dont-assume-common-sense) - Remove "common sense" from your vocabulary; only shared understanding exists
+- [**Empower Your Truth Manager**](/docs/truth-management/empower-your-truth-manager) - Truth management requires real authority to enforce organizational coherence
+- [**Make Every File Count**](/docs/truth-management/make-every-file-count) - Every document must actively support right action with minimal noise
+- [**Make Your Company Refactorable**](/docs/truth-management/make-your-company-refactorable) - Can you grep and edit your entire company OS with an agent call? If not, why?
+- [**Protect Your Truth**](/docs/truth-management/protect-your-truth) - Match security controls to sensitivity levels
 
 ### Processes
 
 Systematic workflows for implementing truth management:
 
-- [**Start Your Company Bible**](./start-your-company-bible) - Build comprehensive documentation capturing your organization's "way"
-- [**Migrate to Refactorable Systems**](./migrate-to-refactorable-systems) - Move from siloed tools to grep-able, version-controlled formats
-- [**Truth as Context**](./truth-as-context) - Ensure AI agents have full organizational context when creating or modifying documentation
+- [**Start Your Company Bible**](/docs/truth-management/start-your-company-bible) - Build comprehensive documentation capturing your organization's "way"
+- [**Migrate to Refactorable Systems**](/docs/truth-management/migrate-to-refactorable-systems) - Move from siloed tools to grep-able, version-controlled formats
+- [**Truth as Context**](/docs/truth-management/truth-as-context) - Ensure AI agents have full organizational context when creating or modifying documentation
 
 ### Tools
 
-- [**Source Controller**](./source-controller) - Version control platforms (e.g., GitHub) that store and evolve your truth repository
-- [**Voice Transcriber**](./voice-transcriber) - Speech-to-text tools that lower the friction between thinking and documenting
+- [**Source Controller**](/docs/truth-management/source-controller) - Version control platforms (e.g., GitHub) that store and evolve your truth repository
+- [**Voice Transcriber**](/docs/truth-management/voice-transcriber) - Speech-to-text tools that lower the friction between thinking and documenting
 
 ## About
 

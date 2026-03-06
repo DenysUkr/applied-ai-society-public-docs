@@ -15,7 +15,7 @@ This section features two kinds of content: **project case studies** showing how
 
 | Case Study | Who | Summary |
 |------------|-----|---------|
-| [Tim Dort-Golts](./tim-dort-golts-personal-transformation) | Tim Dort-Golts | A non-technical business student rebuilds his entire personal and professional workflow with an AI agent |
+| [Tim Dort-Golts](/docs/case-studies/tim-dort-golts-personal-transformation) | Tim Dort-Golts | A non-technical business student rebuilds his entire personal and professional workflow with an AI agent |
 
 ---
 
@@ -23,7 +23,7 @@ This section features two kinds of content: **project case studies** showing how
 
 | Profile | Focus |
 |---------|-------|
-| [Rostam Mahabadi](./rostam-mahabadi) | AI agent building and consulting. Radical transparency as a sales strategy. 90-95% close rate. |
+| [Rostam Mahabadi](/docs/case-studies/rostam-mahabadi) | AI agent building and consulting. Radical transparency as a sales strategy. 90-95% close rate. |
 
 ---
 
@@ -31,7 +31,7 @@ This section features two kinds of content: **project case studies** showing how
 
 | Case Study | Who | Summary |
 |------------|-----|---------|
-| [Gary Sheng: Media Automation](./gary-sheng-media-automation) | Gary Sheng | Building custom AI content tools for media companies: meme generators, video reformatters, and image stylizers driving tens of millions of impressions |
+| [Gary Sheng: Media Automation](/docs/case-studies/gary-sheng-media-automation) | Gary Sheng | Building custom AI content tools for media companies: meme generators, video reformatters, and image stylizers driving tens of millions of impressions |
 
 ---
 
