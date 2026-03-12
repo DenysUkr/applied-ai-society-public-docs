@@ -103,6 +103,6 @@ He sees his role clearly. Not as the most advanced practitioner in the room, but
 
 ---
 
-*Tim Dort-Golts is a business student at KEDGE Business School in Bordeaux, France, and the founding chapter leader of [Applied AI Society France](https://discord.gg/7KeNHKck). His path from a legacy personal management system to a fully AI-managed life in under a month is one of the clearest examples of what's possible for non-technical people in the [applied AI economy](/docs/playbooks/practitioner/applied-ai-economy).*
+*Tim Dort-Golts is a business student at KEDGE Business School in Bordeaux, France, and the founding chapter leader of [Applied AI Society France](https://discord.gg/K7uWJBMFaN). His path from a legacy personal management system to a fully AI-managed life in under a month is one of the clearest examples of what's possible for non-technical people in the [applied AI economy](/docs/playbooks/practitioner/applied-ai-economy).*
 
 *Find Tim on [LinkedIn](https://www.linkedin.com/in/tim-dort-golts/).*

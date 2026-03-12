@@ -114,7 +114,7 @@ The [Business Owner Playbook](/docs/playbooks/business-owner) walks through each
 The Applied AI Society connects business owners with practitioners who do this work every day. Whether you need help scoping your first pilot, want to attend a hands-on workshop, or just want to see what's possible, we can point you in the right direction.
 
 - **[Applied AI Live events](https://appliedaisociety.org/events)**: See real implementations and meet practitioners in person
-- **[Join our community](https://discord.gg/7KeNHKck)**: Ask questions, share what you're working on, connect with others on the same path
+- **[Join our community](https://discord.gg/K7uWJBMFaN)**: Ask questions, share what you're working on, connect with others on the same path
 - **Need direct help?** Reach out at [appliedaisociety.org](https://appliedaisociety.org) and we'll connect you with a practitioner who fits your needs
 
 ---

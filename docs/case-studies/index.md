@@ -37,4 +37,4 @@ This section features two kinds of content: **project case studies** showing how
 
 ## Submit Your Story
 
-Are you doing applied AI work? We want to document it. Whether it's a project case study or your practitioner journey, reach out on [Discord](https://discord.gg/7KeNHKck) or [GitHub](https://github.com/applied-ai-society).
+Are you doing applied AI work? We want to document it. Whether it's a project case study or your practitioner journey, reach out on [Discord](https://discord.gg/K7uWJBMFaN) or [GitHub](https://github.com/applied-ai-society).

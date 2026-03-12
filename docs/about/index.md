@@ -85,4 +85,4 @@ Bringing a chapter to your campus or organization means your people get access t
 - **Start a chapter:** [Learn how →](/docs/playbooks/chapter-leader)
 - **Present at an event:** [Presenter playbook →](/docs/playbooks/presenter)
 - **Read the docs:** [Browse playbooks, standards, case studies, and philosophy →](/docs/philosophy)
-- **Join the community:** [Join our Discord →](https://discord.gg/7KeNHKck) to meet chapter leaders, practitioners, and members across cities. Follow [@AppliedAISoc on X](https://x.com/appliedaisoc) for updates.
+- **Join the community:** [Join our Discord →](https://discord.gg/K7uWJBMFaN) to meet chapter leaders, practitioners, and members across cities. Follow [@AppliedAISoc on X](https://x.com/appliedaisoc) for updates.
