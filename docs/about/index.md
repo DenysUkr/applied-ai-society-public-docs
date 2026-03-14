@@ -53,7 +53,7 @@ Applied AI Society is a champion and leader in [applied AI literacy](/docs/appli
 
 The gap isn't just that companies need implementation help. The deeper gap is that people don't know what's possible. The Mayor of Austin put it perfectly: "You say AI to people and their knee-jerk is 'we're gonna have more data centers.' They don't know what the application is."
 
-Applied AI literacy means understanding what AI can actually do for your business, your career, and your community. Not just knowing that AI exists, but knowing how to apply it to real problems you face today. It's the difference between hearing about electricity and knowing how to wire a building.
+Not understanding applied AI is the new "I don't know how to read." Applied AI literacy means understanding what AI can actually do for your business, your career, and your community. Not just knowing that AI exists, but knowing how to apply it to real problems you face today.
 
 We're developing courses, frameworks, and resources to make applied AI literacy accessible to everyone. [Learn more about our approach to applied AI literacy →](/docs/applied-ai-literacy)
 
