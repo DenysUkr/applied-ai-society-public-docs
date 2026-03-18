@@ -129,6 +129,7 @@ const sidebars: SidebarsConfig = {
             'playbooks/practitioner/pricing',
             'playbooks/practitioner/finding-clients',
             'playbooks/practitioner/pilot-pitch',
+            'playbooks/practitioner/minimum-viable-jarvis',
           ],
         },
         {
