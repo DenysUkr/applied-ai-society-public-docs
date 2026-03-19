@@ -232,7 +232,8 @@ const sidebars: SidebarsConfig = {
         'brand/ai-generation',
       ],
     },
-    'partner',
+    'university-partnerships',
+    // 'partner', // Re-enable after corporate pilot with Ian Newell / OpenTeams
     'code-of-conduct',
   ],
 };
