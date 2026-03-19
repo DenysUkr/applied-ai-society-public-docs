@@ -234,6 +234,7 @@ const sidebars: SidebarsConfig = {
     },
     'university-partnerships',
     // 'partner', // Re-enable after corporate pilot with Ian Newell / OpenTeams
+    'contact',
     'code-of-conduct',
   ],
 };
