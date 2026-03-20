@@ -154,6 +154,7 @@ const sidebars: SidebarsConfig = {
             'playbooks/business-owner/hiring-practitioners',
             'playbooks/business-owner/workflow-decomposition',
             'playbooks/business-owner/ai-readiness-by-function',
+            'playbooks/business-owner/dont-scale-slop',
           ],
         },
       ],
