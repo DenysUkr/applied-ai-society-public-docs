@@ -46,6 +46,9 @@ const sidebars: SidebarsConfig = {
         'concepts/liberation-architecture',
         'concepts/the-encounter',
         'concepts/the-token-economy',
+        'concepts/roles-to-workflows',
+        'concepts/observable-behavior-engineering',
+        'concepts/ignorance-debt',
       ],
     },
     {
@@ -149,6 +152,8 @@ const sidebars: SidebarsConfig = {
             'playbooks/business-owner/pilot-scope',
             'playbooks/business-owner/beyond-automation',
             'playbooks/business-owner/hiring-practitioners',
+            'playbooks/business-owner/workflow-decomposition',
+            'playbooks/business-owner/ai-readiness-by-function',
           ],
         },
       ],
