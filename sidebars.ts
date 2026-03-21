@@ -145,7 +145,9 @@ const sidebars: SidebarsConfig = {
             type: 'doc',
             id: 'playbooks/student/index',
           },
-          items: [],
+          items: [
+            'playbooks/student/five-levels-of-value',
+          ],
         },
         {
           type: 'category',
