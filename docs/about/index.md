@@ -59,7 +59,7 @@ We're developing courses, frameworks, and resources to make applied AI literacy 
 
 ## How It Works
 
-**Chapters.** Applied AI Society runs through hyperlocal chapters in cities and on campuses. Each chapter is led by young people who are already AI-native. They organize events, build community, and create a space where people figure out AI use cases together (not alone).
+**Local communities.** Applied AI Society runs through communities in cities and on campuses. Sometimes that is a formal chapter. Sometimes it is a student group within an existing AI club. Sometimes it is three people who decide to host their first event and see who shows up. The format matters less than the outcome: people in a room, learning applied AI by doing it together.
 
 **Events.** Every Applied AI Society event is an initiation into the applied AI economy. Our flagship format, [Applied AI Live](/docs/playbooks/chapter-leader/applied-ai-live), brings together live players: practitioners who are rapidly evolving their techniques and excited to share field notes from the front lines. The audience doesn't just hear about what's possible. They get pulled into the current. We're also developing new formats like [Applied AI Office Hours](/docs/playbooks/chapter-leader/event-formats#applied-ai-office-hours) (where business owners get hands-on help from practitioners) and hackathons. [See all event formats →](/docs/playbooks/chapter-leader/event-formats)
 
@@ -85,14 +85,14 @@ Your students and young members are anxious about AI and their careers. They're 
 
 Applied AI Society gives young people a community where they can channel that anxiety into action. Our events draw participants from across departments and backgrounds (not just CS) because applied AI is cross-disciplinary. Business students, design students, liberal arts students all bring perspectives that make implementations better.
 
-Bringing a chapter to your campus or organization means your people get access to practitioners, open resources, and a national network of peers. If you already have a venue that wants this kind of programming, it costs nothing to start. You may want to invest in things like AV and recording, but the barrier to entry is low. We provide the playbooks, the event formats, and the community infrastructure.
+Bringing Applied AI Society to your campus does not require starting a new club from scratch. If you already have an AI club, we can support it with playbooks, shirts, small event budgets, and a connection to the national network. If you do not have one, we can help you start something lightweight. The barrier to entry is low. We provide the playbooks, the event formats, and the community infrastructure.
 
-**Want to bring Applied AI Society to your university or organization?** [Get in touch →](https://appliedaisociety.org/contribute), or reach out to Gary Sheng directly on Telegram (@garysheng) or X DMs (@garysheng).
+**Want to bring Applied AI Society to your university or organization?** [Get in touch →](/docs/contact), or explore a [university partnership →](/docs/university-partnerships).
 
 ## Get Involved
 
 - **Attend an event:** [See upcoming events →](https://appliedaisociety.org/events)
-- **Start a chapter:** [Learn how →](/docs/playbooks/chapter-leader)
+- **Start or join a community:** [Learn how →](/docs/playbooks/chapter-leader)
 - **Present at an event:** [Presenter playbook →](/docs/playbooks/presenter)
 - **Read the docs:** [Browse playbooks, standards, case studies, and philosophy →](/docs/philosophy)
 - **Join the community:** [Join our Discord →](https://discord.gg/K7uWJBMFaN) to meet chapter leaders, practitioners, and members across cities. Follow [@AppliedAISoc on X](https://x.com/appliedaisoc) for updates.
