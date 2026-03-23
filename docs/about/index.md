@@ -27,9 +27,9 @@ Nobody has this figured out. So let's all agree nobody has this figured out, and
 
 ## Founded By
 
-Applied AI Society was cofounded by Gary Sheng and Travis Oliphant (creator of NumPy, SciPy, cofounder of Anaconda). Gary brings deep experience in community building, product, and applied AI implementation. Travis brings decades of building open-source tools that power modern computing and data science.
+Applied AI Society was founded by Gary Sheng with Travis Oliphant (creator of NumPy, SciPy, cofounder of Anaconda) as founding advisor. Gary brings deep experience in community building, product, and applied AI implementation. Travis brings decades of building open-source tools that power modern computing and data science.
 
-Together, they saw the same thing: young people have real AI fluency but no clear path to turn it into a living. The Society exists to fix that.
+They share the same conviction: young people have real AI fluency but no clear path to turn it into a living. The Society exists to fix that.
 
 ## What We Are
 
