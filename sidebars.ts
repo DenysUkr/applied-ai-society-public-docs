@@ -31,6 +31,7 @@ const sidebars: SidebarsConfig = {
         'roles/fractional-ai-executive',
         'roles/ai-enablement-coach',
         'roles/command-center-administrator',
+        'roles/ai-transition-coach',
       ],
     },
     {
