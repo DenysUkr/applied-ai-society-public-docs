@@ -52,6 +52,29 @@ Every recap should include a newsletter signup pitch and a referral CTA. The goa
 
 ---
 
+## Newsletter Recap Process
+
+The newsletter recap is interview-driven. It doesn't start with writing. It starts with a conversation.
+
+The host (or an AI assistant) interviews the event organizer with targeted questions:
+- What happened at the event? What's the one-line summary?
+- What's the headline? What would make someone who missed it feel the urgency?
+- Is there raw content to distill (transcript, notes, attendee feedback)?
+- What media do we have? (Photos, video, montages, speaker slides)
+
+The draft is then compiled from those answers. This approach keeps the voice authentic and grounded in what actually happened, rather than generic recap language.
+
+### Newsletter Structure
+
+Every newsletter recap follows this skeleton:
+
+1. **Quick Links at top.** Three CTAs with direct links (e.g., "Watch the recording," "RSVP for the next event," "Join the community"). These go above the fold so busy readers can act immediately.
+2. **Main content.** The recap itself, following the article template below.
+3. **Sponsor section with CTAs.** This is not just a "thank you to our sponsors" line. Include what the sponsor does, why it matters to the audience, and a clear CTA (visit their site, try their product, check out their open roles). Sponsors who see real engagement keep sponsoring.
+4. **Sign-off.** Personal, warm, forward-looking. Point to what's coming next.
+
+---
+
 ## The Recap Article
 
 ### Template
@@ -121,6 +144,19 @@ You need 3-5 standout moments. Here's where to find them:
 
 4. **Diversity matters.** Don't pull all 5 quotes from one speaker. Spread them across speakers and topics. This gives readers a reason to watch the full recording, not just one segment.
 
+### Quote Extraction
+
+When reviewing transcripts, pull the 3-5 best quotes from each speaker. Not every quote will make it into the recap, but having a pool gives you options across platforms.
+
+What to look for:
+- **Surprising statements.** Something that makes you pause or rethink an assumption.
+- **Actionable advice.** Concrete steps someone could take tomorrow.
+- **One-sentence insights.** The kind of line that captures a whole philosophy in a single breath.
+
+Use bold formatting for emphasis when posting quotes on social media. A bolded key phrase inside a longer quote draws the eye and makes people stop scrolling.
+
+When you find a great quote, note the timestamp too. You'll need it for YouTube descriptions and X posts.
+
 ---
 
 ## Photo Montage with Remotion
@@ -146,6 +182,16 @@ Save the rendered montages to `applied-ai-society-public-docs/static/img/events/
 
 ---
 
+## Google Doc Review Workflow
+
+Before publishing, create a Google Doc of the newsletter or recap for internal review. Share it with collaborators so they can leave comments, flag errors, and suggest edits.
+
+When you make revisions, use the `--update` flag to refresh the same doc URL. This way, reviewers always see the latest version at the same link. No one has to chase down a new URL every time you tweak something.
+
+This is especially important for sponsor sections (make sure CTAs are accurate), speaker quotes (make sure attribution is correct), and event details (dates, times, locations). A second set of eyes catches things you'll miss after staring at the same draft for an hour.
+
+---
+
 ## Sharing & Amplification
 
 The recap article is only half the job. Distribution is the other half.
@@ -154,15 +200,37 @@ The recap article is only half the job. Distribution is the other half.
 
 Publish the full recap as the newsletter email. This goes to all attendees and existing subscribers. Substack is the source of truth.
 
-### X
+### Platform-Specific Strategy
 
-**No threads.** Threads are dead on X. Post a single post with a photo montage attached. Short, punchy caption (3-5 sentences) that hypes the event and teases the video. The goal is to make people curious enough to click through to the full recap.
+Each platform has its own rules. What works on X will fall flat on LinkedIn, and vice versa. Here's how to approach each one.
 
-Put the Substack link in the first reply, along with the registration link for the next event. Tag speakers, sponsors, venue, and co-hosts. Pin the post to your profile until the next event.
+#### X (posting from personal account)
 
-### LinkedIn
+- **Lowercase voice throughout.** Casual, intimate, like you're texting a friend about something you're excited about.
+- **Bold all-caps headline at the top.** This is the hook. Something provocative or crystallizing. Example: **THE NORTH STAR OF THE APPLIED AI ECONOMY ISN'T SOFTWARE. IT'S THE SELF-IMPROVING BUSINESS.**
+- **Bold for key quotes and emphasis.** Draw the eye to the most compelling lines.
+- **Upload video directly to X** (not a YouTube link). Native video gets dramatically more reach than external links. X suppresses posts with outbound URLs in the main body.
+- **Include full timestamps in the post body** with newlines between each. This lets people jump to the moments that interest them.
+- **Event plug goes in a Reply to the main post, not in the post body.** Keep the main post clean and focused on content. The reply is where you drop the Substack link, registration link for the next event, and any other CTAs.
+- **Tag speakers with their X handles.** This gets the post in front of their audiences and makes it easy for them to retweet.
+- Pin the post to your profile until the next event.
 
-Same content as X. Short hype post (not the full article), photo montage attached, Substack link included directly in the post body. Tag speakers and partners by name. Don't duplicate the full recap here; drive people to Substack.
+#### LinkedIn
+
+- **Normal capitalization.** LinkedIn is more professional. Match the energy of the platform.
+- **Unicode bold for the headline.** LinkedIn's plain text editor doesn't support markdown, so use Unicode bold characters (tools like YayText can generate these) for the opening hook.
+- **3,000 character max.** No timestamps. Keep it tight and focused on the narrative: what happened, why it mattered, what's next.
+- **Link to the YouTube video** (don't upload directly). LinkedIn doesn't suppress outbound links the way X does, and YouTube links generate a nice preview card.
+- **Event plug inline at the end of the post.** Unlike X, you don't need to bury CTAs in a reply. Put registration links and next-event info right in the post body.
+- **Use full names instead of handles.** Tag people using LinkedIn's mention feature.
+- **#AppliedAILive inline on first mention is the only hashtag.** Don't stack hashtags at the bottom. One tasteful hashtag woven into the text is enough.
+
+#### YouTube
+
+- **Title format:** `[Talk Title] | [Event Name]`
+- **Description:** 2-3 sentence summary of the talk or panel, followed by panelist names with links to their X and LinkedIn profiles, full timestamps, a subscribe CTA, and links to upcoming events.
+- **Tags:** Relevant keywords (applied ai, event name, speaker names, topics covered). These help with discoverability in YouTube search.
+- **Thumbnail:** Create via Remotion using the `YouTubeThumbnail` component (photo background + text overlay + AAS branding). Use a real photo from the event, not illustrations. Authentic photos outperform designed graphics on YouTube.
 
 ### Partner amplification
 
@@ -182,18 +250,33 @@ Make the recap worth sharing. Include photos of real people. Include quotes that
 
 ---
 
+## Content Storage
+
+All social posts, newsletter drafts, YouTube metadata, and thumbnails are stored in the internal repo (`applied-ai-society-internal`) and committed to git. Every piece of content gets version-controlled.
+
+This creates a searchable archive. Need to reference how you worded a sponsor CTA three events ago? Search the repo. Need the exact timestamps you used for a previous YouTube upload? They're in git. Need to reuse a thumbnail layout? It's all there.
+
+Nothing gets lost in a Google Doc or a Slack thread. If it was published, it lives in the repo.
+
+---
+
 ## Full Checklist
 
+- [ ] Interview the event organizer (or answer the interview questions yourself)
+- [ ] Transcribe the recording and extract 3-5 quotes per speaker
 - [ ] Write the recap draft (article body following the template above)
 - [ ] Verify every sponsor/partner mention is hyperlinked to their website
 - [ ] Create 2 photo montages with Remotion
-- [ ] Ensure the recording is uploaded to YouTube
+- [ ] Create a Google Doc for internal review and share with collaborators
+- [ ] Incorporate feedback, updating the same doc URL with `--update`
+- [ ] Ensure the recording is uploaded to YouTube with proper title, description, tags, and thumbnail
 - [ ] Publish on Substack (email to full list)
-- [ ] Post on X (single photo post with montage), reply with Substack link
-- [ ] Post on LinkedIn, tag speakers/partners
+- [ ] Post on X: native video upload, lowercase voice, bold headline, timestamps, event plug in reply
+- [ ] Post on LinkedIn: normal caps, Unicode bold headline, YouTube link, #AppliedAILive, full names
 - [ ] Send recap link to co-hosts and sponsors, ask them to share
 - [ ] Send recap + attributed quotes to each speaker, ask them to share
 - [ ] DM key attendees the recap link with a personal note
+- [ ] Commit all content (social posts, newsletter draft, YouTube metadata, thumbnails) to `applied-ai-society-internal`
 
 ---
 

@@ -267,6 +267,38 @@ Mix sources: main camera for the presenter, Ray-Ban POV for whiteboard close-ups
 
 ---
 
+## Vlog Person vs Stationary Camera
+
+There are two distinct camera roles at an event, and both are valuable.
+
+The **stationary camera** (main camera) is locked on a tripod and captures the full program from start to finish. This is your primary footage for the YouTube recording. It doesn't move, and that's the point. Stability and coverage.
+
+The **vlog person** is mobile. They carry a handheld camera or smartphone and move through the crowd. Their job is to capture interviews, B-roll, crowd energy, and the feel of the event. The vlog person should start mingling with early arrivals about 30 minutes before doors open, making people feel welcome and capturing short interviews before and after the event. This content feeds social media: reels, clips, behind-the-scenes posts.
+
+Think of the stationary camera as the documentary and the vlog person as the journalist. You want both perspectives.
+
+---
+
+## Post-Event Interviews
+
+After the program wraps, the vlog person captures 1-2 minute interviews with speakers and attendees. Keep questions simple and conversational:
+
+- "What was your biggest takeaway?"
+- "What are you working on?"
+- "What brought you here tonight?"
+
+These clips are gold for social content. A 60-second interview with a speaker reflecting on their talk, filmed right after they step off stage, often outperforms the full recording in engagement. People share clips of themselves. That drives reach.
+
+---
+
+## Rebooking the Same Videographer
+
+When you find a good videographer, rebook them for the next event. They learn the venue, the format, and the angles that work. They know where to stand, when the whiteboard moments happen, and how the energy flows through the night.
+
+Consistency in production quality compounds over time. Your second event with the same person will look noticeably better than the first. By the third, they're anticipating moments before they happen.
+
+---
+
 ## See Also
 
 - [Finding a Photographer](/docs/playbooks/chapter-leader/finding-a-photographer): Similar approach for finding reliable help

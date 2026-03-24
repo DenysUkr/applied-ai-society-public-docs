@@ -100,7 +100,9 @@ A high-level view of everything that goes into running an Applied AI Live event.
 
 ### 1 Week Before
 
-- [ ] Reconfirm with photographer and videographer
+- [ ] Create the internal run-of-show document (see [Run-of-Show as Internal Doc](#run-of-show-as-internal-doc))
+- [ ] Create outreach messages doc with personalized texts for each speaker and helper (see [Outreach Messages](#outreach-messages))
+- [ ] Reconfirm with photographer and videographer. Rebook the same videographer when possible (see [Videographer Consistency](#videographer-consistency)).
 - [ ] Pick up name tags if not delivered
 - [ ] *(Optional)* Confirm food delivery plan
 - [ ] **Test full AV setup at the venue** (speaker, mic, laptop, display). Do not skip this. Bring backup gear.
@@ -109,15 +111,20 @@ A high-level view of everything that goes into running an Applied AI Live event.
 ### Day Of
 
 - [ ] Send a hype video and/or reminder blast in the morning (see below)
-- [ ] Arrive early for setup
-- [ ] Set up registration table with laptop and name tags
+- [ ] Send outreach messages to each speaker and helper (see [Outreach Messages](#outreach-messages))
+- [ ] **Setup crew arrives 1 hour before doors open.** Minimum 3 people: host, door/registration person, and vlog/camera person. Brief each person on their specific role before doors open.
+- [ ] Set up chairs, registration table (laptop + name tags), recording equipment, and food spread
 - [ ] *(Optional)* Confirm food delivery and arrange spread
 - [ ] Set computer to never sleep/hibernate
-- [ ] Test both mics
+- [ ] Test both mics and the speaker
 - [ ] Charge portable speaker and queue up music playlist
-- [ ] Brief photographer and videographer
+- [ ] Brief photographer, videographer, and vlog person (see [Vlog Person Role](#vlog-person-role))
 - [ ] Start screen recording on the presentation laptop (see [Audio/Visual](#audiovisual))
+- [ ] Vlog person begins capturing B-roll and early arrival interviews 30 min before doors
+- [ ] Door person stationed at registration from doors open through start of program (see [Door Person](#door-person))
 - [ ] Run the event (see Run of Show below)
+- [ ] After the program, put music on for the networking hour. Host actively introduces people to each other.
+- [ ] Vlog person captures post-event interviews with speakers and attendees
 - [ ] Clean up and thank venue staff
 
 **The morning hype video:**
@@ -184,6 +191,25 @@ A typical 2-hour Applied AI Live event:
 | 7:15 PM | Open networking |
 | 7:30 PM | Wrap |
 
+### Expanded Format for 3+ Speakers
+
+Once you have three or more speakers, the format benefits from more structure. The proven flow:
+
+| Time | Segment |
+|------|---------|
+| 5:30 PM | Doors open. Networking, food, music. Vlog person captures B-roll and early arrival interviews. |
+| 6:00 PM | Welcome + housekeeping + sponsor recognition (see [Sponsor Recognition](#sponsor-recognition)) (10 min) |
+| 6:10 PM | Speaker 1: individual segment with Q&A (20-25 min) |
+| 6:35 PM | Speaker 2: individual segment with Q&A (20-25 min) |
+| 7:00 PM | Short break (10 min) |
+| 7:10 PM | Keynote/featured speaker talk (10-15 min) |
+| 7:25 PM | Sit-down Q&A with keynote speaker and host (15 min) |
+| 7:40 PM | Host reinvites other speakers back on stage for open discussion (15 min) |
+| 7:55 PM | Closing: thank speakers, sponsors, attendees. Repeat sponsor recognition (shorter version). (5 min) |
+| 8:00 PM | Open networking with music (1 hour). See [Post-Event Networking Hour](#post-event-networking-hour). |
+
+This format gives each speaker their own spotlight, builds toward the keynote, and ends with a collaborative panel that brings the full group together. The open discussion at the end often produces the most interesting moments because speakers riff off each other's earlier talks.
+
 Adjust based on your speakers, venue, and what your community responds to. The format is evolving. The through-line is live players sharing real field notes. Protect time for that.
 
 **Key lesson from Live #2: don't open with a long technical presentation.** The opening segment sets the energy for the whole event. If your first speaker runs long or isn't dynamic, the room deflates before the good stuff starts. Keep the opener short (10 min max) and high-energy. Save longer, deeper segments for after the audience is warmed up. If your strongest speaker is going second, that's fine, but make sure the first segment doesn't drain the room.
@@ -193,6 +219,95 @@ Adjust based on your speakers, venue, and what your community responds to. The f
 **On speaker selection:** You need at least one charismatic speaker per event, or a strong moderator who can carry the energy. You don't need both, but you can't have neither. If a speaker has deep expertise but isn't a dynamic presenter, pair them with a moderator who can ask sharp questions and keep the pace up.
 
 **Tip:** Use auto-rotating animated slides during downtime and transitions (doors open, breaks, networking). This keeps the screen active with branding, sponsor info, or upcoming announcements instead of a static or blank display. It fills dead air visually and keeps energy in the room.
+
+### Sponsor Recognition
+
+Don't just mention sponsors by name. Give them real airtime and context.
+
+**In the opening (2-3 sentences per sponsor):** Explain what each founding sponsor does and why their work matters to this community. Example: "OpenTeams is building open-source AI infrastructure that organizations fully own and control. OT Incubator accelerates the creation of amazing companies that contribute to open source. These aren't just logos on a flyer. These are partners whose vision matches the scale of the moment."
+
+**In the closing (shorter callback):** "None of this happens without [sponsors]. If you're a practitioner building with open-source tools, check out OpenTeams. If you're building a company, talk to OT Incubator."
+
+Sponsors who feel genuinely appreciated (not just name-dropped) are sponsors who come back.
+
+### Setup Crew
+
+Arrive 1 hour before doors open with a minimum of 3 people:
+
+| Role | Responsibilities |
+|------|------------------|
+| **Host** | Oversees setup, tests AV, reviews run of show, prepares speaker intros |
+| **Door/Registration person** | Sets up the registration table, organizes name tags, prepares the check-in laptop |
+| **Vlog/Camera person** | Sets up recording equipment, tests angles, begins capturing B-roll before doors |
+
+Set up chairs, the registration table (laptop + name tags), recording equipment, and the food spread. Test mics and the speaker system. Brief each person on their specific role before doors open. Everyone should know exactly what they're responsible for so the host can focus on the program.
+
+### Vlog Person Role
+
+This is separate from the main stationary camera. The vlog person is mobile and social. Their job starts 30 minutes before doors open:
+
+- **Before doors:** Capture the venue setup, behind-the-scenes moments, the team getting ready
+- **During arrivals:** Mingle with early arrivals, film short interviews ("What are you hoping to get out of tonight?"), and make people feel welcome. This person doubles as a greeter.
+- **During the program:** Capture audience reactions, speaker moments from different angles, and candid shots that the stationary camera misses
+- **After the program:** Capture post-event interviews with speakers ("What surprised you about the questions tonight?") and attendees ("What was your biggest takeaway?")
+
+This content feeds the social media engine. Short clips from these interviews become the promotional material for the next event.
+
+### Videographer Consistency
+
+Rebook the same videographer when possible. They learn the venue layout, the event format, the best camera angles, and the lighting conditions. This means less setup time, fewer surprises, and steadily improving production quality. Consistency in production compounds over time. A videographer who has filmed three of your events will produce dramatically better content than one filming their first.
+
+### Door Person
+
+Station a dedicated person at the registration table from doors open through the start of the program. This role is critical for first impressions.
+
+**What they do:**
+- Greet every arrival warmly
+- Check them in on Luma (or your registration platform)
+- Hand out the correct name tag
+- Tell people: "We'll get started around [time]. Feel free to mingle and grab food."
+- If someone arrives alone and looks unsure, introduce them to someone nearby. "Hey, have you met [name]? They're also working on [topic]."
+
+The door person should be outgoing and genuinely enjoy meeting new people. This is the first human interaction most attendees have with your community. Make it count.
+
+### Run-of-Show as Internal Doc
+
+Create a run-of-show document for every event. This is an internal planning doc, not shared publicly. It keeps the host, crew, and speakers aligned.
+
+**What to include:**
+- Exact timeline with specific times for every segment
+- Key people table: name, role, and contact info for everyone involved (speakers, crew, videographer, venue contact)
+- Detailed talking points for the host's intro of each speaker. Don't wing the intros. Write out exactly what you'll say about each person and why their talk matters.
+- Sponsor hype talking points for both the opening and closing (see [Sponsor Recognition](#sponsor-recognition))
+- Contingency notes: what to do if a speaker runs long, if AV fails, if the keynote cancels
+
+Share this doc with your crew (not speakers) so everyone knows the full picture.
+
+### Outreach Messages
+
+Create a separate outreach messages doc with copy-pasteable personalized texts for each speaker and helper. Send these on event day morning or the night before.
+
+**For each person, include:**
+- A personalized message with what they specifically need to know about their role and timing
+- The Google Doc link to the run of show (for crew) or their specific time slot and logistics (for speakers)
+- Parking and entrance instructions
+- Your phone number for day-of coordination
+
+Example for a speaker: "Hey [Name], excited for tonight. You're on at 6:35 PM, right after [Speaker 1]. Plan to arrive by 5:45 so we can get you set up and mic-checked. Here's the run of show: [link]. Parking is in the garage on [street], enter through the side door. Text me when you're close."
+
+Example for the door person: "Hey [Name], thanks for handling registration tonight. Doors open at 5:30, so please be set up by 5:15. Here's the full run of show: [link]. Your job is to check people in on Luma, hand out name tags, and point people toward the food and networking area. If someone looks lost, introduce them to someone. You're done once the program starts at 6:00."
+
+### Post-Event Networking Hour
+
+After the program ends, put the music back on and explicitly tell the room: "We're going to hang out for another hour. Stick around, meet people, and keep the conversations going."
+
+This is where the real relationships form. During the program, people are in audience mode. During the networking hour, they're in connection mode.
+
+**The host's job during this hour:**
+- Actively introduce people to each other. "You should meet [person]. They're working on something similar to what you described."
+- Connect speakers with attendees who had questions they didn't get to ask
+- Make sure no one is standing alone. If someone looks like they're hovering, bring them into a conversation.
+- Stay until the end. If the host leaves early, the energy drains out of the room.
 
 ---
 

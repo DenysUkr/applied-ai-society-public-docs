@@ -47,6 +47,49 @@ This is the highest-leverage channel early on. The chapter leader's personal soc
 - Generic "come to our event" language with no hook
 - Posting only on the event platform and expecting people to find it
 
+#### Bold All-Caps Headlines
+
+Every social post opens with a bold all-caps headline. This is a curiosity-driving hook, not a topic label. The goal is to make someone stop scrolling because they want to know more.
+
+On X, use markdown bold: `**HEADLINE HERE**`
+
+On LinkedIn, use Unicode bold characters (tools like YayText can generate these).
+
+A good headline makes a claim, asks a provocative question, or teases a story. A bad headline just names the event.
+
+- Bad: "APPLIED AI LIVE #3 RECAP" (this is a label, not a hook)
+- Good: "WHY THE MAYOR OF AUSTIN AND I AGREE THAT AUSTIN SHOULD BE THE APPLIED AI CAPITAL OF THE WORLD"
+
+The headline should work on its own, even if someone never reads the rest of the post. It should make them curious enough to keep reading.
+
+#### Event Plug Placement
+
+Where you put the event plug matters. Getting it wrong makes your post feel like an ad instead of a genuine share.
+
+**On X:** Put the event plug in a **reply** to the main post, not in the post body. The main post should feel authentic and reflective. It should be about a real thought, an observation, something you learned, or something happening in AI. The reply handles the event plug, with @handles for speakers and the event link. This separation is important: people engage with the main post because it's interesting, and the reply catches the ones who want to take action.
+
+**On LinkedIn:** The event plug goes inline at the end of the post. Keep it to a soft paragraph with speaker names, what they're presenting, venue, and the registration link. LinkedIn's format is more forgiving of longer posts with a call to action at the bottom.
+
+#### Speaker Descriptions
+
+When you mention speakers, don't just list names and titles. Write warm, specific descriptions of what each speaker is presenting and why it matters.
+
+Compare these two approaches:
+
+*Generic:* "Michael Daigler, Developer Advocate at Apify"
+
+*Specific:* "Michael Daigler from Apify is breaking down OpenClaw x Apify for building business automation agents"
+
+The specific version tells the reader what they'll actually learn. It gives them a reason to show up beyond name recognition. This is especially important when your speakers aren't yet well known. The description of what they're presenting does the work that their name can't do yet.
+
+#### Every Post Is a Promotion Opportunity
+
+Every social post you publish (even ones that aren't about the event) should include an event plug. On X, this goes in the reply. On LinkedIn, it goes at the end of the post.
+
+The plug should feel natural, not forced. Something like: "If you want to be in rooms where these conversations happen in person, here's the next one."
+
+This works because you're already talking about AI topics that your audience cares about. The event plug is a logical next step, not a detour. The key is making the main post genuinely interesting on its own. The event plug is a bonus, not the point.
+
 ---
 
 ### Direct Messages and Texts
@@ -110,6 +153,24 @@ But don't rely on the platform's discovery features to fill your room.
 
 ---
 
+### UTM Tracking
+
+Every published link to an event must include a `utm_source` parameter. This lets you see exactly where registrations come from in Luma's Insights tab (or the equivalent analytics on whatever platform you use).
+
+**Format:** `?utm_source=<platform>-<account>`
+
+**Examples:**
+- `https://lu.ma/AppliedAILive004?utm_source=x-garysheng`
+- `https://lu.ma/AppliedAILive004?utm_source=linkedin-garysheng`
+- `https://lu.ma/AppliedAILive004?utm_source=newsletter`
+- `https://lu.ma/AppliedAILive004?utm_source=x-appliedaisociety`
+
+This takes two seconds and gives you real data on which channels are actually driving registrations. Without it, you're guessing. With it, you can see that your LinkedIn posts convert at 3x the rate of X posts, or that the newsletter is your most efficient channel, and adjust your effort accordingly.
+
+Make this a habit. Every link, every time. If someone else is posting on your behalf (a speaker, a partner), give them the link with the UTM already attached.
+
+---
+
 ### Partner Amplification
 
 Partners, sponsors, and speakers all have their own networks. Ask them to share the event.
@@ -127,10 +188,10 @@ See [Building Partnerships](/docs/playbooks/chapter-leader/building-partnerships
 In order of impact:
 
 1. **Personal texts and DMs.** Nothing beats a direct, personal invitation.
-2. **Consistent social posting with hooks.** Multiple times a week, tied to real AI news.
+2. **Consistent social posting with hooks.** Multiple times a week, tied to real AI news. Bold all-caps headlines. Event plug on every post (in the reply on X, inline on LinkedIn).
 3. **In-person announcements.** Especially on campus.
 4. **Email lists and partner amplification.** Broader reach, lower conversion.
-5. **Event platform listing.** Necessary but not sufficient.
+5. **Event platform listing.** Necessary but not sufficient. Always UTM-tagged.
 
 The mix will shift as your chapter grows. Early on, it's mostly personal outreach. After a few events, word of mouth and social proof do more of the work.
 

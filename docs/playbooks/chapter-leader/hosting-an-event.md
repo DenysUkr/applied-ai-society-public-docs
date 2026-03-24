@@ -493,6 +493,49 @@ Review both before the event. Know the timeline, then layer in your talking poin
 
 ---
 
+## Key People Table
+
+Before every event, create a table of key people and their roles. This removes ambiguity about who is doing what and makes sure nothing falls through the cracks.
+
+| Role | Person | Notes |
+|------|--------|-------|
+| Host / MC | | Opens, transitions, closes |
+| Speaker(s) | | Case study or talk |
+| Door Person | | Checks registration, greets arrivals |
+| Vlog Person | | Mobile camera, interviews, B-roll |
+| Videographer | | Stationary camera, full program recording |
+| Photographer | | Event photos for social and archive |
+
+Share this table in the run-of-show doc so everyone can see it before the event. Update it as roles get filled. If one person is covering multiple roles, note that explicitly so nothing gets dropped.
+
+---
+
+## Speaker Intro Philosophy
+
+Don't just read a bio. A bio is a list of credentials. An intro is a story that makes the audience lean in.
+
+Structure your intros in this order:
+
+1. **Why this talk matters to the audience.** Open with the problem or question the speaker is about to address. Make the audience feel the relevance before they even know who is speaking.
+2. **Who the speaker is.** Now give them the credibility. Not the full LinkedIn resume, just the 1-2 facts that make this person the right one to talk about this topic.
+3. **What they're sharing.** One sentence on what the audience is about to hear.
+
+The goal: make the audience want to hear the talk before the speaker even starts. Write out the exact intro in your run-of-show doc. Don't wing it. A well-crafted 30-second intro sets the speaker up for success.
+
+---
+
+## Post-Event Networking
+
+After the closing remarks, your job is not done. The networking hour is where real relationships form, and the host plays an active role.
+
+- **Put music on.** It fills the silence and signals that the formal program is over. People relax. Energy shifts from "audience" to "community."
+- **Actively introduce people to each other.** Walk up to someone standing alone and say, "Hey, have you met [Name]? They're working on [X], and I think you two would have a lot to talk about." This is the highest-leverage thing you can do as a host.
+- **Stay for the full hour.** If you leave early, people notice. The host's presence signals that the networking time matters. Some of the best connections at any event happen in the last 15 minutes, when the crowd thins and conversations go deeper.
+
+The program gets people in the room. The networking hour is why they come back.
+
+---
+
 ## See Also
 
 - [Applied AI Live](/docs/playbooks/chapter-leader/applied-ai-live): Full event playbook with run of show
