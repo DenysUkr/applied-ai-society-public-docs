@@ -57,6 +57,8 @@ These two categories create a flywheel. Automate the manual work, free up capaci
 
 ## The Competitive Reality
 
+For a detailed breakdown of the layoff numbers, the definition of applied AI, and how businesses go extinct (or thrive) in this economy, read **[The Writing on the Wall](https://digitalcommons.humboldt.edu/digitallab/13/)** by Ron Roberts and Gary Sheng.
+
 Your competitors are exploring AI right now. Some of them are using it well: continually refining their business processes, creating better output, freeing up time to work *on* the business instead of *in* it. That puts you at a disadvantage if you're standing still.
 
 But even if you don't want to think about the competition, just think about your customers. You want to continually unblock your business to better serve them, again and again. That requires time. And AI is one of the most effective ways to create it.
