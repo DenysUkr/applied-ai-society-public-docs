@@ -95,7 +95,7 @@ Most clients who say "AI isn't useful for my business" actually mean "I tried Ch
 
 This is where real value lives. Anyone can show a client a cool AI demo. A practitioner who sets up structured context so the client's agents actually understand their business, their customers, their constraints, and their goals is doing work that compounds over time. Every file added to the knowledge base makes every future agent session better.
 
-If you're helping an executive set up a personal AI command center, you're doing context engineering. If you're building a team knowledge base that agents can query, you're doing context engineering. If you're structuring a company's institutional knowledge for agent access, you're doing context engineering.
+If you're helping an executive set up a personal AI business OS, you're doing context engineering. If you're building a team knowledge base that agents can query, you're doing context engineering. If you're structuring a company's institutional knowledge for agent access, you're doing context engineering.
 
 The skill is the same at every scale. The stakes get higher as you go up.
 

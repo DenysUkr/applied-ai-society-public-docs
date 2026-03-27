@@ -81,7 +81,7 @@ The compounding effect is what excites him most. The more time he frees up, the 
 
 ## His Stack
 
-Tim's personal command center runs on a straightforward set of tools, none of which required him to write code from scratch.
+Tim's personal business OS runs on a straightforward set of tools, none of which required him to write code from scratch.
 
 **Primary:** [OpenClaw](https://openclaw.ai), messenger app (Telegram/WhatsApp) to interface with the agent, Google Calendar, nested folders with .md documents for knowledge base
 

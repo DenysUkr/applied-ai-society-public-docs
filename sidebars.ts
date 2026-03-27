@@ -52,7 +52,6 @@ const sidebars: SidebarsConfig = {
         id: 'concepts/index',
       },
       items: [
-        'concepts/sovereign-agentic-business-os',
         'concepts/context-engineering',
         'concepts/intent-engineering',
         'concepts/game-design',
@@ -185,14 +184,14 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Sovereign Command Centers',
+      label: 'Sovereign Agentic Business OS',
       link: {
         type: 'doc',
-        id: 'sovereign-command-centers/index',
+        id: 'sovereign-agentic-business-os/index',
       },
       items: [
-        'sovereign-command-centers/principles',
-        'sovereign-command-centers/question-bank',
+        'sovereign-agentic-business-os/principles',
+        'sovereign-agentic-business-os/question-bank',
       ],
     },
     {
