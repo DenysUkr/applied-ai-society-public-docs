@@ -52,7 +52,7 @@ const sidebars: SidebarsConfig = {
         id: 'concepts/index',
       },
       items: [
-        'concepts/sovereign-agentic-command-center',
+        'concepts/sovereign-agentic-business-os',
         'concepts/context-engineering',
         'concepts/intent-engineering',
         'concepts/game-design',
