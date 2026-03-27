@@ -5,6 +5,7 @@
 ## Docs
 
 - [What is the Applied AI Society?](https://docs.appliedaisociety.org/docs/about)
+- [The Applied AI Literacy Earthshot](https://docs.appliedaisociety.org/docs/applied-ai-literacy/earthshot): Our commitment: the best open-source applied AI literacy source material in the world, co-created by the leading practitioners in the world. The foundation from which all courses, tools, and translations derive.
 - [Applied AI Literacy](https://docs.appliedaisociety.org/docs/applied-ai-literacy): Applied AI Society champions applied AI literacy: the ability to understand what AI can do and put it to work on real problems. Courses, frameworks, and resources coming soon.
 - [Generating Assets with AI](https://docs.appliedaisociety.org/docs/brand/ai-generation)
 - [Brand Guidelines](https://docs.appliedaisociety.org/docs/brand)
@@ -29,6 +30,7 @@
 - [Philosophy](https://docs.appliedaisociety.org/docs/philosophy)
 - [North Star](https://docs.appliedaisociety.org/docs/philosophy/north-star)
 - [Principles](https://docs.appliedaisociety.org/docs/philosophy/principles)
+- [Voices from the Applied AI Frontier](https://docs.appliedaisociety.org/docs/philosophy/voices-from-the-frontier): What the people building and shaping AI say about the future of work, ownership, and human value. Their words validate what Applied AI teaches.
 - [AI Readiness by Business Function](https://docs.appliedaisociety.org/docs/playbooks/business-owner/ai-readiness-by-function)
 - [Don't Accept Automation as the Goal](https://docs.appliedaisociety.org/docs/playbooks/business-owner/beyond-automation)
 - [Don't Scale Slop](https://docs.appliedaisociety.org/docs/playbooks/business-owner/dont-scale-slop)
@@ -71,21 +73,23 @@
 - [Finding Clients Through Trust](https://docs.appliedaisociety.org/docs/playbooks/practitioner/finding-clients)
 - [ICP Clarity: The Foundation of Applied AI](https://docs.appliedaisociety.org/docs/playbooks/practitioner/icp-clarity)
 - [Practitioner Playbooks](https://docs.appliedaisociety.org/docs/playbooks/practitioner)
-- [The Minimum Viable Jarvis: Setting Up Your AI Command Center](https://docs.appliedaisociety.org/docs/playbooks/practitioner/minimum-viable-jarvis): A step-by-step guide to building your personal AI-operated command center for truth management, strategic clarity, and compounding context.
+- [The Minimum Viable Jarvis: Setting Up Your AI Business OS](https://docs.appliedaisociety.org/docs/playbooks/practitioner/minimum-viable-jarvis): A step-by-step guide to building your personal AI-operated business OS for truth management, strategic clarity, and compounding context.
 - [The Pilot Pitch](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pilot-pitch)
 - [Pricing Your AI Engagements](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pricing)
 - [Presenter Playbooks](https://docs.appliedaisociety.org/docs/playbooks/presenter)
 - [Presenting at Applied AI Live](https://docs.appliedaisociety.org/docs/playbooks/presenter/presenting-at-applied-ai-live)
-- [Student / Explorer](https://docs.appliedaisociety.org/docs/playbooks/student): A playbook for students, new grads, career changers, and anyone still figuring out where they fit in the applied AI economy.
+- [The Five Levels of Value in the AI Age](https://docs.appliedaisociety.org/docs/playbooks/student/five-levels-of-value)
+- [Student / Explorer](https://docs.appliedaisociety.org/docs/playbooks/student)
 - [AI Agent Consultant](https://docs.appliedaisociety.org/docs/roles/ai-agent-consultant)
 - [AI Enablement Coach](https://docs.appliedaisociety.org/docs/roles/ai-enablement-coach)
+- [AI Transition Coach](https://docs.appliedaisociety.org/docs/roles/ai-transition-coach)
 - [AI Workflow Architect](https://docs.appliedaisociety.org/docs/roles/ai-workflow-architect)
 - [Command Center Administrator](https://docs.appliedaisociety.org/docs/roles/command-center-administrator)
 - [Fractional AI Executive](https://docs.appliedaisociety.org/docs/roles/fractional-ai-executive)
 - [Roles in the Applied AI Economy](https://docs.appliedaisociety.org/docs/roles)
-- [Sovereign Command Centers](https://docs.appliedaisociety.org/docs/sovereign-command-centers)
-- [Principles](https://docs.appliedaisociety.org/docs/sovereign-command-centers/principles)
-- [The Question Bank](https://docs.appliedaisociety.org/docs/sovereign-command-centers/question-bank)
+- [Sovereign Agentic Business OS](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os)
+- [Principles](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os/principles)
+- [The Question Bank](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os/question-bank)
 - [Standards](https://docs.appliedaisociety.org/docs/standards)
 - [Example - CESP](https://docs.appliedaisociety.org/docs/standards/integrate-md/example)
 - [INTEGRATE.md Spec (v0.1)](https://docs.appliedaisociety.org/docs/standards/integrate-md)
@@ -107,4 +111,4 @@
 - [University Partnerships](https://docs.appliedaisociety.org/docs/university-partnerships): Partner with Applied AI Society to set a new standard for applied AI education at your university.
 
 ---
-Generated at build time. 101 pages indexed.
+Generated at build time. 105 pages indexed.
