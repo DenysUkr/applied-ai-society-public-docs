@@ -45,6 +45,14 @@ Systematic workflows for implementing truth management:
 - [**Source Controller**](/docs/truth-management/source-controller) - Version control platforms (e.g., GitHub) that store and evolve your truth repository
 - [**Voice Transcriber**](/docs/truth-management/voice-transcriber) - Speech-to-text tools that lower the friction between thinking and documenting
 
+## Truth Management and Field Notes
+
+Truth management is the discipline. [Field notes](/docs/philosophy/why-field-notes) are what it produces.
+
+Without truth management, living documentation degrades into a wiki: well-intentioned at first, then gradually filled with outdated, contradictory, and unreliable information. Truth management imposes the rigor that prevents this: version control, explicit ownership, systematic review, and the principle that every file must actively support right action.
+
+We live in an age of embellishment where social media algorithms reward hype over accuracy, and the traditional textbook industry is structurally misaligned with the interests of learners. The Applied AI Society's documentation exists as a safe, reliable home for the truth: [field notes from practitioners doing the work](/docs/philosophy/why-field-notes), managed with the discipline described on this page, so that when we educate people, we educate them from love, not propaganda.
+
 ## About
 
 This framework was created by [Gary Sheng](https://garysheng.com), founder of the Applied AI Society. It emerges from observing that competitive advantage increasingly comes from organizational capability rather than just proprietary technology. As AI agents become integral to how work gets done, organizations with well-documented truth gain compounding advantages: their agents operate from the same foundations as their humans, enabling coordinated action at unprecedented speed.

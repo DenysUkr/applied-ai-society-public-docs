@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
         'philosophy/principles',
         'philosophy/north-star',
         'philosophy/voices-from-the-frontier',
+        'philosophy/why-field-notes',
       ],
     },
     {
