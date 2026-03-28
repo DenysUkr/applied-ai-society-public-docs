@@ -45,4 +45,4 @@ Want to contribute? [Get in touch](/docs/contact).
 
 ## Submit Your Story
 
-Are you doing applied AI work? We want to document it. Whether it's a project case study, your practitioner journey, or a real-life field note, reach out on [GroupMe](https://groupme.com/join_group/114045490/uulnIOGW) or [GitHub](https://github.com/applied-ai-society).
+Are you doing applied AI work? We want to document it. Whether it's a project case study, your practitioner journey, or a real-life field note, reach out on [Discord](https://discord.gg/K7uWJBMFaN) or [GitHub](https://github.com/applied-ai-society).

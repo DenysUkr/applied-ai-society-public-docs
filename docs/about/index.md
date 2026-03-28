@@ -69,6 +69,8 @@ We're developing courses, frameworks, and resources to make applied AI literacy 
 
 [Roles](/docs/roles) document the careers emerging. [Concepts](/docs/concepts) name the ideas we're all figuring out. [Case studies](/docs/case-studies) show what the work actually looks like. [Playbooks](/docs/playbooks) capture how to run events, find clients, and build chapters. None of this is finished. All of it is evolving. These docs become source material from which chapter leaders and university partners worldwide can create their own derivative courses, tailored to their audiences. That's how education scales without becoming propaganda.
 
+**One public community, many invite-only spaces.** Our [Discord](https://discord.gg/K7uWJBMFaN) is the single public community space where anyone can join, ask questions, share what they're working on, and connect across chapters. Beyond that, chapter leaders and practitioner groups run their own invite-only group chats (Signal, iMessage, Telegram, whatever works locally). These smaller spaces feel special because they are. You earn your way in by showing up, doing real work, and adding value. The public Discord is the front door. The invite-only chats are the living rooms.
+
 **Sponsors, not gatekeepers.** Local businesses and AI companies sponsor chapters because they want access to AI-native talent. Sponsors fund the community. They don't control it.
 
 ## For Students and Emerging Practitioners
@@ -99,4 +101,4 @@ Bringing Applied AI Society to your campus does not require starting a new club 
 - **Start or join a community:** [Learn how →](/docs/playbooks/chapter-leader)
 - **Present at an event:** [Presenter playbook →](/docs/playbooks/presenter)
 - **Read the docs:** [Browse playbooks, standards, case studies, and philosophy →](/docs/philosophy)
-- **Join the community:** [Join your local GroupMe →](https://groupme.com/join_group/114045490/uulnIOGW) to connect with practitioners in Austin. Follow [@AppliedAISoc on X](https://x.com/appliedaisoc) for updates.
+- **Join the community:** [Join our Discord →](https://discord.gg/K7uWJBMFaN) to connect with practitioners and chapter leaders across cities. Follow [@AppliedAISoc on X](https://x.com/appliedaisoc) for updates.
