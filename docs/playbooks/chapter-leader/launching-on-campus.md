@@ -153,6 +153,23 @@ Everything in the [Starting a Chapter](/docs/playbooks/chapter-leader/starting-a
 
 ---
 
+## AI Skills for Chapter Leaders (Coming Soon)
+
+AAS is an applied AI organization. The tools we give chapter leaders should themselves be applied AI.
+
+We are building a set of open-source AI skills (starting with [Claude Code](https://claude.ai/claude-code) and expanding to other tools) that make the process of organizing events dramatically easier. Every playbook on this site will eventually have companion skills that automate the repetitive parts so you can focus on the human parts: relationships, judgment, and showing up.
+
+**What's coming:**
+- **Event description writer:** Give it your speaker names, topic, and venue. Get polished copy for Luma, Meetup, or any event page.
+- **Speaker outreach drafter:** Give it a person's background. Get a personalized pitch that explains AAS and why they should speak.
+- **Event flyer generator:** Plug into the AAS Remotion templates. Generate on-brand flyers without touching design software.
+- **Post-event recap writer:** Give it your photos and notes. Get a structured recap ready for the website and social.
+- **Sponsor pitch drafter:** Give it a local company and what you need. Get a concise, professional ask.
+
+These skills are open source and will live in this repo. They improve as chapters use them and feed back what works. If you build a skill that helps you organize, contribute it back. The whole network benefits.
+
+---
+
 ## The North Star
 
 The ultimate metric is not event attendance. It is the first student at your school who earns money by applying AI to a real business problem because of this community.
