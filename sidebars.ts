@@ -27,6 +27,7 @@ const sidebars: SidebarsConfig = {
         'philosophy/north-star',
         'philosophy/voices-from-the-frontier',
         'philosophy/why-field-notes',
+        'philosophy/why-making-money-matters',
       ],
     },
     {
@@ -62,6 +63,7 @@ const sidebars: SidebarsConfig = {
         'concepts/roles-to-workflows',
         'concepts/observable-behavior-engineering',
         'concepts/ignorance-debt',
+        'concepts/the-tinkerers-curse',
       ],
     },
     {
