@@ -94,6 +94,7 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'playbooks/chapter-leader/starting-a-chapter',
+            'playbooks/chapter-leader/launching-on-campus',
             'playbooks/chapter-leader/event-formats',
             'playbooks/chapter-leader/applied-ai-live',
             'playbooks/chapter-leader/running-a-hackathon',
