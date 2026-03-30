@@ -28,6 +28,7 @@ const sidebars: SidebarsConfig = {
         'philosophy/voices-from-the-frontier',
         'philosophy/why-field-notes',
         'philosophy/why-making-money-matters',
+        'philosophy/co-teaching-is-the-new-self-teaching',
       ],
     },
     {
