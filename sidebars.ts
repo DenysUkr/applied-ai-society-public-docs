@@ -60,6 +60,7 @@ const sidebars: SidebarsConfig = {
         'concepts/intent-engineering',
         'concepts/game-design',
         'concepts/spec-writing',
+        'concepts/agi-whisperer',
         'concepts/liberation-architecture',
         'concepts/the-encounter',
         'concepts/the-token-economy',
