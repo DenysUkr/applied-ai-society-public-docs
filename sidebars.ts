@@ -29,6 +29,7 @@ const sidebars: SidebarsConfig = {
         'philosophy/why-field-notes',
         'philosophy/why-making-money-matters',
         'philosophy/co-teaching-is-the-new-self-teaching',
+        'philosophy/the-amplification-effect',
       ],
     },
     {
