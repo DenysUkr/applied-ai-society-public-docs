@@ -25,14 +25,22 @@ A prebuild check (`scripts/check-sidebar.sh`) will warn about missing docs durin
 ```
 docs/
 ├── philosophy/           # Canon (8 tenets), principles (5 operating rules)
+├── about/                # About the Applied AI Society
+├── applied-ai-literacy/  # AI literacy framework and earthshot
+├── philosophy/           # Canon (8 tenets), principles (5 operating rules)
+├── roles/                # 4 roles: Applied AI Consultant, Chief AI Officer, Business OS Administrator, Jarvis Trainer
+├── concepts/             # 20+ concept pages: harness engineering, personal jarvis, signalmaxxing, always-on agents, agent-accessible products, self-improving enterprise, context engineering, game design, etc.
 ├── case-studies/         # Real-world AI implementation case studies
 ├── playbooks/
 │   ├── chapter-leader/   # Running events, partnerships, tools, content, CRM
 │   │   └── event-recaps/
 │   ├── presenter/        # Guest speaker prep
-│   ├── practitioner/     # Guides for applied AI practitioners doing client work
+│   ├── practitioner/     # MVJ tutorial, MVJ workshop trainer guide, pricing, finding clients
+│   ├── student/          # Student/explorer guides
 │   └── business-owner/   # Resources for operators looking to implement AI
+├── sovereign-agentic-business-os/  # Principles and question bank
 ├── truth-management/     # Framework: principles, processes, tools
+├── standards/            # INTEGRATE.md and other standards
 ├── brand/                # Visual identity, colors, fonts, AI generation guide
 └── code-of-conduct.md
 ```
