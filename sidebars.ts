@@ -80,6 +80,7 @@ const sidebars: SidebarsConfig = {
         'concepts/self-improving-systems',
         'concepts/flow-state-infra',
         'concepts/the-chat-is-not-the-product',
+        'concepts/signalmaxxing',
       ],
     },
     {
