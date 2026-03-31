@@ -72,8 +72,11 @@ const sidebars: SidebarsConfig = {
         'concepts/the-tinkerers-curse',
         'concepts/harness-engineering',
         'concepts/anatomy-of-a-harness',
+        'concepts/the-permission-surface',
+        'concepts/instruction-files',
         'concepts/personal-jarvis',
         'concepts/self-improving-enterprise',
+        'concepts/self-improving-systems',
       ],
     },
     {
