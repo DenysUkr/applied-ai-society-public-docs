@@ -60,3 +60,13 @@ A Markdown file exported from Notion is refactorable. A policy locked in a propr
 ## The North Star
 
 An organizational operating system where any strategic change (terminology updates, process revisions, policy shifts) can be implemented across all documentation by an agent in a single session. Not because agents are doing your thinking, but because your thinking is stored in formats they can act on.
+
+---
+
+## Further Reading
+
+- [The Self-Improving Enterprise](/docs/concepts/self-improving-enterprise): Refactorability is the prerequisite for enterprises that evolve on their own
+- [The Minimum Viable Jarvis](/docs/playbooks/practitioner/minimum-viable-jarvis): The starting point for making your operation refactorable
+- [Personal Jarvis](/docs/concepts/personal-jarvis): The system that operates on your refactorable files
+- [Harness Engineering](/docs/concepts/harness-engineering): The code layer that reads and modifies your refactorable documents
+- [Game Design](/docs/concepts/game-design): Defining the rules by which agents operate on your system
