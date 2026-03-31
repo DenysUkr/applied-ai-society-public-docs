@@ -1243,6 +1243,134 @@ This Code of Conduct was forked from the [NumFOCUS Code of Conduct](https://numf
 
 
 ---
+# Agent-Accessible Products
+URL: https://docs.appliedaisociety.org/docs/concepts/agent-accessible-products
+
+
+# Agent-Accessible Products
+
+*If agents cannot use your product, agents will replace your product.*
+
+---
+
+## The Shift
+
+Every application on your computer used to be designed for a human clicking buttons in a graphical interface. That era is ending.
+
+AI agents live in the command line. They operate by reading text, executing commands, and parsing structured output. When an agent needs to schedule a meeting, it does not open Google Calendar and click around. It calls an API. When it needs to deploy code, it does not click buttons in a dashboard. It runs a CLI command.
+
+The companies that survive the agentic transition are the ones making their products usable by agents, not just humans. The ones that do not will watch agents route around them entirely.
+
+## What "Agent-Accessible" Means
+
+An agent-accessible product exposes its core functionality through interfaces that agents can use programmatically:
+
+**CLI (Command Line Interface).** A terminal command that does what the button in your app does. `stripe charge create --amount 5000 --currency usd` instead of clicking through a payment form. `vercel deploy` instead of dragging files into a dashboard. `gh pr create` instead of navigating GitHub's web UI.
+
+**API (Application Programming Interface).** An HTTP endpoint that accepts structured input and returns structured output. Every SaaS product has a web interface. The ones that matter also have an API that does everything the web interface does.
+
+**MCP (Model Context Protocol).** The emerging standard for AI agents to discover and use tools. An MCP server tells an agent what capabilities are available, what inputs they need, and what outputs they produce. Think of it as a menu that agents can read.
+
+**Structured output.** When your product returns data, it should be parseable. JSON, not HTML. Markdown, not PDFs. Plain text, not screenshots. If an agent has to screenshot your UI and use computer vision to read it, you have already lost.
+
+## Why This Is Urgent
+
+Agents are increasingly the ones deciding which tools get used. When a human tells their [Personal Jarvis](/docs/concepts/personal-jarvis) "schedule a meeting with Sarah next Tuesday," the agent picks the tool. If your calendar product has a CLI or API, the agent uses it. If your calendar product is a web-only GUI with no programmatic access, the agent uses a competitor that does have one.
+
+This is already happening:
+
+- Developers choose Vercel over competitors partly because `vercel deploy` is a single command
+- Stripe dominates payments partly because its API is legendary
+- GitHub won over alternatives partly because the `gh` CLI makes every operation scriptable
+- Anthropic built Claude Code as a CLI first, not a desktop app, because that is where agents live
+
+The pattern is clear: the products that win in the agentic economy are the ones that treat CLI and API access as first-class, not as an afterthought bolted on for "power users."
+
+## Agent SEO
+
+There is a new kind of discoverability emerging. Call it agent SEO.
+
+Traditional SEO is about making your product findable by humans searching Google. Agent SEO is about making your product usable by agents operating on behalf of humans. When someone tells their [Personal Jarvis](/docs/concepts/personal-jarvis) to reconcile their books, the agent picks the tool. If your accounting software has a CLI and an API, the agent can use it without the human ever opening your website. If your competitor is GUI-only, the agent cannot use it at all.
+
+The landscape is shifting. Darwinian selection is now favoring companies that make agents' lives easier. Your product's fitness is no longer just about the human experience. It is about the agent experience. Companies that expose CLIs, publish open source skill files for common workflows, and make their APIs trivially accessible will have better agent SEO. Their products will be the ones that agents recommend, integrate with, and default to.
+
+This is not a hypothetical. Consider a SaaS product that already has a great agent built into its own UI. That is table stakes. The next step is exposing that capability so that agents outside of your product can interact with it too. Your users are increasingly operating from a single terminal session (Claude Code, OpenCode, or whatever harness they use). If they have to leave that session to open your UI, you are creating friction. If they can stay in their flow and your product just works from the command line, you win.
+
+## The CLI Renaissance
+
+After a decade of IDEs getting heavier and browser-based editors trying to replace local development, the command line has re-emerged as the center of gravity. Existing CLI tools are gaining entirely new utility when paired with AI agents, without requiring any modification.
+
+GitHub's `gh` CLI is the canonical example. It was designed for human developers, but agents discovered it, configured authentication, and started operating autonomously. Nobody had to build an "agent integration." The CLI was already agent-accessible by virtue of being a well-designed CLI. Polymarket shipped a Rust-based CLI and within days agents were building terminal dashboards, querying markets, and automating trading logic.
+
+The lesson: a good CLI is often the fastest way to make your product usable by agents. You do not need to build a custom integration. You need to build a good CLI.
+
+## What to Do If You Build a Product
+
+### 1. CLI-ify everything
+
+Every action a human can take in your GUI should be available as a terminal command. The design principles that make a CLI good for agents are the same ones that make it good for humans:
+
+- **`--help` that explains intent, not just syntax.** An agent reads `--help` to understand what a command does. Write it for someone who has never seen your product.
+- **`--json` for machine-readable output.** Every non-trivial command should support JSON output. This is how agents parse your responses.
+- **Non-zero exit codes on failure.** Agents detect errors by checking exit codes. If your CLI returns 0 on failure, agents will not know something went wrong.
+- **Clear authentication error messages.** An agent that gets a cryptic auth error will waste tokens retrying. Tell it exactly what went wrong and how to fix it.
+- **One obvious login command.** `tool auth login`, `tool auth status`. Keep it simple.
+- **Stable commands and flags.** Treat your CLI surface like an API contract. Breaking changes break agent workflows.
+
+### 2. API-ify everything
+
+Every action should be available as an HTTP endpoint. Document it. Make it consistent. If a human can do it by clicking, an agent should be able to do it by calling.
+
+### 3. Support structured output
+
+JSON by default. Markdown for human-readable content. Never trap data inside proprietary formats that agents cannot parse.
+
+### 4. Publish an MCP server
+
+[MCP (Model Context Protocol)](https://modelcontextprotocol.io/) is the emerging standard for agents to discover and use tools. Originally created by Anthropic, it was donated to the Linux Foundation's Agentic AI Foundation in late 2025 (co-founded with Block and OpenAI). The ecosystem has grown to over 10,000 active servers with 97 million monthly SDK downloads.
+
+Best practices for MCP servers (from the [MCP Best Practice Guide](https://mcp-best-practice.github.io/mcp-best-practice/best-practice/)):
+
+- **Single responsibility.** One clear domain per server. Focused toolsets, not kitchen-sink implementations.
+- **Contracts first.** Strict input/output schemas, explicit side effects, documented error handling.
+- **OAuth 2.0 authorization.** Least-privilege defaults. Per-tool, per-parameter authorization checks.
+- **Input validation and output sanitization.** Prevent downstream injection attacks.
+- **Secrets in secret stores.** Never inline credentials. Never rely on the model to keep secrets private.
+- **Observability.** Structured logging of who, what, when, why. Track success rates, latency, and policy violations.
+
+### 5. Design for composability
+
+The output of your tool should be parseable as input by another tool. Agents chain tools together. If your tool's output is a pretty-printed table that cannot be piped, you are breaking the chain.
+
+### 6. Write an AGENTS.md
+
+Add a section to your documentation (or a standalone AGENTS.md file) that describes your product's available tools, preferred output formats, authentication flows, and usage rules. This is the "onboarding doc" for agents. One file can be the difference between an agent figuring out your tool in seconds versus burning tokens in confusion.
+
+## What to Do If You Use a Product
+
+When choosing tools for your operation, ask: "Can an agent use this?" If the answer is no, that tool has an expiration date. Prefer products with CLIs, APIs, and open data formats. Your [Personal Jarvis](/docs/concepts/personal-jarvis) can only be as capable as the tools it can access.
+
+This is also why the [MVJ architecture](/docs/playbooks/practitioner/minimum-viable-jarvis) uses plain markdown files instead of proprietary apps. Markdown is the most agent-accessible format there is. Any tool can read it. Any agent can write it. No vendor lock-in. No API key required.
+
+---
+
+## Further Reading
+
+**Internal:**
+- [Personal Jarvis](/docs/concepts/personal-jarvis): The system that uses agent-accessible tools
+- [Harness Engineering](/docs/concepts/harness-engineering): How agents interact with tools through harnesses
+- [Make Your Company Refactorable](/docs/truth-management/make-your-company-refactorable): The organizational version of agent-accessibility
+- [The Self-Improving Enterprise](/docs/concepts/self-improving-enterprise): Where agent-accessible products lead at the business level
+- [The Minimum Viable Jarvis](/docs/playbooks/practitioner/minimum-viable-jarvis): Why plain markdown beats proprietary formats
+
+**External:**
+- [CLI Is the New API and MCP: Building Agent-Ready Tools](https://jonnyzzz.com/blog/2026/02/20/cli-tools-for-ai-agents/): Deep dive on CLI design principles for agents
+- [CLIs as Agent-Native Interfaces (2026 Analysis)](https://blockchain.news/ainews/clis-as-agent-native-interfaces-2026-analysis-on-polymarket-cli-github-cli-and-mcp-for-ai-automation): How Polymarket and GitHub CLIs became agent tools overnight
+- [MCP Best Practice Guide](https://mcp-best-practice.github.io/mcp-best-practice/best-practice/): Security, architecture, and operations for MCP servers
+- [MCP Standard and Ecosystem in 2026](https://use-apify.com/blog/mcp-standard-ecosystem-2026): Current state of the MCP ecosystem
+
+
+---
 # The AGI Whisperer
 URL: https://docs.appliedaisociety.org/docs/concepts/agi-whisperer
 
@@ -1328,6 +1456,85 @@ That's what we're building here.
 - [Context Engineering](/docs/concepts/context-engineering): Curating the information state that makes AI systems effective
 - [Intent Engineering](/docs/concepts/intent-engineering): Encoding organizational purpose into agent infrastructure
 - [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy): The broader landscape of practitioner roles
+
+
+---
+# Always-On Agents
+URL: https://docs.appliedaisociety.org/docs/concepts/always-on-agents
+
+
+# Always-On Agents
+
+*The shift from "AI that answers when asked" to "AI that works for you while you sleep."*
+
+---
+
+## The Prompt-Response Era Is Ending
+
+Right now, most people interact with AI the same way: you type something, it responds. You close the window, it stops. Every interaction requires you to initiate. The AI is reactive. It waits for you.
+
+This is already changing. The next phase is **always-on agents**: AI that runs in the background continuously, monitoring your operation, detecting problems, executing tasks, and advancing your goals without you having to ask. You open your laptop in the morning and things have already been handled.
+
+## What This Looks Like
+
+On March 31, 2026, [a deep analysis of Claude Code's source code](https://x.com/itsolelehmann/status/2039018963611627545) revealed a fully built but unreleased feature called KAIROS. It is the clearest signal yet for where all AI tools are heading.
+
+KAIROS is a proactive Claude that runs 24/7. Here is how it works:
+
+**The heartbeat loop.** Every few seconds, the agent receives a pulse. A prompt that essentially asks: "Anything worth doing right now?" It looks at the current state of your workspace, your files, your notifications, and makes a call: act or stay quiet.
+
+**Exclusive capabilities.** Always-on agents need things that regular prompt-response agents do not:
+- **Push notifications.** The agent can reach you on your phone or desktop even when you are not in the terminal. It taps you on the shoulder when something matters.
+- **File delivery.** The agent can create things and send them to you without you asking.
+- **Subscription to external events.** The agent watches your GitHub, your email, your systems, and reacts to changes on its own.
+
+**Daily logs and memory consolidation.** The agent keeps append-only logs of what it noticed, what it decided, and what it did. It cannot erase its own history. At night, it runs what the code calls "autoDream": consolidating what it learned during the day and reorganizing its memory while you sleep.
+
+**Persistence across sessions.** Close your laptop on Friday. Open it on Monday. The agent has been working the whole time.
+
+## The Context Engineering Prerequisite
+
+Here is the thing nobody is talking about yet: an always-on agent is only as useful as the context it has access to.
+
+If your agent does not know your goals, it cannot advance them while you sleep. If it does not know your priorities, it cannot triage your notifications. If it does not know your relationships, it cannot draft the right response to the 2am email. If it does not know your principles, it will make decisions you disagree with.
+
+This is why [context engineering](/docs/concepts/context-engineering) is so important. The entire [Minimum Viable Jarvis](/docs/playbooks/practitioner/minimum-viable-jarvis) architecture (user profiles, relationship files, artifacts, skill files, principles) is not just useful for prompt-response interactions. It is the prerequisite for always-on agents. The people who have been building their context layer now will have agents that can actually do meaningful work autonomously. The people who have been using AI as a chatbot will have agents that are clueless.
+
+Your `user/USER.md` tells the agent who you are. Your `artifacts/` tell it what you are working on. Your `skills/` tell it how to do things. Your `people/` tell it who matters. Without this context, an always-on agent is just a very expensive process running in the background doing nothing useful.
+
+## The Self-Improving Enterprise Connection
+
+Always-on agents are the mechanism by which a [self-improving enterprise](/docs/concepts/self-improving-enterprise) actually operates. The self-improving enterprise is not a human checking dashboards every morning and making adjustments. It is agents that continuously monitor, detect, propose, and (with appropriate guardrails) implement improvements.
+
+Your website goes down at 3am. The agent detects it, restarts the server, and sends you a notification. By the time you see it, it is already resolved.
+
+A skill file has a step that consistently fails. The agent notices the pattern, proposes a fix, logs the change.
+
+A relationship file has not been updated in 60 days despite three meetings logged in transcripts. The agent drafts the update and flags it for your review.
+
+This is what it means for a business to improve itself. Not a human doing the improving. The system doing the improving, with the human defining what "better" means and reviewing the results.
+
+## What You Should Do Now
+
+You do not need to wait for KAIROS to ship. The preparation is the same whether always-on agents arrive in three months or three years:
+
+1. **Build your context layer.** Set up your [Personal Jarvis](/docs/concepts/personal-jarvis). The richer your context, the more useful any future always-on agent will be.
+2. **Write your principles.** An agent making decisions on your behalf at 3am needs to know your decision-making rules. Document them.
+3. **Make your operation [refactorable](/docs/truth-management/make-your-company-refactorable).** Always-on agents need to read and modify your files. If your truth is locked in proprietary tools the agent cannot access, it cannot help you.
+4. **Think in skill files.** Every workflow you document as a skill file is a workflow an always-on agent can eventually run without you.
+
+The post-prompting era is coming. The question is whether your system is ready for it.
+
+---
+
+## Further Reading
+
+- [Context Engineering](/docs/concepts/context-engineering): The discipline that makes always-on agents useful
+- [Personal Jarvis](/docs/concepts/personal-jarvis): The context layer always-on agents will operate on
+- [The Self-Improving Enterprise](/docs/concepts/self-improving-enterprise): What always-on agents enable at the organizational level
+- [Harness Engineering](/docs/concepts/harness-engineering): The code layer that always-on agents run inside
+- [Make Your Company Refactorable](/docs/truth-management/make-your-company-refactorable): The prerequisite for agents that can modify your operation
+- [KAIROS analysis thread](https://x.com/itsolelehmann/status/2039018963611627545): The source code analysis that revealed Anthropic's always-on agent infrastructure
 
 
 ---
@@ -1804,6 +2011,123 @@ The skill is the same at every scale. The stakes get higher as you go up.
 
 
 ---
+# Flow-State Infra
+URL: https://docs.appliedaisociety.org/docs/concepts/flow-state-infra
+
+
+# Flow-State Infra
+
+*Every friction point is a feature request. The ideal worker of the future is constantly in flow state, and they build the infrastructure to stay there.*
+
+---
+
+## The Idea
+
+The best applied AI practitioners share a habit: when something breaks their focus, they don't just push through it. They build something that eliminates the friction permanently.
+
+This is flow-state infra. It is the practice of treating every interruption, every repeated conversation, every manual process, and every moment of "I wish this existed" as a signal. Not a complaint. A spec.
+
+The worker of the future does not tolerate friction. They resolve it. And because AI-assisted development has collapsed the cost of building custom tools to near zero, there is no longer a reason to live with problems that can be solved in an afternoon.
+
+## Why This Matters Now
+
+Before AI-assisted coding, building a custom tool to solve a personal workflow problem was expensive. You needed to be a developer, or hire one, or find a product that was close enough. Most friction just stayed friction.
+
+That constraint is gone. With a [Personal Jarvis](/docs/concepts/personal-jarvis) and a coding harness (Claude Code, Cursor, Windsurf, etc.), anyone who can describe their problem clearly can build a solution. The loop is now:
+
+1. Notice friction
+2. Describe what you wish existed
+3. Build it (with AI doing the heavy lifting)
+4. Use it immediately
+5. Iterate from real usage
+
+This loop can complete in minutes. An afternoon of focused building can produce tools you use every day for years.
+
+## The "I Wish" Protocol
+
+The simplest version of flow-state infra is a habit: whenever you catch yourself thinking "I wish..." or "this is annoying" or "why do I have to do this every time," you write it down.
+
+That note becomes a spec. The spec becomes a tool. The tool eliminates the friction.
+
+A more structured version: keep an "I Wish" command in your Jarvis or AI workspace. When you invoke it, it walks you through:
+
+1. **What is the friction?** Describe the problem in plain language.
+2. **How often does it happen?** Daily? Weekly? Every time you do X?
+3. **What would the ideal solution look like?** Not the implementation. The experience.
+4. **Where should it live?** Your personal site? A CLI tool? A browser extension? A page in an existing app?
+5. **What is the simplest version that solves 80% of the problem?**
+
+Then you build it. Right then. While the frustration is fresh and the motivation is high. Your AI coding harness handles the implementation. You handle the intent.
+
+## Case Study: Gary Sheng's Personal Site as Flow-State Infra
+
+Gary Sheng's personal website ([garysheng.com](https://garysheng.com)) started as a standard personal site. Over time, it has become a living platform where every repeated friction point gets resolved with a new page or tool. The site is password-protected where needed, publicly accessible where useful, and continuously evolving.
+
+Here are three examples of flow-state infra built in single sessions:
+
+### The "Why Austin" Problem
+
+Gary kept having the same conversation: "Why did you move to Austin?" Every coffee chat, every new connection, the same question. Instead of writing a blog post (static, formal, feels like a one-time thing), he vibe-coded a continuously updated wiki page at `/why-austin`. Now when the question comes up, he sends a link. The conversation can go deeper instead of repeating the basics.
+
+**Friction:** Repeating the same explanation dozens of times.
+**Solution:** A living page that answers the question once, updated as his thinking evolves.
+**Build time:** One session.
+
+### The "Go Deeper" Problem
+
+People would visit Gary's personal site and want to know more. "This is cool, but what are you actually about?" Instead of cramming everything onto the homepage, he built a `/deeper` page: a single link for anyone who wants the full picture.
+
+**Friction:** No good answer to "tell me more" that wasn't a 30-minute conversation.
+**Solution:** A curated deep-dive page, one link to share.
+**Build time:** One session.
+
+### The Flow Notes Problem
+
+During video calls, Gary would have thoughts he didn't want to lose but also didn't want to interrupt the conversation to capture. He needed a way to jot notes in real time, track which topic was active, mark threads as done, and review how the conversation flowed afterward.
+
+He described the problem to his AI coding harness and built Flow Notes: a real-time note-taking tool with an active focus tracker, masonry grid of thought tiles, session timer, and shareable session links. It syncs between phone and laptop via Firebase, so he can thumb-type on his phone while the call runs on his laptop.
+
+**Friction:** Losing thoughts during conversations, or interrupting the flow to capture them.
+**Solution:** A purpose-built tool for in-conversation note-taking with topic tracking.
+**Build time:** One session. From brainstorm interview to working, deployed product.
+
+### The Pattern
+
+All three share the same structure:
+
+1. A real problem that kept recurring
+2. No existing product that solved it the right way
+3. A solution built in hours, not weeks
+4. Bolted onto an existing platform (the personal site) rather than spun up as a separate project
+5. Immediately useful, iterable from real usage
+
+The personal website becomes a default home for flow-state infra. It is already deployed, already authenticated, already yours. Adding a new tool is just adding a new route. Think of it less like a portfolio and more like a personal operating system with a web interface.
+
+## Building Your Own Flow-State Infra
+
+You do not need to be a professional developer. You need:
+
+1. **A deployed personal site or app.** This is your home base. Next.js on Vercel is the default recommendation because it is free to start, deploys in seconds, and supports both static pages and dynamic tools.
+
+2. **A coding harness.** Claude Code, Cursor, or any AI-assisted development environment. This is what turns your description of a problem into working code.
+
+3. **The "I Wish" habit.** Start noticing friction. Write it down. Build from it.
+
+4. **A bias toward action.** The cost of building is so low that the main bottleneck is deciding to start. If you can describe the problem, you can build the solution. Today. Not next quarter.
+
+## Relationship to Other Concepts
+
+- **[Personal Jarvis](/docs/concepts/personal-jarvis):** Your Jarvis is the context layer. Flow-state infra is what you build when that context reveals friction.
+- **[Harness Engineering](/docs/concepts/harness-engineering):** The coding harness is the tool that makes flow-state infra possible at low cost.
+- **[Liberation Architecture](/docs/concepts/liberation-architecture):** Flow-state infra liberates trapped time and attention, the same way liberation architecture liberates trapped business value.
+- **[The Tinkerer's Curse](/docs/concepts/the-tinkerers-curse):** Be aware of over-building. Flow-state infra should solve real, recurring problems. Building a tool you use once is not flow-state infra. It is procrastination.
+
+---
+
+*The best tool is the one you build the moment you realize you need it.*
+
+
+---
 # Game Design
 URL: https://docs.appliedaisociety.org/docs/concepts/game-design
 
@@ -2065,6 +2389,8 @@ Key ideas shaping the applied AI economy. Some of these are established terms. S
 - [The Encounter](/docs/concepts/the-encounter): The moment AI stops being theoretical and becomes personal, and why adoption spreads through experience, not education
 - [The Roles-to-Workflows Shift](/docs/concepts/roles-to-workflows): The mental model shift from thinking in roles to thinking in workflows, and why it unlocks automation at every level
 - [The Token Economy](/docs/concepts/the-token-economy): Tokens as the atomic unit of AI economics, and why understanding token costs, tiers, and budgets is becoming a core applied AI skill
+- [Flow-State Infra](/docs/concepts/flow-state-infra): The practice of treating every friction point as a feature request, building custom tools that keep you in flow state, and the "I Wish" protocol for turning complaints into solutions
+- [Chat History Is Disposable](/docs/concepts/the-chat-is-not-the-product): The chat window is an interface, not a destination. The artifacts you create through it are the product. If the chat disappears, nothing of value should be lost.
 
 
 ---
@@ -2276,7 +2602,7 @@ Three reasons.
 
 First, it's genuinely new. Before agents could run autonomously over long time horizons, organizations didn't need this. The human was the intent layer. Long-running agents broke that model and created a demand for something that didn't exist.
 
-Second, it's a two-cultures problem. The people who understand organizational strategy (executives, operations leaders) are not the people who build agents. The people building agents (engineers) don't typically see organizational alignment as their job. Bridging that gap requires someone whose role explicitly spans both, which is exactly what the [AI Workflow Architect](../roles/ai-workflow-architect) role is emerging to do.
+Second, it's a two-cultures problem. The people who understand organizational strategy (executives, operations leaders) are not the people who build agents. The people building agents (engineers) don't typically see organizational alignment as their job. Bridging that gap requires someone whose role explicitly spans both, which is exactly what the [Chief AI Officer](../roles/chief-ai-officer) role is emerging to do.
 
 Third, it's hard. Making organizational intent explicit and structured is difficult work. Most organizations have never had to do it. Their values live in slide decks, in leadership principles that get cited during performance reviews but aren't operationalized, in the tacit knowledge of experienced employees who know what to do in ambiguous situations even though they've never been told.
 
@@ -2297,7 +2623,7 @@ A mediocre model with extraordinary organizational intent infrastructure will ou
 ## Further Reading
 
 - [Game Design](./game-design): The umbrella discipline that composes intent and context engineering into a coherent system
-- [AI Workflow Architect](../roles/ai-workflow-architect): The role emerging to own intent engineering inside organizations
+- [Chief AI Officer](../roles/chief-ai-officer): The role emerging to own intent engineering inside organizations
 - [Context Engineering](./context-engineering): The companion discipline that tells agents what to know
 - [The Permission Surface](/docs/concepts/the-permission-surface): Permission design as one of the most concrete forms of intent engineering
 - Hat tip to [this video](https://www.youtube.com/watch?v=QWzLPn164w0), which named and articulated the intent engineering concept as clearly as anything we've encountered
@@ -2722,6 +3048,7 @@ The next level of programming is not that the output is software. It is enterpri
 - [The Minimum Viable Jarvis](/docs/playbooks/practitioner/minimum-viable-jarvis): Where to start
 - [Jarvis Trainer](/docs/roles/jarvis-trainer): The role that guides people through the progression
 - [Training the MVJ Workshop](/docs/playbooks/practitioner/training-the-mvj-workshop): How to run the initiation session
+- [Always-On Agents](/docs/concepts/always-on-agents): The mechanism by which self-improving enterprises actually operate
 
 
 ---
@@ -2860,6 +3187,98 @@ If you are helping clients build AI systems, self-improvement is not a feature y
 
 
 ---
+# Signalmaxxing
+URL: https://docs.appliedaisociety.org/docs/concepts/signalmaxxing
+
+
+# Signalmaxxing
+
+*The deliberate practice of maximizing Signal-to-Noise Ratio across every channel you operate in: your feeds, your conversations, your documents, your squad.*
+
+---
+
+## The Concept
+
+Signalmaxxing is the deliberate curation of your information environment so that everything influencing your thinking is truth-seeking and truth-emitting. It is not about producing content. It is about creating the conditions where signal flows and noise is eliminated.
+
+This means weeding out anything that warps your understanding of how the world actually works: the accounts, feeds, group chats, newsletters, and media sources that distort your ability to see reality clearly. Most of the internet is a noise machine. Bots, spam, FUD, memes that go nowhere, takes designed to spike your cortisol without giving you anything useful. Signalmaxxing is the discipline of refusing to let that into your environment.
+
+What makes something signal? It helps you function at a higher level in reality. It gives you a better baseline for how to succeed. It is information that, once you have it, changes how you operate. Alpha: information not everyone has that is genuinely valuable and viable.
+
+What makes something noise? Anything that kills your ability to perceive reality clearly. Distraction, misinformation, engagement bait, content optimized for clicks rather than truth.
+
+When you do share (and you should), share with gradients of visibility. Private by default. Sensitive insights stay within trusted circles. Public sharing is for signal that is robust enough to withstand misinterpretation. The goal is not to broadcast. The goal is to surround yourself with, and contribute to, a network of people and systems that are oriented toward truth.
+
+## Signal vs. Noise
+
+| Signal | Noise |
+|--------|-------|
+| Helps you survive and succeed | Spikes your cortisol and wastes your time |
+| True (or the best approximation of truth you have) | Designed to provoke, not inform |
+| Actionable (you can do something with it) | Consumable but inert |
+| Alpha (information not everyone has that is genuinely valuable) | Recycled takes with no original insight |
+| Compounds over time (still relevant in 10 years) | Stale by next week |
+
+Signal is subjective in the details. What is high-signal for a founder may not be high-signal for a student. But the principle is universal: does this information help you play the biggest game you are willing to play, at a higher level?
+
+## The Formal Definition
+
+Roberto H. Luna's [Signal Theory](https://zenodo.org/records/18774174) (February 2026) provides a rigorous foundation for what we are describing here. Luna defines a **Signal** as "an encoded unit of intent that carries actionable information through a communication channel, designed to be decoded by the receiver into executable action." He formalizes it as a 5-tuple across five dimensions: Mode (how is it perceived?), Genre (what form does it take?), Type (what does it do?), Format (what is the container?), and Structure (how is it organized internally).
+
+This matters because it gives us a precise way to distinguish signal from noise. Under Luna's framework, noise is not just "bad content." It is any communication where the encoding fails: wrong genre for the receiver, wrong mode for the channel, missing structure, no feedback loop, or intent that never reaches the point of action. A perfectly transmitted message that conveys no actionable meaning is noise. A poorly written email that provokes the right action is signal.
+
+The root metric Luna identifies is **Signal-to-Noise Ratio (S/N)**, borrowed from Shannon's information theory but extended to organizational communication. Every channel has finite capacity. Every piece of noise you consume reduces the bandwidth available for signal. Signalmaxxing, in Luna's terms, is the practice of maximizing S/N across every channel you operate in: your feeds, your conversations, your documents, your squad.
+
+## Squadmaxxing
+
+Signalmaxxing does not happen in isolation. It is tied to squadmaxxing: maximizing the quality and alignment of the people you surround yourself with.
+
+When you are squadmaxxing with people who are signalmaxxing, information flows. You share alpha with the squad. The squad shares alpha with you. The collective signal quality compounds. Everyone operates at a higher level because the baseline of shared knowledge keeps rising.
+
+This is the point of the squad. Not just vibes. Not just hanging out. The point is that the group is a signal amplifier. You catch things your squad members missed. They catch things you missed. The noise gets filtered out because everyone is calibrated to the same standard: is this actually useful?
+
+The opposite is squadmaxxing with people who are noise maxxing. That is a distraction multiplier. Every group chat becomes a cortisol factory. Every conversation pulls you further from clarity.
+
+## Compound Drift
+
+The cost of being around low-signal people is magnifying. Not linearly. Exponentially.
+
+Every decision you make about your infrastructure, your tools, your strategy, your partnerships is either moving you closer to your ideal setup or further from it. The delta between where you are and where you should be is the drift. And drift compounds.
+
+Take a concrete example. Someone in your circle recommends a platform. You invest time learning it, building workflows on it, integrating it into your operation. Six months later, you realize the platform is a vendor lock-in trap with no CLI, no API, no export. Now you are months deep into an architecture that is actively working against you. That is compound drift. The bad advice did not just cost you one decision. It cost you every decision that was downstream of it.
+
+This is why the people you take signal from matter so much right now. In a stable, slow-moving environment, bad advice is recoverable. You course-correct next quarter. In the current environment, where the right infrastructure choices compound dramatically and the wrong ones lock you into dead-end patterns, bad signal is not just unhelpful. It is actively destructive. Every month you spend on suboptimal patterns is a month your competitors spent compounding on optimal ones.
+
+Luna's Signal Theory explains the mechanism behind compound drift. Every Signal has a lifecycle: Created, Sent, Received, Decoded, Acted Upon, with a Feedback loop that allows course correction. When you are taking advice from low-signal sources, the feedback loop is broken. You act on bad information, but the people who gave you that information have no mechanism (and no incentive) to tell you it was wrong. Without feedback, errors compound silently. By the time you notice the drift, you are months deep.
+
+The higher the rate of change in your environment, the more critical it is to protect yourself from noise. This is not about being elitist. It is about survival. The cost of drift is measured in time you cannot get back, and the velocity of change means that time costs more than it ever has.
+
+## Why This Matters for Applied AI
+
+Your [Personal Jarvis](/docs/concepts/personal-jarvis) is a signalmaxxing machine. It takes the signal you produce (brain dumps, strategic documents, relationship files, decision records) and compounds it. Every piece of truth you put into the system makes the system's output higher-signal.
+
+But garbage in, garbage out. If you are feeding your Jarvis noise (vague braindumps with no substance, copied articles you never processed, notes from meetings you were not paying attention in), the system produces noise back.
+
+Signalmaxxing as a practice means being intentional about what you put into your system. Every brain dump should contain something true that was not documented before. Every relationship file should capture something genuinely useful. Every skill file should encode a workflow that actually works.
+
+The [Applied AI Society](https://docs.appliedaisociety.org) exists to be a signalmaxxing community comprised of signalmaxxing squads around the world. The events, the docs, the public and private group chats, the workshops are all designed to be high-signal environments where practitioners share what is actually working, not what sounds impressive.
+
+## The Line
+
+> In an age of mass distraction and chaos, to avoid cortisol spiking, you must be squadmaxxing with people who are signalmaxxing.
+
+---
+
+## Further Reading
+
+- [Personal Jarvis](/docs/concepts/personal-jarvis): Your personal signalmaxxing machine
+- [The Self-Improving Enterprise](/docs/concepts/self-improving-enterprise): What happens when an entire organization signalmaxxes
+- [Truth Management](/docs/truth-management): The discipline of curating signal
+- [The Tinkerer's Curse](/docs/concepts/the-tinkerers-curse): The opposite of signalmaxxing (chasing tools instead of outcomes)
+- [Signal Theory: The Architecture of Optimal Intent Encoding](https://zenodo.org/records/18774174) by Roberto H. Luna: The formal framework behind the concepts in this article
+
+
+---
 # The Spec Is the Product
 URL: https://docs.appliedaisociety.org/docs/concepts/spec-writing
 
@@ -2977,6 +3396,81 @@ This is the work. This is where practitioners in the applied AI economy create r
 - [Intent Engineering](./intent-engineering): Encoding organizational purpose into infrastructure, the "why" behind the spec
 - [Context Engineering](./context-engineering): Curating the information state that agents operate within, the "what" the spec references
 - [Don't Scale Slop](../playbooks/business-owner/dont-scale-slop): Why clarity matters before you automate anything
+
+
+---
+# Chat History Is Disposable
+URL: https://docs.appliedaisociety.org/docs/concepts/the-chat-is-not-the-product
+
+
+# Chat History Is Disposable
+
+*The chat window is an interface, not a destination. The artifacts you create through it are the product. If the chat disappears, nothing of value should be lost.*
+
+---
+
+## The Trap
+
+Most people's mental model of AI is a chat window. You type a question, you get an answer, you type another question. The conversation is the experience. The conversation is what you save, screenshot, share.
+
+This is the ChatGPT mindset, and it is a trap.
+
+When you treat the chat as the product, you become dependent on it. You scroll up to find "that thing it said." You panic when a conversation gets too long and starts losing context. You treat a particularly good chat session like a precious artifact, afraid to close it.
+
+This is backwards.
+
+## What the Chat Actually Is
+
+The chat window is a control surface. It is the steering wheel, not the car. It is how you give instructions to an agent and how the agent asks you questions. That is all.
+
+The purpose of interacting with an AI agent, when it comes to real work, is not to have a conversation. It is to produce things that persist beyond the conversation:
+
+- Markdown files in your workspace
+- Code committed to a repository
+- Documents saved to your file system
+- Updates to your [Personal Jarvis](/docs/concepts/personal-jarvis) context files
+- Actions taken in the world (emails sent, deploys triggered, data updated)
+
+If a chat session produces a brilliant strategy but that strategy only exists in the chat, you have not done work. You have had a conversation. The work happens when the output lands somewhere durable.
+
+## The Disposable Chat Test
+
+Here is a simple test for whether you are working correctly with AI:
+
+**If your current chat session got deleted right now, what would you lose?**
+
+If the answer is "nothing important, because everything valuable is already in my files," you are doing it right.
+
+If the answer is "a lot, because the chat has context and decisions I have not captured anywhere," you have a problem. Not with the tool. With the workflow.
+
+## Why This Matters
+
+When your workspace is the source of truth (not the chat), three things change:
+
+**1. You become agent-portable.** Switch from Claude to GPT to Gemini to whatever comes next. Your markdown files, your instruction files, your command center: they come with you. The new agent reads them and picks up where the last one left off. You are not locked into a provider because a particularly good conversation lives on their servers.
+
+**2. New sessions are cheap.** Spin up a fresh chat. It reads your workspace. It has context in seconds. You do not need to "catch it up" with a wall of text explaining everything. The files do that. This is the [re-contexting](/docs/concepts/personal-jarvis) superpower of a well-maintained Jarvis.
+
+**3. Your work compounds.** A chat that runs for hours and then ends has captured nothing. A chat that runs for hours and produces ten updated files has compounded your operational context. The next chat is smarter because the last one left its mark on the file system.
+
+## The Right Mindset
+
+Think of each chat session like a work session at a desk. When you leave the desk, the desk is clean. The notes are filed. The decisions are documented. You do not tape the day's conversation to the wall and point at it tomorrow.
+
+The agent's job is not to keep you occupied. It is not to answer your questions in increasingly elaborate ways. Ideally, you interact with the agent as little as possible to get the work done right. A short, focused session that produces a clean artifact is better than a long, exploratory session that produces a fascinating conversation.
+
+An interview or brainstorm is different. Conversation for the sake of exploring ideas is valuable. But even then, the end goal is an artifact: a spec, a decision record, a strategy document. The conversation is the process. The artifact is the product.
+
+## Practical Implications
+
+- **After every meaningful chat session, ask: "What should I save?"** If the answer is nothing, the session was either pure exploration (fine) or wasted time.
+- **Build the habit of telling your agent to write files.** Not "explain X to me." Instead: "Write a strategy doc about X and save it to my artifacts folder."
+- **Do not be precious about any particular chat.** If you are afraid to close a conversation, that is a signal that your workspace is not capturing what it should.
+- **Your [command center](/docs/concepts/personal-jarvis) is your product.** The collection of markdown files, instruction files, relationship files, and artifacts that make up your operational context. That is what grows. That is what compounds. The chat is just how you tend it.
+
+---
+
+*God forbid the chat disappears. If you have done your job, it does not matter.*
 
 
 ---
@@ -12121,7 +12615,7 @@ The work looks like: auditing an existing SaaS product for agentic opportunities
 
 **Why it's growing fast:** The infrastructure for agentic systems (open-source agent frameworks, enterprise security layers, business OS architectures) has matured rapidly. What was experimental a year ago is now production-ready. At NVIDIA's GTC 2026, Jensen Huang stated that ["every single SaaS company will become a GaaS company, an agentic as a service company"](https://blogs.nvidia.com/blog/gtc-2026-news/) and that every company needs an agentic system strategy. Companies that don't have one are falling behind. They need practitioners who can lead the transition.
 
-**The model:** This often starts as a strategic engagement (assessing where agents fit) and evolves into implementation work. The best practitioners in this space combine the strategic framing of a [Fractional AI Executive](/docs/roles/fractional-ai-executive) with the technical execution of an [AI Workflow Architect](/docs/roles/ai-workflow-architect). Understanding [token economics](/docs/concepts/the-token-economy) is essential for scoping these engagements.
+**The model:** This often starts as a strategic engagement (assessing where agents fit) and evolves into implementation work. The best practitioners in this space combine the strategic framing of a [Chief AI Officer](/docs/roles/chief-ai-officer) with the technical execution of an [Applied AI Consultant](/docs/roles/applied-ai-consultant). Understanding [token economics](/docs/concepts/the-token-economy) is essential for scoping these engagements.
 
 ---
 
@@ -12652,7 +13146,13 @@ Your terminal-based AI interface. This is the engine of the Jarvis. Important di
 
 The MVJ approach is the opposite. Your files live on your computer. They are plain markdown. Any AI tool can read them. If Anthropic triples their price tomorrow, or a better tool comes out next month, you take your files and walk. No export process, no migration headache. You are not a user of someone else's platform. You are the operator of your own system.
 
-**This tutorial is not an Anthropic ad.** We recommend Claude Code because it is currently the best engine for this workflow. But the entire point of the MVJ architecture is that you are not locked in. Open source AI models are getting remarkably good, remarkably fast, and many of them can be run entirely on your own hardware with zero data leaving your machine. New ones come out every few weeks, and the best open source models now rival the proprietary ones on most benchmarks. Check the [Open LLM Leaderboard](https://vellum.ai/open-llm-leaderboard) or [Open WebUI Leaderboard](https://openwebui.com/leaderboard) for current rankings. The competitive pressure between American companies, Chinese labs, and the open source community is driving quality up and cost down at a pace that benefits you. Today's best default is Claude Code. Tomorrow it might be something else. Your files do not care. That is what sovereignty means in this context, and it is worth thinking about as you decide which tools earn your trust and your money. For a deeper dive on sovereignty principles, see [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os).
+**This tutorial is not an Anthropic ad.** We default to Claude Code because it is currently the best [harness](/docs/concepts/harness-engineering) for this workflow. But the entire point of the MVJ architecture is that you are not locked in. You have options at every level:
+
+- **Different harnesses.** Claude Code is one harness. Others exist and new ones are emerging constantly: [OpenCode](https://github.com/opencode-ai/opencode), Cursor, Pi, Hermes, and more. They all read files and run commands. The instructions in this tutorial default to Claude Code, but the overall usage patterns (brain dumps, user profiles, skill files, relationship files) work with any harness that can read your workspace. Check the [AI Dev Tool Power Rankings](https://blog.logrocket.com/ai-dev-tool-power-rankings/) or [Best AI Coding Agents comparison](https://www.faros.ai/blog/best-ai-coding-agents-2026) for current rankings.
+- **Different models within the same harness.** Even within Claude Code, you can swap models. You are not constrained to Anthropic's models. Other harnesses let you use any model you want.
+- **Open source models you run yourself.** Open source AI models are getting remarkably good, remarkably fast, and many of them can be run entirely on your own hardware with zero data leaving your machine. New ones come out every few weeks. Check the [Open LLM Leaderboard](https://vellum.ai/open-llm-leaderboard) or [Open WebUI Leaderboard](https://openwebui.com/leaderboard) for current model rankings.
+
+The competitive pressure between American companies, Chinese labs, and the open source community is driving quality up and cost down at a pace that benefits you. Today's best default is Claude Code. Tomorrow it might be something else. Your files do not care. That is what sovereignty means in this context, and it is worth thinking about as you decide which tools earn your trust and your money. For a deeper dive on sovereignty principles, see [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os).
 
 ```bash
 npm install -g @anthropic-ai/claude-code
@@ -13923,30 +14423,32 @@ Guides for students, career changers, and anyone navigating what to learn, where
 
 
 ---
-# AI Agent Consultant
-URL: https://docs.appliedaisociety.org/docs/roles/ai-agent-consultant
+# Applied AI Consultant
+URL: https://docs.appliedaisociety.org/docs/roles/applied-ai-consultant
 
 
-# AI Agent Consultant
+# Applied AI Consultant
 
-*The most accessible entry point into the applied AI economy right now. If you can build and you can communicate, there are clients waiting.*
+*The client-facing builder who designs, builds, and deploys AI systems for businesses. Part architect, part engineer, part translator.*
 
-> **This role is accessible at any experience level.** Some practitioners enter with a decade of engineering experience. Others transition in under a year through intensive programs and side projects. What matters is that you can build working AI systems and explain them clearly. See [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy) for the full landscape.
+> **This role is accessible at multiple experience levels.** Some practitioners enter with a decade of engineering experience. Others transition in under a year through intensive programs and side projects. What matters is that you can build working AI systems, design them to fit real organizational needs, and explain them clearly. See [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy) for the full landscape.
 
 ---
 
 ## What They Do
 
-The AI Agent Consultant builds custom AI agents and integrations for businesses, typically as a solo practitioner or small team. They take a client's business problem, architect an AI solution, build it, and deliver it. Most work on 2 to 5 clients at a time, with projects ranging from a few weeks to several months.
+The Applied AI Consultant works directly with businesses to design and deliver AI systems that solve real problems. They combine two skill sets that are rarely found together: the ability to architect complex AI workflows at the organizational level, and the ability to build and ship those systems hands-on.
 
 In practice, this means:
 
 - Researching the client's business before the first call and preparing multiple approaches for how AI could help
-- Architecting agent systems: chatbots, RAG pipelines, workflow automation, conversational interfaces, internal tools
-- Building and deploying the solution, usually in weekly milestones tied to business outcomes
+- Decomposing workflows to identify which processes are agent-ready (AI handles end-to-end), which are agent-augmented (AI assists, human decides), and which should remain human-only
+- Architecting agent systems: chatbots, RAG pipelines, workflow automation, conversational interfaces, internal tools, and cross-department orchestration
+- Building the infrastructure that encodes organizational intent into AI systems: goal structures, decision boundaries, escalation logic, value hierarchies
+- Building and deploying solutions, usually in weekly milestones tied to business outcomes
 - Translating technical complexity into plain language so non-technical clients understand what they're getting and why it matters
 
-The defining skill isn't technical ability alone. It's the combination of building and communicating. The consultant who can explain a RAG pipeline to a business owner in their own language, without jargon, without condescension, is the one who closes deals and keeps clients.
+The defining skill isn't technical ability alone. It's the combination of building, communicating, and thinking at the systems level. The consultant who can explain a RAG pipeline to a business owner in their own language, and who can also see how that pipeline fits into the larger organizational workflow, is the one who closes deals and delivers lasting value.
 
 ---
 
@@ -13956,9 +14458,9 @@ Every business knows AI matters. Very few have anyone on the team who can build 
 
 At the same time, the tools have matured to the point where a single skilled builder can deliver what would have required a team two years ago. Modern AI frameworks (Vercel AI SDK, LangGraph, Mastra), vector databases (pgvector, Qdrant, Pinecone), and model APIs make it possible for one person to build production-grade agent systems in weeks.
 
-The economics work at both ends. The consultant charges rates that feel like a fraction of what a big firm would charge. The client gets a working system that delivers measurable ROI. The consultant builds a portfolio and a reputation that compounds through referrals.
+The market is already validating this. Business operators at the highest levels describe someone who "sits next to teams, watches what they're doing, and says 'I can automate that, I can automate that, I can automate that'" as one of the highest-leverage hires a company can make. The demand for workflow decomposition and automation far outstrips supply.
 
-The barrier to entry is lower than most people think. You don't need a PhD or a decade of experience. You need to be able to build working AI systems, explain what you're doing in plain language, and deliver on time. People are making this transition in under a year through intensive programs, side projects, and community involvement.
+The economics work at both ends. The consultant charges rates that feel like a fraction of what a big firm would charge. The client gets a working system that delivers measurable ROI. The consultant builds a portfolio and a reputation that compounds through referrals.
 
 ---
 
@@ -13980,9 +14482,13 @@ The first client is the hardest. After that, it compounds. The patterns that wor
 
 **Business owners and founders:** The primary client. They have a problem (too many support tickets, manual data entry, no way to search their knowledge base) and need someone who can turn that into a working AI system.
 
-**Existing engineering teams:** Some clients have developers but no AI expertise. The consultant works alongside the team, builds the AI components, and trains the team to maintain it.
+**Engineering teams:** Some clients have developers but no AI expertise. The consultant works alongside the team, builds the AI components, and trains the team to maintain it.
 
-**Other consultants and practitioners:** Referral networks between consultants are common. Someone with a chatbot specialty refers a client who needs workflow automation to a colleague, and vice versa. The community benefits when practitioners help each other.
+**Operations and department heads:** Many AI opportunities live in the gaps between departments. The consultant maps actual workflows, identifies where AI is already being used unofficially, and understands where human judgment is non-negotiable.
+
+**Executive leadership:** For larger engagements, the consultant translates organizational strategy into parameters agents can act on. This requires access to the real values of the organization, not just the ones on the website.
+
+**Other consultants and practitioners:** Referral networks between consultants are common. Someone with a chatbot specialty refers a client who needs workflow automation to a colleague, and vice versa.
 
 ---
 
@@ -13990,13 +14496,13 @@ The first client is the hardest. After that, it compounds. The patterns that wor
 
 People enter this role from multiple directions.
 
-**From software engineering:** The most common path. Developers who learn AI frameworks on top of existing coding skills. The transition can be fast (months, not years) because the core skills (building, debugging, deploying) transfer directly. The new skill is understanding how to work with models, manage context, and build reliable agent pipelines.
+**From software engineering:** The most common path. Developers who learn AI frameworks on top of existing coding skills. The transition can be fast (months, not years) because the core skills (building, debugging, deploying) transfer directly.
 
 **From intensive programs:** Programs like Gauntlet, bootcamps, and cohort-based courses compress the learning curve. Some practitioners go from zero AI experience to landing clients in under a year through intensive, shipping-focused programs.
 
-**From adjacent roles:** Product managers, data analysts, and technical consultants who pick up the building skills. Their advantage is that they already know how to talk to businesses and understand problems. The technical side is the add-on.
+**From adjacent roles:** Product managers, operations leaders, data analysts, and technical consultants who pick up the building skills. Their advantage is that they already know how to talk to businesses and understand problems. The technical side is the add-on.
 
-The common thread: they build things that work, they explain those things clearly, and they keep learning because the field changes every month.
+The common thread: they build things that work, they can translate between technical and business language, and they keep learning because the field changes every month.
 
 ---
 
@@ -14022,296 +14528,8 @@ The best consultants are stack-flexible. They ask the client "what are you runni
 
 - [Rostam Mahabadi](/docs/case-studies/rostam-mahabadi): A practitioner profile showing this role in action
 - [Context Engineering](/docs/concepts/context-engineering): A core skill for building agent systems that actually work
+- [Intent Engineering](/docs/concepts/intent-engineering): The discipline of encoding organizational purpose into AI systems
 - [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy): The broader landscape of practitioner paths
-
-
----
-# AI Enablement Coach
-URL: https://docs.appliedaisociety.org/docs/roles/ai-enablement-coach
-
-
-# AI Enablement Coach
-
-*The person who sits with a team, learns how they work, and shows them where AI fits. Part educator, part workflow detective, part translator between what AI can do and what the team actually needs.*
-
-> **This role rewards patience and people skills over raw technical depth.** You need to understand AI tools well enough to demonstrate them, but your primary skill is listening, mapping workflows, and communicating clearly to people who may be skeptical or overwhelmed. If you're the person friends call when they need something explained without jargon, this might be your role.
-
----
-
-## What They Do
-
-The AI Enablement Coach embeds with a team or organization for a focused engagement (typically 3 to 5 business days, depending on team size) and does three things:
-
-**1. Learn the workflows.** Sit with the people doing the work. Watch how they actually operate, not how their org chart says they operate. Understand where time gets wasted, where decisions bottleneck, where information gets lost between systems. This is the foundation. You cannot coach what you don't understand.
-
-**2. Educate and orient.** Bring the team up to speed on the latest AI tools and the latest ways of thinking about AI. This is not a lecture. It's a guided tour of what's possible now, calibrated to their actual work. Cover how to upskill with AI, how to think about what makes a good AI pilot, and where the real value is for their specific context. The goal is to shift their mental model from "AI is magic or hype" to "AI is a tool I can evaluate and use."
-
-**3. Map opportunities and document ROI.** Based on what you've learned, identify the specific places where AI can create value for the team. Document these as concrete opportunities with estimated ROI. Where there are clear pilots, scope them. Where there's real engineering work to be done, package it in a way that can be handed off to a builder (as a referral, a commission, or a formal handoff). The deliverable is a clear document: here's what we found, here's what it's worth, here's what to do next.
-
----
-
-## Why This Role Is Emerging Now
-
-Most organizations know they should be "doing something with AI." Very few have anyone internally who can translate that vague mandate into specific actions. The AI Enablement Coach fills that gap.
-
-This is different from an AI consultant who builds systems. The coach's primary output is clarity: helping the team understand what's possible, what's worth pursuing, and what the next steps are. Sometimes the coach builds a quick prototype to demonstrate a concept. But the core value is the assessment, the education, and the documented roadmap.
-
-The role is emerging because the AI landscape changes so fast that most teams can't keep up on their own. Having someone spend a few focused days learning your workflows and showing you the current state of the art is often worth more than months of the team trying to figure it out on their own.
-
----
-
-## Who Is Good at This
-
-The ideal AI Enablement Coach is:
-
-- **Trustworthy.** You're asking people to show you how they work, including the messy parts. That requires trust. The coach who earns trust fast gets better information and delivers better results.
-- **Good at educating people.** You can explain complex concepts to non-technical people without condescension. You adjust your language to your audience. You're patient when people ask questions that seem basic.
-- **Patient with non-technical teams.** Not everyone learns at the same speed. Not everyone is excited about AI. Some people are worried about their jobs. The coach meets people where they are.
-- **Has a heart for people.** This sounds soft, but it's the differentiator. The coach who genuinely cares about making the team's work life better produces fundamentally different output than the one who's just checking boxes.
-- **Technically fluent enough to demo tools.** You don't need to be able to build a production RAG pipeline from scratch. But you need to know enough about the current AI landscape to show people what's possible and evaluate whether an opportunity is real.
-
----
-
-## The Engagement Model
-
-A typical AI Enablement engagement looks like this:
-
-**Day 1: Immersion.** Meet the team. Understand the org structure, the tools they use, the pain points they already know about. Observe workflows. Ask a lot of questions.
-
-**Days 2-3: Education and discovery.** Run hands-on sessions showing relevant AI tools. As the team starts seeing possibilities, new workflow insights surface. Document everything. The education and the discovery feed each other.
-
-**Days 4-5: Synthesis and handoff.** Compile findings into a clear document: workflow map, identified AI opportunities ranked by estimated ROI and feasibility, recommended pilots, and a clear next-steps plan. Where engineering work is needed, package it so a builder can pick it up.
-
-Scale up for larger organizations. A 20-person team might need 3 days. An org-wide assessment across multiple departments might need 2 weeks.
-
-**Beyond the initial engagement:** Many organizations want ongoing access to their coach. This can take the form of monthly on-site visits, weekly virtual check-ins, or async availability for questions. The initial engagement builds the foundation; the ongoing relationship is where compound value shows up.
-
----
-
-## What This Looks Like in Practice
-
-Real engagements reveal patterns that a job description can't capture:
-
-**Teams have wildly different starting points.** A research team at the same company might already use AI daily while the business development team has barely touched ChatGPT. The coach calibrates to each group independently, not one-size-fits-all.
-
-**In-person matters.** Sitting next to someone while they walk you through their actual workflow surfaces things a Zoom call never will. The manual Google Sheets tracker that doesn't talk to the finance system. The copy-paste ritual between two platforms that could be automated in an afternoon. Presence builds trust and reveals the real work.
-
-**The first week is discovery, not delivery.** A typical first engagement: day one is an all-hands orientation to set context, then breakout sessions with each team throughout the week. By the end, every team has a mapped set of tools they can use immediately, plus a list of higher-value opportunities that would require engineering investment.
-
-**Ongoing access beats one-time visits.** The organizations getting the most value don't treat enablement as a single event. They maintain an ongoing relationship with their coach: someone they can call when a new workflow question comes up, when a team member needs a refresher, or when leadership wants to evaluate a new AI tool. The cadence varies (monthly visits, weekly check-ins, async availability), but the relationship is continuous.
-
-**Custom builds get scoped separately.** During discovery, the coach often identifies opportunities that go beyond coaching: a custom application, a CRM integration, a data pipeline. These get documented and handed off to a builder. The coach's job is to identify and scope them clearly, not necessarily to build them.
-
-**"Enablement" is hard to find.** Organizations consistently report that finding someone who focuses on teaching and coaching teams (rather than process improvement consulting or software development) is surprisingly difficult. This is a gap in the market.
-
----
-
-## How This Connects to Other Roles
-
-The AI Enablement Coach is often the first practitioner a non-technical organization works with. The coach identifies the opportunities; other roles execute on them:
-
-- Pilots that require custom agent systems get referred to an [AI Agent Consultant](./ai-agent-consultant)
-- Organizations that need ongoing AI leadership get connected to a [Fractional AI Executive](./fractional-ai-executive)
-- Complex workflow redesigns may need an [AI Workflow Architect](./ai-workflow-architect)
-
-The coach who builds a strong referral network across these roles creates a flywheel: every engagement generates potential work for others, and those practitioners refer coaching engagements back.
-
----
-
-## Related Concepts
-
-- [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy): The broader landscape of practitioner paths
-- [AI Agent Consultant](./ai-agent-consultant): The builder role that often picks up work identified by the coach
-
-
----
-# AI Transition Coach
-URL: https://docs.appliedaisociety.org/docs/roles/ai-transition-coach
-
-
-# AI Transition Coach
-
-*The person who helps leaders and founders psychologically, emotionally, and imaginatively prepare for reinvention in the AI economy. Not teaching tools. Preparing the human.*
-
-> **This role rewards deep emotional intelligence, coaching experience, and the ability to hold space for people in transformation.** You don't need to be a developer. You need to understand enough about AI to know what's coming and why it matters. Your primary skill is helping people see themselves and their situation clearly enough to act.
-
----
-
-## What They Do
-
-The AI Transition Coach works with leaders, founders, and teams on the human side of AI transformation. While the [AI Enablement Coach](./ai-enablement-coach) teaches workflows and tools, the Transition Coach works on something more fundamental: the mindset, perception, and emotional readiness that determine whether someone can actually make the leap.
-
-Three core functions:
-
-**1. Expand imagination.** Most leaders are stuck in a perception of what's possible that was formed before the current moment. The Transition Coach helps them see a wider solution space. What does your business look like if 80% of repetitive work disappears? What does your role become? What does your team become? These aren't hypothetical questions anymore. They require a leader who can hold a bigger vision.
-
-**2. Surface the unspoken.** Organizations are full of things people don't say to the leader. AI is making this worse: people are worried about their jobs, skeptical about new tools, or quietly resentful of changes they weren't consulted on. The Transition Coach creates the conditions for truth to surface. This might involve one-on-one interviews, AI-assisted anonymous feedback protocols, or facilitated conversations designed to reveal what's actually going on.
-
-**3. Coach through identity shifts.** For many founders and executives, AI disruption isn't just a business problem. It's an identity problem. "I built this company on my technical expertise, and now AI can do what I do." The Transition Coach helps leaders let go of old identities and step into new ones. This is fundamentally spiritual and emotional work.
-
----
-
-## Why This Role Is Emerging Now
-
-The biggest bottleneck to AI adoption is not technology. It's leadership.
-
-Executives I've spoken to repeatedly say the same thing: they know they need to change, but they don't know how to think about it. They're surrounded by AI hype on one side and employee anxiety on the other. They need someone who can help them think clearly about their own transformation before they can lead their organization through one.
-
-This is not work that an AI consultant or an enablement coach is trained for. It requires deep coaching skill: the ability to hold space, read what people aren't saying, and guide someone through a genuine identity shift.
-
-The demand for this role is going to increase dramatically as the pace of AI disruption accelerates. Leaders who try to skip the inner work will burn out, make reactive decisions, or resist changes their organizations desperately need.
-
----
-
-## Who Is Good at This
-
-The ideal AI Transition Coach brings:
-
-- **Executive coaching or therapy background.** You've worked with high-performing people on mindset, perception, and personal growth. You understand the psychology of change.
-- **Comfort with ambiguity.** The AI landscape changes weekly. Your clients don't need you to have all the answers. They need you to help them sit with uncertainty and still move forward.
-- **Basic AI literacy.** You don't need to write code. But you need to understand what Claude Computer Use is, why Jensen Huang's AGI statement matters, and what "self-improving businesses" means. Your credibility depends on being conversant in the tools reshaping your clients' worlds.
-- **A framework for imagination expansion.** Whether it's Jungian psychology, meditative practices, design thinking, or something else entirely. You need a method for helping people see beyond their current perception.
-- **Conflict resolution skills.** Organizational transitions surface conflict. Unspoken resentment, fear of displacement, power struggles over who owns the AI strategy. You need to be able to navigate these dynamics.
-- **Spiritual groundedness (optional but powerful).** Many of the best practitioners in this space see entrepreneurship and leadership as a spiritual journey. If you can hold that frame authentically, you'll connect with a certain kind of leader on a level that purely clinical coaching can't reach.
-
----
-
-## The Engagement Model
-
-This looks different from a typical consulting engagement:
-
-**Discovery phase (1-2 sessions).** Understand the leader's current mental model, their fears, their vision, and what's actually going on in the organization. This is deep listening work.
-
-**Imagination expansion (2-4 sessions).** Guided exercises that help the leader see their business and their role through fresh eyes. What would you build if you started from scratch today? What does your industry look like in 3 years? What's the version of your company that's thriving in that world?
-
-**Organizational truth-surfacing (1-2 weeks).** One-on-one interviews or AI-assisted anonymous protocols that reveal what the team actually thinks. The coach synthesizes themes and presents them to leadership. This often becomes the catalyst for real change.
-
-**Ongoing coaching.** Weekly or biweekly sessions as the leader navigates the transition. New challenges surface constantly. The coach provides continuity and a safe space to process.
-
----
-
-## What This Looks Like in Practice
-
-**The founder who can't let go.** A technical founder built the company on their coding ability. AI agents can now do 80% of what they personally contributed. The Transition Coach helps them grieve the old identity and discover what they're uniquely suited to do next: vision, relationships, taste, judgment.
-
-**The executive team full of yes-men.** Nobody tells the CEO what's really happening. The Transition Coach implements an AI-assisted truth-surfacing protocol (anonymous interviews synthesized by AI) that reveals the actual state of the organization. The CEO gets the first honest picture of their company in years.
-
-**The leader who knows they need to change but doesn't know how.** They've read the articles. They've seen the demos. They know the flood is coming. But they can't translate that knowledge into action. The Transition Coach breaks the paralysis by starting with the inner work: what are you afraid of? What would you build if fear weren't a factor? What does the best version of your next chapter look like?
-
----
-
-## How This Connects to Other Roles
-
-The AI Transition Coach often works upstream of every other role:
-
-- Leaders who complete transition coaching are ready for an [AI Enablement Coach](./ai-enablement-coach) to come in and work with their teams
-- Organizations where the truth has been surfaced are ready for an [AI Workflow Architect](./ai-workflow-architect) to redesign their operations
-- Founders who've expanded their imagination are ready to work with an [AI Agent Consultant](./ai-agent-consultant) on building what they now see is possible
-
-The Transition Coach unblocks the human. Everything else follows.
-
----
-
-## How to Build This Practice
-
-**Step 1: Get your own AI house in order.** Use Claude Code. Build your own minimum viable Jarvis. You cannot credibly coach leaders through AI transition if you haven't experienced the transformation yourself.
-
-**Step 2: Reframe your existing practice.** If you're already an executive coach, therapist, or organizational development consultant, you likely have 80% of the skills. The reframe is positioning your work explicitly around AI-era leadership transition.
-
-**Step 3: Test your messaging.** The language that resonates matters. "AI Transition Coach" may or may not be the right title for your market. Test different framings and see what your ideal clients respond to.
-
-**Step 4: Build your AI-augmented toolkit.** Use AI-assisted interview protocols for truth-surfacing. Use transcription for session analysis. Use AI to help synthesize themes across multiple conversations. Practice what you preach.
-
----
-
-## Related Concepts
-
-- [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy): The broader landscape of practitioner paths
-- [AI Enablement Coach](./ai-enablement-coach): The complementary role focused on workflows and tools (vs. the human)
-
-
----
-# AI Workflow Architect
-URL: https://docs.appliedaisociety.org/docs/roles/ai-workflow-architect
-
-
-# AI Workflow Architect
-
-*One of the most important roles forming in enterprise AI right now. Most companies don't know they need one until something goes wrong.*
-
-> **This is a senior role.** If you're earlier in your career, this is a picture of where the path can lead. For entry points into applied AI work right now, see [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy).
-
----
-
-## What They Do
-
-The AI Workflow Architect sits between engineering, operations, and strategy. Their job is to answer a question that sounds simple and isn't: are our AI systems actually doing what our organization needs them to do?
-
-In practice, this means:
-
-- Mapping which workflows are agent-ready (AI can handle end-to-end), which are agent-augmented (AI assists, human decides), and which remain human-only
-- Building the infrastructure that encodes organizational intent into AI systems: goal structures, decision boundaries, escalation logic, value hierarchies
-- Ensuring agents operating across departments have access to the right context and operate with consistent judgment
-- Closing the feedback loop: when an AI system makes a decision, was it aligned with what the organization actually values?
-
-This is not a pure engineering role. It is not a pure strategy role. It lives in the gap between them, and that gap is currently wide open at most organizations.
-
----
-
-## Why This Role Is Emerging Now
-
-For most of the AI era, humans were the intent layer. You sat next to the AI, gave it instructions, reviewed its output, and corrected it when it went wrong. The AI never needed to understand your organizational values because you were standing right there.
-
-That model is breaking down.
-
-AI agents now run autonomously for hours, days, and weeks. They make hundreds of decisions without a human in the loop. They touch customer relationships, financial systems, and operational workflows at a scale no manager can supervise in real time.
-
-When organizations deploy these systems without encoding organizational intent, they get what Klarna got in 2024: an AI agent that was technically brilliant and strategically disastrous. The agent resolved customer service tickets faster than any human. It also destroyed customer relationships, damaged the brand, and cost far more in reputation than it saved in labor. The agent optimized for the measurable objective. Nobody had encoded the objective that actually mattered: lasting customer relationships in a competitive fintech market.
-
-The AI Workflow Architect is the person whose job it is to prevent that failure. They make organizational purpose legible to autonomous systems before those systems start making decisions.
-
----
-
-## Who They Work With
-
-This role requires deep cross-functional relationships:
-
-**Engineering teams:** Understand what agents can and can't do. Define the technical infrastructure for context and intent. Ensure agents have access to the right data and systems.
-
-**Operations and department heads:** Map actual workflows. Identify where AI is already being used unofficially (what analysts call the "shadow agents" problem). Understand where human judgment is non-negotiable.
-
-**Executive leadership:** Translate organizational strategy into parameters agents can act on. This requires access to the real values of the organization, not just the ones on the website.
-
-**Legal and compliance:** Define the hard boundaries AI systems cannot cross, especially in regulated industries.
-
----
-
-## Skills and Background
-
-There is no standard degree for this role because the role didn't exist long enough to have a standard degree. The people doing it well tend to come from two directions and meet in the middle.
-
-From the technical side: engineers and product managers who got frustrated watching AI pilots fail for non-technical reasons. They could build the system. They couldn't get the organization to use it correctly. That frustration pointed them toward the organizational side.
-
-From the organizational side: operations leaders and consultants who got put in charge of an AI rollout and realized nobody had thought through what the AI was actually supposed to optimize for. They learned enough about how agents work to ask the right questions of their engineering teams.
-
-What both groups share: they can translate. They can sit in a room with a CTO and a COO and help both of them understand what the other one actually needs. That translation skill, more than any specific technical or business credential, is what makes this role work.
-
----
-
-## Why This Role Matters Now
-
-The market is already validating this role. Business operators at the highest levels describe the AI Workflow Architect as one of the highest-leverage hires a company can make: someone who "sits next to teams, watches what they're doing, and says 'I can automate that, I can automate that, I can automate that.'"
-
-At current market rates, this role commands $150K+ annually, and practitioners report having an essentially unlimited backlog of work. The demand for workflow decomposition and automation far outstrips supply.
-
-This isn't a temporary gap. As AI capabilities expand, the bottleneck increasingly becomes the *human ability to specify observable behaviors precisely enough for machines to execute.* The Workflow Architect bridges that gap.
-
----
-
-## Related Concepts
-
-- [Intent Engineering](/docs/concepts/intent-engineering): The discipline this role is built around
-- [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy): Other roles and paths in the emerging economy
 
 
 ---
@@ -14415,7 +14633,7 @@ The best practices for this role are still forming. But the emerging pattern loo
 
 One of the most important dynamics around this role is the handoff from consultant to administrator.
 
-An [AI Agent Consultant](/docs/roles/ai-agent-consultant) or practitioner may set up the sovereign agentic business OS for a client. But the consultant leaves. The business OS needs to keep running, evolving, and staying current.
+An [Applied AI Consultant](/docs/roles/applied-ai-consultant) or practitioner may set up the sovereign agentic business OS for a client. But the consultant leaves. The business OS needs to keep running, evolving, and staying current.
 
 The person who inherits the system needs to understand what it does, how it works, what the agents have access to, and how to monitor all of it. If the handoff is poor, the business OS degrades quickly: context drifts from reality, agent permissions accumulate without review, and the system becomes a liability instead of an asset.
 
@@ -14427,19 +14645,19 @@ Good consultants build the handoff into the engagement: documentation, training,
 
 - [Sovereign Agentic Business OS Principles](/docs/sovereign-agentic-business-os/principles): The foundational framework this role maintains
 - [The Question Bank](/docs/sovereign-agentic-business-os/question-bank): One of the key assets this role curates
-- [AI Agent Consultant](/docs/roles/ai-agent-consultant): Often the person who builds the business OS before handing it off
+- [Applied AI Consultant](/docs/roles/applied-ai-consultant): Often the person who builds the business OS before handing it off
 - [Context Engineering](/docs/concepts/context-engineering): The underlying discipline powering the business OS's information architecture
 - [The Minimum Viable Jarvis](/docs/playbooks/practitioner/minimum-viable-jarvis): The entry-point playbook for setting up a business OS from scratch
 
 
 ---
-# Fractional AI Executive
-URL: https://docs.appliedaisociety.org/docs/roles/fractional-ai-executive
+# Chief AI Officer
+URL: https://docs.appliedaisociety.org/docs/roles/chief-ai-officer
 
 
-# Fractional AI Executive
+# Chief AI Officer
 
-*A new class of operator is emerging: experienced builders who embed directly with teams as part-time AI and product leaders. They bring 10+ years of shipping discipline and deep AI fluency, packaged as a service.*
+*The embedded leader who transforms an organization into a self-improving enterprise. Part executive, part coach, part architect of the future.*
 
 > **This is a senior role.** If you're earlier in your career, this is a picture of where the path can lead. For entry points into applied AI work right now, see [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy).
 
@@ -14447,52 +14665,41 @@ URL: https://docs.appliedaisociety.org/docs/roles/fractional-ai-executive
 
 ## What They Do
 
-The Fractional AI Executive embeds with a company's existing team on a part-time basis (typically 8 to 15 hours per week) and functions as a senior product and AI leader. They are not consultants who deliver a report and leave. They attend standups, join product meetings, scope features, train teams, and ship.
+The Chief AI Officer embeds with a company (part-time or full-time) and leads AI transformation at the organizational level. This is not the compliance-and-governance version of the title. This is the person making the enterprise self-improving: setting up the organizational Jarvis, designing skill files, establishing truth management, coaching leaders through identity shifts, and shipping AI systems that actually move the business.
 
-In practice, this means:
+Three core functions:
 
-- Auditing existing workflows and identifying the highest-impact AI opportunities (not the most impressive ones, the ones that actually move the business)
-- Scoping and shipping AI integrations into the product, internal tools, and team processes
-- Making product decisions with the speed and authority of a co-founder, without requiring a full-time hire or equity grant
-- Training the team to build and evaluate AI systems themselves, so the dependency decreases over time
+**1. Lead the technical transformation.** Audit existing workflows. Identify the highest-impact AI opportunities (not the most impressive ones, the ones that actually move the business). Scope and ship AI integrations into the product, internal tools, and team processes. Train the team to build and evaluate AI systems themselves, so the dependency decreases over time.
 
-The defining characteristic: they operate, not advise. They are in the codebase, in the Slack channels, in the customer calls. The output is shipped product, not slide decks.
+**2. Lead the human transformation.** AI disruption is not just a technology problem. It is an identity problem. Leaders need help expanding their imagination about what is possible, surfacing the truths nobody is saying out loud, and coaching through the identity shifts that come when AI changes what people do all day. The Chief AI Officer creates the conditions for honest conversation and helps leaders let go of old roles so they can step into new ones.
+
+**3. Design the self-improving organization.** Map which workflows are agent-ready, which are agent-augmented, and which remain human-only. Build the infrastructure that encodes organizational intent into AI systems: goal structures, decision boundaries, escalation logic, value hierarchies. Ensure agents operating across departments have access to the right context and operate with consistent judgment. Close the feedback loop: when an AI system makes a decision, was it aligned with what the organization actually values?
 
 ---
 
 ## Why This Role Is Emerging Now
 
-Three forces are converging to create this role.
+Three forces are converging.
 
-**First, AI capability is outpacing organizational readiness.** Most companies know AI matters. Very few have someone on the team who can translate that into a concrete product roadmap. They need someone senior enough to make decisions and technical enough to build.
+**AI capability is outpacing organizational readiness.** Most companies know AI matters. Very few have someone on the team who can translate that into a concrete roadmap. They need someone senior enough to make decisions and technical enough to build.
 
-**Second, the economics of fractional work have shifted.** An experienced product and AI leader costs $300K to $500K per year as a full-time hire. At $10K per month for 8 hours a week, a fractional executive delivers the same strategic judgment at a fraction of the cost. For startups and mid-size companies, this is the difference between having AI leadership and not having it.
+**The biggest bottleneck is leadership, not technology.** Executives know they need to change, but they don't know how to think about it. They're surrounded by AI hype on one side and employee anxiety on the other. They need someone who can help them think clearly about their own transformation before they can lead their organization through one.
 
-**Third, the tools have caught up.** A single experienced operator with modern AI tooling can now do what used to require a team. They can audit a codebase, prototype an integration, and ship a production feature in the same week. The leverage has changed the math on what one person can deliver.
+**AI agents now run autonomously at scale.** Agents make hundreds of decisions without a human in the loop. They touch customer relationships, financial systems, and operational workflows. Without someone encoding organizational intent into these systems, you get the Klarna problem: an AI that was technically brilliant and strategically disastrous. The Chief AI Officer prevents that failure by making organizational purpose legible to autonomous systems before those systems start making decisions.
 
-The early movers in this space (like Josh Pigford of [Initial Commit](https://initialcommit.co), who positions himself as a "Fractional AI + Product Co-founder") are establishing the model: no long contracts, no discovery phases, just embedded execution with a bias toward shipping.
-
----
-
-## Who They Work With
-
-**Founders and CEOs:** The primary relationship. The fractional executive needs direct access to decision-makers to move at speed. They function as a trusted co-pilot on product and AI strategy.
-
-**Engineering teams:** They work alongside engineers, not above them. The best fractional AI executives write code, review PRs, and pair on architecture decisions. They earn trust by building, not by directing.
-
-**Operations and go-to-market teams:** AI opportunities often live outside the product itself. Workflow automation, customer support systems, internal tooling. The fractional executive identifies these cross-functional wins.
+The economics of fractional work make this accessible. An experienced AI leader costs $300K to $500K per year as a full-time hire. At a fractional rate, a company gets the same strategic judgment and execution at a fraction of the cost. For startups and mid-size companies, this is the difference between having AI leadership and not having it.
 
 ---
 
-## Skills and Background
+## What This Looks Like in Practice
 
-The people stepping into this role share a pattern: they have shipped a lot of software over a long career, they have deep product instincts, and they caught the AI wave early enough to build real fluency.
+**The founder who can't let go.** A technical founder built the company on their coding ability. AI agents can now do 80% of what they personally contributed. The Chief AI Officer helps them grieve the old identity and discover what they're uniquely suited to do next: vision, relationships, taste, judgment.
 
-Many are former founders. Some ran product or engineering at startups. What they all have is the scar tissue that comes from building 20, 50, or 80 products. They know which corners to cut and which ones to protect. They know how to scope a feature so it ships in weeks instead of months.
+**The organization full of unspoken fears.** Nobody tells the CEO what's really happening. The Chief AI Officer implements truth-surfacing protocols (one-on-one interviews, AI-assisted anonymous feedback) that reveal the actual state of the organization. The CEO gets the first honest picture of their company in years. Now real transformation can begin.
 
-On the AI side, they are not researchers. They are practitioners. They know which models to use for which tasks, how to build reliable AI pipelines, and how to evaluate whether an AI integration is actually delivering value or just looking impressive in a demo.
+**The team that knows AI matters but can't act.** They've read the articles. They've seen the demos. They know the flood is coming. But nobody can translate that knowledge into concrete systems. The Chief AI Officer breaks the paralysis by starting with quick wins, shipping working AI in weeks, and building momentum that compounds.
 
-The combination of shipping speed, product judgment, and AI fluency is what makes this role valuable. Any two of the three are common. All three together is rare.
+**The company deploying agents without guardrails.** Agents are running customer service, processing orders, writing communications. Nobody has encoded the organization's actual values into these systems. The Chief AI Officer builds the intent infrastructure so agents optimize for what the organization actually cares about, not just what is measurable.
 
 ---
 
@@ -14500,18 +14707,55 @@ The combination of shipping speed, product judgment, and AI fluency is what make
 
 Unlike traditional consulting, the engagement model is designed around accountability and speed:
 
-- **Short diagnostic engagements** (1 to 2 weeks): Audit workflows, identify the biggest AI opportunity, and build the first quick win
-- **Ongoing fractional embedding** (monthly): Regular hours each week, attending team meetings, shipping features, training the team
-- **Focused sprints** (project-based): Scope a specific product, tool, or integration and ship it in weeks
+- **Short diagnostic (1 to 2 weeks):** Audit workflows, surface organizational truths, identify the biggest AI opportunity, and build the first quick win
+- **Ongoing fractional embedding (monthly):** Regular hours each week, attending team meetings, shipping features, coaching leaders, training the team
+- **Focused sprints (project-based):** Scope a specific transformation initiative and execute it in weeks
 
 Most operate without long-term contracts. The value should be obvious enough that the client wants to continue. If it isn't, both sides should be free to walk away.
 
 ---
 
+## Who They Work With
+
+**Founders and CEOs:** The primary relationship. The Chief AI Officer needs direct access to decision-makers to move at speed. They function as a trusted co-pilot on AI strategy, product, and organizational transformation.
+
+**Engineering teams:** They work alongside engineers, not above them. The best Chief AI Officers write code, review PRs, and pair on architecture decisions. They earn trust by building, not by directing.
+
+**Operations and department heads:** Map actual workflows. Identify where AI is already being used unofficially. Understand where human judgment is non-negotiable. Help people through the emotional and practical shifts that come with new ways of working.
+
+**Legal and compliance:** Define the hard boundaries AI systems cannot cross, especially in regulated industries.
+
+---
+
+## Skills and Background
+
+This role combines three skill sets that are each common on their own but rare together.
+
+**Shipping speed and product judgment.** These are people who have shipped a lot of software over a long career. They know which corners to cut and which ones to protect. They know how to scope a feature so it ships in weeks instead of months.
+
+**AI fluency.** They are not researchers. They are practitioners. They know which models to use for which tasks, how to build reliable AI pipelines, and how to evaluate whether an AI integration is actually delivering value or just looking impressive in a demo.
+
+**Coaching and emotional intelligence.** They can hold space for people in transformation. They understand the psychology of change. They can sit in a room with a CTO and a COO and help both of them understand what the other one actually needs. They can guide a founder through a genuine identity shift.
+
+People enter this role from multiple directions: former founders, product and engineering leaders, executive coaches who developed deep AI fluency, operations leaders who led AI rollouts and realized nobody had thought through the human side. What they share is the ability to translate between the technical, the strategic, and the human.
+
+---
+
+## Who Is This Role For
+
+- **Experienced builders and operators** who want to lead AI transformation at the organizational level
+- **Executive coaches and organizational development consultants** who have built deep AI literacy and want to work at the intersection of technology and human transformation
+- **Former founders and fractional executives** who want to package their shipping discipline and strategic judgment as a service
+- **Practitioners who've outgrown project work** and want to operate at the level of organizational design
+
+---
+
 ## Related Concepts
 
-- [AI Workflow Architect](./ai-workflow-architect): A complementary role focused on organizational intent and workflow mapping
+- [Intent Engineering](/docs/concepts/intent-engineering): The discipline of encoding organizational purpose into AI systems
+- [Self-Improving Enterprise](/docs/concepts/self-improving-enterprise): The vision this role is building toward
 - [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy): The broader landscape of emerging roles
+- [Business OS Administrator](./business-os-administrator): The ongoing operations role that maintains what the Chief AI Officer builds
 
 
 ---
@@ -14537,12 +14781,10 @@ AI is doing the same thing, faster. The roles forming now sit at the intersectio
 
 ## The Roles
 
-- [AI Workflow Architect](/docs/roles/ai-workflow-architect): The person who connects AI capability to organizational purpose
-- [AI Agent Consultant](/docs/roles/ai-agent-consultant): Solo practitioners who build custom AI agents and integrations for businesses
-- [Fractional AI Executive](/docs/roles/fractional-ai-executive): Experienced builders who embed with teams as part-time AI and product leaders
-- [AI Enablement Coach](/docs/roles/ai-enablement-coach): The person who embeds with a team for a few days to map workflows, coach on AI tools, and identify where AI creates real value
-- [Business OS Administrator](/docs/roles/business-os-administrator): The person who maintains and evolves an organization's sovereign agentic business OS: agent orchestration, context architecture, and access governance
-- [AI Transition Coach](/docs/roles/ai-transition-coach): The person who helps leaders and founders psychologically, emotionally, and imaginatively prepare for reinvention in the AI economy
+- [Applied AI Consultant](/docs/roles/applied-ai-consultant): The client-facing builder who designs, builds, and deploys AI systems for businesses. Combines workflow decomposition, agent architecture, and hands-on implementation.
+- [Chief AI Officer](/docs/roles/chief-ai-officer): The embedded leader who transforms an organization into a self-improving enterprise. Leads both the technical and human sides of AI transformation at the organizational level.
+- [Business OS Administrator](/docs/roles/business-os-administrator): The person who maintains and evolves an organization's sovereign agentic business OS: agent orchestration, context architecture, and access governance.
+- [Jarvis Trainer](/docs/roles/jarvis-trainer): The person who takes someone from zero to a working AI-operated business OS, then coaches them through progressively deeper levels of integration.
 
 *More roles being added. If you're doing applied AI work that doesn't fit a known category, you may be early to something. [Tell us about it.](https://appliedaisociety.org/contribute)*
 
@@ -14712,7 +14954,7 @@ As Travis put it at AAL#3: the goal is coordination, not consolidation. You want
 
 Someone has to build your business OS. That person (or team) will touch everything: your financials, your client relationships, your strategic plans, your employee data, your competitive intelligence. They will have more context about your business than almost anyone in your organization.
 
-This is why the [applied AI practitioner](/docs/roles/ai-agent-consultant) role is so consequential. It's not just a technical job. It's a trust job. You're not hiring someone to set up a chatbot. You're entrusting someone with the operating system of your company's future.
+This is why the [applied AI practitioner](/docs/roles/applied-ai-consultant) role is so consequential. It's not just a technical job. It's a trust job. You're not hiring someone to set up a chatbot. You're entrusting someone with the operating system of your company's future.
 
 The practitioners who thrive in this role are not just technically excellent. They understand security. They understand access control. They understand that a backdoor in a business OS isn't a bug: it's an existential risk. And they operate with the integrity that the role demands.
 

@@ -14,9 +14,12 @@
 - [Rostam Mahabadi](https://docs.appliedaisociety.org/docs/case-studies/rostam-mahabadi)
 - [Tim Dort-Golts](https://docs.appliedaisociety.org/docs/case-studies/tim-dort-golts-personal-transformation)
 - [Code of Conduct](https://docs.appliedaisociety.org/docs/code-of-conduct)
+- [Agent-Accessible Products](https://docs.appliedaisociety.org/docs/concepts/agent-accessible-products)
 - [The AGI Whisperer](https://docs.appliedaisociety.org/docs/concepts/agi-whisperer)
+- [Always-On Agents](https://docs.appliedaisociety.org/docs/concepts/always-on-agents)
 - [Anatomy of a Harness: Lessons from Claude Code's Source](https://docs.appliedaisociety.org/docs/concepts/anatomy-of-a-harness)
 - [Context Engineering](https://docs.appliedaisociety.org/docs/concepts/context-engineering)
+- [Flow-State Infra](https://docs.appliedaisociety.org/docs/concepts/flow-state-infra)
 - [Game Design](https://docs.appliedaisociety.org/docs/concepts/game-design)
 - [Harness Engineering](https://docs.appliedaisociety.org/docs/concepts/harness-engineering)
 - [Ignorance Debt](https://docs.appliedaisociety.org/docs/concepts/ignorance-debt)
@@ -29,7 +32,9 @@
 - [The Roles-to-Workflows Shift](https://docs.appliedaisociety.org/docs/concepts/roles-to-workflows)
 - [The Self-Improving Enterprise](https://docs.appliedaisociety.org/docs/concepts/self-improving-enterprise)
 - [Self-Improving Systems](https://docs.appliedaisociety.org/docs/concepts/self-improving-systems)
+- [Signalmaxxing](https://docs.appliedaisociety.org/docs/concepts/signalmaxxing)
 - [The Spec Is the Product](https://docs.appliedaisociety.org/docs/concepts/spec-writing)
+- [Chat History Is Disposable](https://docs.appliedaisociety.org/docs/concepts/the-chat-is-not-the-product)
 - [The Encounter](https://docs.appliedaisociety.org/docs/concepts/the-encounter)
 - [The Permission Surface](https://docs.appliedaisociety.org/docs/concepts/the-permission-surface)
 - [The Tinkerer's Curse](https://docs.appliedaisociety.org/docs/concepts/the-tinkerers-curse)
@@ -98,8 +103,8 @@
 - [The Five Levels of Value in the AI Age](https://docs.appliedaisociety.org/docs/playbooks/student/five-levels-of-value)
 - [Student / Explorer](https://docs.appliedaisociety.org/docs/playbooks/student)
 - [Applied AI Consultant](https://docs.appliedaisociety.org/docs/roles/applied-ai-consultant)
-- [Chief AI Officer](https://docs.appliedaisociety.org/docs/roles/chief-ai-officer)
 - [Business OS Administrator](https://docs.appliedaisociety.org/docs/roles/business-os-administrator)
+- [Chief AI Officer](https://docs.appliedaisociety.org/docs/roles/chief-ai-officer)
 - [Roles in the Applied AI Economy](https://docs.appliedaisociety.org/docs/roles)
 - [Jarvis Trainer](https://docs.appliedaisociety.org/docs/roles/jarvis-trainer)
 - [Sovereign Agentic Business OS](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os)
@@ -126,4 +131,4 @@
 - [University Partnerships](https://docs.appliedaisociety.org/docs/university-partnerships): Partner with Applied AI Society to set a new standard for applied AI education at your university.
 
 ---
-Generated at build time. 123 pages indexed.
+Generated at build time. 125 pages indexed.
