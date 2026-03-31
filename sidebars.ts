@@ -71,6 +71,7 @@ const sidebars: SidebarsConfig = {
         'concepts/ignorance-debt',
         'concepts/the-tinkerers-curse',
         'concepts/harness-engineering',
+        'concepts/anatomy-of-a-harness',
         'concepts/personal-jarvis',
         'concepts/self-improving-enterprise',
       ],
