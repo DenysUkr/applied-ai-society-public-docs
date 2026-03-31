@@ -70,6 +70,8 @@ const sidebars: SidebarsConfig = {
         'concepts/observable-behavior-engineering',
         'concepts/ignorance-debt',
         'concepts/the-tinkerers-curse',
+        'concepts/harness-engineering',
+        'concepts/jarvis',
       ],
     },
     {
