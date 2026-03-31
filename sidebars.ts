@@ -77,6 +77,7 @@ const sidebars: SidebarsConfig = {
         'concepts/personal-jarvis',
         'concepts/self-improving-enterprise',
         'concepts/self-improving-systems',
+        'concepts/flow-state-infra',
       ],
     },
     {
