@@ -72,7 +72,7 @@ const sidebars: SidebarsConfig = {
         'concepts/the-tinkerers-curse',
         'concepts/harness-engineering',
         'concepts/personal-jarvis',
-        'concepts/self-improving-business',
+        'concepts/self-improving-enterprise',
       ],
     },
     {
