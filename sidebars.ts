@@ -44,6 +44,7 @@ const sidebars: SidebarsConfig = {
         'roles/chief-ai-officer',
         'roles/business-os-administrator',
         'roles/jarvis-trainer',
+        'roles/chapter-leader',
       ],
     },
     {
