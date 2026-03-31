@@ -28,7 +28,7 @@ docs/
 ├── about/                # About the Applied AI Society
 ├── applied-ai-literacy/  # AI literacy framework and earthshot
 ├── philosophy/           # Canon (8 tenets), principles (5 operating rules)
-├── roles/                # 4 roles: Applied AI Consultant, Chief AI Officer, Business OS Administrator, Jarvis Trainer
+├── roles/                # 5 roles: Applied AI Consultant, Chief AI Officer, Business OS Administrator, Jarvis Trainer, Community Leader
 ├── concepts/             # 20+ concept pages: harness engineering, personal jarvis, signalmaxxing, always-on agents, agent-accessible products, self-improving enterprise, context engineering, game design, etc.
 ├── case-studies/         # Real-world AI implementation case studies
 ├── playbooks/
