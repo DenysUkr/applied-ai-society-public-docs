@@ -76,6 +76,7 @@ const sidebars: SidebarsConfig = {
         'concepts/instruction-files',
         'concepts/personal-jarvis',
         'concepts/self-improving-enterprise',
+        'concepts/agent-accessible-products',
         'concepts/self-improving-systems',
         'concepts/flow-state-infra',
         'concepts/the-chat-is-not-the-product',
