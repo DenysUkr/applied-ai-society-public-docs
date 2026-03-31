@@ -81,6 +81,7 @@ const sidebars: SidebarsConfig = {
         'concepts/flow-state-infra',
         'concepts/the-chat-is-not-the-product',
         'concepts/signalmaxxing',
+        'concepts/always-on-agents',
       ],
     },
     {
