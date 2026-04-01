@@ -80,6 +80,7 @@ const sidebars: SidebarsConfig = {
         'concepts/the-chat-is-not-the-product',
         'concepts/signalmaxxing',
         'concepts/always-on-agents',
+        'concepts/train-your-agent',
       ],
     },
     {
