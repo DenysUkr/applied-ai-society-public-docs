@@ -109,6 +109,8 @@ You do not need to be a professional developer. You need:
 - **[Harness Engineering](/docs/concepts/harness-engineering):** The coding harness is the tool that makes flow-state infra possible at low cost.
 - **[Liberation Architecture](/docs/concepts/liberation-architecture):** Flow-state infra liberates trapped time and attention, the same way liberation architecture liberates trapped business value.
 - **[The Tinkerer's Curse](/docs/concepts/the-tinkerers-curse):** Be aware of over-building. Flow-state infra should solve real, recurring problems. Building a tool you use once is not flow-state infra. It is procrastination.
+- **[Permissionless Knowledge](/docs/concepts/permissionless-knowledge):** Flow-state infra applied to the problem of scaling expertise. Courses, docs, and automated systems that serve people without requiring your presence.
+- **[Context Overflow](/docs/concepts/context-overflow):** The problem that arises when your signal attracts more demand than you can handle. Flow-state infra is one of the tools for managing it.
 
 ---
 

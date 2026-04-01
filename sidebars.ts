@@ -81,6 +81,8 @@ const sidebars: SidebarsConfig = {
         'concepts/signalmaxxing',
         'concepts/always-on-agents',
         'concepts/train-your-agent',
+        'concepts/context-overflow',
+        'concepts/permissionless-knowledge',
       ],
     },
     {
