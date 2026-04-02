@@ -19,7 +19,7 @@ If you form a club first, you end up with structure and no energy. If you host a
 
 ---
 
-## The First Event: Initiation Into the Applied AI Economy
+## The First Event: Activation Into the Applied AI Economy
 
 Your first event is an orientation to the new economic reality. Students need to understand what is happening, why it matters to them personally, and that there are people at their school who are on the same page and ready to move together.
 
