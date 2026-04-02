@@ -83,6 +83,7 @@ const sidebars: SidebarsConfig = {
         'concepts/train-your-agent',
         'concepts/context-overflow',
         'concepts/permissionless-knowledge',
+        'concepts/compounding-docs',
       ],
     },
     {
