@@ -3,6 +3,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   docsSidebar: [
     'about/index',
+    'about/co-stewardship',
     {
       type: 'category',
       label: 'Applied AI Literacy',
