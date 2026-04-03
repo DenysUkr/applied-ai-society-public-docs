@@ -89,6 +89,7 @@ const sidebars: SidebarsConfig = {
         'concepts/mission-harness',
         'concepts/capture-process-compound',
         'concepts/the-survivor-economy',
+        'concepts/lossy-ai-telephone',
       ],
     },
     {
