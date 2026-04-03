@@ -63,9 +63,9 @@ This builds naturally on what already exists:
 
 Today, MCP servers already enable tool-level interoperability between agents. The Hypercontext Protocol extends this to context-level interoperability between people. Your agent does not just use tools. It represents you to other people's agents, sharing exactly the context they need and nothing they don't.
 
-## What This Is Not
+## A Design Pattern, Not a Product
 
-This is not a blockchain project. This is not a token. This is not a startup pitch. It is a design pattern that is already emerging naturally as people build more sophisticated personal agent systems. The formalization will come. The infrastructure will come. What matters now is understanding the direction: **every person becomes an API, every interaction becomes a permissioned context exchange, and the lossy telephone game ends forever.**
+This is a design pattern that many people and organizations should implement as they build more sophisticated personal agent systems. The formalization will come. The infrastructure will come. What matters now is understanding the direction: **every person becomes an API, every interaction becomes a permissioned context exchange, and the lossy telephone game ends forever.**
 
 ---
 

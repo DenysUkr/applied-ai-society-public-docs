@@ -91,6 +91,7 @@ const sidebars: SidebarsConfig = {
         'concepts/the-survivor-economy',
         'concepts/lossy-ai-telephone',
         'concepts/hypercontext-protocol',
+        'concepts/context-lake',
       ],
     },
     {
