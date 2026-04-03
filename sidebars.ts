@@ -86,6 +86,7 @@ const sidebars: SidebarsConfig = {
         'concepts/permissionless-knowledge',
         'concepts/compounding-docs',
         'concepts/the-soul-harness',
+        'concepts/mission-harness',
       ],
     },
     {
