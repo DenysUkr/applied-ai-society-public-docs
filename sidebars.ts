@@ -90,6 +90,7 @@ const sidebars: SidebarsConfig = {
         'concepts/capture-process-compound',
         'concepts/the-survivor-economy',
         'concepts/lossy-ai-telephone',
+        'concepts/hypercontext-protocol',
       ],
     },
     {
