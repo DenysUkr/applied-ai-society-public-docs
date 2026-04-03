@@ -93,7 +93,7 @@ Every mission needs a harness. Whether you are running a nonprofit, a startup, a
 
 If the answer is no, you are relying on vibes and good intentions. That works at small scale. It does not work when you are trying to change the world.
 
-Start with the truth documents. Write down what you believe, what you are building, and why it matters. Then build the agent instructions that translate those beliefs into behavior. Then create the feedback loops that tell you whether the mission is actually being served. Then let the [compounding docs](/docs/concepts/compounding-docs) flywheel do its work.
+Start with the [truth documents](/docs/truth-management). Write down what you believe, what you are building, and why it matters. Then build the agent instructions that translate those beliefs into behavior. Then create the feedback loops that tell you whether the mission is actually being served. Then let the [compounding docs](/docs/concepts/compounding-docs) flywheel do its work.
 
 The mission is too important to leave to chance. Harness it.
 
