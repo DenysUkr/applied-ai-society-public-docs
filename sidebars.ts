@@ -92,6 +92,7 @@ const sidebars: SidebarsConfig = {
         'concepts/lossy-ai-telephone',
         'concepts/hypercontext-protocol',
         'concepts/context-lake',
+        'concepts/minimum-viable-infrastructure',
       ],
     },
     {
