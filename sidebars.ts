@@ -87,6 +87,7 @@ const sidebars: SidebarsConfig = {
         'concepts/compounding-docs',
         'concepts/the-soul-harness',
         'concepts/mission-harness',
+        'concepts/capture-process-compound',
       ],
     },
     {
