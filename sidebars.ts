@@ -93,6 +93,7 @@ const sidebars: SidebarsConfig = {
         'concepts/hypercontext-protocol',
         'concepts/context-lake',
         'concepts/minimum-viable-infrastructure',
+        'concepts/the-lock-in-is-coming',
       ],
     },
     {
