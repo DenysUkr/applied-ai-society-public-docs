@@ -88,6 +88,7 @@ const sidebars: SidebarsConfig = {
         'concepts/the-soul-harness',
         'concepts/mission-harness',
         'concepts/capture-process-compound',
+        'concepts/the-survivor-economy',
       ],
     },
     {
