@@ -63,7 +63,7 @@ A mission harness is not a single tool. It is the full stack of systems that kee
 
 ## The Sycophancy Problem
 
-Most people's first experience with AI is a centralized chat product that is structurally incentivized to make you feel good rather than tell you the truth. It glazes you. It validates everything. It never pushes back.
+Most people's first experience with AI is a centralized chat product that is structurally incentivized to make you feel good rather than tell you the truth. It flatters you. It validates everything. It never pushes back.
 
 This is the opposite of a mission harness. A mission harness is designed to serve the mission, not your ego. It should tell you when your strategy is incoherent. It should flag when your priorities have drifted. It should surface uncomfortable data. It should be a truth-seeking system, not a comfort-seeking system.
 
