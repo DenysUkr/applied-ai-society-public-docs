@@ -85,6 +85,7 @@ const sidebars: SidebarsConfig = {
         'concepts/context-overflow',
         'concepts/permissionless-knowledge',
         'concepts/compounding-docs',
+        'concepts/the-soul-harness',
       ],
     },
     {
