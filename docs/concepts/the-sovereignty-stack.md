@@ -168,6 +168,16 @@ Two ideas from his setup are worth highlighting:
 
 Vitalik's vision aligns with ours: "AI can actually create a future with much stronger privacy and security... the more sophisticated software would live on the user's machine and be aligned with the user, instead of being aligned with a corporation intent on extracting attention and value." That is the sovereignty stack in one sentence.
 
+## Sovereignty Is a Muscle
+
+Do not read this stack and feel overwhelmed. Do not beat yourself up for using Gmail, running macOS, or having your context in Claude Code right now. Every layer is a moving target. The tools change every quarter. What is cutting edge today will be table stakes tomorrow.
+
+Sovereignty is not a binary. It is a muscle. You strengthen it over time. You start where you are, make one upgrade, then another. Maybe this week you install Signal. Next month you try Ollama. Eventually you flash GrapheneOS on a Pixel. Each step makes you a little more free and a little harder to capture.
+
+Nobody is fully sovereign. Not Vitalik. Not us. The point is direction, not perfection. Are you moving toward sovereignty or away from it? That is the only question that matters.
+
+And sovereignty spreads through community, not isolation. When one person in your circle figures out how to run a local model, they teach the next person. When one chapter leader runs a sovereignty workshop, ten people level up. The muscle gets stronger when you train together. That is why [the movement](https://appliedaisociety.org) matters as much as the technology.
+
 ## The Sovereignty Economy
 
 An entire economy needs to be built around this stack. Sovereign hardware. Sovereign networking. Sovereign AI. Sovereign identity. Every layer is an opportunity for builders.
