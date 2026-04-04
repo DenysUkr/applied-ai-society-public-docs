@@ -184,7 +184,13 @@ The most sophisticated sovereign tech stack in the world does not protect you if
 
 This is not a tangent. It is the foundation. One of the reasons so many leaders, executives, and public figures have been controlled by forces that do not serve them is that they gave those forces leverage through their private behavior. The same lust that [brought down kings in the Bible](https://faithwalk.garysheng.com/principles/conquer-lust-be-unstoppable) still brings down leaders today. Samson's enemies could not beat him with armies. They beat him with desire.
 
-Sovereignty starts in the body. [Regulate your nervous system](https://garysheng.com/wiki/nervous-system-regulation). Guard your integrity. Get free from the things that give others leverage over you. Then the tech stack has something worth protecting.
+Sovereignty starts in the body. And it extends to everything that affects your clarity, your energy, and your capacity to act:
+
+- **[Regulate your nervous system](https://garysheng.com/wiki/nervous-system-regulation).** If you are in chronic fight-or-flight, you cannot think clearly enough to make sovereign decisions. You will default to whatever is easiest, which is usually the predatory option.
+- **Watch what you eat.** Processed food and sugar dysregulate your nervous system and deplete your willpower. Blood sugar crashes make you reactive and impulsive. Clean food is sovereignty infrastructure.
+- **Watch what you listen to.** The music, podcasts, and content you consume shape your mental state. Low-frequency input produces low-frequency output.
+- **Watch who you surround yourself with.** If the people around you are not thinking about sovereignty, not taking actions toward it, you probably will not either. Sovereignty is contagious and so is complacency.
+- **Guard your integrity.** Get free from the things that give others leverage over you. Then the tech stack has something worth protecting.
 
 ## Making Sovereignty Cool
 
