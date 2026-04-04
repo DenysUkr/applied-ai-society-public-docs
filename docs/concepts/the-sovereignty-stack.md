@@ -176,6 +176,24 @@ Nobody is fully sovereign. Not Vitalik. Not us. The point is direction, not perf
 
 And sovereignty spreads through community, not isolation. When one person in your circle figures out how to run a local model, they teach the next person. When one chapter leader runs a sovereignty workshop, ten people level up. The muscle gets stronger when you train together. That is why [the movement](https://appliedaisociety.org) matters as much as the technology.
 
+## Moral Sovereignty Comes First
+
+There is a layer below silicon that this stack does not cover: you.
+
+The most sophisticated sovereign tech stack in the world does not protect you if you are morally compromised. If you cannot control your appetites, you are blackmailable. If you are blackmailable, you are capturable. No amount of encryption, local models, or hardware kill switches changes that.
+
+This is not a tangent. It is the foundation. One of the reasons so many leaders, executives, and public figures have been controlled by forces that do not serve them is that they gave those forces leverage through their private behavior. The same lust that [brought down kings in the Bible](https://faithwalk.garysheng.com/principles/conquer-lust-be-unstoppable) still brings down leaders today. Samson's enemies could not beat him with armies. They beat him with desire.
+
+Sovereignty starts in the body. [Regulate your nervous system](https://garysheng.com/wiki/nervous-system-regulation). Guard your integrity. Get free from the things that give others leverage over you. Then the tech stack has something worth protecting.
+
+## Making Sovereignty Cool
+
+The tech exists. The moral argument exists. What is missing is the cultural shift. Throughout history, every fundamental freedom had to be [made cool by artists](https://garysheng.com/wiki/make-sovereignty-cool) before it became normal. Harry Belafonte built the celebrity infrastructure that made civil rights the default position for any entertainer. Steven Van Zandt made complicity with apartheid uncool with "Sun City." Ellen made LGBTQ acceptance the cultural norm through a sitcom.
+
+Sovereignty needs the same treatment. We need artists, creators, and cultural figures to make owning your AI aspirational. To make data independence the default. To make people embarrassed, over time, to pour their lives into platforms that own their context.
+
+This is not about shaming anyone for where they are today. A lot of people do not even have a laptop. To have any internet at all, to be able to learn about sovereignty, is a beautiful thing. The goal is direction: make it increasingly uncool to be fully captured, gradually, then all at once.
+
 ## The Sovereignty Economy
 
 An entire economy needs to be built around this stack. Sovereign hardware. Sovereign networking. Sovereign AI. Sovereign identity. Every layer is an opportunity for builders.
