@@ -5,17 +5,27 @@ title: "The Sovereignty Stack"
 
 # The Sovereignty Stack
 
-*Every layer of your digital life has a default version controlled by someone who is not you. Here is the full map.*
+*Own your future. Every layer of your digital life has a default version controlled by someone who is not you. Here is the full map.*
 
 ---
 
+## You Should Own Your Own Super Intelligence
+
+Start with the simple version: you should own your AI. Not rent it. Not subscribe to it. Own it.
+
+You should not be dependent on OpenAI. Or Anthropic. Or Google. Or Meta. Or any single provider for the intelligence that powers your thinking, your business, your life. Because the moment you are dependent, you are controlled. They set the price. They set the policy. They decide what you can and cannot do with the tool that has become central to how you operate.
+
+But owning your AI is not just about the model. It is about every layer of the stack that enables your AI to function. The hardware it runs on. The network it communicates through. The operating system it sits inside. The data it draws from. The identity you use to access it. Every layer has a default version controlled by someone who is not you.
+
+That is what the sovereignty stack maps. Every layer. Every dependency. Every point of control.
+
 ## Assume Adversarial Intent
 
-The default version of every layer in your digital stack is controlled by entities whose interests diverge from yours. ISPs log your traffic. Operating systems phone home. AI platforms train on your prompts. Cloud providers hold your data hostage behind their login.
+The default version of every layer in your digital stack is controlled by entities whose interests diverge from yours. ISPs log your traffic. Operating systems phone home. AI platforms train on your prompts. Cloud providers hold your data hostage behind their login. NVIDIA has a monopoly on GPU compute through CUDA, making it so that if you want to run any serious AI workload, you are dependent on their proprietary ecosystem.
 
-This is not paranoia. It is the business model.
+This is not paranoia. It is the business model. It goes deep. Satellite internet (Starlink) is controlled by one person. Chip fabrication is controlled by a handful of fabs. DNS resolution, CDN termination, firmware, device manufacturing. Every layer has an entity that can shut you down, surveil you, or change the terms on you.
 
-The sovereignty stack maps every layer of your digital life from silicon to content, identifies who controls the default, and shows what the sovereign alternative looks like. Not every layer can be fully sovereign today. But you should know where you are exposed.
+The sovereignty stack maps every layer of your digital life from silicon to content, identifies who controls the default, and shows what the sovereign alternative looks like. Not every layer can be fully sovereign today. But you should know where you are exposed. To own your own super intelligence and own your own future, you have to understand how deep it goes.
 
 ## The Stack
 
