@@ -95,6 +95,7 @@ const sidebars: SidebarsConfig = {
         'concepts/minimum-viable-infrastructure',
         'concepts/the-lock-in-is-coming',
         'concepts/zero-question-assessments',
+        'concepts/the-sovereignty-stack',
       ],
     },
     {
