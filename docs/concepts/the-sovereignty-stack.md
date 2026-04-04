@@ -27,6 +27,8 @@ This is not paranoia. It is the business model. Not every layer can be fully sov
 
 ## The Stack
 
+*The layers below are illustrative, not prescriptive. They exist to show how many-layered this problem is, not to tell you exactly what to use. The specific tools and recommendations are placeholders that will evolve as the landscape changes. This is a living document. If you have better alternatives, corrections, or experience with any layer, [contribute directly on GitHub](https://github.com/Applied-AI-Society/applied-ai-society-public-docs). Every page in these docs is open for community input.*
+
 ### Layer 0: Silicon
 
 **Default:** Intel and AMD chips with opaque architectures. Intel Management Engine runs a separate computer inside your CPU with full memory and network access. You cannot inspect what it does. You cannot turn it off.
