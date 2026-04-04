@@ -37,7 +37,7 @@ Practical, step-by-step guides organized by role.
 - Plus: venue finding, photographer sourcing, speaker outreach, event promotion, content distribution, building partnerships, hosting, recording, CRM setup, LinkedIn/Twitter automation, hackathons, live architecture sessions, event descriptions, recaps, flyer generation, tools
 
 **Practitioner** (7 docs): Guides for people doing applied AI client work.
-- Applied AI Economy, ICP Clarity, Experimental Improvement, Pricing, Finding Clients, Pilot Pitch, Minimum Viable Jarvis
+- Applied AI Economy, ICP Clarity, Experimental Improvement, Pricing, Finding Clients, Pilot Pitch, MVP Personal Agentic OS
 
 **Business Owner** (9 docs): Resources for operators looking to implement AI.
 - Why AI, Quick Check, Situation Map, Pilot Scope, Beyond Automation, Hiring Practitioners, Workflow Decomposition, AI Readiness by Function, Don't Scale Slop

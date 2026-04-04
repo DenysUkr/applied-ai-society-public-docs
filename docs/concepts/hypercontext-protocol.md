@@ -19,7 +19,7 @@ The underlying issue: there is no standardized way for trusted people (and their
 
 ## The Insight
 
-Your [Personal Jarvis](/docs/concepts/personal-jarvis) already contains the truth about you: your schedule, your priorities, your preferences, your strategic documents, your relationship context. It produces the artifacts other people consume, whether that is turning markdown files into a Google Doc to share, drafting an email, or generating a brief.
+Your [Personal Agentic OS](/docs/concepts/personal-agentic-os) already contains the truth about you: your schedule, your priorities, your preferences, your strategic documents, your relationship context. It produces the artifacts other people consume, whether that is turning markdown files into a Google Doc to share, drafting an email, or generating a brief.
 
 Your command center is already your interface to the world. It just does not have a front door that other people's agents can knock on.
 
@@ -33,7 +33,7 @@ The name echoes "hypertext," which transformed static text into an interconnecte
 
 ## How It Works (Simply)
 
-**Your context lake.** Everything your Jarvis knows about you: documents, relationships, schedule, preferences, strategic priorities. This already exists if you have built a [command center](/docs/concepts/personal-jarvis).
+**Your context lake.** Everything your Personal Agentic OS knows about you: documents, relationships, schedule, preferences, strategic priorities. This already exists if you have built a [command center](/docs/concepts/personal-agentic-os).
 
 **Your permission surface.** Rules about who can access what. Your business partner sees your project status and availability. A potential client sees your portfolio and booking link. A stranger sees nothing. This is the same [permission surface](/docs/concepts/the-permission-surface) concept applied to human-to-human agent interactions.
 
@@ -49,7 +49,7 @@ That is the protocol. Context lake, permission surface, query layer, audit trail
 
 **Preserves sovereignty.** Your data never leaves your control. Agents query it in place. You decide what is visible and to whom. This is the opposite of platforms that collect your data on their servers.
 
-**Scales trust.** You cannot personally respond to every inquiry. But your agent can, using your actual context, following your actual rules, 24/7. Your Jarvis becomes your always-on representative.
+**Scales trust.** You cannot personally respond to every inquiry. But your agent can, using your actual context, following your actual rules, 24/7. Your Personal Agentic OS becomes your always-on representative.
 
 **Makes AI collaboration real.** The agentic internet is not agents talking to servers. It is agents talking to agents, on behalf of the humans they represent. The Hypercontext Protocol is the handshake that makes this possible without anyone surrendering their data.
 
@@ -57,9 +57,9 @@ That is the protocol. Context lake, permission surface, query layer, audit trail
 
 This builds naturally on what already exists:
 
-1. **[Personal Jarvis](/docs/concepts/personal-jarvis)** — your agent OS, your command center (you are here)
+1. **[Personal Agentic OS](/docs/concepts/personal-agentic-os)** — your agent OS, your command center (you are here)
 2. **[Agentic Project OS](/docs/concepts/lossy-ai-telephone)** — shared context for teams working on the same project
-3. **Hypercontext Protocol** — your Jarvis as an API that trusted external agents can query (where this is going)
+3. **Hypercontext Protocol** — your Personal Agentic OS as an API that trusted external agents can query (where this is going)
 
 Today, MCP servers already enable tool-level interoperability between agents. The Hypercontext Protocol extends this to context-level interoperability between people. Your agent does not just use tools. It represents you to other people's agents, sharing exactly the context they need and nothing they don't.
 
@@ -71,7 +71,7 @@ This is a design pattern that many people and organizations should implement as 
 
 ## Further Reading
 
-- [Personal Jarvis](/docs/concepts/personal-jarvis): The individual agent OS this protocol extends
+- [Personal Agentic OS](/docs/concepts/personal-agentic-os): The individual agent OS this protocol extends
 - [Lossy AI Telephone](/docs/concepts/lossy-ai-telephone): The problem this solves
 - [The Permission Surface](/docs/concepts/the-permission-surface): Access control for agent systems
 - [The Soul Harness](/docs/concepts/the-soul-harness): Liberating vs. predatory systems

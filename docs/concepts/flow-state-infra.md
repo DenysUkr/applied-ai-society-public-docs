@@ -21,7 +21,7 @@ The worker of the future does not tolerate friction. They resolve it. And becaus
 
 Before AI-assisted coding, building a custom tool to solve a personal workflow problem was expensive. You needed to be a developer, or hire one, or find a product that was close enough. Most friction just stayed friction.
 
-That constraint is gone. With a [Personal Jarvis](/docs/concepts/personal-jarvis) and a coding harness (Claude Code, Cursor, Windsurf, etc.), anyone who can describe their problem clearly can build a solution. The loop is now:
+That constraint is gone. With a [Personal Agentic OS](/docs/concepts/personal-agentic-os) and a coding harness (Claude Code, Cursor, Windsurf, etc.), anyone who can describe their problem clearly can build a solution. The loop is now:
 
 1. Notice friction
 2. Describe what you wish existed
@@ -37,7 +37,7 @@ The simplest version of flow-state infra is a habit: whenever you catch yourself
 
 That note becomes a spec. The spec becomes a tool. The tool eliminates the friction.
 
-A more structured version: keep an "I Wish" command in your Jarvis or AI workspace. When you invoke it, it walks you through:
+A more structured version: keep an "I Wish" command in your Personal Agentic OS workspace. When you invoke it, it walks you through:
 
 1. **What is the friction?** Describe the problem in plain language.
 2. **How often does it happen?** Daily? Weekly? Every time you do X?
@@ -105,7 +105,7 @@ You do not need to be a professional developer. You need:
 
 ## Relationship to Other Concepts
 
-- **[Personal Jarvis](/docs/concepts/personal-jarvis):** Your Jarvis is the context layer. Flow-state infra is what you build when that context reveals friction.
+- **[Personal Agentic OS](/docs/concepts/personal-agentic-os):** Your Personal Agentic OS is the context layer. Flow-state infra is what you build when that context reveals friction.
 - **[Harness Engineering](/docs/concepts/harness-engineering):** The coding harness is the tool that makes flow-state infra possible at low cost.
 - **[Liberation Architecture](/docs/concepts/liberation-architecture):** Flow-state infra liberates trapped time and attention, the same way liberation architecture liberates trapped business value.
 - **[The Tinkerer's Curse](/docs/concepts/the-tinkerers-curse):** Be aware of over-building. Flow-state infra should solve real, recurring problems. Building a tool you use once is not flow-state infra. It is procrastination.

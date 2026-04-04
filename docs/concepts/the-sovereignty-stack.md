@@ -100,7 +100,7 @@ This layer did not exist five years ago. It is now one of the most critical.
 
 **Sovereign direction:**
 - **Models:** Local open-source models via Ollama. Llama 3.3, Mistral, DeepSeek, Qwen2. A Mac with 32GB RAM can run 70B parameter models. The gap with frontier models is closing.
-- **Harness:** OpenCode (open-source, supports 75+ providers including local models). Aider, Continue.dev, Cline. The [MVJ architecture](/docs/playbooks/practitioner/minimum-viable-jarvis) is designed so your [context lake](/docs/concepts/context-lake) works with any harness.
+- **Harness:** OpenCode (open-source, supports 75+ providers including local models). Aider, Continue.dev, Cline. The [Personal Agentic OS architecture](/docs/playbooks/practitioner/mvp-personal-agentic-os) is designed so your [context lake](/docs/concepts/context-lake) works with any harness.
 - **Context:** Plain markdown files on your machine. Not chat history on someone else's server. This is the whole point of the context lake architecture.
 
 **Difficulty:** Low to medium. Ollama on a Mac takes minutes. The tradeoff: local models are still behind frontier models for complex tasks. You are trading capability for control. For many use cases, the trade is worth it. For others, use cloud models with eyes open about what you are sending.
@@ -185,7 +185,7 @@ The default stack is designed to extract from you. The sovereign stack is design
 - [The Lock-In Is Coming](/docs/concepts/the-lock-in-is-coming): Why vendor lock-in is structurally inevitable
 - [The Soul Harness](/docs/concepts/the-soul-harness): Predatory vs. liberating systems
 - [Context Lake](/docs/concepts/context-lake): Your sovereign knowledge base
-- [Personal Jarvis](/docs/concepts/personal-jarvis): The sovereign AI system
+- [Personal Agentic OS](/docs/concepts/personal-agentic-os): The sovereign AI system
 - [Minimum Viable Infrastructure](/docs/concepts/minimum-viable-infrastructure): The baseline requirements to participate
 - [Liberation Architecture](/docs/concepts/liberation-architecture): Building systems that free people
 - [Harness Engineering](/docs/concepts/harness-engineering): Why the wrapper matters as much as the model

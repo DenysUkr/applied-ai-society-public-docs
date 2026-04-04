@@ -66,7 +66,7 @@ An organizational operating system where any strategic change (terminology updat
 ## Further Reading
 
 - [The Self-Improving Enterprise](/docs/concepts/self-improving-enterprise): Refactorability is the prerequisite for enterprises that evolve on their own
-- [The Minimum Viable Jarvis](/docs/playbooks/practitioner/minimum-viable-jarvis): The starting point for making your operation refactorable
-- [Personal Jarvis](/docs/concepts/personal-jarvis): The system that operates on your refactorable files
+- [MVP Personal Agentic OS](/docs/playbooks/practitioner/mvp-personal-agentic-os): The starting point for making your operation refactorable
+- [Personal Agentic OS](/docs/concepts/personal-agentic-os): The system that operates on your refactorable files
 - [Harness Engineering](/docs/concepts/harness-engineering): The code layer that reads and modifies your refactorable documents
 - [Game Design](/docs/concepts/game-design): Defining the rules by which agents operate on your system

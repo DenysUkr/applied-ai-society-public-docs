@@ -34,14 +34,14 @@ docs/
 ├── about/                # About the Applied AI Society
 ├── applied-ai-literacy/  # AI literacy framework and earthshot
 ├── philosophy/           # Canon (8 tenets), principles (5 operating rules)
-├── roles/                # 5 roles: Applied AI Consultant, Chief AI Officer, Business OS Administrator, Jarvis Trainer, Community Leader
-├── concepts/             # 20+ concept pages: harness engineering, personal jarvis, signalmaxxing, always-on agents, agent-accessible products, self-improving enterprise, context engineering, game design, etc.
+├── roles/                # 5 roles: Applied AI Consultant, Chief AI Officer, Business OS Administrator, Agentic OS Trainer, Community Leader
+├── concepts/             # 20+ concept pages: harness engineering, personal-agentic-os, signalmaxxing, always-on agents, agent-accessible products, self-improving enterprise, context engineering, game design, etc.
 ├── case-studies/         # Real-world AI implementation case studies
 ├── playbooks/
 │   ├── chapter-leader/   # Running events, partnerships, tools, content, CRM
 │   │   └── event-recaps/
 │   ├── presenter/        # Guest speaker prep
-│   ├── practitioner/     # MVJ tutorial, MVJ workshop trainer guide, pricing, finding clients
+│   ├── practitioner/     # MVP Personal Agentic OS tutorial, workshop trainer guide, pricing, finding clients
 │   ├── student/          # Student/explorer guides
 │   └── business-owner/   # Resources for operators looking to implement AI
 ├── sovereign-agentic-business-os/  # Principles and question bank

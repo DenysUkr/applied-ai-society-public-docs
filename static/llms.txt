@@ -4,6 +4,7 @@
 
 ## Docs
 
+- [Co-Steward With Us](https://docs.appliedaisociety.org/docs/about/co-stewardship)
 - [What is the Applied AI Society?](https://docs.appliedaisociety.org/docs/about)
 - [The Applied AI Literacy Earthshot](https://docs.appliedaisociety.org/docs/applied-ai-literacy/earthshot): Our commitment: the best open-source applied AI literacy source material in the world, co-created by the leading practitioners in the world. The foundation from which all courses, tools, and translations derive.
 - [Applied AI Literacy](https://docs.appliedaisociety.org/docs/applied-ai-literacy): Applied AI Society champions applied AI literacy: the ability to understand what AI can do and put it to work on real problems. Courses, frameworks, and resources coming soon.
@@ -18,17 +19,26 @@
 - [The AGI Whisperer](https://docs.appliedaisociety.org/docs/concepts/agi-whisperer)
 - [Always-On Agents](https://docs.appliedaisociety.org/docs/concepts/always-on-agents)
 - [Anatomy of a Harness: Lessons from Claude Code's Source](https://docs.appliedaisociety.org/docs/concepts/anatomy-of-a-harness)
+- [Capture, Process, Compound](https://docs.appliedaisociety.org/docs/concepts/capture-process-compound)
+- [Compounding Docs](https://docs.appliedaisociety.org/docs/concepts/compounding-docs)
 - [Context Engineering](https://docs.appliedaisociety.org/docs/concepts/context-engineering)
+- [Context Lake](https://docs.appliedaisociety.org/docs/concepts/context-lake)
+- [Context Overflow](https://docs.appliedaisociety.org/docs/concepts/context-overflow)
 - [Flow-State Infra](https://docs.appliedaisociety.org/docs/concepts/flow-state-infra)
 - [Game Design](https://docs.appliedaisociety.org/docs/concepts/game-design)
 - [Harness Engineering](https://docs.appliedaisociety.org/docs/concepts/harness-engineering)
+- [Hypercontext Protocol](https://docs.appliedaisociety.org/docs/concepts/hypercontext-protocol)
 - [Ignorance Debt](https://docs.appliedaisociety.org/docs/concepts/ignorance-debt)
 - [Concepts](https://docs.appliedaisociety.org/docs/concepts)
 - [Instruction Files](https://docs.appliedaisociety.org/docs/concepts/instruction-files)
 - [Intent Engineering](https://docs.appliedaisociety.org/docs/concepts/intent-engineering)
 - [Liberation Architecture](https://docs.appliedaisociety.org/docs/concepts/liberation-architecture)
+- [Lossy AI Telephone](https://docs.appliedaisociety.org/docs/concepts/lossy-ai-telephone)
+- [Minimum Viable Infrastructure](https://docs.appliedaisociety.org/docs/concepts/minimum-viable-infrastructure)
+- [The Mission Harness](https://docs.appliedaisociety.org/docs/concepts/mission-harness)
 - [Observable Behavior Engineering](https://docs.appliedaisociety.org/docs/concepts/observable-behavior-engineering)
-- [Personal Jarvis](https://docs.appliedaisociety.org/docs/concepts/personal-jarvis)
+- [Permissionless Knowledge](https://docs.appliedaisociety.org/docs/concepts/permissionless-knowledge)
+- [Personal Agentic OS](https://docs.appliedaisociety.org/docs/concepts/personal-agentic-os)
 - [The Roles-to-Workflows Shift](https://docs.appliedaisociety.org/docs/concepts/roles-to-workflows)
 - [The Self-Improving Enterprise](https://docs.appliedaisociety.org/docs/concepts/self-improving-enterprise)
 - [Self-Improving Systems](https://docs.appliedaisociety.org/docs/concepts/self-improving-systems)
@@ -36,10 +46,16 @@
 - [The Spec Is the Product](https://docs.appliedaisociety.org/docs/concepts/spec-writing)
 - [Chat History Is Disposable](https://docs.appliedaisociety.org/docs/concepts/the-chat-is-not-the-product)
 - [The Encounter](https://docs.appliedaisociety.org/docs/concepts/the-encounter)
+- [The Lock-In Is Coming](https://docs.appliedaisociety.org/docs/concepts/the-lock-in-is-coming)
 - [The Permission Surface](https://docs.appliedaisociety.org/docs/concepts/the-permission-surface)
+- [The Soul Harness](https://docs.appliedaisociety.org/docs/concepts/the-soul-harness)
+- [The Sovereignty Stack](https://docs.appliedaisociety.org/docs/concepts/the-sovereignty-stack)
+- [The Survivor Economy](https://docs.appliedaisociety.org/docs/concepts/the-survivor-economy)
 - [The Tinkerer's Curse](https://docs.appliedaisociety.org/docs/concepts/the-tinkerers-curse)
 - [The Token Economy](https://docs.appliedaisociety.org/docs/concepts/the-token-economy)
+- [Train Your AI Like You Would Train a Human Apprentice](https://docs.appliedaisociety.org/docs/concepts/train-your-agent)
 - [Vibe Curation](https://docs.appliedaisociety.org/docs/concepts/vibe-curation)
+- [Zero-Question Assessments](https://docs.appliedaisociety.org/docs/concepts/zero-question-assessments)
 - [Contact](https://docs.appliedaisociety.org/docs/contact): Get in touch with Applied AI Society.
 - [Partner with Applied AI Society](https://docs.appliedaisociety.org/docs/partner): Work with us to transform your organization or invest in the next generation of AI talent.
 - [The Applied AI Canon](https://docs.appliedaisociety.org/docs/philosophy/canon)
@@ -94,19 +110,20 @@
 - [Finding Clients Through Trust](https://docs.appliedaisociety.org/docs/playbooks/practitioner/finding-clients)
 - [ICP Clarity: The Foundation of Applied AI](https://docs.appliedaisociety.org/docs/playbooks/practitioner/icp-clarity)
 - [Practitioner Playbooks](https://docs.appliedaisociety.org/docs/playbooks/practitioner)
-- [The Minimum Viable Jarvis: Setting Up Your AI Business OS](https://docs.appliedaisociety.org/docs/playbooks/practitioner/minimum-viable-jarvis): A step-by-step guide to building your personal AI-operated business OS for truth management, strategic clarity, and compounding context.
+- [MVP Personal Agentic OS: Setting Up Your AI Business OS](https://docs.appliedaisociety.org/docs/playbooks/practitioner/mvp-personal-agentic-os): A step-by-step guide to building your Personal Agentic OS for truth management, strategic clarity, and compounding context.
 - [The Pilot Pitch](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pilot-pitch)
 - [Pricing Your AI Engagements](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pricing)
-- [Training the MVJ Workshop: A Guide for Instructors](https://docs.appliedaisociety.org/docs/playbooks/practitioner/training-the-mvj-workshop): How to run a Minimum Viable Jarvis workshop. Logistics, format, pacing, common issues, and lessons learned from real sessions.
+- [Training the Personal Agentic OS Workshop: A Guide for Instructors](https://docs.appliedaisociety.org/docs/playbooks/practitioner/training-the-workshop): How to run a Personal Agentic OS workshop. Logistics, format, pacing, common issues, and lessons learned from real sessions.
 - [Presenter Playbooks](https://docs.appliedaisociety.org/docs/playbooks/presenter)
 - [Presenting at Applied AI Live](https://docs.appliedaisociety.org/docs/playbooks/presenter/presenting-at-applied-ai-live)
 - [The Five Levels of Value in the AI Age](https://docs.appliedaisociety.org/docs/playbooks/student/five-levels-of-value)
 - [Student / Explorer](https://docs.appliedaisociety.org/docs/playbooks/student)
+- [Agentic OS Trainer](https://docs.appliedaisociety.org/docs/roles/agentic-os-trainer)
 - [Applied AI Consultant](https://docs.appliedaisociety.org/docs/roles/applied-ai-consultant)
 - [Business OS Administrator](https://docs.appliedaisociety.org/docs/roles/business-os-administrator)
 - [Chief AI Officer](https://docs.appliedaisociety.org/docs/roles/chief-ai-officer)
+- [Applied AI Community Leader](https://docs.appliedaisociety.org/docs/roles/community-leader)
 - [Roles in the Applied AI Economy](https://docs.appliedaisociety.org/docs/roles)
-- [Jarvis Trainer](https://docs.appliedaisociety.org/docs/roles/jarvis-trainer)
 - [Sovereign Agentic Business OS](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os)
 - [Principles](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os/principles)
 - [The Question Bank](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os/question-bank)
@@ -131,4 +148,4 @@
 - [University Partnerships](https://docs.appliedaisociety.org/docs/university-partnerships): Partner with Applied AI Society to set a new standard for applied AI education at your university.
 
 ---
-Generated at build time. 125 pages indexed.
+Generated at build time. 142 pages indexed.
