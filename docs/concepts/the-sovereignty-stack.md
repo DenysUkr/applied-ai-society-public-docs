@@ -21,11 +21,9 @@ That is what the sovereignty stack maps. Every layer. Every dependency. Every po
 
 ## Assume Adversarial Intent
 
-The default version of every layer in your digital stack is controlled by entities whose interests diverge from yours. ISPs log your traffic. Operating systems phone home. AI platforms train on your prompts. Cloud providers hold your data hostage behind their login. NVIDIA has a monopoly on GPU compute through CUDA, making it so that if you want to run any serious AI workload, you are dependent on their proprietary ecosystem.
+It goes deep. ISPs log your traffic. Operating systems phone home. AI platforms train on your prompts. Cloud providers hold your data hostage behind their login. NVIDIA has a monopoly on GPU compute through CUDA. Satellite internet (Starlink) is controlled by one person. Chip fabrication is controlled by a handful of fabs. DNS resolution, CDN termination, firmware, device manufacturing. Every layer has an entity that can shut you down, surveil you, or change the terms on you.
 
-This is not paranoia. It is the business model. It goes deep. Satellite internet (Starlink) is controlled by one person. Chip fabrication is controlled by a handful of fabs. DNS resolution, CDN termination, firmware, device manufacturing. Every layer has an entity that can shut you down, surveil you, or change the terms on you.
-
-The sovereignty stack maps every layer of your digital life from silicon to content, identifies who controls the default, and shows what the sovereign alternative looks like. Not every layer can be fully sovereign today. But you should know where you are exposed. To own your own super intelligence and own your own future, you have to understand how deep it goes.
+This is not paranoia. It is the business model. Not every layer can be fully sovereign today. But you should know where you are exposed.
 
 ## The Stack
 
