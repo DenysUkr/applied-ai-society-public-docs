@@ -43,11 +43,25 @@ We call the people who bridge the gap between AI capability and real-world imple
 
 ## What We Believe
 
-At the heart of everything we do is a simple idea: AI should free people to do more meaningful work, not replace them.
+At the heart of everything we do is a simple idea: AI should free people to do more meaningful work, not replace them. And the people it frees should own their tools, their data, and their future.
 
 Some work requires a human soul: presence, judgment, taste, care, responsibility. Some work is necessary but doesn't carry that weight. Thinking machines exist to carry the second kind so humans can spend more time on the first.
 
 That's the [Applied AI Canon](/docs/philosophy/canon). Efficiency is not the goal. More soul-requiring work is.
+
+## Why Sovereignty Matters
+
+There is a deeper layer to this mission that goes beyond jobs and literacy.
+
+The biggest AI companies are building platforms designed to capture your data, your workflows, and your dependency. [The lock-in is coming](/docs/concepts/the-lock-in-is-coming). It is not a conspiracy. It is the structural incentive of every VC-backed hyperscaler: subsidize adoption, build dependency, monetize the captive audience. They start with the model, then build the harness, then capture your workflows and integrations. Each step up the stack owns more of your operations. Every major hyperscaler (OpenAI, Anthropic, Google, Microsoft) is converging on the same goal: owning your entire work life. Your code, your documents, your email, your calendar, your strategic thinking. All flowing through their systems, all creating dependency.
+
+We believe people should own their own intelligence. Not rent it. Not subscribe to it. Own it. That means owning your [context lake](/docs/concepts/context-lake) (the knowledge base that makes your AI useful), owning your [harness](/docs/concepts/harness-engineering) (the system wrapped around the model), and keeping everything in portable, platform-independent files that you can take anywhere.
+
+The [sovereignty stack](/docs/concepts/the-sovereignty-stack) maps every layer of your digital life, from the silicon in your computer to the content you publish, and identifies where you are dependent on someone who is not you. We are training builders who understand this stack and can help others achieve sovereignty at every layer.
+
+Open source models are getting better every quarter. Open harnesses are maturing. The sovereign alternative is being built right now, piece by piece, by builders who believe people deserve to own their future. If we build it to be as easy and effective as the proprietary platforms, it is just a matter of time.
+
+Anyone who wants a sovereign future should be part of this movement. We are training the builders of that future.
 
 ## Applied AI Literacy
 
