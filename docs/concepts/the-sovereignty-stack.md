@@ -129,9 +129,9 @@ Every centralized AI platform is running the same play. They give you a powerful
 
 The [Soul Harness](/docs/concepts/the-soul-harness) framework makes the distinction: a predatory harness makes you dependent over time. A liberating harness makes you more capable and more independent over time. At every layer of the stack, choose liberating.
 
-## The Minimum Viable Sovereign Stack
+## An Example 80/20 Sovereign Stack
 
-You cannot sovereign everything overnight. Here is the 80/20.
+You cannot sovereign everything overnight. Here is one example of the 80/20: roughly 80% of achievable sovereignty with 20% of the effort. Your version will look different depending on your starting point, your threat model, and your technical comfort. Adapt it.
 
 **Today (1-2 hours):**
 - Firefox + uBlock Origin + DNS-over-HTTPS
@@ -186,7 +186,7 @@ The [Applied AI Society](https://appliedaisociety.org) is training sovereign bui
 
 The default stack is designed to extract from you. The sovereign stack is designed to liberate you. Every layer you reclaim is a layer the adversary loses.
 
-> **Own your silicon. Own your network. Own your data. Own your identity. Own your models. Own your harness. Own your content. Own your future.**
+> **The long-term north star: Own your silicon. Own your network. Own your data. Own your identity. Own your models. Own your harness. Own your content. Own your future.**
 
 ---
 
