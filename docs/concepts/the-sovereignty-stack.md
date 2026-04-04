@@ -186,7 +186,7 @@ The [Applied AI Society](https://appliedaisociety.org) is training sovereign bui
 
 The default stack is designed to extract from you. The sovereign stack is designed to liberate you. Every layer you reclaim is a layer the adversary loses.
 
-> **The long-term north star: Own your silicon. Own your network. Own your data. Own your identity. Own your models. Own your harness. Own your content. Own your future.**
+> **The north star: Own your silicon. Own your network. Own your data. Own your identity. Own your models. Own your harness. Own your content. Own your future.**
 
 ---
 
