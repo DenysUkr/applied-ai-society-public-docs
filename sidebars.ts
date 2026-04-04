@@ -94,6 +94,7 @@ const sidebars: SidebarsConfig = {
         'concepts/context-lake',
         'concepts/minimum-viable-infrastructure',
         'concepts/the-lock-in-is-coming',
+        'concepts/zero-question-assessments',
       ],
     },
     {
