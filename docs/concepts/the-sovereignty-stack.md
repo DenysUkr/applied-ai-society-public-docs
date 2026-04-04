@@ -156,6 +156,18 @@ You cannot sovereign everything overnight. Here is the 80/20.
 - Local-first AI harness for development
 - Decentralized identity and hosting
 
+## Vitalik's Proof of Concept
+
+In April 2026, Vitalik Buterin [published his personal sovereign AI setup](https://vitalik.eth.limo/general/2026/04/02/secure_llms.html): local LLM inference on laptop GPUs, sandboxed agents, a messaging daemon that only allows send-to-self without human confirmation, a local `world_knowledge` folder (his version of a [context lake](/docs/concepts/context-lake)) to reduce reliance on internet searches, and a multi-layer defense approach for when you must use remote models.
+
+Two ideas from his setup are worth highlighting:
+
+**The human + LLM two-factor.** For any risky action (sending a message, moving funds, publishing content), require confirmation from both a human and an LLM. Humans fail sometimes (absent-minded, tricked). LLMs fail sometimes (jailbroken, hallucinating). The hope is they fail in different ways. Requiring both to agree before anything irreversible happens is much safer than trusting either alone. This extends our [permission surface](/docs/concepts/the-permission-surface) concept into a true two-factor model.
+
+**Open-weights is not open-source.** Most "open" AI models give you the trained weights but not the training code, data, or process. You can run them locally, but you cannot fully audit what was trained into them. This means hidden behaviors (backdoors, biases, triggers) could exist in models you think are safe because they are "open." True sovereignty requires awareness of this gap.
+
+Vitalik's vision aligns with ours: "AI can actually create a future with much stronger privacy and security... the more sophisticated software would live on the user's machine and be aligned with the user, instead of being aligned with a corporation intent on extracting attention and value." That is the sovereignty stack in one sentence.
+
 ## The Sovereignty Economy
 
 An entire economy needs to be built around this stack. Sovereign hardware. Sovereign networking. Sovereign AI. Sovereign identity. Every layer is an opportunity for builders.
