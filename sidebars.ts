@@ -186,6 +186,8 @@ const sidebars: SidebarsConfig = {
             'playbooks/practitioner/finding-clients',
             'playbooks/practitioner/pilot-pitch',
             'playbooks/practitioner/mvp-personal-agentic-os',
+            'playbooks/practitioner/hermes-setup',
+            'playbooks/practitioner/first-git-setup',
             'playbooks/practitioner/training-the-workshop',
           ],
         },
