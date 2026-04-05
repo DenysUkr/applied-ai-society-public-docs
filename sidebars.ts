@@ -96,6 +96,7 @@ const sidebars: SidebarsConfig = {
         'concepts/the-lock-in-is-coming',
         'concepts/zero-question-assessments',
         'concepts/the-sovereignty-stack',
+        'concepts/externalize-your-brain',
       ],
     },
     {

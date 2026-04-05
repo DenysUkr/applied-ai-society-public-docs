@@ -222,4 +222,5 @@ The default stack is designed to extract from you. The sovereign stack is design
 - [Personal Agentic OS](/docs/concepts/personal-agentic-os): The sovereign AI system
 - [Minimum Viable Infrastructure](/docs/concepts/minimum-viable-infrastructure): The baseline requirements to participate
 - [Liberation Architecture](/docs/concepts/liberation-architecture): Building systems that free people
+- [Externalize Your Brain](/docs/concepts/externalize-your-brain): The human prerequisite for sovereignty
 - [Harness Engineering](/docs/concepts/harness-engineering): Why the wrapper matters as much as the model

@@ -107,4 +107,5 @@ The skill is the same at every scale. The stakes get higher as you go up.
 - [Intent Engineering](./intent-engineering): The next discipline in the stack, encoding organizational purpose
 - [How I Use Obsidian + Claude Code to Run My Life](https://www.youtube.com/watch?v=6MBq1paspVU) (Greg Isenberg + Internet Vin): The best public demonstration of personal-scale context engineering we've seen. Vin walks through his full Obsidian + Claude Code setup including custom commands for daily planning, idea generation, pattern detection, and self-reflection, all powered by a well-maintained vault of context files.
 - [Anatomy of a Harness](./anatomy-of-a-harness): How Claude Code implements layered context assembly in production (the engineering behind this concept)
+- [Externalize Your Brain](/docs/concepts/externalize-your-brain): The prerequisite practice that builds the information state context engineering curates
 - [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy): Where context engineering fits in the broader landscape of practitioner skills
