@@ -109,6 +109,18 @@ Bringing Applied AI Society to your campus does not require starting a new club 
 
 **Want to bring Applied AI Society to your university or organization?** [Get in touch →](/docs/contact), or explore a [university partnership →](/docs/university-partnerships).
 
+## Agent File Standards
+
+As AI agents become the primary way people interact with codebases, organizations, and each other, we need shared conventions for how agents find and understand information. AAS identifies emerging patterns in the agent tooling ecosystem and publishes lightweight specs so the community can build on shared foundations.
+
+**[INTEGRATE.md](/docs/standards/integrate-md)** is a file format for teaching agents how to wire a library into an existing codebase. Instead of reading human-oriented docs and guessing, the agent reads INTEGRATE.md and executes the integration steps directly. [Read the spec →](/docs/standards/integrate-md)
+
+**[ALIGN.md](/docs/standards/align-md)** is a file format for agent-readable alignment evaluation. Someone pastes your ALIGN.md into their agent and says "evaluate whether we should work together." The agent reads both parties' files and returns an honest assessment of fit. The goal: truncate the time between meeting someone and knowing what the first pilot project is. [Read the spec →](/docs/standards/align-md)
+
+If you're considering working with us, check our ALIGN.md. If you publish your own, send it along and we can run bilateral evaluation before anyone takes a call.
+
+[Browse all standards →](/docs/standards)
+
 ## Get Involved
 
 - **Attend an event:** [See upcoming events →](https://appliedaisociety.org/events)

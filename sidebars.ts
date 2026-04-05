@@ -286,6 +286,15 @@ const sidebars: SidebarsConfig = {
             'standards/integrate-md/example',
           ],
         },
+        {
+          type: 'category',
+          label: 'ALIGN.md',
+          link: { type: 'doc', id: 'standards/align-md/index' },
+          items: [
+            'standards/align-md/writing-guide',
+            'standards/align-md/example',
+          ],
+        },
       ],
     },
     {
