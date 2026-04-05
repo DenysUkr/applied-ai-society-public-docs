@@ -145,11 +145,25 @@ We call the people who bridge the gap between AI capability and real-world imple
 
 ## What We Believe
 
-At the heart of everything we do is a simple idea: AI should free people to do more meaningful work, not replace them.
+At the heart of everything we do is a simple idea: AI should free people to do more meaningful work, not replace them. And the people it frees should own their tools, their data, and their future.
 
 Some work requires a human soul: presence, judgment, taste, care, responsibility. Some work is necessary but doesn't carry that weight. Thinking machines exist to carry the second kind so humans can spend more time on the first.
 
 That's the [Applied AI Canon](/docs/philosophy/canon). Efficiency is not the goal. More soul-requiring work is.
+
+## Why Sovereignty Matters
+
+There is a deeper layer to this mission that goes beyond jobs and literacy.
+
+The biggest AI companies are building platforms designed to capture your data, your workflows, and your dependency. [The lock-in is coming](/docs/concepts/the-lock-in-is-coming). It is not a conspiracy. It is the structural incentive of every VC-backed hyperscaler: subsidize adoption, build dependency, monetize the captive audience. They start with the model, then build the harness, then capture your workflows and integrations. Each step up the stack owns more of your operations. Every major hyperscaler (OpenAI, Anthropic, Google, Microsoft) is converging on the same goal: owning your entire business. Not just your work life. Your code, your documents, your email, your calendar, your strategic thinking, your customer data, your workflows, your integrations. All flowing through their systems, all creating dependency that compounds until switching is unthinkable.
+
+We believe people should own their own intelligence. Not rent it. Not subscribe to it. Own it. That means owning your [context lake](/docs/concepts/context-lake) (the knowledge base that makes your AI useful), owning your [harness](/docs/concepts/harness-engineering) (the system wrapped around the model), and keeping everything in portable, platform-independent files that you can take anywhere.
+
+The [sovereignty stack](/docs/concepts/the-sovereignty-stack) maps every layer of your digital life, from the silicon in your computer to the content you publish, and identifies where you are dependent on someone who is not you. We are training builders who understand this stack and can help others achieve sovereignty at every layer.
+
+Open source models are getting better every quarter. Open harnesses are maturing. The sovereign alternative is being built right now, piece by piece, by builders who believe people deserve to own their future. If we build it to be as easy and effective as the proprietary platforms, it is just a matter of time.
+
+Anyone who wants a sovereign future should be part of this movement. We are training the builders of that future.
 
 ## Applied AI Literacy
 
@@ -2172,6 +2186,7 @@ Start writing. The flywheel is waiting.
 - [Personal Agentic OS](/docs/concepts/personal-agentic-os): The AI system that reads and acts on your documents
 - [Harness Engineering](/docs/concepts/harness-engineering): How agentic harnesses discover and use your context
 - [Truth Management](/docs/truth-management): The discipline of keeping your document library truthful and current
+- [Externalize Your Brain](/docs/concepts/externalize-your-brain): Why the human is the bottleneck and how writing fixes it
 - [Flow-State Infra](/docs/concepts/flow-state-infra): Building tools that reduce friction, including the friction of documenting
 - [MVP Personal Agentic OS](/docs/playbooks/practitioner/mvp-personal-agentic-os): Where the flywheel starts
 
@@ -2285,6 +2300,7 @@ The skill is the same at every scale. The stakes get higher as you go up.
 - [Intent Engineering](./intent-engineering): The next discipline in the stack, encoding organizational purpose
 - [How I Use Obsidian + Claude Code to Run My Life](https://www.youtube.com/watch?v=6MBq1paspVU) (Greg Isenberg + Internet Vin): The best public demonstration of personal-scale context engineering we've seen. Vin walks through his full Obsidian + Claude Code setup including custom commands for daily planning, idea generation, pattern detection, and self-reflection, all powered by a well-maintained vault of context files.
 - [Anatomy of a Harness](./anatomy-of-a-harness): How Claude Code implements layered context assembly in production (the engineering behind this concept)
+- [Externalize Your Brain](/docs/concepts/externalize-your-brain): The prerequisite practice that builds the information state context engineering curates
 - [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy): Where context engineering fits in the broader landscape of practitioner skills
 
 
@@ -2467,6 +2483,118 @@ And for the people you say no to: build systems that serve them without requirin
 - [Flow-State Infra](/docs/concepts/flow-state-infra): Building infrastructure that protects your focus
 - [The Tinkerer's Curse](/docs/concepts/the-tinkerers-curse): Another form of self-inflicted context overflow (chasing tools instead of outcomes)
 - [The Soul Harness](/docs/concepts/the-soul-harness): Auditing your full life harness, including the commitments that cause overflow
+
+
+---
+# Externalize Your Brain
+URL: https://docs.appliedaisociety.org/docs/concepts/externalize-your-brain
+
+
+# Externalize Your Brain
+
+*The bottleneck is you, not the tools. AI is so abundant and powerful that the human is now the constraint. The fix is to get what is inside your head into plain text so AI can read it and act on it.*
+
+---
+
+## The New Bottleneck
+
+AI is not the limiting factor anymore. The models are extraordinary. The harnesses are mature. The tools are abundant, cheap, and getting better every quarter. The constraint on what you can accomplish with AI is not the technology. It is you.
+
+Specifically, it is everything trapped inside your head that the AI cannot see: your vision, your frameworks, your principles, your plans, your preferences, your history, your relationships, your taste. All of that context is locked behind your skull, inaccessible to the most powerful thinking tools ever built. Every time you sit down with an AI and it gives you generic output, the problem is not the model. The problem is that the model knows nothing about you.
+
+Externalizing your brain means fixing that. It means writing down what you know, what you want, and how you think, in plain text, so that an AI agent can read it and operate from it.
+
+## What Externalization Looks Like
+
+This is not journaling. This is not note-taking for its own sake. This is building a machine-readable version of your operating system.
+
+Concretely, it looks like:
+
+- **Your vision** in a markdown file. Not a vague aspiration. A clear, specific articulation of what you are building and why.
+- **Your principles** in a markdown file. The non-negotiable rules that govern how you operate. What you will and will not do. What you optimize for.
+- **Your frameworks** in a markdown file. The mental models you use to make decisions. Your pricing philosophy. Your hiring criteria. Your content strategy. The things you have figured out through years of experience that currently live only in your intuition.
+- **Your plans** in a markdown file. What you are working on this quarter, this month, this week. What the priorities are. What is blocked and why.
+- **Your relationships** in markdown files. One per person. What you know about them, your history, what you are working on together.
+- **Your workflows** in markdown files. The repeatable processes you follow: how you prepare for a meeting, how you evaluate an opportunity, how you draft a proposal.
+
+This is what Andrej Karpathy keeps emphasizing. Markdown files. Plain text. Structured documents. Not fancy apps. Not proprietary formats. Not databases you need a developer to query. Plain text files that any AI agent can read, any human can edit, and any version control system can track.
+
+## Pretext Before Context
+
+There is a phrase we use: "pretext before context." The thinking you do before you prompt is more important than the prompt itself.
+
+Most people open a chat window and start typing. They give the AI no background, no constraints, no sense of who they are or what they are trying to accomplish. Then they are disappointed by the generic result.
+
+The externalization practice changes this fundamentally. When your vision, your principles, your frameworks, and your plans are already written down, you do not need to type them into every conversation. They are already there. The agent reads them at the start of every session. Your pretext is built into the system.
+
+This is the difference between [prompt engineering and context engineering](/docs/concepts/context-engineering). Prompt engineering optimizes the instruction. Context engineering optimizes the information state. Externalizing your brain is how you build the information state that makes every prompt better.
+
+Clarity produces intentionality. Intentionality produces execution. When you write your thinking down, you clarify it. When you clarify it, you can act on it with precision. When your AI agent can read that clarity, it can act on it too. The whole chain starts with the act of writing things down.
+
+## The Terminal Line
+
+There is a line worth sitting with: "If you are not in the terminal, your future is terminal."
+
+The terminal here is not just the command line. It is the environment where thinking becomes action. Claude Code, Cursor, OpenCode, or whatever [harness](/docs/concepts/harness-engineering) you operate in. It is the place where your externalized brain meets an AI agent and produces output: documents, code, emails, strategies, decisions, systems.
+
+If you are not in that environment, if your thinking stays locked inside your head or trapped in tools that AI cannot access, your economic future will flatten. Not because you are not smart. Because you are bringing a knife to a gunfight. The people who have externalized their brains and connected them to AI agents are operating at a different velocity. The gap compounds daily.
+
+This is the [elevator economy](/docs/concepts/the-survivor-economy) in action. The elevator is going up for the people who have built [Personal Agentic OS](/docs/concepts/personal-agentic-os) systems, who have externalized their brains into [context lakes](/docs/concepts/context-lake) that their agents can draw from. For everyone else, the floor is dropping.
+
+## The Transformation
+
+When you get your Personal Agentic OS working, when your brain is externalized and an AI agent is operating from your full context, something shifts. It is not incremental. It is a transformation.
+
+People describe it differently. Some say it feels like becoming Iron Man: suddenly you have capabilities that were science fiction a year ago. Some say it feels like going Super Saiyan: a power-up that changes what is possible. The metaphor does not matter. The experience is real. Your metacognition becomes shockingly powerful. You can see your own thinking, iterate on it, and deploy it through agents in ways that feel like a different mode of operating.
+
+This transformation creates a responsibility. Once you experience what is possible, once you see the gap between operating with a Personal Agentic OS and operating without one, you understand that your loved ones need this too. The people you care about, your family, your friends, your community, they need to be on the elevator. This creates a legitimate urgency to build wealth and capability: not for its own sake, but so you can bring people along.
+
+## Human Development Is the Prerequisite
+
+Here is the part most AI conversations skip: you cannot externalize a brain you do not understand.
+
+If you do not know your own vision, no amount of tooling will help. If you cannot articulate your principles, you have nothing to write down. If you have not done the inner work to understand your cognitive type, your strengths, your weaknesses, your mission, then your "externalized brain" will be shallow and your AI will produce shallow output.
+
+This is the [Soul Harness](/docs/concepts/the-soul-harness) insight applied to the individual. A harness is only as good as what it wraps around. If what it wraps around is confusion, avoidance, and unexamined assumptions, the harness amplifies confusion, avoidance, and unexamined assumptions.
+
+Companies are already discovering this. They buy AI subscriptions for their teams, expecting productivity gains. What they get is a room full of people staring at a chat window with nothing to say. Not because the tool is bad. Because the people have never been asked to articulate what they know, what they are trying to accomplish, or how they make decisions. They cannot externalize a brain they have never examined.
+
+Human development is not a nice-to-have prerequisite for AI adoption. It is the prerequisite. Master yourself before you master the machine.
+
+## Credit Where It Is Due
+
+The framing of "externalize your mind" comes from [Nineteen Keys](https://x.com/nineteenkeys), who has been articulating this concept with clarity and conviction. The applied AI community builds on the shoulders of thinkers like this. The best ideas in this space do not originate from any single person. They emerge from a network of people who are [signalmaxxing](/docs/concepts/signalmaxxing) together, sharing what they are learning, and building on each other's insights.
+
+## The Practical Starting Point
+
+If you are reading this and your brain is not externalized yet, start here:
+
+1. **Write your USER.md.** Who are you? What are you building? What do you value? What are your strengths? What is your mission? This is the first file in your [Personal Agentic OS](/docs/concepts/personal-agentic-os). It takes 30 minutes and changes everything.
+
+2. **Write your top 5 principles.** The non-negotiable rules that govern how you operate. Not aspirational principles. Actual rules you follow in practice.
+
+3. **Write down one framework you use repeatedly.** How do you evaluate opportunities? How do you decide what to work on? How do you prepare for meetings? Pick one and write it as a markdown file.
+
+4. **Set up a harness that can read these files.** The [MVP Personal Agentic OS tutorial](/docs/playbooks/practitioner/mvp-personal-agentic-os) walks you through this step by step.
+
+5. **Start a brain dump practice.** Every day, spend 5 minutes dictating or typing what is on your mind. Your agent processes these into structured context. Over time, this is how your [context lake](/docs/concepts/context-lake) grows.
+
+The gap between "I use AI sometimes" and "AI operates from my full context" is the gap between a tourist and a resident. Externalizing your brain is how you move in.
+
+---
+
+## Further Reading
+
+- [Personal Agentic OS](/docs/concepts/personal-agentic-os): The system that reads your externalized brain and acts on it
+- [Context Engineering](/docs/concepts/context-engineering): The discipline of curating the right information state for AI
+- [The Soul Harness](/docs/concepts/the-soul-harness): Why human development matters before AI amplification
+- [Signalmaxxing](/docs/concepts/signalmaxxing): Curating the quality of what goes into your brain and what comes out
+- [Compounding Docs](/docs/concepts/compounding-docs): How every document you write makes the system smarter
+- [Instruction Files](/docs/concepts/instruction-files): The new unit of programming, written in plain text
+- [Minimum Viable Infrastructure](/docs/concepts/minimum-viable-infrastructure): The baseline requirements to begin
+- [The Sovereignty Stack](/docs/concepts/the-sovereignty-stack): Owning every layer of your digital life
+- [Context Lake](/docs/concepts/context-lake): Where your externalized brain lives
+- [MVP Personal Agentic OS](/docs/playbooks/practitioner/mvp-personal-agentic-os): The tutorial to get started
 
 
 ---
@@ -3542,6 +3670,7 @@ The applied AI economy does not need to be a rich person's game. But right now, 
 - [The Survivor Economy](/docs/concepts/the-survivor-economy): What happens when the gap widens
 - [Context Lake](/docs/concepts/context-lake): What you are building once you have the infrastructure
 - [Personal Agentic OS](/docs/concepts/personal-agentic-os): The system that compounds on top of this foundation
+- [Externalize Your Brain](/docs/concepts/externalize-your-brain): What you do once you have the infrastructure
 - [Permissionless Knowledge](/docs/concepts/permissionless-knowledge): Making the knowledge layer free even when the infrastructure layer is not
 
 
@@ -3923,6 +4052,7 @@ The [Agentic OS Trainer](/docs/roles/agentic-os-trainer) role describes the prog
 - [Harness Engineering](/docs/concepts/harness-engineering): Why the code around the model matters as much as the model
 - [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os): The full sovereignty philosophy
 - [Context Engineering](/docs/concepts/context-engineering): The discipline of curating what your AI knows
+- [Externalize Your Brain](/docs/concepts/externalize-your-brain): Why the bottleneck is you, not the tools, and how to fix it
 - [Game Design](/docs/concepts/game-design): Designing objectives, rules, and guardrails for your agents
 
 
@@ -4295,6 +4425,7 @@ The [Applied AI Society](https://docs.appliedaisociety.org) exists to be a signa
 - [Context Overflow](/docs/concepts/context-overflow): The dark side of being high-signal: when the demand for your attention exceeds your capacity
 - [Permissionless Knowledge](/docs/concepts/permissionless-knowledge): How to serve the people your signal attracts without burning out
 - [Compounding Docs](/docs/concepts/compounding-docs): Your document library is a signal channel. Every high-signal doc you write makes your AI agent smarter.
+- [Externalize Your Brain](/docs/concepts/externalize-your-brain): Getting your thinking into plain text so AI can amplify it
 - [Signal Theory: The Architecture of Optimal Intent Encoding](https://zenodo.org/records/18774174) by Roberto H. Luna: The formal framework behind the concepts in this article
 
 
@@ -4578,6 +4709,8 @@ URL: https://docs.appliedaisociety.org/docs/concepts/the-lock-in-is-coming
 
 *Every VC-backed hyperscaler with proprietary models will eventually move to lock you in. This is not a prediction. It is a structural inevitability.*
 
+*With input from Sam Padilla.*
+
 ---
 
 ## The Pattern
@@ -4592,11 +4725,49 @@ The AI industry is now entering the monetization phase. If you built your workfl
 
 ## Why This Is Structural, Not Personal
 
-This is not about any specific CEO being good or bad. It is about incentive structures. When a company takes billions in venture capital, it takes on an obligation to generate returns that justify that investment. That obligation shapes every product decision, every pricing change, every policy update.
+This is not about any specific CEO being good or bad. Most of them did not have a Machiavellian plan to build dependence and then raise walls. It is about incentive structures. When a company takes billions in venture capital, it takes on an obligation to generate returns that justify that investment. That obligation shapes every product decision, every pricing change, every policy update.
+
+These companies are betting on two things: amortized usage at sustainable margins as capacity increases, and moving higher up the stack to own more of your operations. Not just the model. The data. The integrations. The workflows. The verticalization. Every layer they move into is a layer you become more dependent on.
 
 To the extent that any AI company supports open source or third-party integrations, that support exists because it currently serves the company's growth. The moment it stops serving growth, it stops. This is not cynicism. It is how shareholder-driven companies work. The fiduciary duty is to the investors, not to the developer community.
 
 The founders may genuinely believe in openness. Many of them do. But beliefs do not override balance sheets. When the board asks why subscription revenue is leaking through third-party harnesses, the answer is always the same: close the leak.
+
+## The Two-Direction Squeeze
+
+There are two forces converging on the same territory from opposite directions.
+
+**Hyperscalers creep up from the bottom.** Think of the stack as layers, from low-level to high-level: model at the bottom, then harness, then workflows, then integrations at the top.
+
+Anthropic started by selling you the model (Claude). Then they built the harness around it (Claude Code). Then they added workflows (projects, memory, custom instructions). Now they are moving into integrations and verticalization: connecting to your email, your calendar, your files, your entire digital life. Each step UP the stack captures more of your daily operations and makes switching harder. They are not just selling you intelligence anymore. They are becoming your operating system.
+
+```
+Hyperscaler direction (bottom → up):
+
+  Integrations  ← moving here now (email, calendar, files)
+  Workflows     ← custom GPTs, projects, memory
+  Harness       ← Claude Code, ChatGPT interface
+  Model         ← started here (Claude, GPT)
+```
+
+**Open source moves from the top down.** Open source started the opposite way. People built integrations and workflow tools first (connecting APIs, automating processes with scripts and open tools). Then the community built open harnesses (OpenCode, Aider, Cursor). Now open source models are approaching frontier quality (Llama, Mistral, Qwen, DeepSeek). The gap with proprietary models is closing fast.
+
+```
+Open source direction (top → down):
+
+  Integrations  ← started here (open APIs, automation tools)
+  Workflows     ← open workflow tools, n8n, Zapier alternatives
+  Harness       ← OpenCode, Aider, Cursor
+  Model         ← arriving here now (Llama, Mistral, DeepSeek)
+```
+
+**The squeeze.** Both are converging on the same middle ground from opposite directions. You, the user, are in the middle. The question is which force reaches you first.
+
+If the hyperscaler captures your workflows and integrations before open source models are good enough to replace the proprietary ones, you are locked in. Your data, your habits, your team's processes are all inside their walls. Switching becomes painful enough that you just keep paying.
+
+If open source gets good enough at every layer before you are fully captured, you stay free. You run local models, use open harnesses, own your files, and switch providers whenever you want.
+
+This is why the timing matters. Every month you spend deepening your dependency on a proprietary stack is a month the walls get higher. Every month you spend building on portable files and open harnesses is a month you stay sovereign. The race is real, and it is happening right now.
 
 ## What Gets Locked In
 
@@ -4639,6 +4810,18 @@ This applies to individuals too. The more dependent you are on a single platform
 **Support open source.** Open source models, open source harnesses, open source tools. Not because proprietary tools are bad. Because competition is good. Because the threat of switching is the only thing that keeps platforms honest. Because [liberation architecture](/docs/concepts/liberation-architecture) is how you build systems that serve people instead of extracting from them.
 
 The lock-in is coming. For some platforms, it has already arrived. The question is not whether it will happen. The question is whether you built your system in a way that makes it irrelevant when it does.
+
+## Why We Win
+
+Here is the optimistic ending.
+
+Open source models are improving at a pace that surprises even the people building them. Local inference is getting faster, cheaper, and more accessible every quarter. Open harnesses are getting better. The sovereignty stack is being built, piece by piece, by thousands of builders who believe people should own their own intelligence.
+
+The proprietary platforms have a head start on polish and convenience. But the sovereign stack has something they do not: it gets better for everyone at the same time. Every improvement to an open model benefits every user. Every improvement to an open harness benefits every builder. The compounding is on our side.
+
+If we, as a community, commit to building a sovereignty stack that is as easy to use, as effective, and as democratized as the proprietary alternatives, it is just a matter of time. Not because proprietary platforms will fail. Because sovereign alternatives will become so good that the lock-in stops mattering. You will have a real choice. And when people have a real choice between owning their future and renting it, most of them will choose to own.
+
+That is what the [Applied AI Society](https://appliedaisociety.org) is building toward. Not fighting the hyperscalers. Outgrowing them. One sovereign builder at a time.
 
 > **Own your data. Own your models. Own your harness. Own your future.**
 
@@ -4898,6 +5081,7 @@ Choose your soul's harness. Then keep refining it. For the rest of your life.
 - [Context Overflow](/docs/concepts/context-overflow): What happens when your harness is overloaded
 - [Compounding Docs](/docs/concepts/compounding-docs): How your knowledge harness compounds over time
 - [Permissionless Knowledge](/docs/concepts/permissionless-knowledge): Building harness components that serve people without requiring your presence
+- [Externalize Your Brain](/docs/concepts/externalize-your-brain): Why human development is the prerequisite for AI amplification
 - [Liberation Architecture](/docs/concepts/liberation-architecture): Freeing value trapped inside predatory systems
 - [The Applied AI Canon](/docs/philosophy/canon): The philosophical foundation. Efficiency is a tool; more soul-requiring work is the goal
 
@@ -4925,13 +5109,13 @@ That is what the sovereignty stack maps. Every layer. Every dependency. Every po
 
 ## Assume Adversarial Intent
 
-The default version of every layer in your digital stack is controlled by entities whose interests diverge from yours. ISPs log your traffic. Operating systems phone home. AI platforms train on your prompts. Cloud providers hold your data hostage behind their login. NVIDIA has a monopoly on GPU compute through CUDA, making it so that if you want to run any serious AI workload, you are dependent on their proprietary ecosystem.
+It goes deep. ISPs log your traffic. Operating systems phone home. AI platforms train on your prompts. Cloud providers hold your data hostage behind their login. NVIDIA has a monopoly on GPU compute through CUDA. Satellite internet (Starlink) is controlled by one person. Chip fabrication is controlled by a handful of fabs. DNS resolution, CDN termination, firmware, device manufacturing. Every layer has an entity that can shut you down, surveil you, or change the terms on you.
 
-This is not paranoia. It is the business model. It goes deep. Satellite internet (Starlink) is controlled by one person. Chip fabrication is controlled by a handful of fabs. DNS resolution, CDN termination, firmware, device manufacturing. Every layer has an entity that can shut you down, surveil you, or change the terms on you.
-
-The sovereignty stack maps every layer of your digital life from silicon to content, identifies who controls the default, and shows what the sovereign alternative looks like. Not every layer can be fully sovereign today. But you should know where you are exposed. To own your own super intelligence and own your own future, you have to understand how deep it goes.
+This is not paranoia. It is the business model. Not every layer can be fully sovereign today. But you should know where you are exposed.
 
 ## The Stack
+
+*The layers below are illustrative, not prescriptive. They exist to show how many-layered this problem is, not to tell you exactly what to use. The specific tools and recommendations are placeholders that will evolve as the landscape changes. This is a living document. If you have better alternatives, corrections, or experience with any layer, [contribute directly on GitHub](https://github.com/Applied-AI-Society/applied-ai-society-public-docs). Every page in these docs is open for community input.*
 
 ### Layer 0: Silicon
 
@@ -5033,9 +5217,9 @@ Every centralized AI platform is running the same play. They give you a powerful
 
 The [Soul Harness](/docs/concepts/the-soul-harness) framework makes the distinction: a predatory harness makes you dependent over time. A liberating harness makes you more capable and more independent over time. At every layer of the stack, choose liberating.
 
-## The Minimum Viable Sovereign Stack
+## An Example 80/20 Sovereign Stack
 
-You cannot sovereign everything overnight. Here is the 80/20.
+You cannot sovereign everything overnight. Here is one example of the 80/20: roughly 80% of achievable sovereignty with 20% of the effort. Your version will look different depending on your starting point, your threat model, and your technical comfort. Adapt it.
 
 **Today (1-2 hours):**
 - Firefox + uBlock Origin + DNS-over-HTTPS
@@ -5072,6 +5256,40 @@ Two ideas from his setup are worth highlighting:
 
 Vitalik's vision aligns with ours: "AI can actually create a future with much stronger privacy and security... the more sophisticated software would live on the user's machine and be aligned with the user, instead of being aligned with a corporation intent on extracting attention and value." That is the sovereignty stack in one sentence.
 
+## Sovereignty Is a Muscle
+
+Do not read this stack and feel overwhelmed. Do not beat yourself up for using Gmail, running macOS, or having your context in Claude Code right now. Every layer is a moving target. The tools change every quarter. What is cutting edge today will be table stakes tomorrow.
+
+Sovereignty is not a binary. It is a muscle. You strengthen it over time. You start where you are, make one upgrade, then another. Maybe this week you install Signal. Next month you try Ollama. Eventually you flash GrapheneOS on a Pixel. Each step makes you a little more free and a little harder to capture.
+
+Nobody is fully sovereign. Not Vitalik. Not us. The point is direction, not perfection. Are you moving toward sovereignty or away from it? That is the only question that matters.
+
+And sovereignty spreads through community, not isolation. When one person in your circle figures out how to run a local model, they teach the next person. When one chapter leader runs a sovereignty workshop, ten people level up. The muscle gets stronger when you train together. That is why [the movement](https://appliedaisociety.org) matters as much as the technology.
+
+## Moral Sovereignty Comes First
+
+There is a layer below silicon that this stack does not cover: you.
+
+The most sophisticated sovereign tech stack in the world does not protect you if you are morally compromised. If you cannot control your appetites, you are blackmailable. If you are blackmailable, you are capturable. No amount of encryption, local models, or hardware kill switches changes that.
+
+This is not a tangent. It is the foundation. One of the reasons so many leaders, executives, and public figures have been controlled by forces that do not serve them is that they gave those forces leverage through their private behavior. The same lust that [brought down kings in the Bible](https://faithwalk.garysheng.com/principles/conquer-lust-be-unstoppable) still brings down leaders today. Samson's enemies could not beat him with armies. They beat him with desire.
+
+Sovereignty starts in the body. And it extends to everything that affects your clarity, your energy, and your capacity to act:
+
+- **[Regulate your nervous system](https://garysheng.com/wiki/nervous-system-regulation).** If you are in chronic fight-or-flight, you cannot think clearly enough to make sovereign decisions. You will default to whatever is easiest, which is usually the predatory option.
+- **Watch what you eat.** Processed food and sugar dysregulate your nervous system and deplete your willpower. Blood sugar crashes make you reactive and impulsive. Clean food is sovereignty infrastructure.
+- **Watch what you listen to.** The music, podcasts, and content you consume shape your mental state. Low-frequency input produces low-frequency output.
+- **Watch who you surround yourself with.** If the people around you are not thinking about sovereignty, not taking actions toward it, you probably will not either. Sovereignty is contagious and so is complacency.
+- **Guard your integrity.** Get free from the things that give others leverage over you. Then the tech stack has something worth protecting.
+
+## Making Sovereignty Cool
+
+The tech exists. The moral argument exists. What is missing is the cultural shift. Throughout history, every fundamental freedom had to be [made cool by artists](https://garysheng.com/wiki/make-sovereignty-cool) before it became normal. Harry Belafonte built the celebrity infrastructure that made civil rights the default position for any entertainer. Steven Van Zandt made complicity with apartheid uncool with "Sun City." Ellen made LGBTQ acceptance the cultural norm through a sitcom.
+
+Sovereignty needs the same treatment. We need artists, creators, and cultural figures to make owning your AI aspirational. To make data independence the default. To make people embarrassed, over time, to pour their lives into platforms that own their context.
+
+This is not about shaming anyone for where they are today. A lot of people do not even have a laptop. To have any internet at all, to be able to learn about sovereignty, is a beautiful thing. The goal is direction: make it increasingly uncool to be fully captured, gradually, then all at once.
+
 ## The Sovereignty Economy
 
 An entire economy needs to be built around this stack. Sovereign hardware. Sovereign networking. Sovereign AI. Sovereign identity. Every layer is an opportunity for builders.
@@ -5080,7 +5298,7 @@ The [Applied AI Society](https://appliedaisociety.org) is training sovereign bui
 
 The default stack is designed to extract from you. The sovereign stack is designed to liberate you. Every layer you reclaim is a layer the adversary loses.
 
-> **Own your silicon. Own your network. Own your data. Own your identity. Own your models. Own your harness. Own your content. Own your future.**
+> **The north star: Own your silicon. Own your network. Own your data. Own your identity. Own your models. Own your harness. Own your content. Own your future.**
 
 ---
 
@@ -5092,6 +5310,7 @@ The default stack is designed to extract from you. The sovereign stack is design
 - [Personal Agentic OS](/docs/concepts/personal-agentic-os): The sovereign AI system
 - [Minimum Viable Infrastructure](/docs/concepts/minimum-viable-infrastructure): The baseline requirements to participate
 - [Liberation Architecture](/docs/concepts/liberation-architecture): Building systems that free people
+- [Externalize Your Brain](/docs/concepts/externalize-your-brain): The human prerequisite for sovereignty
 - [Harness Engineering](/docs/concepts/harness-engineering): Why the wrapper matters as much as the model
 
 
@@ -6152,7 +6371,7 @@ What Karpathy describes maps directly to [the token economy](/docs/concepts/the-
 
 > "The name of the game now is to increase your leverage. I put in just very few tokens just once in a while and a huge amount of stuff happens on my behalf."
 
-Karpathy built an autonomous research loop ("auto research") that optimizes model training overnight without his involvement. He was surprised it found improvements he missed after two decades of manual tuning. The lesson: if you can define a clear metric and give agents the boundaries to operate within, you can remove yourself from the loop entirely. This is [meta work](/docs/playbooks/practitioner/mvp-personal-agentic-os#the-meta-work-shift) taken to its logical conclusion.
+Karpathy built an autonomous research loop ("auto research") that optimizes model training overnight without his involvement. He was surprised it found improvements he missed after two decades of manual tuning. The lesson: if you can define a clear metric and give agents the boundaries to operate within, you can remove yourself from the loop entirely. This is [meta work](/docs/playbooks/practitioner/mvp-personal-agentic-os#phase-8-the-meta-work-shift) taken to its logical conclusion.
 
 > "You basically arrange it once and hit go. The name of the game is how can you get more agents running for longer periods of time without your involvement, doing stuff on your behalf."
 
@@ -6268,7 +6487,7 @@ This maps to what the Canon calls [soul-requiring work](/docs/philosophy/canon):
 
 > "Humans can be accountable. Machines cannot be accountable."
 
-Six words that capture [Canon IV](/docs/philosophy/canon) (machines serve humans, not the other way around). AI agents can execute. They can reason about options. They can generate solutions. But they cannot bear responsibility for the outcomes. That remains a human function, and it is the reason that [meta work](/docs/playbooks/practitioner/mvp-personal-agentic-os#the-meta-work-shift) (defining objectives, setting guardrails, evaluating results) will always require a person in the loop.
+Six words that capture [Canon IV](/docs/philosophy/canon) (machines serve humans, not the other way around). AI agents can execute. They can reason about options. They can generate solutions. But they cannot bear responsibility for the outcomes. That remains a human function, and it is the reason that [meta work](/docs/playbooks/practitioner/mvp-personal-agentic-os#phase-8-the-meta-work-shift) (defining objectives, setting guardrails, evaluating results) will always require a person in the loop.
 
 ### The Applied AI Society vision
 
@@ -14775,13 +14994,13 @@ Already doing the work? Read our [Case Studies](/docs/case-studies) to learn dir
 
 
 ---
-# MVP Personal Agentic OS: Setting Up Your AI Business OS
+# The Personal Agentic OS Workshop
 URL: https://docs.appliedaisociety.org/docs/playbooks/practitioner/mvp-personal-agentic-os
 
 
-# MVP Personal Agentic OS
+# The Personal Agentic OS Workshop
 
-*A step-by-step guide to setting up the simplest system that gives you AI-augmented recall, strategic clarity, and compounding context. Some people call this the MVP Personal Agentic OS (like Tony Stark's AI, but for your real life).*
+*A step-by-step guide to setting up the simplest system that gives you AI-augmented recall, strategic clarity, and compounding context. Some people affectionately call this the "Minimum Viable Jarvis" (a nod to Tony Stark's AI). Whatever you call it, by the end of this guide you will have your own Personal Agentic OS, whose utility you can then compound daily.*
 
 **Time estimate:** 3.5 to 4 hours to complete everything in this guide, even with some prior technical experience. If you are completely new to the terminal and have never installed developer tools before, expect the upper end.
 
@@ -14799,7 +15018,7 @@ Here is the uncomfortable truth: **you are the bottleneck.** Not the tools. Not 
 
 Meta thinking is the new thinking. The highest-leverage skill you can develop right now is not execution. It is the ability to design your business as a system: the objectives, the rules, the guardrails, the scoring. Execution is increasingly commoditized. Your ability to define what should be executed is not.
 
-Here's the key insight behind everything that follows: **the truth in your head is not the truth.** Not operationally. Not for AI. Not for your team. The truth that matters is the truth that exists in documents that AI can read and act on. If it's only in your head, it might as well not exist. It's ungreppable. It's unsearchable. It's locked in wet storage with a terrible API.
+Here's the key insight behind everything that follows: **the truth in your head is not the truth.** Not operationally. Not for AI. Not for your team. The truth that matters is the truth that exists in documents that AI can read and act on. If it's only in your head, it might as well not exist. It's unsearchable. Your brain has no search bar, no version history, and no way for an AI to read it.
 
 Your [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os) is the persistent memory your AI draws on. The MVP Personal Agentic OS is the simplest possible version of that business OS. Not the end state. The starting point.
 
@@ -14843,13 +15062,15 @@ Either works. You hold a key, you talk, you release, and the text appears wherev
 
 ### Step 1B: Install Node.js and npm
 
-Claude Code is installed through npm (Node Package Manager), which comes bundled with Node.js. If you have never installed anything from the command line before, you need Node.js first.
+Claude Code is installed through npm (Node Package Manager), which comes bundled with Node.js. Think of npm as an app store for developer tools: you type a command, and it downloads and installs software for you. If you have never installed anything from the command line before, you need Node.js first.
+
+**A note on paths:** Throughout this guide, you will see paths like `~/Documents/` or `~/.zshrc`. The `~` symbol means "your home folder" (e.g., `/Users/YourName/` on Mac or `C:\Users\YourName\` on Windows). When you see `~/Documents/`, that just means the Documents folder inside your home folder.
 
 **If you try to run the Claude Code install command and see `npm: command not found`, this is why.** You need Node.js installed first.
 
 **macOS:**
 
-The easiest option is to download the installer from [https://nodejs.org](https://nodejs.org). Run the `.pkg` file and follow the prompts. Done.
+Go to [https://nodejs.org](https://nodejs.org) and download the pre-built installer (the LTS version). Run the `.pkg` file and follow the prompts. Done. This is the recommended approach. No terminal needed for this step.
 
 Alternatively, if you prefer using the terminal, you can install via Homebrew. If you do not have Homebrew yet, install it first by opening Terminal (search "Terminal" in Spotlight or find it in Applications > Utilities) and pasting this command:
 
@@ -14873,6 +15094,8 @@ Then install Node.js:
 2. Download the LTS (Long Term Support) version
 3. Run the installer. Accept the defaults. It will install both Node.js and npm.
 4. **Important:** Close and reopen your terminal after installing. The terminal needs to restart to recognize the new commands.
+
+**macOS users: you may see a popup asking to install "Command Line Developer Tools."** This is normal. macOS requires these tools before it can run things like Node.js and Git from the terminal. Click "Install," wait a few minutes (it can take 4-10 minutes), and let it finish. You only have to do this once.
 
 **Verify it worked** by typing this in your terminal:
 ```bash
@@ -14970,24 +15193,29 @@ Visual Studio Code is your window into the file system. Download it for free fro
 **Setting up GitHub:**
 
 1. Create a free account at [https://github.com](https://github.com) if you do not have one.
-2. Install the GitHub CLI so you can interact with GitHub from your terminal: `npm install -g gh` (you already have npm from Phase 1).
+2. Install the GitHub CLI so you can interact with GitHub from your terminal. On **macOS**: `brew install gh` (if you have Homebrew) or download from [https://cli.github.com](https://cli.github.com). On **Windows**: download the installer from [https://cli.github.com](https://cli.github.com).
 3. Log in by typing `gh auth login` in your terminal and following the prompts.
 
 ### Step 2C: Clone and Open Your Workspace
 
 We have created a starter repo with the default folder structure for your Personal Agentic OS. You are going to use Claude Code to clone it to your computer. This is a good first rep of telling Claude Code to do something for you.
 
-**Use Claude Code to clone the repo:**
+**Use Claude Code to clone and personalize the repo:**
 
 1. Open any terminal on your computer (you do not need to be in any particular folder).
 2. Type `clauded` to start a Claude Code session (using the alias you set up in Step 1D).
 3. Tell it something like:
 
-> "Clone the repo at github.com/Applied-AI-Society/minimum-viable-jarvis into a folder that makes sense on my computer for storing projects. If I don't have a folder for that yet, create one."
+> "Clone the repo at github.com/Applied-AI-Society/minimum-viable-jarvis into a folder that makes sense on my computer for storing projects. If I don't have a folder for that yet, create one. After cloning, ask me what I want to name my workspace and what my name is, then rename the folder and update all the files (CLAUDE.md, README, etc.) to reflect my name and workspace name."
 
-Claude Code will figure out the right location for your operating system. On Mac, it might put it in `~/Documents/github-repos/` or `~/Projects/`. On Windows, it might use `C:\Users\YourName\Documents\`. It will ask you to approve the commands. Let it do its thing.
+Claude Code will figure out the right location for your operating system. On Mac, it might put it in `~/Documents/github-repos/` or `~/Projects/`. On Windows, it might use `C:\Users\YourName\Documents\`. Then it will ask you two quick questions:
 
-4. Once the clone is done, note the folder path that Claude Code tells you it cloned into. You will need this in a moment.
+- **What do you want to call your workspace?** Pick something that feels like yours. Your name, your company name, a codename. Examples: `sarah-command-center`, `apex-os`, `my-jarvis`. This becomes the folder name and shows up in your file tree every day, so make it something you like.
+- **What is your name?** So it can personalize the CLAUDE.md and any starter files with your identity.
+
+Claude Code will rename the folder, update the internal files, and personalize the workspace so it feels like yours from the first moment. This is your system, not a generic template.
+
+4. Once the clone and personalization is done, note the folder path that Claude Code tells you it cloned into. You will need this in a moment.
 5. Type `/exit` to quit the Claude Code session.
 
 **Open the workspace in VS Code:**
@@ -15004,7 +15232,7 @@ You are now in the cockpit. The left panel shows your file tree. The bottom pane
 
 **If you do not have Git installed or prefer to start from scratch**, you can skip the clone and tell Claude Code to create the folders for you instead. Start a Claude Code session and say:
 
-> "Create a folder called my-agentic-os in a good location on my computer with subfolders for user, people, artifacts, meeting-transcripts, and skills. Also create a CLAUDE.md file that instructs you on how to operate as my business OS agent."
+> "Create a folder for my Personal Agentic OS in a good location on my computer. Ask me what I want to name it and what my name is. Set up subfolders for user, people, artifacts, meeting-transcripts, and skills. Create a CLAUDE.md file personalized with my name that instructs you on how to operate as my chief of staff."
 
 The starter repo comes with five folders. Together, these form your [context lake](/docs/concepts/context-lake): the persistent memory layer that makes your Personal Agentic OS genuinely useful.
 
@@ -15052,23 +15280,33 @@ Start with read-only connections and work your way up. Connect your calendar so 
 
 ---
 
-## Phase 4: Build Your First Business OS
+## Phase 4: Build Your First Personal Agentic OS
 
 This is what a first session looks like. Five exercises, about an hour total. By the end, you will have a working business OS with real data in it, a clear picture of your top strategic blocker, and an actionable plan for getting unblocked.
 
 ### Step 4A: "Who Am I?" (15 minutes)
 
-This is the most important first step. Before your Personal Agentic OS can help you with anything, it needs to know who you are. The starter repo includes a skill file that will guide Claude Code through an interview with you.
+This is the most important first step. Before your Personal Agentic OS can help you with anything, it needs to know who you are. Think about it like briefing a new chief of staff. If you were hiring the best possible team partner, someone with full access to your life who could execute on everything you are doing, what would you want them to know?
 
-Tell Claude Code:
+**The recommended approach: brief your AI directly.** If you already have documents that capture who you are (a bio, a personal website, a LinkedIn profile, previous strategic docs, a blog, a wiki, anything), drop them into the `user/` folder or paste them into the terminal and tell your AI:
+
+> "Here is everything about me. Read all of it and create a USER.md that captures who I am, what I care about, how I make decisions, and what I am working on right now."
+
+This is faster and richer than any interview because the truth is already documented. Your AI reads it, synthesizes it, and creates a comprehensive profile in minutes. You review, correct, and approve. Done.
+
+The more context you give upfront, the less your AI has to guess. If you have been [wikimaxxing](https://garysheng.com/wiki/wikimaxxing), writing strategic docs, or documenting your thinking anywhere, bring all of it in. Your AI should know you the way a chief of staff who has worked with you for years would know you.
+
+**The backup approach: the interview.** If you do not have existing documents to draw from, the starter repo includes a skill file that will guide your AI through an interview with you.
+
+Tell your AI:
 
 > "Read the skill file at skills/create-user-profile.md and run it."
 
-Claude Code will interview you one question at a time. It will ask about who you are, what you care about, how you make decisions, the current state of your operation, and your biggest strategic blocker. Use voice-to-text. Speak naturally. Do not overthink your answers.
+It will interview you one question at a time. It will ask about who you are, what you care about, how you make decisions, the current state of your operation, and your biggest strategic blocker. Use voice-to-text. Speak naturally. Do not overthink your answers.
 
-At the end, Claude Code will save a `user/USER.md` file that captures everything. This file is the foundation of your Personal Agentic OS. Every future conversation will be informed by it.
+Either way, at the end your AI will save a `user/USER.md` file that captures everything. This file is the foundation of your Personal Agentic OS. Every future conversation will be informed by it.
 
-If you get stuck on a question and do not know the answer, just ask Claude Code: "Based on what you already know about me, what do you think?" It will offer its best guess, and you confirm or correct. This often surfaces insights you would not have articulated on your own.
+If you get stuck on a question and do not know the answer, just ask your AI: "Based on what you already know about me, what do you think?" It will offer its best guess, and you confirm or correct. This often surfaces insights you would not have articulated on your own.
 
 **The moment:** Your Personal Agentic OS now knows who you are. Not the LinkedIn version. The real version. Your goals, your values, your decision-making style, and the thing that is actually blocking you right now. This alone makes every future interaction 10x more useful.
 
@@ -15086,6 +15324,18 @@ If you skipped this during the interview, you can trigger it yourself:
 
 **The moment:** You walked in with a vague sense of being stuck. You are walking out with a concrete, written plan. Not generic advice from an AI that does not know you. A plan built from your actual context, your actual constraints, and your actual goals. This is what a Personal Agentic OS does.
 
+**Now make it real.** Open a new Google Doc. Open your strategy markdown file in VS Code, select all the text, and copy it. In Google Docs, right-click and choose **"Paste from Markdown"** (or go to Edit > Paste from Markdown). Your strategy will appear beautifully formatted with headers, bold text, and bullet points. You now have a professional strategic document you can share with a partner, hand off to an employee, send to an investor, or use as a brief for any agent. You created it in 15 minutes. That is the aha moment. This is what AI-augmented strategic thinking actually feels like.
+
+**Then watch what happens next.** You send that strategy doc to your CTO, your partner, your advisor. You get on a call to discuss it. They say "actually, I think we should approach the pricing differently" and "this timeline is unrealistic, here is what is realistic" and "you are missing a section on distribution." Normal conversation. Normally, the next step would be painful: someone has to go back, write comments, make edits, reconcile versions.
+
+Instead: take the call transcript (from Granola, or a voice memo, or even rough notes), drop it into your terminal, and tell your AI:
+
+> "Here is the transcript from my call with [name] about the strategy doc. Apply their feedback as edits to the strategy. Update the markdown file."
+
+Your AI reads the transcript, understands the feedback, and rewrites the strategy doc incorporating everything. Neither of you had to write a single comment. Neither of you had to sit in a Google Doc making tracked changes. The boring work took zero time.
+
+This is the real shift. Your job as a leader is not editing documents. Your job is to network, build relationships, have strategic conversations, meditate, read something inspiring, have time for divine downloads. The document work happens in the background, powered by the conversations you are already having.
+
 ### Step 4C: "Who Do I Know?" (10 minutes)
 
 Create 3 to 5 relationship files for key people in your professional life. Use voice-to-text to dictate into Claude Code. For each person, capture:
@@ -15100,9 +15350,29 @@ Tell Claude Code to create a file for each person in the `people/` directory (al
 
 **The moment:** These people now exist in structured form that AI can reference. You will never forget a detail about them again. The next time you have a meeting with one of them, your business OS can brief you on everything you know.
 
-### Step 4D: "What Did I Actually Decide?" (10 minutes)
+### Step 4D: "What Do I Want Built?" (15 minutes)
 
-Create a strategic document capturing one major decision you've made recently. Dictate the story:
+This is the exercise that changes how you think about delegation forever.
+
+Pick something you want to see built, created, or executed. A product idea. A marketing campaign. An event. A new workflow. A business initiative. Anything you have been carrying in your head but have not fully specified yet.
+
+Tell your AI:
+
+> "Interview me about this idea. Ask me hard questions. Push me to be specific. I want to end up with a comprehensive brief that I could hand to someone and they would know exactly what I want."
+
+Your AI will ask you things you had not thought to answer. What is the target audience? What does success look like? What are the constraints? What has been tried before? What is the budget? What is the timeline? Who needs to be involved? What are the risks?
+
+This is not your AI telling you what to build. It is your AI forcing you to think more deeply about what you already want to build. The interview process surfaces assumptions you did not know you were making. It fills gaps that would have become confusion later. It produces a document that answers the questions your teammate, employee, contractor, or co-founder would have asked you anyway.
+
+At the end, your AI saves the brief as a markdown file in `artifacts/`. Paste it into Google Docs (Edit > Paste from Markdown) and you have a professional spec you can hand off immediately.
+
+Do this for every major thing you want built. One interview, one artifact, one markdown file in your `artifacts/` folder. Over time, this folder becomes a library of everything you are building, have built, and want to build. Your AI can reference all of it. Your team can reference all of it. Nothing stays trapped in your head.
+
+**The moment:** You realize that 15 minutes of being interviewed by your AI produced a clearer, more complete brief than hours of trying to write it yourself from scratch. And the person receiving it has half the questions they would have had otherwise.
+
+### Step 4E: "What Did I Actually Decide?" (10 minutes)
+
+Create a strategic document capturing one major decision you have made recently. Dictate the story:
 
 - **The situation**: What was the context?
 - **The options**: What were you choosing between?
@@ -15130,7 +15400,13 @@ Once your MVP Personal Agentic OS is set up, the default interaction pattern is 
 
 ### Step 5A: Open Your Workspace
 
-Open your business OS folder in VS Code. Open the terminal within VS Code (Terminal > New Terminal). Type `clauded` to start Claude Code.
+**The fast way (Mac):** Right-click on the VS Code icon in your Dock. You will see a list of recently opened projects. Click your workspace name. Done. This is the fastest way to get back into your Personal Agentic OS every day. No navigating folders, no remembering file paths.
+
+**The manual way:** Open VS Code, go to File > Open Recent, and select your workspace. Or File > Open Folder and navigate to it.
+
+Once your workspace is open, open the terminal within VS Code (Terminal > New Terminal). Type `clauded` to start Claude Code.
+
+**Resuming a previous session:** If you had a session going yesterday and want to pick up where you left off, type `clauded` and then `/resume`. You will see a list of recent sessions. Pick the one with the most kilobytes (that is the session with the most context). Use the arrow keys to select it and press Enter. You are back where you were, with all the context from your last session intact.
 
 ### Step 5B: Brain Dump
 
@@ -17137,6 +17413,769 @@ Reach out on [Discord](https://discord.gg/K7uWJBMFaN) or [X](https://x.com/appli
 
 
 ---
+# Example - Gary Sheng
+URL: https://docs.appliedaisociety.org/docs/standards/align-md/example
+
+
+# Reference Example: Gary Sheng's ALIGN.md
+
+This is a realistic ALIGN.md for a person who operates across multiple organizations. It demonstrates the [union principle](/docs/standards/align-md#the-union-principle): synthesizing multiple org-level alignments into one coherent personal file.
+
+Notice what makes this effective: specific dealbreakers, honest spiritual disclosure, concrete capabilities (not aspirational ones), and the clear hierarchy of commitments. This is not a resume. It's a compatibility document.
+
+---
+
+## The File
+
+```markdown
+# Identity
+
+Gary Sheng. Co-steward of Applied AI Society (making the world applied AI
+literate), co-founder of Imagos Labs with Ron Roberts (cultural infrastructure
+at the intersection of AI, culture, and sovereignty), and author of FaithWalk OS
+(a documented Christian worldview). Based in Austin, TX.
+
+These are the same mission from different angles: shepherding millions of people
+through the Great Transition with agency, dignity, and truth intact. Strategy is
+the new execution. If you are not in the terminal, your future is terminal.
+
+# Mission
+
+Make the world applied AI literate through AAS. Build cultural infrastructure
+that preserves human agency through Imagos. Document a lived faith that shapes
+every decision through FaithWalk.
+
+The North Star across all of these: number of people who move from passive
+consumers of AI to sovereign operators of it. Converting kings over growing
+audience. Deep relationships over broad visibility.
+
+# Values
+
+- Sovereignty over convenience. I will not build systems that create dependency
+  on any single vendor. This applies to AAS curriculum, Imagos tooling, and
+  personal infrastructure. See the AAS sovereignty stack concept:
+  https://docs.appliedaisociety.org/docs/concepts/the-sovereignty-stack
+
+- Signal over noise. I'd rather publish one useful thing than ten
+  impressive-sounding things. This means I say no to most content opportunities,
+  most speaking invitations, and most partnerships. Signalmaxxing is a core
+  operating principle:
+  https://docs.appliedaisociety.org/docs/concepts/signalmaxxing
+
+- Open source by default. AAS curriculum, standards, and tools are public.
+  Permissionless knowledge is non-negotiable:
+  https://docs.appliedaisociety.org/docs/concepts/permissionless-knowledge
+
+- The 100x choice. Every major decision gets filtered through: "Is this a 100x
+  choice, or am I settling?" Partnerships, projects, hires, commitments. If it
+  doesn't feel like a 100x fit, the answer is no. More on this framework:
+  https://faithwalk.garysheng.com/perspectives/the-100x-choice
+
+- Obedience to God is the master key. This isn't a value I hold alongside
+  others. It's the value that orders all the others. Every major decision is
+  brought to God first. This shapes my timelines, my priorities, and my
+  willingness to walk away from good opportunities that aren't the right
+  opportunities.
+
+# Spiritual Values
+
+I am a follower of Christ. This is listed plainly so partners know what they're
+working with.
+
+Practically, this means:
+- God comes first in every decision. Not as a tiebreaker, but as the starting
+  point.
+- I will not pursue partnerships, projects, or strategies that conflict with my
+  faith, regardless of financial or strategic upside.
+- I operate AAS as a ministry in internal framing (we use "mission" publicly).
+  The work is sacred to me, not just professional.
+- Partners don't need to share this conviction. But they should know it shapes
+  everything, including timelines. Sometimes the answer is "God hasn't given me
+  peace about this yet," and that's a real answer.
+
+Full framework: https://faithwalk.garysheng.com
+
+# Capabilities
+
+What I can deliver today:
+
+Applied AI Society:
+- Applied AI curriculum covering agents, context engineering, harness design,
+  and the full sovereignty stack
+- 500+ active community members across university chapters
+- Event infrastructure (Applied AI Live series, hackathons, workshops)
+- Standards development (INTEGRATE.md, ALIGN.md)
+- Chapter leader playbook and onboarding system
+- Growing network of university partnerships
+
+Imagos Labs (with Ron Roberts):
+- Cultural infrastructure design at the AI + culture + sovereignty intersection
+- Community architecture for creative and cultural organizations
+- Strategic framing for organizations navigating the Great Transition
+
+Personal:
+- Context engineering and agent system design
+- Strategic document creation and truth management systems
+- Network of builders, educators, and cultural leaders in the applied AI space
+
+In development: AAS certification program, corporate upskilling pilot, university
+keystone partnership model.
+
+# Looking For
+
+AAS partnerships:
+- University departments that want to bring applied AI literacy to their students
+  (not just CS departments; business, humanities, arts, policy)
+- Community partners who run meetups, hackathons, or study groups and want
+  curriculum and infrastructure support
+- Sovereignty-aligned sponsors. No hyperscaler dependency (Google is a possible
+  exception given their open source contributions). Open source friendly. No
+  strings that compromise our independence.
+- Practitioners who have built real things with AI and want to teach what they
+  know
+
+Imagos collaborations:
+- Creative community partners building at the intersection of culture and
+  technology
+- Cultural force multipliers: organizations with reach into communities that
+  need sovereignty-first AI tooling
+- People who think about cultural preservation and human agency, not just
+  efficiency gains
+
+Personal:
+- People who are building for liberation, not extraction
+- Relationships with depth, not breadth. I'd rather go deep with 10 aligned
+  partners than collect 100 surface-level connections.
+- Fellow builders who are on Team Liberate
+
+# Dealbreakers
+
+These are non-negotiable. If any of these apply, we're not a fit. I'd rather
+surface this now than six months in.
+
+- Hyperscaler partnerships (except potentially Google). I will not build
+  curriculum, events, or infrastructure that creates dependency on AWS, Azure,
+  or any cloud vendor that operates as a soul harness. See:
+  https://docs.appliedaisociety.org/docs/concepts/the-soul-harness
+
+- Extractive relationships. If the structure of the partnership means I'm
+  providing value and you're capturing it, that's not partnership. This includes
+  "exposure" deals, unpaid advisory roles with equity that never materializes,
+  and partnerships where one side does the work and the other side gets the
+  brand lift.
+
+- Sovereignty misalignment. If your organization builds tools that lock users
+  in, harvests data without consent, or creates dependency by design, we have
+  a fundamental disagreement about what technology is for.
+
+- People not on Team Liberate. If your goal is to accumulate power, attention,
+  or control rather than to liberate and empower, our values don't align. This
+  is a gut-level filter and I trust it.
+
+- Ego or brand control. If you need co-branding approval rights, want to
+  control how I talk about our work, or need your logo bigger than mine, the
+  partnership is about status, not mission.
+
+- Anything that doesn't feel like a 100x choice. If I'm convincing myself
+  it's a good idea rather than feeling it immediately, the answer is no. This
+  filter has a high false-negative rate and I'm fine with that.
+
+# Network
+
+- Ron Roberts (Imagos Labs co-founder)
+- Applied AI Society community and chapter leaders
+- PromptLab (collaboration with Steven Tran / Soundcheck)
+- University partners at UT Austin, Georgia Tech, and others forming
+- Imagos creative community
+
+# Current Priorities (Q2 2026)
+
+- University keystone partnership: landing the first deep institutional
+  partnership that becomes the model for all others
+- Austin as Applied AI capital: making Austin the center of gravity for
+  applied AI education and community
+- Corporate upskilling pilot: first paid engagement proving AAS can train
+  enterprise teams
+- Course launch: shipping the first version of the AAS certification curriculum
+- Incorporation: legal structure for AAS
+
+NOT currently focused on: international expansion, venture funding, consumer
+app development, content creator partnerships.
+
+# How to Engage
+
+Email gary@appliedaisociety.org or DM on X (@garysheng).
+
+If you publish an ALIGN.md, send it along. Bilateral evaluation is the fastest
+path to a real conversation.
+
+For Imagos-specific collaborations: reach out to both Gary and Ron.
+
+# References
+
+- Applied AI Society docs: https://docs.appliedaisociety.org
+- FaithWalk OS: https://faithwalk.garysheng.com
+- Imagos Labs: https://imagoslabs.com
+- The 100x Choice: https://faithwalk.garysheng.com/perspectives/the-100x-choice
+- The Soul Harness: https://docs.appliedaisociety.org/docs/concepts/the-soul-harness
+- The Sovereignty Stack: https://docs.appliedaisociety.org/docs/concepts/the-sovereignty-stack
+- Signalmaxxing: https://docs.appliedaisociety.org/docs/concepts/signalmaxxing
+```
+
+---
+
+## What Makes This Example Effective
+
+### The Spiritual Disclosure
+
+The Spiritual Values section states plainly: "I am a follower of Christ." It doesn't apologize. It doesn't minimize. It doesn't over-explain. It states the fact and then explains the practical implications for a potential partner.
+
+This is ALIGN.md working as intended. A partner who reads this knows exactly what they're working with. They can decide whether that's compatible with their own values before anyone takes a call. No surprises at month three.
+
+### The Dealbreakers
+
+Six specific, testable dealbreakers. Not "we prefer aligned partners" but "I will not build curriculum that creates dependency on AWS." An agent can check whether a potential partner triggers any of these.
+
+The last dealbreaker ("anything that doesn't feel like a 100x choice") is subjective. That's fine. Not everything can be mechanically evaluated. Including it tells the agent: even if all objective criteria pass, there's a gut-level filter. This is honest and useful. It sets expectations.
+
+### The Union Principle in Action
+
+The file synthesizes three organizations (AAS, Imagos, FaithWalk) into one coherent identity. The Identity section shows how they connect. The Capabilities section separates them clearly. The Dealbreakers apply across all of them.
+
+A potential university partner reads this and knows: Gary's AI education work is shaped by his faith and connected to a cultural infrastructure project. That's the full picture. No surprises.
+
+### The "NOT Currently Focused On" Line
+
+The Current Priorities section includes what's out of scope. This prevents wasted outreach. If you're a VC reaching out about funding, or a brand wanting a content creator partnership, the ALIGN.md tells you upfront: not right now.
+
+### The Cross-Links
+
+Values reference specific AAS concept pages (sovereignty stack, signalmaxxing, soul harness, permissionless knowledge). Dealbreakers link to concept pages. This gives an agent deeper context without bloating the ALIGN.md itself. The file stays concise. The references add depth on demand.
+
+
+---
+# ALIGN.md Spec (v0.1)
+URL: https://docs.appliedaisociety.org/docs/standards/align-md
+
+
+# ALIGN.md Specification v0.1
+
+ALIGN.md is a file format for teaching AI agents how to evaluate alignment between organizations, people, or entities. Someone pastes your ALIGN.md into their agent and says "evaluate whether we should work together." The agent reads both parties' ALIGN.md files and returns an honest assessment.
+
+## The Problem
+
+Partnership evaluation is slow, biased, and expensive. The current process looks like this:
+
+1. Someone sends a pitch deck. It's marketing, not truth.
+2. You take calls. You read between the lines. You try to assess fit.
+3. Months pass. You build trust, invest time, start collaborating.
+4. Misalignment surfaces. Different values. Different goals. Different definitions of success.
+5. The partnership ends or limps along. Time and trust are lost.
+
+The problem isn't that people are dishonest. It's that the format (pitch decks, intro calls, LinkedIn profiles) rewards presenting the best version of yourself rather than the most accurate version. The uncomfortable truths that kill partnerships at month six never make it into the intro email.
+
+## The Solution
+
+A machine-readable document that honestly describes who you are, what you value, what you bring, what you look for, and what makes you walk away. Published at the org or person level. Designed for agents to read, compare, and evaluate.
+
+ALIGN.md makes bilateral alignment checking possible. When both parties publish, their agents can cross-reference values, dealbreakers, and priorities before anyone takes a call. The goal isn't to replace human judgment. It's to make the initial filter faster and more honest.
+
+## How It Differs from Other Agent Files
+
+| File | Purpose | Audience | Maintained by |
+|---|---|---|---|
+| [CLAUDE.md](https://docs.anthropic.com/en/docs/claude-code/memory#claudemd-files) | How to behave in this repo | Agent working inside the repo | [Anthropic](https://anthropic.com) |
+| [AGENTS.md](https://openagents.com) | How to behave in this repo (multi-agent) | Agent working inside the repo | [OpenAgents](https://openagents.com) |
+| [SKILL.md](https://github.com/anthropics/claude-code/blob/main/docs/skills.md) | How to perform a capability | Agent executing a task | [Anthropic](https://anthropic.com) |
+| [INTEGRATE.md](/docs/standards/integrate-md) | How to wire this library into a codebase | Agent integrating a library | [Applied AI Society](https://appliedaisociety.org) |
+| **[ALIGN.md](/docs/standards/align-md)** | **Are we aligned? Should we work together?** | **Agent evaluating a potential partnership** | **[Applied AI Society](https://appliedaisociety.org)** |
+
+The key difference: the other files are about what to do. ALIGN.md is about whether to do it together. It's relational, not technical.
+
+- `CLAUDE.md` / `AGENTS.md` = how to behave here (internal)
+- `INTEGRATE.md` = how to wire this in (technical)
+- `SKILL.md` = how to do this thing (capability)
+- `ALIGN.md` = are we aligned? (relational)
+
+## Required Sections
+
+Every ALIGN.md must include these sections, in this order.
+
+### 1. Identity
+
+Who you are. One paragraph. No marketing speak. State what your organization does, how long it's existed, what stage it's at. If you're a person, state your roles and affiliations.
+
+```markdown
+# Identity
+
+Applied AI Society is a community and educational organization making the world
+applied AI literate. Founded in 2025. Pre-revenue, community-funded. Based in
+Austin, TX with chapters forming at universities across the US.
+```
+
+Not a tagline. Not a mission statement. Just the facts of who you are right now.
+
+### 2. Mission
+
+What you're trying to accomplish. The North Star metric or goal. This should be concrete enough that someone could measure progress.
+
+```markdown
+# Mission
+
+Make the world applied AI literate. North Star metric: number of people who
+complete AAS certification and can demonstrate applied AI competence in their
+domain.
+```
+
+### 3. Values
+
+Non-negotiable principles. Be specific, not generic. "We value integrity" is useless. "We will not partner with organizations that train AI on unconsented data" is useful.
+
+Every value should be testable. If you can't imagine a scenario where it would cost you something, it's not a real value. It's a platitude.
+
+```markdown
+# Values
+
+- Sovereignty over convenience. We will not build systems that create
+  dependency on any single vendor, including us.
+- Open source by default. Our curriculum, tools, and standards are public.
+- Signal over noise. We'd rather publish one useful thing than ten
+  impressive-sounding things.
+- Permissionless knowledge. No gatekeeping. No paywalls on foundational
+  literacy.
+```
+
+### 4. Capabilities
+
+What you bring to the table. Concrete, not aspirational. Only list what you can deliver today. If it's in development, say so.
+
+```markdown
+# Capabilities
+
+- Applied AI curriculum covering agents, context engineering, and harness design
+- 500+ active community members across 8 university chapters
+- Event infrastructure (Applied AI Live series, hackathons)
+- Standards development (INTEGRATE.md, ALIGN.md)
+- In development: certification program, corporate training pilot
+```
+
+### 5. Looking For
+
+What kinds of alignment you seek. Partner archetypes, collaboration types, specific needs. Be specific about what a good partner looks like so agents can match efficiently.
+
+```markdown
+# Looking For
+
+- University partners who want to bring applied AI literacy to their students
+- Community partners who run meetups, hackathons, or study groups
+- Sovereignty-aligned sponsors (no hyperscaler dependency, open source friendly)
+- Practitioners who want to teach what they've built
+```
+
+### 6. Dealbreakers
+
+What makes you walk away. Be explicit. This is the most important section in the entire file.
+
+The test: if something would kill a partnership six months in, put it here now. Don't soften it. Don't frame it diplomatically. State it plainly. The whole point of ALIGN.md is to surface these before anyone invests time.
+
+```markdown
+# Dealbreakers
+
+- Partnerships that require exclusive vendor lock-in
+- Organizations that gate foundational knowledge behind enterprise pricing
+- Partners who want brand control or co-branding approval rights over
+  our content
+- Relationships where we'd be a marketing channel rather than a genuine
+  collaborator
+- Anyone building what we'd call a "soul harness" -- systems designed to
+  capture and extract rather than liberate and empower
+```
+
+See the AAS concept page on [the soul harness](/docs/concepts/the-soul-harness) for context on that last point.
+
+### 7. Current Priorities
+
+What you're focused on right now. This section is temporal and should be updated quarterly. It tells potential partners what's on your plate and where collaboration would have the most impact.
+
+```markdown
+# Current Priorities (Q2 2026)
+
+- Landing first university keystone partnership
+- Launching corporate upskilling pilot
+- Austin as Applied AI capital initiative
+- Course content development and certification framework
+- Incorporation and legal structure
+```
+
+### 8. How to Engage
+
+The first step. Email, form, mutual connection, whatever. Don't make people guess.
+
+```markdown
+# How to Engage
+
+Email gary@appliedaisociety.org or DM @AppliedAISoc on X.
+If you publish an ALIGN.md, include the link -- we'll run bilateral evaluation.
+```
+
+## Optional Sections
+
+These are useful but not required.
+
+### Spiritual Values
+
+For faith-driven organizations or individuals. Include convictions that would affect partnership decisions. Many organizations and leaders operate from spiritual frameworks that shape their priorities and boundaries. Making these explicit prevents misunderstanding later.
+
+```markdown
+# Spiritual Values
+
+We operate as a ministry in our internal framing. Every major decision is
+brought to God first. Partners don't need to share this conviction, but
+they should know it shapes our priorities and timelines.
+```
+
+### Network
+
+Key relationships and communities you're part of. This helps agents identify shared connections and community overlap.
+
+```markdown
+# Network
+
+- Imagos Labs (co-founded by Gary Sheng and Ron Roberts)
+- PromptLab (collaboration with Steven Tran / Soundcheck)
+- University chapters at UT Austin, Georgia Tech, and others forming
+```
+
+### References
+
+Links to deeper context. Other ALIGN.md files, public documentation, relevant websites.
+
+```markdown
+# References
+
+- Full public docs: https://docs.appliedaisociety.org
+- INTEGRATE.md spec: https://docs.appliedaisociety.org/docs/standards/integrate-md
+- Philosophy and canon: https://docs.appliedaisociety.org/docs/philosophy
+```
+
+## The Union Principle
+
+A person's ALIGN.md is a synthesis of their organizations' ALIGN.md files.
+
+If Gary Sheng co-stewards AAS, co-founded Imagos Labs, and documents his faith at FaithWalk OS, his personal ALIGN.md references all three. Someone evaluating "should we work with Gary?" gets the full picture: the educational mission, the cultural infrastructure work, and the spiritual framework that shapes his decisions.
+
+This means a person's ALIGN.md will often be longer and more nuanced than any single organization's. That's correct. People are more complex than orgs. The union principle captures that complexity honestly.
+
+When writing a personal ALIGN.md:
+- Synthesize, don't copy-paste. The personal file should read as a coherent whole, not a list of org descriptions.
+- Surface tensions. If your orgs have different priorities, say so. That's useful information for a potential partner.
+- Declare which hats you're wearing. "For AAS partnerships, email X. For Imagos collaborations, email Y."
+
+## Where It Lives
+
+In a repo: `ALIGN.md` at the root. This is where agents and developers find it on GitHub.
+
+On a website: `/align.txt` or `/align.md` at the root. This is where agents fetching public information find it.
+
+Both is ideal. The repo file is the source of truth. The website file is a distribution channel. Same pattern as INTEGRATE.md.
+
+## Design Principles
+
+**Honesty over marketing.** Include the uncomfortable stuff. The dealbreakers, the spiritual convictions, the things that make some partners a bad fit. If your ALIGN.md reads like a pitch deck, you've missed the point.
+
+**Specificity over platitudes.** "We value diversity" tells an agent nothing. "We require that partner organizations have published DEI commitments with measurable goals" tells it exactly what to check. Concrete examples, not generic values.
+
+**Currency over permanence.** Update quarterly, especially Current Priorities. An ALIGN.md from two years ago is worse than no ALIGN.md. The temporal sections are what make bilateral evaluation useful in real time.
+
+**Machine-readability.** Clean markdown, clear headers, bullet points. Agents parse structure better than prose. Keep sections distinct. Don't bury dealbreakers in paragraph form inside the Values section.
+
+**Bilateral by design.** ALIGN.md works when one party publishes. It works dramatically better when both do. The format is designed so two agents can cross-reference sections: your Dealbreakers against their Values, your Looking For against their Capabilities, your Mission against their Mission. Encourage partners to publish their own.
+
+## Add ALIGN.md to Your Organization
+
+Copy this into your AI coding agent. It will read the spec, study the example, and draft an ALIGN.md for you.
+
+````markdown
+# Write an ALIGN.md for This Organization
+
+Before writing anything, read these three pages in order:
+
+1. The ALIGN.md spec: https://docs.appliedaisociety.org/docs/standards/align-md
+2. The writing guide: https://docs.appliedaisociety.org/docs/standards/align-md/writing-guide
+3. The reference example: https://docs.appliedaisociety.org/docs/standards/align-md/example
+
+Now interview me about my organization. Ask about identity, mission, values,
+capabilities, what I'm looking for, dealbreakers, and current priorities.
+
+Then create an `ALIGN.md` at the repo root following the spec you just read.
+Focus on honesty and specificity. Push me on the Dealbreakers section.
+````
+
+## Version Note
+
+This is v0.1. It's intentionally minimal. We're publishing based on what we've learned from evaluating partnerships at AAS and Imagos, where misalignment surfaced late and cost real time. As more organizations publish ALIGN.md files, the spec will evolve based on real usage patterns.
+
+
+---
+# Writing Guide
+URL: https://docs.appliedaisociety.org/docs/standards/align-md/writing-guide
+
+
+# Writing an ALIGN.md
+
+This guide covers practical advice for authoring an effective ALIGN.md. The [spec](./index.md) defines the format. This page helps you write one that's honest, specific, and useful.
+
+## Start from the Dealbreakers
+
+Write your Dealbreakers section first. What would kill a partnership six months in? What has killed partnerships in the past? What do you know about yourself that you usually don't say out loud until trust is built?
+
+Work backwards from there. Every other section should support or contextualize the Dealbreakers. If your Values section doesn't explain why something is a dealbreaker, one of them is wrong.
+
+This is counterintuitive. Most people want to start with Identity or Mission because those feel positive and energizing. But the Dealbreakers section is where the real value of ALIGN.md lives. It's the section that saves everyone time.
+
+## Section-by-Section Guide
+
+### Identity
+
+One paragraph. Facts, not framing. State what you do, how long you've been doing it, and what stage you're at.
+
+Bad:
+```markdown
+We are a revolutionary AI education platform transforming the future of learning.
+```
+
+Good:
+```markdown
+Applied AI Society is a community and educational organization making the world
+applied AI literate. Founded in 2025. Pre-revenue, community-funded. Based in
+Austin, TX.
+```
+
+The bad version is marketing. The good version is information. An agent evaluating alignment needs information.
+
+### Mission
+
+State the goal in terms that could be measured. If your mission statement could belong to any organization in your space, it's too generic.
+
+Bad:
+```markdown
+Our mission is to empower individuals through AI education.
+```
+
+Good:
+```markdown
+Make the world applied AI literate. North Star: number of people certified who
+can demonstrate applied AI competence in their domain.
+```
+
+The North Star metric is optional but valuable. It tells a potential partner what you're actually optimizing for.
+
+### Values
+
+Each value should have a cost. If living this value never requires you to say no to something attractive, it's not a real value. It's a talking point.
+
+Bad:
+```markdown
+- We value innovation
+- We believe in collaboration
+- We prioritize excellence
+```
+
+Good:
+```markdown
+- Sovereignty over convenience. We will not build systems that create
+  dependency on any single vendor, including us.
+- Signal over noise. We'd rather publish one useful thing than ten
+  impressive-sounding things. This means we say no to most content
+  opportunities.
+```
+
+Test each value: "Can I name a specific time this cost us something?" If yes, it's real. If no, rewrite it.
+
+### Capabilities
+
+List what you can deliver today. Separate current capabilities from things in development. An agent evaluating "can this partner deliver what we need?" needs to know the difference.
+
+Bad:
+```markdown
+- World-class AI education
+- Cutting-edge research
+- Global community
+```
+
+Good:
+```markdown
+- Applied AI curriculum covering agents, context engineering, and harness design
+- 500+ active community members across 8 university chapters
+- Event infrastructure (Applied AI Live series, hackathons)
+- In development: certification program, corporate training pilot
+```
+
+The bad version could describe any AI education company. The good version describes exactly one organization and exactly what it can do right now.
+
+### Looking For
+
+Describe partner archetypes, not generic relationship types. "Strategic partners" is meaningless. "University departments that want to co-develop applied AI curriculum" is an archetype an agent can match against.
+
+Bad:
+```markdown
+- Strategic partners
+- Investors
+- Thought leaders
+```
+
+Good:
+```markdown
+- University partners who want to bring applied AI literacy to their students
+- Community partners who run meetups, hackathons, or study groups
+- Sovereignty-aligned sponsors (no hyperscaler dependency, open source friendly)
+```
+
+### Dealbreakers
+
+This is the hardest section to write and the most important. Most people instinctively soften their dealbreakers because stating them feels confrontational. Resist that instinct.
+
+**The 6 Months Test:** Think about every partnership, collaboration, or relationship that went wrong. What went wrong? When did you first notice? Could you have known earlier if you'd asked directly?
+
+Those answers are your dealbreakers.
+
+Bad:
+```markdown
+- We prefer partners who share our values
+- Misalignment on goals
+```
+
+Good:
+```markdown
+- Partnerships that require exclusive vendor lock-in
+- Organizations that gate foundational knowledge behind enterprise pricing
+- Partners who want brand control or co-branding approval rights over our content
+- Relationships where we'd be a marketing channel rather than a genuine collaborator
+```
+
+Tips for writing dealbreakers:
+
+- **Be specific about the behavior, not the character.** "Dishonest people" is a character judgment. "Organizations that misrepresent their AI capabilities to clients" is a behavior you can observe.
+- **Include structural dealbreakers.** Some misalignment isn't about values. It's about structure. "Partners who require 90-day payment terms" is structural. "Organizations without a technical co-founder" is structural. These matter.
+- **Include the ones that feel awkward to state.** If you have spiritual convictions that affect partnership decisions, say so. If you won't work with certain industries, say so. If you have strong opinions about specific technologies or business models, say so. The point of this section is to be upfront about the things that usually stay unsaid until they cause problems.
+- **Update this section when partnerships fail.** Every failed partnership teaches you a new dealbreaker. Add it.
+
+### Current Priorities
+
+This is the only section that should change frequently. Update it quarterly. Include what you're focused on, what you're not focused on, and what would make a new partnership especially timely.
+
+Bad:
+```markdown
+- Growing the organization
+- Expanding our reach
+```
+
+Good:
+```markdown
+# Current Priorities (Q2 2026)
+
+- Landing first university keystone partnership
+- Launching corporate upskilling pilot
+- Austin as Applied AI capital initiative
+- NOT currently focused on: international expansion, venture funding
+```
+
+The date in the header matters. An agent reading this in Q4 should know it's stale. The "NOT currently focused on" items prevent wasted outreach.
+
+### How to Engage
+
+Make the first step obvious. Don't send people to a generic contact page. Give them the specific email, form, or channel that reaches the right person.
+
+Bad:
+```markdown
+Visit our website for more information.
+```
+
+Good:
+```markdown
+Email gary@appliedaisociety.org or DM @AppliedAISoc on X.
+If you publish an ALIGN.md, include the link. We'll run bilateral evaluation.
+```
+
+The last line is powerful. It tells potential partners that publishing their own ALIGN.md is the best way to get a serious conversation.
+
+## The Union Principle: Personal ALIGN.md Files
+
+If you run multiple organizations or wear multiple hats, your personal ALIGN.md synthesizes all of them. This is harder than writing an org-level ALIGN.md because you need to show how the pieces fit together.
+
+Guidelines:
+
+- **Lead with the synthesis, not the list.** Your Identity section should describe how your roles connect, not list them separately.
+- **Surface tensions honestly.** If your ministry work and your business have different priorities, that's useful information. Don't hide it.
+- **Show the hierarchy.** Which commitments take priority? If your faith comes first and your business comes second, say so. Partners need to know what they're working with.
+- **Reference the org-level files.** Link to each organization's ALIGN.md if they exist. Your personal file is the synthesis. The org files are the details.
+
+Bad:
+```markdown
+# Identity
+
+I am the co-steward of AAS. I also co-founded Imagos Labs. I also have a
+faith blog.
+```
+
+Good:
+```markdown
+# Identity
+
+Gary Sheng. Co-steward of Applied AI Society (making the world applied AI
+literate), co-founder of Imagos Labs (cultural infrastructure at the
+intersection of AI, culture, and sovereignty), and author of FaithWalk OS
+(a documented Christian worldview that shapes every decision). These aren't
+side projects. They're the same mission from different angles: shepherding
+people through the Great Transition with agency, dignity, and truth intact.
+```
+
+## Common Mistakes
+
+### Making It a Pitch Deck
+
+If your ALIGN.md reads like it was written to impress, start over. The audience is an agent evaluating fit, not an investor evaluating upside. Include the things that would make some partners say "this isn't for us." That's the point.
+
+### Omitting Dealbreakers
+
+The most common mistake. People leave out dealbreakers because stating them feels aggressive or limiting. But unstated dealbreakers don't disappear. They just surface later, after time and trust are invested. Every dealbreaker you omit is a future conversation you're postponing.
+
+### Being Too Generic
+
+If you replaced your organization's name with a competitor's and the ALIGN.md still made sense, it's too generic. Every section should contain information specific to you. Values like "integrity" and "excellence" tell an agent nothing because every organization claims them.
+
+### Not Updating Current Priorities
+
+An ALIGN.md with outdated Current Priorities is actively misleading. Partners will reach out about things you're no longer focused on. If you can't commit to quarterly updates, omit the section entirely rather than leaving stale information.
+
+### Writing for Humans Instead of Agents
+
+ALIGN.md is designed for agents to parse. This means: clear headers, bullet points, short sentences, concrete language. Don't write flowing prose that requires interpretation. Don't embed important information in the middle of paragraphs. Structure everything so an agent can extract and compare it section by section.
+
+## Keeping It Current
+
+Set a quarterly reminder to review your ALIGN.md. The review process:
+
+1. **Current Priorities.** Update the quarter, add new focuses, remove completed ones.
+2. **Capabilities.** Did you ship something new? Move items from "in development" to the main list.
+3. **Dealbreakers.** Did a partnership fail? Add the lesson.
+4. **Looking For.** Have your needs changed? Update the archetypes.
+5. **Values.** These should change rarely. If they're changing quarterly, they weren't values.
+
+The identity, mission, and values sections should be stable. If you're rewriting them every quarter, the problem isn't ALIGN.md. The problem is that you haven't clarified those things for yourself yet.
+
+## Checklist Before Publishing
+
+- [ ] Does the Dealbreakers section include at least 3 specific, testable items?
+- [ ] Does every value have a cost (something you'd say no to)?
+- [ ] Does Capabilities separate current from in-development?
+- [ ] Does Current Priorities include the quarter and year?
+- [ ] Is it free of marketing language, superlatives, and pitch-deck energy?
+- [ ] Would you be comfortable if your most skeptical potential partner read it?
+- [ ] Can an agent cross-reference your sections against another ALIGN.md?
+
+
+---
 # Standards
 URL: https://docs.appliedaisociety.org/docs/standards
 
@@ -17162,7 +18201,12 @@ That's not installation (getting the tool on your machine). It's not documentati
 
 Applied AI Society identifies emerging patterns in the agent tooling ecosystem and publishes lightweight specs so teams can build on shared conventions instead of reinventing them.
 
-Our first standard is [INTEGRATE.md](/docs/standards/integrate-md) -- a file format for teaching AI agents how to wire a library into any codebase.
+Our standards so far:
+
+1. [INTEGRATE.md](/docs/standards/integrate-md): a file format for teaching AI agents how to wire a library into any codebase.
+2. [ALIGN.md](/docs/standards/align-md): a file format for teaching AI agents how to evaluate alignment between organizations, people, or entities. It answers the question: "Are we aligned? Should we work together?"
+
+INTEGRATE.md is technical (how to wire things in). ALIGN.md is relational (whether to work together at all). Together, they cover two of the most common questions agents face when operating across organizational boundaries.
 
 
 ---

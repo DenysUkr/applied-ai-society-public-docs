@@ -4,6 +4,7 @@ const sidebars: SidebarsConfig = {
   docsSidebar: [
     'about/index',
     'about/co-stewardship',
+    'applied-ai-week/index',
     {
       type: 'category',
       label: 'Applied AI Literacy',

@@ -24,6 +24,7 @@
 - [Context Engineering](https://docs.appliedaisociety.org/docs/concepts/context-engineering)
 - [Context Lake](https://docs.appliedaisociety.org/docs/concepts/context-lake)
 - [Context Overflow](https://docs.appliedaisociety.org/docs/concepts/context-overflow)
+- [Externalize Your Brain](https://docs.appliedaisociety.org/docs/concepts/externalize-your-brain)
 - [Flow-State Infra](https://docs.appliedaisociety.org/docs/concepts/flow-state-infra)
 - [Game Design](https://docs.appliedaisociety.org/docs/concepts/game-design)
 - [Harness Engineering](https://docs.appliedaisociety.org/docs/concepts/harness-engineering)
@@ -110,7 +111,7 @@
 - [Finding Clients Through Trust](https://docs.appliedaisociety.org/docs/playbooks/practitioner/finding-clients)
 - [ICP Clarity: The Foundation of Applied AI](https://docs.appliedaisociety.org/docs/playbooks/practitioner/icp-clarity)
 - [Practitioner Playbooks](https://docs.appliedaisociety.org/docs/playbooks/practitioner)
-- [MVP Personal Agentic OS: Setting Up Your AI Business OS](https://docs.appliedaisociety.org/docs/playbooks/practitioner/mvp-personal-agentic-os): A step-by-step guide to building your Personal Agentic OS for truth management, strategic clarity, and compounding context.
+- [The Personal Agentic OS Workshop](https://docs.appliedaisociety.org/docs/playbooks/practitioner/mvp-personal-agentic-os): A step-by-step guide to building your Personal Agentic OS for truth management, strategic clarity, and compounding context.
 - [The Pilot Pitch](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pilot-pitch)
 - [Pricing Your AI Engagements](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pricing)
 - [Training the Personal Agentic OS Workshop: A Guide for Instructors](https://docs.appliedaisociety.org/docs/playbooks/practitioner/training-the-workshop): How to run a Personal Agentic OS workshop. Logistics, format, pacing, common issues, and lessons learned from real sessions.
@@ -127,6 +128,9 @@
 - [Sovereign Agentic Business OS](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os)
 - [Principles](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os/principles)
 - [The Question Bank](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os/question-bank)
+- [Example - Gary Sheng](https://docs.appliedaisociety.org/docs/standards/align-md/example)
+- [ALIGN.md Spec (v0.1)](https://docs.appliedaisociety.org/docs/standards/align-md)
+- [Writing Guide](https://docs.appliedaisociety.org/docs/standards/align-md/writing-guide)
 - [Standards](https://docs.appliedaisociety.org/docs/standards)
 - [Example - CESP](https://docs.appliedaisociety.org/docs/standards/integrate-md/example)
 - [INTEGRATE.md Spec (v0.1)](https://docs.appliedaisociety.org/docs/standards/integrate-md)
@@ -148,4 +152,4 @@
 - [University Partnerships](https://docs.appliedaisociety.org/docs/university-partnerships): Partner with Applied AI Society to set a new standard for applied AI education at your university.
 
 ---
-Generated at build time. 142 pages indexed.
+Generated at build time. 146 pages indexed.
