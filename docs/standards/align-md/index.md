@@ -5,6 +5,9 @@ title: ALIGN.md Spec (v0.1)
 
 # ALIGN.md Specification v0.1
 
+<!-- last_updated: 2026-04-05 -->
+<!-- version: 0.1 -->
+
 ALIGN.md is a file format for teaching AI agents how to evaluate alignment between organizations, people, or entities. Someone pastes your ALIGN.md into their agent and says "evaluate whether we should work together." The agent reads both parties' ALIGN.md files and returns an honest assessment.
 
 ## The Problem
@@ -45,6 +48,28 @@ The key difference: the other files are about what to do. ALIGN.md is about whet
 - `INTEGRATE.md` = how to wire this in (technical)
 - `SKILL.md` = how to do this thing (capability)
 - `ALIGN.md` = are we aligned? (relational)
+
+## Optional YAML Frontmatter
+
+In addition to the `last_updated` HTML comment, ALIGN.md supports an optional YAML frontmatter header for machine-readable structured data. This is useful if you want agents to parse your file without guessing:
+
+```markdown
+---
+title: "Your Organization Name"
+last_updated: 2026-04-05
+version: 0.1
+entity_type: organization  # or: individual
+key_priorities:
+  - University partnerships
+  - Certification program
+  - Austin as Applied AI capital
+dealbreakers:
+  - Vendor lock-in requirements
+  - Enterprise paywalls on foundational knowledge
+---
+```
+
+This is entirely optional. The markdown sections are the canonical format. Frontmatter is a convenience layer for agents that prefer structured data.
 
 ## Required Metadata
 
@@ -168,14 +193,23 @@ What you're focused on right now. This section is temporal and should be updated
 
 ### 8. How to Engage
 
-The first step. Email, form, mutual connection, whatever. Don't make people guess.
+The first step. Be specific about how someone should reach out and what happens next. If the reader is an agent, it should know the exact procedure. If a human, they should know what to send and where to send it.
 
 ```markdown
 # How to Engage
 
-Email gary@appliedaisociety.org or DM @AppliedAISoc on X.
-If you publish an ALIGN.md, include the link -- we'll run bilateral evaluation.
+- **Email:** gary@appliedaisociety.org with subject "ALIGN check"
+- **DM:** @AppliedAISoc on X
+- **Or publish your own:** Include a link to your ALIGN.md in any outreach. We'll run a bilateral evaluation and get back to you with the results.
+
+If we don't have an ALIGN.md yet and you send yours, we'll do our best to evaluate it manually. The point is to start the honest conversation, not wait for perfect infrastructure.
 ```
+
+#### What If They Don't Have an ALIGN.md?
+
+This will be the normal case for a while. Most people you evaluate won't have published one yet. That's fine. Your agent should prompt you with the key questions from your ALIGN.md -- dealbreakers, what you're looking for, what matters right now -- and help you evaluate them manually. The spec makes the process explicit even when the counterparty hasn't adopted it.
+
+If you want to encourage them to publish one, send them a link to this spec. ALIGN.md adoption spreads through bilateral evaluation: someone receives your ALIGN.md, reads it, realizes it's useful, and publishes their own.
 
 ## Optional Sections
 
@@ -262,7 +296,29 @@ Both is ideal. The repo file is the source of truth. The website file is a distr
 
 **Bilateral by design.** ALIGN.md works when one party publishes. It works dramatically better when both do. The format is designed so two agents can cross-reference sections: your Dealbreakers against their Values, your Looking For against their Capabilities, your Mission against their Mission. Encourage partners to publish their own.
 
-## Add ALIGN.md to Your Organization
+## Self-Reflection Tips
+
+A good ALIGN.md requires knowing yourself first. If you have no idea what you want to do next, no document format will help. But if you want to write one and are struggling with clarity:
+
+- **Start with dealbreakers.** These are usually the easiest to name. What has killed your partnerships before? What are you absolutely not willing to compromise on? Start there.
+- **Write your Mission as a measurement.** If you can't measure it, you don't have a mission -- you have a slogan. "Make the world applied AI literate, measured by people who complete our certification and demonstrate competence" is a mission. "Empower people through AI" is not.
+- **Ask yourself what would cost you money.** Real values cost something. If a value sounds good but you can't imagine a scenario where it would make you turn down revenue or a partnership, it is not a value. It is decoration.
+- **Update quarterly.** An ALIGN.md is a living document. Current Priorities will change. Capabilities will grow. If it has been more than six months since your last update, treat it as untrustworthy.
+- **Tensions are honest.** If your org has competing priorities or internal disagreements, say so. That is more valuable than a clean narrative that hides the mess.
+
+## Template
+
+A blank ALIGN.md template lives in the Applied AI Society GitHub:
+
+```bash
+curl -O https://raw.githubusercontent.com/Applied-AI-Society/applied-ai-society-public-docs/main/docs/standards/align-md/template.md
+```
+
+You can also [view the raw template](/docs/standards/align-md/template) for a formatted version.
+
+Copy it to your repo root, fill it out, and start using it immediately.
+
+## Write Your Own ALIGN.md
 
 Copy this into your AI coding agent. It will read the spec, study the example, and draft an ALIGN.md for you.
 
@@ -303,6 +359,7 @@ Cross-reference these sections:
 
 Output:
 - Dealbreakers triggered (if any): stop here
+- Alignment score (1-10): 1 means no overlap, 10 means near-perfect fit
 - Top 3 alignment points (strongest overlaps)
 - Top 3 gaps or risks
 - Suggested first pilot project (based on the intersection of their
