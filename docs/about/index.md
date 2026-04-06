@@ -7,7 +7,7 @@ title: What is the Applied AI Society?
 
 ## The Core Idea
 
-Applied AI Society champions [applied AI literacy](/docs/applied-ai-literacy) as the path to shortening the time for young people to get their first applied AI money-making opportunity.
+The Applied AI Society is a 501(c)(3) nonprofit that champions [applied AI literacy](/docs/applied-ai-literacy) as the path to shortening the time for young people to get their first applied AI money-making opportunity.
 
 That's it. That's why we exist. The path from "I don't know how to make money in this economy" to "I got my first applied AI opportunity" is too long, too confusing, and too lonely. Most people don't even know what's possible. We build the literacy that makes the path visible, then we make it shorter.
 
@@ -35,7 +35,7 @@ They share the same conviction: young people have real AI fluency but no clear p
 
 ## What We Are
 
-The Applied AI Society is a community where people learn how to make money in the applied AI economy. Our focus is on college-aged students transitioning into the workforce, but we're open to all professionals.
+The Applied AI Society is a 501(c)(3) nonprofit helping people and organizations transition prosperously into the applied AI economy. Our focus is on college-aged students transitioning into the workforce, but we're open to all professionals.
 
 Through hyperlocal chapters led by young leaders, we create spaces where the next generation of applied AI practitioners learns by doing. We host events where real people share how they're actually making money: consulting, startups, workflow automation, agentic AI products, freelance engineering, and more. We share open documentation and connect members with businesses that need their fluency.
 

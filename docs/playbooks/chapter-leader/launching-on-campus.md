@@ -46,7 +46,7 @@ Aim for 3-4 total. The mix that works:
 
 1. **One high-credibility keynote.** This person gives the event weight. They do not need to be a celebrity, but they should have a track record that earns trust. If you have a connection to a founder, executive, or well-known figure in tech or business, use it. AAS national can help with introductions.
 2. **1-2 local practitioners.** People in your area who are making real money applying AI. Freelancers, consultants, small business owners, or students who are already doing paid AI work. The more relatable to your audience, the better. These speakers prove that the opportunity is not theoretical.
-3. **An AAS national representative (optional).** Gary or another national leader can share what AAS chapters across the country are seeing and how the broader network operates. This connects your campus event to something larger.
+3. **An AAS representative (optional).** Gary or another AAS leader can share what AAS chapters around the world are seeing and how the broader network operates. This connects your campus event to something larger.
 
 Finding speakers is one of the best tests of leadership. If you can convince 2-3 people to give a talk at your event, you can probably build a chapter.
 
@@ -125,7 +125,7 @@ If multiple people step up, even better. A chapter with two or three high-agency
 
 ### Within 48 Hours
 
-1. **Invite attendees to the [Applied AI Society Discord](https://discord.gg/K7uWJBMFaN).** This is the global community. Field note sharers, builders, chapter leaders from across the country. Your campus members are now part of a national network.
+1. **Invite attendees to the [Applied AI Society Discord](https://discord.gg/K7uWJBMFaN).** This is the global community. Field note sharers, builders, chapter leaders from around the world. Your campus members are now part of a global network.
 2. **Create a dedicated local group chat.** GroupMe, Signal, iMessage, Telegram, whatever is natural for your campus. This is the local hub for students who want to win in the applied AI economy at your school. Add the AAS national contact (Gary Sheng) to this group.
 3. **Send a follow-up message** to everyone who signed up. Thank them. Share the Discord link and local group chat link. Recap what happened. Ask what they want to see next.
 
