@@ -98,6 +98,7 @@ const sidebars: SidebarsConfig = {
         'concepts/zero-question-assessments',
         'concepts/the-sovereignty-stack',
         'concepts/externalize-your-brain',
+        'concepts/clips',
       ],
     },
     {
