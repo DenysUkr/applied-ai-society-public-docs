@@ -220,6 +220,7 @@ const sidebars: SidebarsConfig = {
             'playbooks/business-owner/workflow-decomposition',
             'playbooks/business-owner/ai-readiness-by-function',
             'playbooks/business-owner/dont-scale-slop',
+            'playbooks/business-owner/building-your-app',
           ],
         },
       ],
