@@ -193,6 +193,7 @@ const sidebars: SidebarsConfig = {
             'playbooks/practitioner/mvp-personal-agentic-os',
             'playbooks/practitioner/hermes-setup',
             'playbooks/practitioner/claude-code-setup',
+            'playbooks/practitioner/codex-setup',
             'playbooks/practitioner/first-git-setup',
             'playbooks/practitioner/training-the-workshop',
           ],
