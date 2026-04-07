@@ -102,6 +102,7 @@ const sidebars: SidebarsConfig = {
         'concepts/slopacalypse',
         'concepts/command-centers',
         'concepts/hyperagency',
+        'concepts/effective-agi',
       ],
     },
     {
