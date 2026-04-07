@@ -5,7 +5,7 @@ title: "The Sovereignty Stack"
 
 # The Sovereignty Stack
 
-*Own your future. Every layer of your digital life has a default version controlled by someone who is not you. Here is the full map.*
+*Own your future. Every layer of your life has a default version controlled by someone who is not you. Here is the full map.*
 
 ---
 
@@ -99,7 +99,7 @@ This layer did not exist five years ago. It is now one of the most critical.
 **Default:** OpenAI, Anthropic, Google. Your prompts go to their servers. Your code, your strategy documents, your private thoughts, all processed on infrastructure you do not control. [The lock-in is coming](/docs/concepts/the-lock-in-is-coming). [Hyperscalers are the new record labels](#hyperscalers-are-the-new-record-labels).
 
 **Sovereign direction:**
-- **Models:** Local open-source models via Ollama. Llama 3.3, Mistral, DeepSeek, Qwen2. A Mac with 32GB RAM can run 70B parameter models. The gap with frontier models is closing.
+- **Models:** Local open-source models via [Ollama](https://ollama.com). The open-source model landscape moves fast. Check the [Open LLM Leaderboard](https://vellum.ai/open-llm-leaderboard) or [Open WebUI Leaderboard](https://openwebui.com/leaderboard) for current rankings. A Mac with 32GB RAM can run 70B parameter models. The gap with frontier models is closing.
 - **Harness:** OpenCode (open-source, supports 75+ providers including local models). Aider, Continue.dev, Cline. The [Personal Agentic OS architecture](/docs/playbooks/practitioner/mvp-personal-agentic-os) is designed so your [context lake](/docs/concepts/context-lake) works with any harness.
 - **Context:** Plain markdown files on your machine. Not chat history on someone else's server. This is the whole point of the context lake architecture.
 
@@ -123,7 +123,7 @@ This layer did not exist five years ago. It is now one of the most critical.
 
 ## The Physical Stack
 
-The layers above are digital. They assume you have power, safety, and the ability to think clearly. Those assumptions are not guaranteed. There are three layers beneath the digital stack that most sovereignty conversations ignore because they stay in the terminal. But sovereignty that only exists on a screen is not sovereignty.
+The layers above are digital. They assume you have power, safety, and the ability to think clearly. Those assumptions are not guaranteed. There are layers beneath the digital stack that most sovereignty conversations ignore because they stay in the terminal. But sovereignty that only exists on a screen is not sovereignty.
 
 ### Energy
 
@@ -270,4 +270,6 @@ The default stack is designed to extract from you. The sovereign stack is design
 - [Minimum Viable Infrastructure](/docs/concepts/minimum-viable-infrastructure): The baseline requirements to participate
 - [Liberation Architecture](/docs/concepts/liberation-architecture): Building systems that free people
 - [Externalize Your Brain](/docs/concepts/externalize-your-brain): The human prerequisite for sovereignty
+- [Command Centers](/docs/concepts/command-centers): What sovereignty enables you to build
+- [The Slopacalypse](/docs/concepts/slopacalypse): Why sovereign builders stand out when generic tools drown in noise
 - [Harness Engineering](/docs/concepts/harness-engineering): Why the wrapper matters as much as the model
