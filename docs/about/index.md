@@ -13,11 +13,13 @@ That's it. That's why we exist. The path from "I don't know how to make money in
 
 ## The Moment We're In
 
-The entire economy is transitioning into the Applied AI Economy. Every sector. Every industry. Healthcare, law, finance, logistics, education, government. Roles that existed for decades are shrinking. Career paths your parents understood are becoming unrecognizable.
+[AGI is effectively here](/docs/concepts/effective-agi) for anyone who knows how to wield it. A single person with the right system can do what used to require a team of ten. The bottleneck is no longer the technology. It is the human.
 
-But new roles are emerging just as quickly, and they pay well. AI implementation specialists. Automation architects. Agent developers. Fractional AI executives. AI-native product managers. Companies across every industry are desperate for people who can actually *apply* this stuff, not just talk about it. These are six-figure roles that barely existed two years ago, and most job boards don't even have categories for them yet. We're documenting these roles as they form: [see the full list →](/docs/roles)
+This is creating a split. Some people are compounding their capabilities faster than at any point in history. Others are watching their skills erode in real time. We call the people going up [hyperagents](/docs/concepts/hyperagency): humans who have wrapped themselves in AI systems that amplify their unique capabilities, judgment, and vision. The economy is diverging into hyperagents and everyone else.
 
-There's a massive gap between what AI can do and what organizations are actually doing with it. That gap is the opportunity. And the people who move now will be the ones everyone else calls in two years. If you want to see what the paths actually look like, [start here →](/docs/playbooks/practitioner/applied-ai-economy)
+AAS exists to help as many people as possible experience hyperagency. The tools are accessible. The knowledge is available. What most people lack is the path: the literacy, the community, and the practical guidance to suit up. That is what we build.
+
+New roles are emerging as quickly as old ones are shrinking: AI implementation specialists, automation architects, agent developers, fractional AI executives. Companies across every industry are desperate for people who can actually apply AI. These are six-figure roles that barely existed two years ago. We're documenting them as they form: [see the full list →](/docs/roles)
 
 Nobody has this figured out. So let's all agree nobody has this figured out, and let's share notes.
 
