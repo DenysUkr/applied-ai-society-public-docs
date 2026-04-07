@@ -121,6 +121,34 @@ This layer did not exist five years ago. It is now one of the most critical.
 
 **Sovereign direction:** Plausible or Umami (open-source, self-hostable, cookieless). Firefox + uBlock Origin for browsing. Disable telemetry in your OS.
 
+## The Physical Stack
+
+The layers above are digital. They assume you have power, safety, and the ability to think clearly. Those assumptions are not guaranteed. There are three layers beneath the digital stack that most sovereignty conversations ignore because they stay in the terminal. But sovereignty that only exists on a screen is not sovereignty.
+
+### Energy
+
+**Default:** You plug into the grid. A utility company, a government, or a landlord controls whether your devices turn on. A single outage, a rate hike, or a policy decision can shut down your entire sovereign stack overnight. None of the 10 digital layers matter if you cannot power them.
+
+**Sovereign direction:** Solar panels with battery storage (residential or portable). Generators as backup. Power stations like EcoFlow or Bluetti for mobile sovereignty. If you run local AI inference, energy is not optional infrastructure. It is compute infrastructure. A Mac running Ollama draws real watts. A home server running 24/7 draws more. Energy sovereignty is compute sovereignty.
+
+**Why it matters now:** As more of your operation moves to local compute (local models, local harnesses, local storage), your energy bill becomes your AI bill. And as AI energy demand scales nationally, grid reliability becomes a geopolitical question, not just a utility question. The people who can power their own stack independent of the grid have a structural advantage when the grid gets stressed.
+
+### Education
+
+**Default:** You learned to think inside institutions designed to produce employees, not sovereigns. The curriculum was chosen for you. The frameworks were chosen for you. The definition of success was chosen for you. Most professionals have spent decades optimizing for metrics defined by someone else (grades, promotions, performance reviews) and have never practiced the skill of defining their own metrics. This is cognitive capture, and it is the deepest form of non-sovereignty.
+
+**Sovereign direction:** Self-directed learning. Community-based learning with people who challenge your assumptions rather than confirm them. [Applied AI literacy](/docs/applied-ai-literacy) as a foundation (understanding what AI can and cannot do, so you are not dependent on anyone else's interpretation). Learning to write [specs](/docs/concepts/spec-writing), build [harnesses](/docs/concepts/harness-engineering), and evaluate AI output for yourself. The sovereign builder does not ask "what should I learn?" They ask "what do I need to know to build the thing I am called to build?" and then they go learn it.
+
+**Why it matters now:** AI is the most powerful leverage tool ever created. The gap between someone who understands it and someone who does not is widening every quarter. If your understanding of AI comes entirely from news headlines, product marketing, or social media takes, your education on the most important technology of your lifetime is controlled by entities with their own agendas. Owning your education about AI is arguably more important than owning your AI model.
+
+### Defense
+
+**Default:** You rely on the state for physical security. Your devices, your servers, your backup drives, your sovereign stack, all of it exists in physical space that someone could access. A home break-in, a stolen laptop, a confiscated server. Digital sovereignty without physical security is a hard drive behind an unlocked door.
+
+**Sovereign direction:** Physical security basics: encrypted drives (so a stolen device is a paperweight, not a breach), hardware kill switches (Purism laptops), secure physical storage for backup media. Full-disk encryption with strong passphrases is non-negotiable for any sovereign setup. Beyond devices: situational awareness, secure locations for critical infrastructure, and the understanding that the most sophisticated digital defenses are irrelevant if someone can physically access your hardware.
+
+**Why it matters now:** As more of your life, your business context, your relationship data, your strategic documents, your financial information moves into your [command center](/docs/concepts/command-centers), the physical security of the device running that command center becomes a higher-stakes question than it has ever been. Your laptop is no longer just a computer. It is the operating system of your life.
+
 ## Hyperscalers Are the New Record Labels
 
 In the music industry, a 360 deal means the label takes a cut of everything. They give you distribution and a check upfront. In return, they own your masters.
@@ -155,6 +183,9 @@ You cannot sovereign everything overnight. Here is one example of the 80/20: rou
 - Coreboot-compatible hardware
 - Local-first AI harness for development
 - Decentralized identity and hosting
+- Solar or battery backup for critical compute
+- Self-directed learning plan for AI literacy
+- Full-disk encryption on every device, secure physical storage for backups
 
 ## Vitalik's Proof of Concept
 
@@ -210,7 +241,7 @@ The [Applied AI Society](https://appliedaisociety.org) is training sovereign bui
 
 The default stack is designed to extract from you. The sovereign stack is designed to liberate you. Every layer you reclaim is a layer the adversary loses.
 
-> **The north star: Own your silicon. Own your network. Own your data. Own your identity. Own your models. Own your harness. Own your content. Own your future.**
+> **The north star: Own your power. Own your education. Own your safety. Own your silicon. Own your network. Own your data. Own your identity. Own your models. Own your harness. Own your content. Own your future.**
 
 ---
 
