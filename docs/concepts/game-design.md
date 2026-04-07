@@ -78,6 +78,6 @@ This is where real value lives. Anyone can demo an AI tool. A practitioner who d
 
 - [Intent Engineering](./intent-engineering): The discipline of encoding organizational purpose, the objectives layer of game design
 - [Context Engineering](./context-engineering): The discipline of curating the right information state, the knowledge layer of game design
-- [AI Survival Guide: Meta Work Is Now Work](https://www.garysheng.com/ai-survival-guide/07-the-applied-ai-mindset/meta-work-is-now-work): The philosophical foundation for why designing the game is now the work
+- [Hyperagency: Meta Work Is Now Work](https://hyperagency.garysheng.com/07-the-applied-ai-mindset/meta-work-is-now-work): The philosophical foundation for why designing the game is now the work
 - Hill, Jordaaan. The "player to coach" framework for understanding the shift from execution to systems design
 - Naismith, James. Inventor of basketball, and an analogy for designing the game rather than playing it
