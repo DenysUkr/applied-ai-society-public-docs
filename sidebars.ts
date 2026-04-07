@@ -99,6 +99,7 @@ const sidebars: SidebarsConfig = {
         'concepts/the-sovereignty-stack',
         'concepts/externalize-your-brain',
         'concepts/clips',
+        'concepts/slopacalypse',
       ],
     },
     {
