@@ -131,7 +131,7 @@ The layers above are digital. They assume you have power, safety, and the abilit
 
 **Sovereign direction:** Solar panels with battery storage (residential or portable). Generators as backup. Power stations like EcoFlow or Bluetti for mobile sovereignty. If you run local AI inference, energy is not optional infrastructure. It is compute infrastructure. A Mac running Ollama draws real watts. A home server running 24/7 draws more. Energy sovereignty is compute sovereignty.
 
-**Why it matters now:** As more of your operation moves to local compute (local models, local harnesses, local storage), your energy bill becomes your AI bill. And as AI energy demand scales nationally, grid reliability becomes a geopolitical question, not just a utility question. The people who can power their own stack independent of the grid have a structural advantage when the grid gets stressed.
+**Why it matters now:** As more of your operation moves to local compute (local models, local harnesses, local storage), your energy bill becomes your AI bill. And here is the sovereignty angle most people miss: if you are entirely dependent on a centralized grid, whoever controls that grid can shut down your AI. Not by hacking your software. By flipping a switch. Rolling blackouts, policy-driven rationing, or targeted infrastructure decisions can take your sovereign stack offline regardless of how carefully you built the digital layers. As AI energy demand scales nationally, grid reliability becomes a geopolitical question, not just a utility question. The people who can power their own stack independent of the grid have a structural advantage that compounds as energy becomes more contested.
 
 ### Education
 
@@ -148,6 +148,21 @@ The layers above are digital. They assume you have power, safety, and the abilit
 **Sovereign direction:** Physical security basics: encrypted drives (so a stolen device is a paperweight, not a breach), hardware kill switches (Purism laptops), secure physical storage for backup media. Full-disk encryption with strong passphrases is non-negotiable for any sovereign setup. Beyond devices: situational awareness, secure locations for critical infrastructure, and the understanding that the most sophisticated digital defenses are irrelevant if someone can physically access your hardware.
 
 **Why it matters now:** As more of your life, your business context, your relationship data, your strategic documents, your financial information moves into your [command center](/docs/concepts/command-centers), the physical security of the device running that command center becomes a higher-stakes question than it has ever been. Your laptop is no longer just a computer. It is the operating system of your life.
+
+### Social Engineering Defense
+
+**Default:** You are one convincing message away from compromise. Social engineering is the oldest and most effective attack vector in existence, and it is getting dramatically more dangerous. AI-generated phishing is now indistinguishable from real communication. Deepfake voice calls can clone anyone's voice from a few seconds of audio. Sophisticated impersonation attacks target people with access to sensitive systems. None of the layers above protect you if someone tricks you into handing over the keys yourself.
+
+This is not just a cybersecurity problem. It is a community and spiritual problem. The deepest social engineering is not a fake email. It is the slow compromise of your judgment through isolation, flattery, fear, or desire. Someone who is emotionally isolated, spiritually ungrounded, or surrounded by people who do not challenge them is exponentially more vulnerable to manipulation than someone embedded in a community of honest, discerning people.
+
+**Sovereign direction:** Community is the defense layer. People who know you well enough to say "that does not sound like you" or "something about this feels wrong." People who will challenge a decision before you make it, not after. Practically, this looks like:
+
+- **Verification culture.** Never act on urgent requests (wire transfers, credential sharing, access grants) without out-of-band verification. Call the person on a known number. Confirm face to face. Make it normal in your circle to verify before trusting, and never make anyone feel bad for double-checking.
+- **Inner circle with discernment.** Surround yourself with people whose spiritual and relational discernment you trust. People who can sense when something is off before they can articulate why. This is not paranoia. It is the ancient pattern of counsel: "Where there is no guidance, a people falls, but in an abundance of counselors there is safety" (Proverbs 11:14).
+- **Awareness as practice.** Understand the common plays: urgency pressure ("act now or lose access"), authority impersonation ("this is your CEO"), emotional manipulation ("I need help and you are the only one"). Once you can name the pattern, you are much harder to capture by it.
+- **AI as a second check.** Ironically, AI is both the threat and part of the defense. Run suspicious messages through your AI agent for analysis. Use it as a pattern-matching tool for detecting manipulation. The human + LLM two-factor that Vitalik describes below applies here too.
+
+**Why it matters now:** The same AI tools that power your sovereign stack also power the most sophisticated social engineering attacks in history. Every public figure, every business owner, every person with access to valuable systems is a target. The defense is not better spam filters. It is deeper relationships with trustworthy people, sharper discernment, and the discipline to verify before you trust. Your community is your firewall.
 
 ## Hyperscalers Are the New Record Labels
 
@@ -186,6 +201,7 @@ You cannot sovereign everything overnight. Here is one example of the 80/20: rou
 - Solar or battery backup for critical compute
 - Self-directed learning plan for AI literacy
 - Full-disk encryption on every device, secure physical storage for backups
+- Verification culture in your inner circle (never act on urgent requests without out-of-band confirmation)
 
 ## Vitalik's Proof of Concept
 
