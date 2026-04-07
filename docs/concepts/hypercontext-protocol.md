@@ -57,9 +57,9 @@ That is the protocol. Context lake, permission surface, query layer, audit trail
 
 This builds naturally on what already exists:
 
-1. **[Personal Agentic OS](/docs/concepts/personal-agentic-os)** — your agent OS, your command center (you are here)
-2. **[Agentic Project OS](/docs/concepts/lossy-ai-telephone)** — shared context for teams working on the same project
-3. **Hypercontext Protocol** — your Personal Agentic OS as an API that trusted external agents can query (where this is going)
+1. **[Personal Agentic OS](/docs/concepts/personal-agentic-os):** your agent OS, your command center (you are here)
+2. **[Agentic Project OS](/docs/concepts/lossy-ai-telephone):** shared context for teams working on the same project
+3. **Hypercontext Protocol:** your Personal Agentic OS as an API that trusted external agents can query (where this is going)
 
 Today, MCP servers already enable tool-level interoperability between agents. The Hypercontext Protocol extends this to context-level interoperability between people. Your agent does not just use tools. It represents you to other people's agents, sharing exactly the context they need and nothing they don't.
 
