@@ -100,6 +100,7 @@ const sidebars: SidebarsConfig = {
         'concepts/externalize-your-brain',
         'concepts/clips',
         'concepts/slopacalypse',
+        'concepts/command-centers',
       ],
     },
     {
