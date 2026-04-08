@@ -103,6 +103,7 @@ const sidebars: SidebarsConfig = {
         'concepts/command-centers',
         'concepts/hyperagency',
         'concepts/effective-agi',
+        'concepts/four-levels-of-applied-ai',
       ],
     },
     {

@@ -8,6 +8,7 @@
 - [What is the Applied AI Society?](https://docs.appliedaisociety.org/docs/about)
 - [The Applied AI Literacy Earthshot](https://docs.appliedaisociety.org/docs/applied-ai-literacy/earthshot): Our commitment: the best open-source applied AI literacy source material in the world, co-created by the leading practitioners in the world. The foundation from which all courses, tools, and translations derive.
 - [Applied AI Literacy](https://docs.appliedaisociety.org/docs/applied-ai-literacy): Applied AI Society champions applied AI literacy: the ability to understand what AI can do and put it to work on real problems. Courses, frameworks, and resources coming soon.
+- [Applied AI Week](https://docs.appliedaisociety.org/docs/applied-ai-week): A week dedicated to understanding and upskilling into the applied AI economy. Starting in Austin, Texas.
 - [Generating Assets with AI](https://docs.appliedaisociety.org/docs/brand/ai-generation)
 - [Brand Guidelines](https://docs.appliedaisociety.org/docs/brand)
 - [Gary Sheng](https://docs.appliedaisociety.org/docs/case-studies/gary-sheng-media-automation)
@@ -20,14 +21,19 @@
 - [Always-On Agents](https://docs.appliedaisociety.org/docs/concepts/always-on-agents)
 - [Anatomy of a Harness: Lessons from Claude Code's Source](https://docs.appliedaisociety.org/docs/concepts/anatomy-of-a-harness)
 - [Capture, Process, Compound](https://docs.appliedaisociety.org/docs/concepts/capture-process-compound)
+- [CLIPs: The Apps of the Agentic Era](https://docs.appliedaisociety.org/docs/concepts/clips)
+- [Command Centers](https://docs.appliedaisociety.org/docs/concepts/command-centers)
 - [Compounding Docs](https://docs.appliedaisociety.org/docs/concepts/compounding-docs)
 - [Context Engineering](https://docs.appliedaisociety.org/docs/concepts/context-engineering)
 - [Context Lake](https://docs.appliedaisociety.org/docs/concepts/context-lake)
 - [Context Overflow](https://docs.appliedaisociety.org/docs/concepts/context-overflow)
+- [Effective AGI](https://docs.appliedaisociety.org/docs/concepts/effective-agi)
 - [Externalize Your Brain](https://docs.appliedaisociety.org/docs/concepts/externalize-your-brain)
 - [Flow-State Infra](https://docs.appliedaisociety.org/docs/concepts/flow-state-infra)
+- [The Four Levels of Applied AI](https://docs.appliedaisociety.org/docs/concepts/four-levels-of-applied-ai)
 - [Game Design](https://docs.appliedaisociety.org/docs/concepts/game-design)
 - [Harness Engineering](https://docs.appliedaisociety.org/docs/concepts/harness-engineering)
+- [Hyperagency](https://docs.appliedaisociety.org/docs/concepts/hyperagency)
 - [Hypercontext Protocol](https://docs.appliedaisociety.org/docs/concepts/hypercontext-protocol)
 - [Ignorance Debt](https://docs.appliedaisociety.org/docs/concepts/ignorance-debt)
 - [Concepts](https://docs.appliedaisociety.org/docs/concepts)
@@ -44,6 +50,7 @@
 - [The Self-Improving Enterprise](https://docs.appliedaisociety.org/docs/concepts/self-improving-enterprise)
 - [Self-Improving Systems](https://docs.appliedaisociety.org/docs/concepts/self-improving-systems)
 - [Signalmaxxing](https://docs.appliedaisociety.org/docs/concepts/signalmaxxing)
+- [The Slopacalypse](https://docs.appliedaisociety.org/docs/concepts/slopacalypse)
 - [The Spec Is the Product](https://docs.appliedaisociety.org/docs/concepts/spec-writing)
 - [Chat History Is Disposable](https://docs.appliedaisociety.org/docs/concepts/the-chat-is-not-the-product)
 - [The Encounter](https://docs.appliedaisociety.org/docs/concepts/the-encounter)
@@ -70,6 +77,7 @@
 - [Why Making Money Matters](https://docs.appliedaisociety.org/docs/philosophy/why-making-money-matters)
 - [AI Readiness by Business Function](https://docs.appliedaisociety.org/docs/playbooks/business-owner/ai-readiness-by-function)
 - [Don't Accept Automation as the Goal](https://docs.appliedaisociety.org/docs/playbooks/business-owner/beyond-automation)
+- [Building the App of Your Dreams](https://docs.appliedaisociety.org/docs/playbooks/business-owner/building-your-app)
 - [Don't Scale Slop](https://docs.appliedaisociety.org/docs/playbooks/business-owner/dont-scale-slop)
 - [Hiring Applied AI Practitioners](https://docs.appliedaisociety.org/docs/playbooks/business-owner/hiring-practitioners)
 - [For Business Owners](https://docs.appliedaisociety.org/docs/playbooks/business-owner)
@@ -107,8 +115,12 @@
 - [Writing Event Descriptions](https://docs.appliedaisociety.org/docs/playbooks/chapter-leader/writing-event-descriptions)
 - [Playbooks](https://docs.appliedaisociety.org/docs/playbooks)
 - [The Applied AI Economy](https://docs.appliedaisociety.org/docs/playbooks/practitioner/applied-ai-economy)
+- [Setting Up Claude Code](https://docs.appliedaisociety.org/docs/playbooks/practitioner/claude-code-setup): A practical guide to installing and configuring Claude Code as the harness for your Personal Agentic OS.
+- [Setting Up OpenAI Codex](https://docs.appliedaisociety.org/docs/playbooks/practitioner/codex-setup): A practical guide to installing and configuring OpenAI Codex CLI as the harness for your Personal Agentic OS.
 - [Be an Applied AI Scientist](https://docs.appliedaisociety.org/docs/playbooks/practitioner/experimental-improvement)
 - [Finding Clients Through Trust](https://docs.appliedaisociety.org/docs/playbooks/practitioner/finding-clients)
+- [First Git Setup](https://docs.appliedaisociety.org/docs/playbooks/practitioner/first-git-setup): A step-by-step guide to setting up Git and GitHub authentication so you can version-control your Personal Agentic OS.
+- [Setting Up Hermes Agent](https://docs.appliedaisociety.org/docs/playbooks/practitioner/hermes-setup): A detailed guide to installing, configuring, and getting the most out of Hermes Agent, the open source agent that replaces Claude Code and OpenClaw in one tool.
 - [ICP Clarity: The Foundation of Applied AI](https://docs.appliedaisociety.org/docs/playbooks/practitioner/icp-clarity)
 - [Practitioner Playbooks](https://docs.appliedaisociety.org/docs/playbooks/practitioner)
 - [The Personal Agentic OS Workshop](https://docs.appliedaisociety.org/docs/playbooks/practitioner/mvp-personal-agentic-os): A step-by-step guide to building your Personal Agentic OS for truth management, strategic clarity, and compounding context.
@@ -128,8 +140,9 @@
 - [Sovereign Agentic Business OS](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os)
 - [Principles](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os/principles)
 - [The Question Bank](https://docs.appliedaisociety.org/docs/sovereign-agentic-business-os/question-bank)
-- [Example - Gary Sheng](https://docs.appliedaisociety.org/docs/standards/align-md/example)
+- [Example - Fictional](https://docs.appliedaisociety.org/docs/standards/align-md/example)
 - [ALIGN.md Spec (v0.1)](https://docs.appliedaisociety.org/docs/standards/align-md)
+- [[Organization Name] ALIGN.md](https://docs.appliedaisociety.org/docs/standards/align-md/template)
 - [Writing Guide](https://docs.appliedaisociety.org/docs/standards/align-md/writing-guide)
 - [Standards](https://docs.appliedaisociety.org/docs/standards)
 - [Example - CESP](https://docs.appliedaisociety.org/docs/standards/integrate-md/example)
@@ -152,4 +165,4 @@
 - [University Partnerships](https://docs.appliedaisociety.org/docs/university-partnerships): Partner with Applied AI Society to set a new standard for applied AI education at your university.
 
 ---
-Generated at build time. 146 pages indexed.
+Generated at build time. 159 pages indexed.
