@@ -3131,11 +3131,11 @@ You do not need to be a professional developer. You need:
 
 
 ---
-# The Four Levels of Applied AI
-URL: https://docs.appliedaisociety.org/docs/concepts/four-levels-of-applied-ai
+# The Four Levels of Applied AI for Existing Businesses
+URL: https://docs.appliedaisociety.org/docs/concepts/four-levels-of-applied-ai-for-existing-businesses
 
 
-# The Four Levels of Applied AI
+# The Four Levels of Applied AI for Existing Businesses
 
 *Most people never get past level 1. The ROI compounds at level 3.*
 
@@ -3169,13 +3169,13 @@ Level 1 is valuable. It is not a destination. (See: [Don't Accept Automation as 
 
 *Use AI where it is better than you.*
 
-Brainstorm keyword angles. Steelman your own strategy. Find blind spots in copy. Pressure-test assumptions. Stress-test a proposal before you send it. Generate counterarguments to your own pitch. Identify patterns in customer feedback you missed because you were too close to it.
+Steelman your own strategy. Pressure-test assumptions before you present them. Generate counterarguments to your own pitch. Stress-test a proposal before you send it. Identify patterns in customer feedback you missed because you were too close to it. Brainstorm angles on a problem you have been staring at for weeks.
 
 This is AI as a sparring partner, not a faster intern. The shift is subtle but critical: you stop giving AI tasks and start giving it problems. You stop saying "write this email" and start saying "here is my situation, here is what I am considering, what am I missing?"
 
 This requires [context engineering](/docs/concepts/context-engineering): the AI needs enough of your situation to think with you, not just for you. A prompt with no context produces generic output. A prompt with your strategy doc, your competitive landscape, and your last three quarterly reviews produces insight you could not have gotten alone.
 
-Most people skip this level entirely. They go from "AI writes my emails" to trying to build a chatbot, missing the entire middle layer where AI is most useful as a thinking tool.
+Most people skip this level entirely. They jump from "AI writes my emails" straight to tool-building, missing the entire middle layer where AI is most useful as a thinking tool.
 
 **What level 2 gives you:** Better decisions.
 
@@ -3241,11 +3241,11 @@ Level 1 saves time. Level 2 improves thinking. Level 3 creates new work. Level 4
 
 ## What About New Businesses?
 
-This ladder describes the progression for existing operations. If you are starting from scratch, you do not need to climb. You start at level 4.
+This ladder describes the progression for existing operations. If you are starting a business from scratch, you do not need to climb one level at a time. You can architect for all four levels from day one.
 
-New businesses have no legacy workflows to automate, no existing processes to optimize. The smartest move is to build a [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os) from day one: custom tools, sovereign data, compounding systems designed around your specific problem. You skip the ladder entirely because there is nothing to climb from.
+New businesses have no legacy workflows weighing them down. No teams doing things the old way. The smartest move is to build a [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os) from the start: custom tools, sovereign data, compounding systems designed around your specific problem. You still benefit from level 2 thinking (AI as sparring partner) and level 3 awareness (what work is now worth doing that never was before). But you get to wire it all in from the foundation instead of retrofitting.
 
-The ladder matters for existing businesses because they have gravity. They have teams doing things the old way. They have workflows that predate AI. The progression from level 1 to level 4 is the path to modernizing an operation that already exists. New businesses get to leapfrog it.
+The ladder matters for existing businesses because they have gravity. They have workflows that predate AI. The progression from level 1 to level 4 is the path to modernizing an operation that already exists. New businesses get to skip the retrofit.
 
 ---
 
@@ -3255,7 +3255,7 @@ The ladder matters for existing businesses because they have gravity. They have 
 
 **If you are a practitioner:** This is your engagement roadmap. Most clients come to you stuck at level 1. Show them the ladder. The conversation shifts from "automate my reports" to "what work should my business be doing that it has never done?" That is a fundamentally different engagement, and a fundamentally different price point. (See: [Pricing](/docs/playbooks/practitioner/pricing))
 
-**If you are a student:** This framework maps to the [Five Levels of Value](/docs/playbooks/student/five-levels-of-value). Level 1 and 2 are Player territory. Level 3 is where Coaches operate. Level 4 is where Game Creators build. Figure out where you want to be.
+**If you are a student:** This framework complements the [Five Levels of Value](/docs/playbooks/student/five-levels-of-value). That ladder is about where you sit in the economy. This ladder is about how the organizations you work in (or build) use AI. Understanding both gives you a map of where to aim and what to push for once you are inside a team.
 
 ---
 
@@ -3266,10 +3266,7 @@ The ladder matters for existing businesses because they have gravity. They have 
 - [The Roles-to-Workflows Shift](/docs/concepts/roles-to-workflows): The mental model that reveals level 3 opportunities
 - [Personal Agentic OS](/docs/concepts/personal-agentic-os): The system at the heart of level 4
 - [Self-Improving Systems](/docs/concepts/self-improving-systems): How level 4 systems compound over time
-- [The Sovereignty Stack](/docs/concepts/the-sovereignty-stack): Why building your own tools matters more than renting someone else's
-- [Harness Engineering](/docs/concepts/harness-engineering): The technical discipline behind level 4
 - [Five Levels of Value](/docs/playbooks/student/five-levels-of-value): The related framework for where you sit in the economy
-- [Hyperagency](/docs/concepts/hyperagency): What happens when you operate at level 4 consistently
 
 ---
 
@@ -3450,6 +3447,7 @@ All software will be self-evolving software. The question is not whether this ha
 - [The Self-Improving Enterprise](/docs/concepts/self-improving-enterprise): Where self-improving harnesses lead at the business level
 - [CLIPs: The Apps of the Agentic Era](/docs/concepts/clips): What gets built on top of harnesses
 - [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os): The philosophy of owning your own system
+- [The Judgment Line](/docs/concepts/the-judgment-line): The design rule for splitting work between LLMs and code inside a harness
 
 
 ---
@@ -3530,7 +3528,7 @@ Suit up.
 - [Liberation Architecture](/docs/concepts/liberation-architecture): Building systems that free people, not capture them
 - [Effective AGI](/docs/concepts/effective-agi): The claim that AGI is already here for anyone who can wield it
 - [Ignorance Debt](/docs/concepts/ignorance-debt): What happens when high-agency people build without self-knowledge
-- [The Four Levels of Applied AI](/docs/concepts/four-levels-of-applied-ai): The operational ladder from automation to custom systems. Hyperagents operate at level 4.
+- [The Four Levels of Applied AI for Existing Businesses](/docs/concepts/four-levels-of-applied-ai-for-existing-businesses): The operational ladder from automation to custom systems. Hyperagents operate at level 4.
 
 
 ---
@@ -3732,7 +3730,9 @@ Key ideas shaping the applied AI economy. Some of these are established terms. S
 
 ### Frameworks
 
-- [The Four Levels of Applied AI](/docs/concepts/four-levels-of-applied-ai): Automate, Think, Unlock, Build. A diagnostic ladder for where you are and what climbing looks like. Most people plateau at level 1.
+- [The Four Levels of Applied AI for Existing Businesses](/docs/concepts/four-levels-of-applied-ai-for-existing-businesses): Automate, Think, Unlock, Build. A diagnostic ladder for where you are and what climbing looks like. Most people plateau at level 1.
+
+- [The Judgment Line](/docs/concepts/the-judgment-line): LLMs handle judgment. Code handles everything else. The design rule that makes agentic systems trustworthy.
 
 ### Practical
 
@@ -5479,6 +5479,81 @@ Every Applied AI Society workshop is built to produce encounters, not to deliver
 We've found that one genuine encounter does more for adoption than months of education. And because the encounter naturally produces stories ("let me tell you what happened"), it compounds. The person who had the experience becomes the most credible advocate in their community. They don't need to be trained in evangelism. They just tell the truth about what happened.
 
 This is how applied AI spreads in the real world. Not through marketing. Through testimony.
+
+
+---
+# The Judgment Line
+URL: https://docs.appliedaisociety.org/docs/concepts/the-judgment-line
+
+
+# The Judgment Line
+
+*LLMs handle judgment. Code handles everything else.*
+
+---
+
+## The Rule
+
+Every task in an agentic system falls on one side of a line.
+
+**Above the line:** synthesis, prioritization, drafting, reasoning, interpretation, deciding what matters. Work where the answer depends on context, nuance, or taste. This is what LLMs are for.
+
+**Below the line:** reading files, calling APIs, sending messages, comparing timestamps, transforming data, moving things between systems. Work where the answer is deterministic. This is what scripts are for.
+
+The rule: never push below-the-line work through an LLM.
+
+---
+
+## Why This Matters
+
+When you route deterministic work through an LLM, things break in unpredictable ways. The model might add a timestamp wrong, skip a file it was supposed to read, hallucinate an API response, or silently drop a step it found uninteresting. These failures are invisible until they cause real damage, because the system looked like it was working.
+
+Worse: you stop trusting the system. Once you catch an LLM getting a date comparison wrong or mangling a data transformation, you start double-checking everything. That defeats the purpose. The whole point of building an agentic system is to stop doing the work yourself.
+
+The fix is layer separation. Code does what code is good at: reliable, repeatable, verifiable execution. The LLM does what the LLM is good at: reading a situation and making a call. When you get this separation right, the system becomes something you actually depend on rather than something you babysit.
+
+---
+
+## What This Looks Like
+
+**Email triage.** Code pulls emails from the API, parses headers, extracts metadata, checks timestamps, deduplicates. The LLM reads the content and decides what needs your attention, what can wait, and what to ignore. Code handles retrieval. The LLM handles judgment.
+
+**Meeting prep.** Code queries your calendar, fetches prior notes from the file system, pulls recent email threads with the attendees. The LLM synthesizes all of it into a brief: what matters, what to bring up, what to watch for. Code handles assembly. The LLM handles synthesis.
+
+**Task management.** Code reads task files, compares due dates, identifies what is overdue, checks which items have rolled forward for five consecutive days. The LLM looks at the full picture and decides what to flag as urgent, what to deprioritize, and what to say in the evening summary. Code handles state. The LLM handles prioritization.
+
+**Research.** Code fetches RSS feeds, scrapes pages, downloads PDFs, extracts text. The LLM reads the content and decides what is relevant, what is noise, and how it connects to what you are working on. Code handles collection. The LLM handles curation.
+
+The pattern is always the same: code assembles the inputs, the LLM applies judgment, code executes the output.
+
+---
+
+## The Common Mistake
+
+Most people building agentic systems make the same error: they give the LLM a broad instruction ("check my email and handle anything important") and let it figure out the mechanics. The LLM then has to handle both the judgment ("is this important?") and the plumbing ("connect to Gmail, parse MIME, extract attachments"). It will get the judgment right most of the time and the plumbing wrong some of the time, and you will not know which failures are which.
+
+The fix is not to constrain the LLM. It is to give it less to do. Write the plumbing in code. Hand the LLM clean inputs. Let it do what it is actually good at.
+
+---
+
+## The Trust Equation
+
+A system you trust is a system you use. A system you use is a system that compounds.
+
+Trust comes from predictability. The deterministic parts of your system should be perfectly predictable because they are code. The judgment parts should be predictably good because the LLM is only being asked to do LLM-shaped work with clean inputs.
+
+When both layers are doing what they are designed for, the system earns your trust faster. When they are blurred together, every failure could be either layer, and debugging becomes guesswork.
+
+A smaller system you trust will always beat a bigger one you route around. The judgment line is how you build the smaller system.
+
+---
+
+## Further Reading
+
+- [Harness Engineering](/docs/concepts/harness-engineering): The broader architecture that the judgment line operates within
+- [Anatomy of a Harness](/docs/concepts/anatomy-of-a-harness): How Claude Code implements this separation in practice
+- [Self-Improving Systems](/docs/concepts/self-improving-systems): Systems that get the layer separation right can improve themselves
+- [The Four Levels of Applied AI for Existing Businesses](/docs/concepts/four-levels-of-applied-ai-for-existing-businesses): Level 4 (Build) is where the judgment line becomes a daily design decision
 
 
 ---
@@ -7758,7 +7833,7 @@ Work through all three stages first. It will also tell you a lot about which pra
 
 ## Further Reading
 
-- [The Four Levels of Applied AI](/docs/concepts/four-levels-of-applied-ai): The full progression from automation (level 1) through building custom systems (level 4). This page covers the level 1 trap. The ladder shows what comes next.
+- [The Four Levels of Applied AI for Existing Businesses](/docs/concepts/four-levels-of-applied-ai-for-existing-businesses): The full progression from automation (level 1) through building custom systems (level 4). This page covers the level 1 trap. The ladder shows what comes next.
 
 
 ---

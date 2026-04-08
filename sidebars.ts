@@ -104,6 +104,7 @@ const sidebars: SidebarsConfig = {
         'concepts/hyperagency',
         'concepts/effective-agi',
         'concepts/four-levels-of-applied-ai-for-existing-businesses',
+        'concepts/the-judgment-line',
       ],
     },
     {

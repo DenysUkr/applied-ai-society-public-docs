@@ -30,7 +30,7 @@
 - [Effective AGI](https://docs.appliedaisociety.org/docs/concepts/effective-agi)
 - [Externalize Your Brain](https://docs.appliedaisociety.org/docs/concepts/externalize-your-brain)
 - [Flow-State Infra](https://docs.appliedaisociety.org/docs/concepts/flow-state-infra)
-- [The Four Levels of Applied AI](https://docs.appliedaisociety.org/docs/concepts/four-levels-of-applied-ai)
+- [The Four Levels of Applied AI for Existing Businesses](https://docs.appliedaisociety.org/docs/concepts/four-levels-of-applied-ai-for-existing-businesses)
 - [Game Design](https://docs.appliedaisociety.org/docs/concepts/game-design)
 - [Harness Engineering](https://docs.appliedaisociety.org/docs/concepts/harness-engineering)
 - [Hyperagency](https://docs.appliedaisociety.org/docs/concepts/hyperagency)
@@ -54,6 +54,7 @@
 - [The Spec Is the Product](https://docs.appliedaisociety.org/docs/concepts/spec-writing)
 - [Chat History Is Disposable](https://docs.appliedaisociety.org/docs/concepts/the-chat-is-not-the-product)
 - [The Encounter](https://docs.appliedaisociety.org/docs/concepts/the-encounter)
+- [The Judgment Line](https://docs.appliedaisociety.org/docs/concepts/the-judgment-line)
 - [The Lock-In Is Coming](https://docs.appliedaisociety.org/docs/concepts/the-lock-in-is-coming)
 - [The Permission Surface](https://docs.appliedaisociety.org/docs/concepts/the-permission-surface)
 - [The Soul Harness](https://docs.appliedaisociety.org/docs/concepts/the-soul-harness)
@@ -165,4 +166,4 @@
 - [University Partnerships](https://docs.appliedaisociety.org/docs/university-partnerships): Partner with Applied AI Society to set a new standard for applied AI education at your university.
 
 ---
-Generated at build time. 159 pages indexed.
+Generated at build time. 160 pages indexed.
