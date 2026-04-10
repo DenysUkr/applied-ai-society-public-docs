@@ -205,6 +205,7 @@ const sidebars: SidebarsConfig = {
             'playbooks/practitioner/codex-setup',
             'playbooks/practitioner/first-git-setup',
             'playbooks/practitioner/training-the-workshop',
+            'playbooks/practitioner/using-the-docs-with-your-jarvis',
           ],
         },
         {
