@@ -111,6 +111,7 @@ const sidebars: SidebarsConfig = {
         'concepts/crutching',
         'concepts/raise-the-floor',
         'concepts/see-your-own-thinking',
+        'concepts/imagination-economy-infrastructure',
       ],
     },
     {
