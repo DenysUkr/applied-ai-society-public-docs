@@ -338,6 +338,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'workshops/supersuit-up',
+        'workshops/readiness-quiz',
       ],
     },
     'university-partnerships',
