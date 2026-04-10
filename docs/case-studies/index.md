@@ -27,6 +27,14 @@ This section features three kinds of content: **project case studies** showing h
 
 ---
 
+## Corporate Case Studies
+
+| Case Study | Company | Summary |
+|------------|---------|---------|
+| [Ramp: Glass](/docs/case-studies/ramp-glass) | Ramp | 700 employees, 350 shared skills, and an internal AI suite that validates harness engineering, shared skill files, and sovereignty at corporate scale |
+
+---
+
 ## Project Case Studies
 
 | Case Study | Who | Summary |

@@ -108,6 +108,7 @@ const sidebars: SidebarsConfig = {
         'concepts/the-sorting-hat',
         'concepts/robot-mode',
         'concepts/crutching',
+        'concepts/raise-the-floor',
       ],
     },
     {
@@ -121,6 +122,7 @@ const sidebars: SidebarsConfig = {
         'case-studies/rostam-mahabadi',
         'case-studies/gary-sheng-media-automation',
         'case-studies/tim-dort-golts-personal-transformation',
+        'case-studies/ramp-glass',
       ],
     },
     {
