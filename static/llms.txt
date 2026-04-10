@@ -38,6 +38,7 @@
 - [Hyperagency](https://docs.appliedaisociety.org/docs/concepts/hyperagency)
 - [Hypercontext Protocol](https://docs.appliedaisociety.org/docs/concepts/hypercontext-protocol)
 - [Ignorance Debt](https://docs.appliedaisociety.org/docs/concepts/ignorance-debt)
+- [Imagination Economy Infrastructure](https://docs.appliedaisociety.org/docs/concepts/imagination-economy-infrastructure)
 - [Concepts](https://docs.appliedaisociety.org/docs/concepts)
 - [Instruction Files](https://docs.appliedaisociety.org/docs/concepts/instruction-files)
 - [Intent Engineering](https://docs.appliedaisociety.org/docs/concepts/intent-engineering)
@@ -134,6 +135,7 @@
 - [The Pilot Pitch](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pilot-pitch)
 - [Pricing Your AI Engagements](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pricing)
 - [Training the Personal Agentic OS Workshop: A Guide for Instructors](https://docs.appliedaisociety.org/docs/playbooks/practitioner/training-the-workshop): How to run a Personal Agentic OS workshop. Logistics, format, pacing, common issues, and lessons learned from real sessions.
+- [Using the Docs with Your Jarvis](https://docs.appliedaisociety.org/docs/playbooks/practitioner/using-the-docs-with-your-jarvis)
 - [Presenter Playbooks](https://docs.appliedaisociety.org/docs/playbooks/presenter)
 - [Presenting at Applied AI Live](https://docs.appliedaisociety.org/docs/playbooks/presenter/presenting-at-applied-ai-live)
 - [The Five Levels of Value in the AI Age](https://docs.appliedaisociety.org/docs/playbooks/student/five-levels-of-value)
@@ -171,7 +173,8 @@
 - [Why Truth Management Matters](https://docs.appliedaisociety.org/docs/truth-management/why-it-matters)
 - [University Partnerships](https://docs.appliedaisociety.org/docs/university-partnerships): Partner with Applied AI Society to set a new standard for applied AI education at your university.
 - [Workshops](https://docs.appliedaisociety.org/docs/workshops)
+- [Supersuit Up Readiness Quiz](https://docs.appliedaisociety.org/docs/workshops/readiness-quiz)
 - [The Supersuit Up Workshop](https://docs.appliedaisociety.org/docs/workshops/supersuit-up): Build your Personal Agentic OS (aka Jarvis Yourself). A step-by-step guide to AI-augmented recall, strategic clarity, and compounding context.
 
 ---
-Generated at build time. 168 pages indexed.
+Generated at build time. 171 pages indexed.
