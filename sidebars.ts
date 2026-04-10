@@ -110,6 +110,7 @@ const sidebars: SidebarsConfig = {
         'concepts/robot-mode',
         'concepts/crutching',
         'concepts/raise-the-floor',
+        'concepts/see-your-own-thinking',
       ],
     },
     {

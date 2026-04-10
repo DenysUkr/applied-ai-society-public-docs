@@ -109,3 +109,4 @@ The gap between "I use AI sometimes" and "AI operates from my full context" is t
 - [Context Lake](/docs/concepts/context-lake): Where your externalized brain lives
 - [MVP Personal Agentic OS](/docs/playbooks/practitioner/mvp-personal-agentic-os): The tutorial to get started
 - [Crutching](/docs/concepts/crutching): Externalizing your brain is the right move. Outsourcing your thinking is the wrong one. Know the difference.
+- [See Your Own Thinking](/docs/concepts/see-your-own-thinking): What happens after you externalize. AI reflects your thinking back to you and you gain metacognition you could not achieve alone.
