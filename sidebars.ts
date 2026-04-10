@@ -106,6 +106,7 @@ const sidebars: SidebarsConfig = {
         'concepts/four-levels-of-applied-ai-for-existing-businesses',
         'concepts/the-judgment-line',
         'concepts/the-sorting-hat',
+        'concepts/robot-mode',
       ],
     },
     {
