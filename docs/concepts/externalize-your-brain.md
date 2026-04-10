@@ -108,3 +108,4 @@ The gap between "I use AI sometimes" and "AI operates from my full context" is t
 - [The Sovereignty Stack](/docs/concepts/the-sovereignty-stack): Owning every layer of your digital life
 - [Context Lake](/docs/concepts/context-lake): Where your externalized brain lives
 - [MVP Personal Agentic OS](/docs/playbooks/practitioner/mvp-personal-agentic-os): The tutorial to get started
+- [Crutching](/docs/concepts/crutching): Externalizing your brain is the right move. Outsourcing your thinking is the wrong one. Know the difference.

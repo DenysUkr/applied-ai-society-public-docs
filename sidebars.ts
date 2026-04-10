@@ -107,6 +107,7 @@ const sidebars: SidebarsConfig = {
         'concepts/the-judgment-line',
         'concepts/the-sorting-hat',
         'concepts/robot-mode',
+        'concepts/crutching',
       ],
     },
     {
