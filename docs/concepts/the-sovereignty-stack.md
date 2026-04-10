@@ -100,7 +100,7 @@ This layer did not exist five years ago. It is now one of the most critical.
 
 **Sovereign direction:**
 - **Models:** Local open-source models via [Ollama](https://ollama.com). The open-source model landscape moves fast. Check the [Open LLM Leaderboard](https://vellum.ai/open-llm-leaderboard) or [Open WebUI Leaderboard](https://openwebui.com/leaderboard) for current rankings. A Mac with 32GB RAM can run 70B parameter models. The gap with frontier models is closing.
-- **Harness:** OpenCode (open-source, supports 75+ providers including local models). Aider, Continue.dev, Cline. The [Personal Agentic OS architecture](/docs/playbooks/practitioner/mvp-personal-agentic-os) is designed so your [context lake](/docs/concepts/context-lake) works with any harness.
+- **Harness:** OpenCode (open-source, supports 75+ providers including local models). Aider, Continue.dev, Cline. The [Personal Agentic OS architecture](/docs/workshops/supersuit-up) is designed so your [context lake](/docs/concepts/context-lake) works with any harness.
 - **Context:** Plain markdown files on your machine. Not chat history on someone else's server. This is the whole point of the context lake architecture.
 
 **Difficulty:** Low to medium. Ollama on a Mac takes minutes. The tradeoff: local models are still behind frontier models for complex tasks. You are trading capability for control. For many use cases, the trade is worth it. For others, use cloud models with eyes open about what you are sending.

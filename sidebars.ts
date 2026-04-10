@@ -199,7 +199,6 @@ const sidebars: SidebarsConfig = {
             'playbooks/practitioner/pricing',
             'playbooks/practitioner/finding-clients',
             'playbooks/practitioner/pilot-pitch',
-            'playbooks/practitioner/mvp-personal-agentic-os',
             'playbooks/practitioner/hermes-setup',
             'playbooks/practitioner/claude-code-setup',
             'playbooks/practitioner/codex-setup',
@@ -326,6 +325,17 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'brand/ai-generation',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Workshops',
+      link: {
+        type: 'doc',
+        id: 'workshops/index',
+      },
+      items: [
+        'workshops/supersuit-up',
       ],
     },
     'university-partnerships',

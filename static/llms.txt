@@ -13,6 +13,7 @@
 - [Brand Guidelines](https://docs.appliedaisociety.org/docs/brand)
 - [Gary Sheng](https://docs.appliedaisociety.org/docs/case-studies/gary-sheng-media-automation)
 - [Case Studies](https://docs.appliedaisociety.org/docs/case-studies)
+- [Ramp: Glass](https://docs.appliedaisociety.org/docs/case-studies/ramp-glass)
 - [Rostam Mahabadi](https://docs.appliedaisociety.org/docs/case-studies/rostam-mahabadi)
 - [Tim Dort-Golts](https://docs.appliedaisociety.org/docs/case-studies/tim-dort-golts-personal-transformation)
 - [Code of Conduct](https://docs.appliedaisociety.org/docs/code-of-conduct)
@@ -27,6 +28,7 @@
 - [Context Engineering](https://docs.appliedaisociety.org/docs/concepts/context-engineering)
 - [Context Lake](https://docs.appliedaisociety.org/docs/concepts/context-lake)
 - [Context Overflow](https://docs.appliedaisociety.org/docs/concepts/context-overflow)
+- [Crutching](https://docs.appliedaisociety.org/docs/concepts/crutching)
 - [Effective AGI](https://docs.appliedaisociety.org/docs/concepts/effective-agi)
 - [Externalize Your Brain](https://docs.appliedaisociety.org/docs/concepts/externalize-your-brain)
 - [Flow-State Infra](https://docs.appliedaisociety.org/docs/concepts/flow-state-infra)
@@ -46,7 +48,10 @@
 - [Observable Behavior Engineering](https://docs.appliedaisociety.org/docs/concepts/observable-behavior-engineering)
 - [Permissionless Knowledge](https://docs.appliedaisociety.org/docs/concepts/permissionless-knowledge)
 - [Personal Agentic OS](https://docs.appliedaisociety.org/docs/concepts/personal-agentic-os)
+- [Raise the Floor](https://docs.appliedaisociety.org/docs/concepts/raise-the-floor)
+- [Robot Mode](https://docs.appliedaisociety.org/docs/concepts/robot-mode)
 - [The Roles-to-Workflows Shift](https://docs.appliedaisociety.org/docs/concepts/roles-to-workflows)
+- [See Your Own Thinking](https://docs.appliedaisociety.org/docs/concepts/see-your-own-thinking)
 - [The Self-Improving Enterprise](https://docs.appliedaisociety.org/docs/concepts/self-improving-enterprise)
 - [Self-Improving Systems](https://docs.appliedaisociety.org/docs/concepts/self-improving-systems)
 - [Signalmaxxing](https://docs.appliedaisociety.org/docs/concepts/signalmaxxing)
@@ -57,6 +62,7 @@
 - [The Judgment Line](https://docs.appliedaisociety.org/docs/concepts/the-judgment-line)
 - [The Lock-In Is Coming](https://docs.appliedaisociety.org/docs/concepts/the-lock-in-is-coming)
 - [The Permission Surface](https://docs.appliedaisociety.org/docs/concepts/the-permission-surface)
+- [The Sorting Hat](https://docs.appliedaisociety.org/docs/concepts/the-sorting-hat)
 - [The Soul Harness](https://docs.appliedaisociety.org/docs/concepts/the-soul-harness)
 - [The Sovereignty Stack](https://docs.appliedaisociety.org/docs/concepts/the-sovereignty-stack)
 - [The Survivor Economy](https://docs.appliedaisociety.org/docs/concepts/the-survivor-economy)
@@ -76,6 +82,7 @@
 - [Voices from the Applied AI Frontier](https://docs.appliedaisociety.org/docs/philosophy/voices-from-the-frontier): What the people building and shaping AI say about the future of work, ownership, and human value. Their words validate what Applied AI teaches.
 - [Why Field Notes](https://docs.appliedaisociety.org/docs/philosophy/why-field-notes)
 - [Why Making Money Matters](https://docs.appliedaisociety.org/docs/philosophy/why-making-money-matters)
+- [Your Two Futures](https://docs.appliedaisociety.org/docs/philosophy/your-two-futures)
 - [AI Readiness by Business Function](https://docs.appliedaisociety.org/docs/playbooks/business-owner/ai-readiness-by-function)
 - [Don't Accept Automation as the Goal](https://docs.appliedaisociety.org/docs/playbooks/business-owner/beyond-automation)
 - [Building the App of Your Dreams](https://docs.appliedaisociety.org/docs/playbooks/business-owner/building-your-app)
@@ -124,7 +131,6 @@
 - [Setting Up Hermes Agent](https://docs.appliedaisociety.org/docs/playbooks/practitioner/hermes-setup): A detailed guide to installing, configuring, and getting the most out of Hermes Agent, the open source agent that replaces Claude Code and OpenClaw in one tool.
 - [ICP Clarity: The Foundation of Applied AI](https://docs.appliedaisociety.org/docs/playbooks/practitioner/icp-clarity)
 - [Practitioner Playbooks](https://docs.appliedaisociety.org/docs/playbooks/practitioner)
-- [The Personal Agentic OS Workshop](https://docs.appliedaisociety.org/docs/playbooks/practitioner/mvp-personal-agentic-os): A step-by-step guide to building your Personal Agentic OS for truth management, strategic clarity, and compounding context.
 - [The Pilot Pitch](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pilot-pitch)
 - [Pricing Your AI Engagements](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pricing)
 - [Training the Personal Agentic OS Workshop: A Guide for Instructors](https://docs.appliedaisociety.org/docs/playbooks/practitioner/training-the-workshop): How to run a Personal Agentic OS workshop. Logistics, format, pacing, common issues, and lessons learned from real sessions.
@@ -164,6 +170,8 @@
 - [Voice Transcriber](https://docs.appliedaisociety.org/docs/truth-management/voice-transcriber)
 - [Why Truth Management Matters](https://docs.appliedaisociety.org/docs/truth-management/why-it-matters)
 - [University Partnerships](https://docs.appliedaisociety.org/docs/university-partnerships): Partner with Applied AI Society to set a new standard for applied AI education at your university.
+- [Workshops](https://docs.appliedaisociety.org/docs/workshops)
+- [The Supersuit Up Workshop](https://docs.appliedaisociety.org/docs/workshops/supersuit-up): Build your Personal Agentic OS (aka Jarvis Yourself). A step-by-step guide to AI-augmented recall, strategic clarity, and compounding context.
 
 ---
-Generated at build time. 160 pages indexed.
+Generated at build time. 168 pages indexed.

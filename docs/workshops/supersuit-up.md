@@ -1,5 +1,6 @@
 ---
-sidebar_label: "The Supersuit Up Workshop"
+sidebar_position: 1
+sidebar_label: "Supersuit Up"
 title: "The Supersuit Up Workshop"
 description: "Build your Personal Agentic OS (aka Jarvis Yourself). A step-by-step guide to AI-augmented recall, strategic clarity, and compounding context."
 ---
