@@ -294,7 +294,9 @@ After your AI generates the USER.md, read through it carefully. Remove anything 
 
 This approach is faster and richer than answering questions from scratch because the truth is already documented across months of conversations. Your AI reads everything, extracts the professional context, and creates a focused profile in minutes. You review, correct, and approve. Done.
 
-**The alternative: a live interview.** If you do not have AI conversation history to export (or prefer to start fresh), the starter repo includes a skill file that will interview you.
+**The quick alternative: ask your old AI about you.** If you do not want to deal with data exports and filtering, open ChatGPT (or whichever AI you have been using the longest) in a browser and ask it: "Based on everything you know about me from our conversations, write a detailed professional profile. Cover my skills, expertise, projects, goals, decision-making style, interests, and what I am currently working on. Skip anything personal or sensitive." Copy the output, paste it into your Jarvis session, and tell it to save it as `user/USER.md`. This gives you a solid starting point without touching any export files. It will be thinner than the full export approach (the AI only surfaces what it actively remembers, not patterns buried in old conversations), but it is fast, safe, and good enough to start. You can always deepen it later.
+
+**The from-scratch alternative: a live interview.** If you do not have AI conversation history to export (or prefer to start completely fresh), the starter repo includes a skill file that will interview you.
 
 Tell your AI:
 
