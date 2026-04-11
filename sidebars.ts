@@ -50,6 +50,7 @@ const sidebars: SidebarsConfig = {
         'roles/agentic-os-trainer',
         'roles/community-leader',
         'roles/ai-enablement-architect',
+        'roles/applied-ai-streamliner',
       ],
     },
     {
