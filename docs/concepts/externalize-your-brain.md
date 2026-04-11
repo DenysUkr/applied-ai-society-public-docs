@@ -88,7 +88,7 @@ If you are reading this and your brain is not externalized yet, start here:
 
 3. **Write down one framework you use repeatedly.** How do you evaluate opportunities? How do you decide what to work on? How do you prepare for meetings? Pick one and write it as a markdown file.
 
-4. **Set up a harness that can read these files.** The [MVP Personal Agentic OS tutorial](/docs/workshops/supersuit-up) walks you through this step by step.
+4. **Set up a harness that can read these files.** The [Supersuit Up Workshop](/docs/workshops/supersuit-up) walks you through this step by step.
 
 5. **Start a brain dump practice.** Every day, spend 5 minutes dictating or typing what is on your mind. Your agent processes these into structured context. Over time, this is how your [context lake](/docs/concepts/context-lake) grows.
 
@@ -107,6 +107,6 @@ The gap between "I use AI sometimes" and "AI operates from my full context" is t
 - [Minimum Viable Infrastructure](/docs/concepts/minimum-viable-infrastructure): The baseline requirements to begin
 - [The Sovereignty Stack](/docs/concepts/the-sovereignty-stack): Owning every layer of your digital life
 - [Context Lake](/docs/concepts/context-lake): Where your externalized brain lives
-- [MVP Personal Agentic OS](/docs/workshops/supersuit-up): The tutorial to get started
+- [Supersuit Up Workshop](/docs/workshops/supersuit-up): The tutorial to get started
 - [Crutching](/docs/concepts/crutching): Externalizing your brain is the right move. Outsourcing your thinking is the wrong one. Know the difference.
 - [See Your Own Thinking](/docs/concepts/see-your-own-thinking): What happens after you externalize. AI reflects your thinking back to you and you gain metacognition you could not achieve alone.

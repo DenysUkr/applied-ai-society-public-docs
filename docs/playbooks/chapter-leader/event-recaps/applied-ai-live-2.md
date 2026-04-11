@@ -74,10 +74,10 @@ Applied AI Live #2 was made possible with the support of the Applied AI Society'
 
 ---
 
-## What's Next
+## What Came Next
 
-- **Applied AI Live #3:** March 26, 2026 at Antler VC, Austin. Kit Edwards (Vector Intelligence Consulting) and Ripley Labs AI on Production Infrastructure for AI Agents.
 - **SXSW Panel:** March 15, 2026 at The LINE Hotel (RedThreadX House). "How To Apply AI To Solve Valuable Business Problems."
+- **Applied AI Live #3:** March 26, 2026 at Antler VC, Austin. Kit Edwards (Vector Intelligence Consulting) and Ripley Labs AI on Production Infrastructure for AI Agents.
 
 ---
 

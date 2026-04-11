@@ -13,9 +13,9 @@ description: "Build your Personal Agentic OS (aka Jarvis Yourself). A step-by-st
 
 **The value of in-person help:** This guide is designed to be self-paced, but having a trained applied AI engineer walk you through it in person makes a significant difference. Every machine is slightly different. You will hit edge cases (a Windows PowerShell permission error, an old Python version conflict, a corporate firewall blocking a download) that are too niche to document here but take 30 seconds for an experienced person to debug. An instructor gets you across the finish line instead of stuck at Step 1B for an hour.
 
-The [Applied AI Society](https://appliedaisociety.org) runs Supersuit Up workshops with trained practitioners who have helped hundreds of people through this process. If you want to attend one or request a workshop for your team, school, or community, visit [appliedaisociety.org](https://appliedaisociety.org) or join the [Discord](https://discord.gg/K7uWJBMFaN). A platform for booking and hosting these workshops is coming in Q2 2026. In the meantime, reach out directly and we will connect you with a practitioner in your area.
+The [Applied AI Society](https://appliedaisociety.org) runs Supersuit Up workshops with trained practitioners who have helped hundreds of people through this process. If you want to attend one or request a workshop for your team, school, or community, visit [appliedaisociety.org](https://appliedaisociety.org) or join the [Discord](https://discord.gg/K7uWJBMFaN).
 
-If neither option is available to you right now, this guide plus Hermes itself (which can help you debug installation issues) will get you there.
+If neither option is available to you right now, this guide plus your AI agent (which can help you debug installation issues) will get you there.
 
 ---
 
@@ -31,7 +31,7 @@ Meta thinking is the new thinking. The highest-leverage skill you can develop ri
 
 Here's the key insight behind everything that follows: **the truth in your head is not the truth.** Not operationally. Not for AI. Not for your team. The truth that matters is the truth that exists in documents that AI can read and act on. If it's only in your head, it might as well not exist. It's unsearchable. Your brain has no search bar, no version history, and no way for an AI to read it.
 
-Your [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os) is the persistent memory your AI draws on. The MVP Personal Agentic OS is the simplest possible version of that business OS. Not the end state. The starting point.
+Your [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os) is the persistent memory your AI draws on. The Personal Agentic OS is the simplest possible version of that business OS. Not the end state. The starting point.
 
 For the full philosophy behind why documented truth matters, see [Truth Management](/docs/truth-management) and [Why It Matters](/docs/truth-management/why-it-matters). This playbook is the practical "how to start" companion to those ideas.
 
@@ -234,7 +234,7 @@ Think of your AI agent as a chief of staff. What does a chief of staff need to b
 
 For example, there is a skill file called `aas-social-post` that drafts social media posts for X and LinkedIn. When it runs, it does not produce generic AI content. It has access to every past post, every brand guideline, every event recap, every strategy document, and every relationship file in the system. So it knows what the organization sounds like, what has already been posted, what is being promoted right now, and who to reference. The output sounds like it was written by the person running the org, because the agent has enough context to actually represent them. That is the difference between a chatbot and a Personal Agentic OS. Context compounds. One person plus a deeply contextualized AI chief of staff can do what used to require a team.
 
-The MVP Personal Agentic OS is about building your [context lake](/docs/concepts/context-lake): the structured collection of markdown files that contains everything your AI needs to know about you, your operation, and your world. Getting the truth about your relationships, your thinking, and your decisions into files that AI can read is the foundation. The tools and skill files come later as you grow the system.
+The Personal Agentic OS is about building your [context lake](/docs/concepts/context-lake): the structured collection of markdown files that contains everything your AI needs to know about you, your operation, and your world. Getting the truth about your relationships, your thinking, and your decisions into files that AI can read is the foundation. The tools and skill files come later as you grow the system.
 
 ### Step 3B: A Note on Security
 
@@ -364,7 +364,7 @@ Watch what comes back. It won't be perfect. But it will be useful. And it will b
 
 ## Phase 5: The Daily Workflow
 
-Once your MVP Personal Agentic OS is set up, the default interaction pattern is simple: you speak, the system listens and routes.
+Once your Personal Agentic OS is set up, the default interaction pattern is simple: you speak, the system listens and routes.
 
 ### Step 5A: Open Your Workspace
 
@@ -398,7 +398,7 @@ The brain dump is the lowest-friction way to keep your business OS current. You 
 
 ## Phase 6: Common Pitfalls (From Real Sessions)
 
-These are real issues that come up when people set up their MVP Personal Agentic OS for the first time. Knowing about them in advance saves frustration.
+These are real issues that come up when people set up their Personal Agentic OS for the first time. Knowing about them in advance saves frustration.
 
 **Old computers will struggle.** If your laptop is 8 to 10+ years old, expect installations to take longer, and some tools may have compatibility issues that nobody on the development team is prioritizing. This is just the practical reality of how software companies allocate engineering resources. Everything in this guide will work on Windows, Mac, and Linux, but if your machine is very old, consider upgrading when you can. The MVP does not require a powerful computer, but a reasonably modern one (last 5 years or so) will save you a lot of frustration.
 
@@ -458,7 +458,7 @@ A productive day might involve very little typing and a lot of thinking, convers
 
 The question is no longer "how do I get all this work done?" It's "am I defining reality accurately enough that the system can do good work on my behalf?"
 
-That's the shift. And it starts with the MVP Personal Agentic OS.
+That's the shift. And it starts with the Supersuit Up workshop.
 
 ---
 

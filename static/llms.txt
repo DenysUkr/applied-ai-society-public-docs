@@ -129,7 +129,7 @@
 - [Be an Applied AI Scientist](https://docs.appliedaisociety.org/docs/playbooks/practitioner/experimental-improvement)
 - [Finding Clients Through Trust](https://docs.appliedaisociety.org/docs/playbooks/practitioner/finding-clients)
 - [First Git Setup](https://docs.appliedaisociety.org/docs/playbooks/practitioner/first-git-setup): A step-by-step guide to setting up Git and GitHub authentication so you can version-control your Personal Agentic OS.
-- [Setting Up Hermes Agent](https://docs.appliedaisociety.org/docs/playbooks/practitioner/hermes-setup): A detailed guide to installing, configuring, and getting the most out of Hermes Agent, the open source agent that replaces Claude Code and OpenClaw in one tool.
+- [Setting Up Hermes Agent](https://docs.appliedaisociety.org/docs/playbooks/practitioner/hermes-setup): A detailed guide to installing, configuring, and getting the most out of Hermes Agent, an open source alternative to Claude Code with always-on agent capabilities.
 - [ICP Clarity: The Foundation of Applied AI](https://docs.appliedaisociety.org/docs/playbooks/practitioner/icp-clarity)
 - [Practitioner Playbooks](https://docs.appliedaisociety.org/docs/playbooks/practitioner)
 - [The Pilot Pitch](https://docs.appliedaisociety.org/docs/playbooks/practitioner/pilot-pitch)
