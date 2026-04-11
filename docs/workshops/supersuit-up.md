@@ -37,9 +37,43 @@ For the full philosophy behind why documented truth matters, see [Truth Manageme
 
 ---
 
+## Phase 0: Before You Start (Do This the Night Before)
+
+This phase takes zero technical skill but saves you hours of frustration. Do all of this **before** you sit down to build your system. If you are attending an in-person workshop, do this the night before so you show up ready to build, not sitting around waiting for a 2-hour OS update.
+
+### Update your operating system
+
+Claude Code and other developer tools require a recent OS. If you are behind on updates, this alone can take 1 to 2 hours.
+
+- **Mac:** Apple menu > System Settings > General > Software Update. You need macOS 13.0 (Ventura) or later. macOS 15 (Sequoia) is recommended.
+- **Windows:** Settings > Windows Update > Check for updates. You need Windows 10 1809+ or Windows 11.
+- **Linux:** Run your package manager's upgrade process (`sudo apt update && sudo apt upgrade` on Ubuntu/Debian).
+
+Plug in your charger and let it finish. Do not start the workshop with a pending OS update.
+
+### Check your hardware
+
+If your computer is more than 5 to 6 years old, the workshop will be slower and more frustrating than it needs to be. AI tools benefit from modern hardware. If you are considering an upgrade, a MacBook Air with 16 GB of RAM (starting around $1,000) is a strong default that will serve you well for years. It is a genuine investment in your future. You need at least 4 GB of RAM and a 64-bit processor (x64 or ARM64).
+
+### Get your accounts ready
+
+You will be signing up for several tools during the workshop. Having these decisions made in advance means fewer interruptions:
+
+- **Pick the email you want to use.** If you are using Gmail, make sure you are logged into the right account in your browser before you start. You do not want to accidentally create accounts under the wrong email.
+- **Have a working credit card ready.** Most tools in this workshop have free tiers or free trials, but nearly all of them require a credit card on file, even for the free tier. If you do not have a card ready, you will get stuck at signup screens. (You can look for completely free alternatives, but they take longer to set up and often have a worse experience.)
+- **Create a GitHub account.** Go to [github.com](https://github.com) and sign up if you do not already have one. You will need this for version control and backup. Do this now so it is not a speed bump later.
+
+### Set up your environment
+
+- **Good Wi-Fi is essential.** You will be downloading tools, cloning repos, and making API calls. Do this from a home with reliable internet, not a random cafe with spotty Wi-Fi.
+- **Close unnecessary apps.** Free up RAM and screen space. You want your terminal, VS Code, and a browser. That is it.
+- **Block 3 to 4 hours of uninterrupted time.** This is not something you do in 20-minute increments between meetings. Protect the block.
+
+---
+
 ## Phase 1: Install Your Tools
 
-Most of what you need is free or cheap. The entire stack can be running in under 30 minutes if your machine already has developer basics. If this is your first time installing developer tools, budget an extra 15 to 20 minutes for the prerequisites below.
+Most of what you need is free or cheap. The entire stack can be running in under 30 minutes if your machine already has developer basics and you completed Phase 0. If this is your first time installing developer tools, budget an extra 15 to 20 minutes for the prerequisites below.
 
 **Before you start:** if you are unfamiliar with any of these tools and want to verify they are safe and legitimate, that is smart. You can paste the link to this tutorial into any AI chat (ChatGPT, Claude, Gemini) and ask: "Is this all safe to install? What does each tool cost? What are the advantages?" It will walk you through every tool listed here.
 
@@ -151,7 +185,7 @@ If you completed Step 0, Git is already installed. If not, go back and do that n
 
 **Setting up GitHub:**
 
-1. Create a free account at [https://github.com](https://github.com) if you do not have one.
+1. You should already have a GitHub account from Phase 0. If not, create one at [https://github.com](https://github.com).
 2. Install the GitHub CLI so you can interact with GitHub from your terminal. On **macOS**: `brew install gh` (if you have Homebrew) or download from [https://cli.github.com](https://cli.github.com). On **Windows**: download the installer from [https://cli.github.com](https://cli.github.com).
 3. Log in by typing `gh auth login` in your terminal and following the prompts.
 
