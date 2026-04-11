@@ -256,19 +256,23 @@ This is what a first session looks like. Five exercises, about an hour total. By
 
 This is the most important first step. Before your Personal Agentic OS can help you with anything, it needs to know who you are. Think about it like briefing a new chief of staff. If you were hiring the best possible team partner, someone with full access to your life who could execute on everything you are doing, what would you want them to know?
 
-**The recommended approach: brief your AI directly.** If you already have documents that capture who you are (a bio, a personal website, a LinkedIn profile, previous strategic docs, a blog, a wiki, anything), drop them into the `user/` folder or paste them into the terminal and tell your AI:
+**The recommended approach: export your existing AI history.** You have probably been having conversations with ChatGPT, Claude, Gemini, or other AI tools for months or years. That history is full of context about who you are, what you care about, and how you think. Export it and feed it to your new system.
 
-> "Here is everything about me. Read all of it and create a USER.md that captures who I am, what I care about, how I make decisions, and what I am working on right now."
+**For ChatGPT:** Go to Settings > Data Controls > Export Data. You will receive an email with a zip file containing all your conversations. Unzip it, drop the conversations file into your `user/` folder, and tell your AI:
 
-This is faster and richer than any interview because the truth is already documented. Your AI reads it, synthesizes it, and creates a comprehensive profile in minutes. You review, correct, and approve. Done.
+> "Read all of my ChatGPT history in the user/ folder. Synthesize everything you learn about me into a USER.md file: who I am, what I care about, how I make decisions, what I am working on, and what my biggest blockers are."
 
-The more context you give upfront, the less your AI has to guess. If you have been [wikimaxxing](https://garysheng.com/wiki/wikimaxxing), writing strategic docs, or documenting your thinking anywhere, bring all of it in. Your AI should know you the way a chief of staff who has worked with you for years would know you.
+**For Claude:** Go to claude.ai, open Settings > Account > Export Data. Same process: drop the export into `user/` and have your AI synthesize it.
 
-**The backup approach: the interview.** If you do not have existing documents to draw from, the starter repo includes a skill file that will guide your AI through an interview with you.
+**For any other source:** LinkedIn profile, personal website, blog posts, strategic docs, a bio you wrote for a conference. Anything that captures who you are. Drop it all into `user/` and let your AI read it. The more you give it upfront, the less it has to guess.
+
+This approach is faster and richer than answering questions from scratch because the truth is already documented across months of conversations. Your AI reads everything, synthesizes it, and creates a comprehensive profile in minutes. You review, correct, and approve. Done.
+
+**The alternative: a live interview.** If you do not have AI conversation history to export (or prefer to start fresh), the starter repo includes a skill file that will interview you.
 
 Tell your AI:
 
-> "Read the skill file at skills/create-user-profile.md and run it."
+> "Read the skill file at skills/create-user-profile/SKILL.md and run it."
 
 It will interview you one question at a time. It will ask about who you are, what you care about, how you make decisions, the current state of your operation, and your biggest strategic blocker. Use voice-to-text. Speak naturally. Do not overthink your answers.
 
@@ -282,9 +286,11 @@ The `user/` folder is not limited to `USER.md`. You can add any file that helps 
 
 ### Step 4B: "What's My Plan?" (15 minutes)
 
-At the end of the user profile interview, Hermes will ask if you want to think through your strategic blocker. Say yes.
+Now that your AI knows who you are, tell it about the thing you are most stuck on or trying to figure out. The starter repo includes a skill for this:
 
-This is the payoff. Hermes now has deep context on who you are, what you are working on, and what is in the way. It will help you break your blocker into actionable steps and save the result as a strategic plan in `artifacts/`.
+> "Read the skill file at skills/think-through-it/SKILL.md and run it."
+
+This is the payoff. Your AI now has deep context on who you are, what you are working on, and what is in the way. It will interview you about your most important blocker, push for specificity, and produce an actionable plan saved to `artifacts/`.
 
 If you skipped this during the interview, you can trigger it yourself:
 
