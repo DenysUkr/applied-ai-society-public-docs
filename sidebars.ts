@@ -33,6 +33,7 @@ const sidebars: SidebarsConfig = {
         'philosophy/co-teaching-is-the-new-self-teaching',
         'philosophy/the-amplification-effect',
         'philosophy/your-two-futures',
+        'philosophy/working-smart',
       ],
     },
     {
