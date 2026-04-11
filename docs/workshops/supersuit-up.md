@@ -259,15 +259,40 @@ This is the most important first step. Before your Personal Agentic OS can help 
 
 **The recommended approach: export your existing AI history.** You have probably been having conversations with ChatGPT, Claude, Gemini, or other AI tools for months or years. That history is full of context about who you are, what you care about, and how you think. Export it and feed it to your new system.
 
-**For ChatGPT:** Go to Settings > Data Controls > Export Data. You will receive an email with a zip file containing all your conversations. Unzip it, drop the conversations file into your `user/` folder, and tell your AI:
+:::caution[Important: filter sensitive information]
+Your AI conversation history probably contains things you would not share with a coworker: personal health questions, relationship processing, financial details, dating conversations, venting about people, therapy-style reflections, and other private topics. Your Jarvis workspace lives on your machine, but you will likely push it to GitHub, share your screen, or collaborate with others at some point. **Do not dump raw exports into your workspace without filtering.**
 
-> "Read all of my ChatGPT history in the user/ folder. Synthesize everything you learn about me into a USER.md file: who I am, what I care about, how I make decisions, what I am working on, and what my biggest blockers are."
+The prompt below tells your AI to extract only the professionally useful context (skills, goals, interests, projects, decision-making patterns) and ignore everything personal or sensitive. Always review the output before saving it.
+:::
 
-**For Claude:** Go to claude.ai, open Settings > Account > Export Data. Same process: drop the export into `user/` and have your AI synthesize it.
+**For ChatGPT:** Go to Settings > Data Controls > Export Data. You will receive an email with a zip file containing all your conversations. Unzip it and drop the conversations file into a temporary location (like your Desktop, not directly into your workspace). Then tell your AI:
 
-**For any other source:** LinkedIn profile, personal website, blog posts, strategic docs, a bio you wrote for a conference. Anything that captures who you are. Drop it all into `user/` and let your AI read it. The more you give it upfront, the less it has to guess.
+> "I have my ChatGPT export at [path to file]. Read through it and synthesize a USER.md file about me. Focus on extracting:
+>
+> - My professional skills, expertise, and domain knowledge
+> - Projects I have worked on or am working on
+> - Goals, ambitions, and what I am trying to build
+> - How I make decisions and what I value professionally
+> - Industries, tools, and technologies I am familiar with
+> - My communication style and how I think through problems
+>
+> Do NOT include or reference:
+>
+> - Personal health, medical, or mental health conversations
+> - Relationship, dating, or sexual orientation details
+> - Financial details (account numbers, salaries, debts)
+> - Private venting, gossip, or complaints about specific people
+> - Any content that would be embarrassing or inappropriate in a professional context
+>
+> If something is borderline, leave it out. I would rather add context later than have sensitive information in my workspace. After synthesizing, show me the full output so I can review before saving."
 
-This approach is faster and richer than answering questions from scratch because the truth is already documented across months of conversations. Your AI reads everything, synthesizes it, and creates a comprehensive profile in minutes. You review, correct, and approve. Done.
+After your AI generates the USER.md, read through it carefully. Remove anything you would not want a collaborator, employer, or someone looking over your shoulder to see. Then save it to `user/USER.md` and delete the raw export from your machine.
+
+**For Claude:** Go to claude.ai, open Settings > Account > Export Data. Same process: use the filtered prompt above.
+
+**For any other source:** LinkedIn profile, personal website, blog posts, strategic docs, a bio you wrote for a conference. These are already curated for public or professional consumption, so they are generally safe to drop directly into `user/`. The filtering concern is mainly for raw AI conversation exports, which tend to contain everything you have ever asked about.
+
+This approach is faster and richer than answering questions from scratch because the truth is already documented across months of conversations. Your AI reads everything, extracts the professional context, and creates a focused profile in minutes. You review, correct, and approve. Done.
 
 **The alternative: a live interview.** If you do not have AI conversation history to export (or prefer to start fresh), the starter repo includes a skill file that will interview you.
 
