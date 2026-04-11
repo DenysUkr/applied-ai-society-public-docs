@@ -285,6 +285,7 @@ const sidebars: SidebarsConfig = {
             'truth-management/start-your-company-bible',
             'truth-management/migrate-to-refactorable-systems',
             'truth-management/truth-as-context',
+            'truth-management/maintain-coherence',
           ],
         },
         {

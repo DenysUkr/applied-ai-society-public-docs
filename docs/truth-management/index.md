@@ -39,6 +39,7 @@ Systematic workflows for implementing truth management:
 - [**Start Your Company Bible**](/docs/truth-management/start-your-company-bible) - Build comprehensive documentation capturing your organization's "way"
 - [**Migrate to Refactorable Systems**](/docs/truth-management/migrate-to-refactorable-systems) - Move from siloed tools to grep-able, version-controlled formats
 - [**Truth as Context**](/docs/truth-management/truth-as-context) - Ensure AI agents have full organizational context when creating or modifying documentation
+- [**Maintain Coherence**](/docs/truth-management/maintain-coherence) - Documents decay by default. Coherence is an active practice: automated checks, cross-linking, and scheduled audits that keep your truth repository reflecting current reality
 
 ### Tools
 
