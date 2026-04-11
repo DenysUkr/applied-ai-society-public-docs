@@ -59,6 +59,8 @@ The biggest AI companies are building platforms designed to capture your data, y
 
 We believe people should own their own intelligence. Not rent it. Not subscribe to it. Own it. That means owning your [context lake](/docs/concepts/context-lake) (the knowledge base that makes your AI useful), owning your [harness](/docs/concepts/harness-engineering) (the system wrapped around the model), and keeping everything in portable, platform-independent files that you can take anywhere.
 
+That said, we are pragmatists. The best available tool right now is often proprietary. We recommend Claude Code as our default harness in the [Supersuit Up Workshop](/docs/workshops/supersuit-up). We use frontier models from Anthropic and OpenAI in our own workflows. The difference is that we build on portable foundations: plain markdown files on your computer, open formats, systems designed so you can switch providers any time you need to. Sovereignty is not about refusing to use proprietary tools today. It is about never being trapped by them tomorrow.
+
 The [sovereignty stack](/docs/concepts/the-sovereignty-stack) maps every layer of your digital life, from the silicon in your computer to the content you publish, and identifies where you are dependent on someone who is not you. We are training builders who understand this stack and can help others achieve sovereignty at every layer.
 
 Open source models are getting better every quarter. Open harnesses are maturing. The sovereign alternative is being built right now, piece by piece, by builders who believe people deserve to own their future. If we build it to be as easy and effective as the proprietary platforms, it is just a matter of time.

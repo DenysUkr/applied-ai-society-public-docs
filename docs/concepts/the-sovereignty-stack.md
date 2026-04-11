@@ -19,6 +19,8 @@ But owning your AI is not just about the model. It is about every layer of the s
 
 That is what the sovereignty stack maps. Every layer. Every dependency. Every point of control.
 
+A practical note: this does not mean you refuse to use proprietary tools. We recommend Claude Code (Anthropic) as the default harness in our own [Supersuit Up Workshop](/docs/workshops/supersuit-up). We use frontier models daily. The practical reality is that proprietary models are still ahead for many complex tasks, and the gap, while closing, is real. The sovereignty principle is not "never use proprietary tools." It is "build on portable foundations so you are never trapped by them." Your context lives in markdown files on your computer. If your provider changes their pricing, their policies, or their attitude, you switch. Nothing is lost.
+
 ## Assume Adversarial Intent
 
 It goes deep. ISPs log your traffic. Operating systems phone home. AI platforms train on your prompts. Cloud providers hold your data hostage behind their login. NVIDIA has a monopoly on GPU compute through CUDA. Satellite internet (Starlink) is controlled by one person. Chip fabrication is controlled by a handful of fabs. DNS resolution, CDN termination, firmware, device manufacturing. Every layer has an entity that can shut you down, surveil you, or change the terms on you.
