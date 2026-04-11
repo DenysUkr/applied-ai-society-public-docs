@@ -11,7 +11,7 @@ description: "Build your Personal Agentic OS (aka Jarvis Yourself). A step-by-st
 
 **Time estimate:** 3.5 to 4 hours to complete everything in this guide, even with some prior technical experience. If you are completely new to the terminal and have never installed developer tools before, expect the upper end.
 
-**The value of in-person help:** This guide is designed to be self-paced, but having a trained applied AI engineer walk you through it in person makes a significant difference. Every machine is slightly different. You will hit edge cases (a Windows PowerShell permission error, an old Python version conflict, a corporate firewall blocking a download) that are too niche to document here but take 30 seconds for an experienced person to debug. An instructor gets you across the finish line instead of stuck at Step 1B for an hour.
+**The value of in-person help:** This guide is designed to be self-paced, but having a trained applied AI engineer walk you through it in person makes a significant difference. Every machine is slightly different. You will hit edge cases (a Windows PowerShell permission error, a Node.js version conflict, a corporate firewall blocking a download) that are too niche to document here but take 30 seconds for an experienced person to debug. An instructor gets you across the finish line instead of stuck at Step 1B for an hour.
 
 The [Applied AI Society](https://appliedaisociety.org) runs Supersuit Up workshops with trained practitioners who have helped hundreds of people through this process. If you want to attend one or request a workshop for your team, school, or community, visit [appliedaisociety.org](https://appliedaisociety.org) or join the [Discord](https://discord.gg/K7uWJBMFaN).
 
@@ -39,22 +39,52 @@ For the full philosophy behind why documented truth matters, see [Truth Manageme
 
 ## Phase 1: Install Your Tools
 
-Most of what you need is free or cheap. The entire stack can be running in under 30 minutes.
+Most of what you need is free or cheap. The entire stack can be running in under 30 minutes if your machine already has developer basics. If this is your first time installing developer tools, budget an extra 15 to 20 minutes for the prerequisites below.
 
-**Before you start:** if you are unfamiliar with any of these tools and want to verify they are safe and legitimate, that is smart. You can paste the link to this tutorial into any AI chat (ChatGPT, Claude, Gemini) and ask: "Is this all safe to install? What does each tool cost? What are the advantages?" It will walk you through every tool listed here. Spoiler: almost everything is free and open source. The one potential cost is LLM API usage, which depends on your provider and how much you use it.
+**Before you start:** if you are unfamiliar with any of these tools and want to verify they are safe and legitimate, that is smart. You can paste the link to this tutorial into any AI chat (ChatGPT, Claude, Gemini) and ask: "Is this all safe to install? What does each tool cost? What are the advantages?" It will walk you through every tool listed here.
 
 Here is the cost breakdown upfront:
 
 | Tool | Cost | Notes |
 |------|------|-------|
-| [Hermes Agent](https://hermes-agent.nousresearch.com) | Free, open source | Installed via one-line installer. Handles all dependencies automatically. |
-| [OpenRouter](https://openrouter.ai) | Free tier available | Routes to multiple model providers. Free models available but read the privacy note below. Paid models (Claude, GPT) are also available through OpenRouter. |
+| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Included with Claude Max ($100/mo) or Pro ($20/mo with usage limits) | Recommended. All-in-one: AI agent + subscription, no API keys needed. |
 | [VS Code](https://code.visualstudio.com) | Free, open source | Made by Microsoft |
+| [Node.js](https://nodejs.org) | Free, open source | Required to install Claude Code |
 | [Git](https://git-scm.com) | Free, open source | Version control |
 | [GitHub](https://github.com) | Free | Paid tiers exist but you do not need them |
 | [Superwhisper](https://superwhisper.com) | Free tier available | Voice-to-text, fully local |
 | [Wispr Flow](https://wisprflow.ai) | ~$10/mo | Voice-to-text, cloud-based |
 | [Granola](https://granola.ai) | Free tier available | Meeting transcription (optional) |
+
+### Step 0: Prerequisites
+
+Before you can install your AI agent, you need a few foundational tools. If you already have these, skip ahead.
+
+**macOS:**
+
+1. **Homebrew** (package manager): Open Terminal and paste:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+   Follow the prompts. After it finishes, it may tell you to run two extra commands to add Homebrew to your PATH. Run those.
+
+2. **Node.js**: `brew install node` (this also installs npm, the package manager you need to install Claude Code)
+
+3. **Git**: Type `git --version` in Terminal. If it prints a version number, you are good. If not: `brew install git`
+
+**Windows:**
+
+1. **Node.js**: Download the LTS installer from [nodejs.org](https://nodejs.org) and run it. Accept the defaults.
+
+2. **Git**: Download from [git-scm.com/downloads/win](https://git-scm.com/downloads/win) and run the installer. Accept the defaults.
+
+**Verify everything works:** Open a fresh terminal and run:
+```bash
+node --version
+npm --version
+git --version
+```
+All three should print version numbers. If any fail, the tool is not installed correctly. Ask your AI (ChatGPT, Claude, Gemini) to help you debug: paste the error message and it will tell you exactly what to do.
 
 ### Step 1A: Voice-to-Text
 
@@ -73,71 +103,35 @@ Either works. You hold a key, you talk, you release, and the text appears wherev
 
 ### Step 1B: Choose and Install Your Harness
 
-Your terminal-based AI agent is the engine of your Personal Agentic OS. Important distinction: the harness on its own is not the system. Your Personal Agentic OS is the combination of your file structure, your documented context, and how you use the harness to operate on all of it. Your files are yours. You could switch to a different tool tomorrow and keep everything.
+Your terminal-based AI agent is the engine of your Personal Agentic OS. The harness on its own is not the system. Your Personal Agentic OS is the combination of your file structure, your documented context, and how you use the harness to operate on all of it.
 
-**Why not just use ChatGPT, Gemini, or any other chatbot?** The big AI platforms want you locked into their ecosystem. Your conversation history lives on their servers. Your context resets every session or is trapped behind their interface. You cannot export it, version-control it, or run a different AI on top of it.
+**Why not just use ChatGPT or Gemini in a browser?** Browser-based AI resets its memory every conversation. It cannot read your files, run commands, or operate on your workspace. A terminal-based harness can. It reads your documents, creates files, updates your system, and remembers context across sessions. That is the difference between a chatbot and an operating system.
 
-The Personal Agentic OS approach is the opposite. Your files live on your computer. They are plain markdown. Any AI tool can read them. You are not a user of someone else's platform. You are the operator of your own system.
-
-**This tutorial is not an ad for any AI company.** When choosing your harness, find the one that maximizes a good balance of **utility, cost, and sovereignty**. We have dedicated setup guides for the three most popular options:
+**We recommend Claude Code as the default.** It is the simplest setup: one subscription, no API keys to manage, strong reasoning, and a good user experience. If cost is a concern or you want to explore alternatives, we have setup guides for other options below.
 
 | Harness | Cost | Best For | Setup Guide |
 |---------|------|----------|-------------|
+| **Claude Code** (recommended) | Included with Claude Max ($100/mo) or Pro ($20/mo with limits) | Simplest setup, strong reasoning, no API keys needed | [Claude Code Setup](/docs/playbooks/practitioner/claude-code-setup) |
 | **Hermes** | Free (open source models) | Zero-cost setup, always-on agents, cron jobs | [Hermes Setup](/docs/playbooks/practitioner/hermes-setup) |
-| **Claude Code** | $100-200/mo (Anthropic) | Deep context, strong reasoning | [Claude Code Setup](/docs/playbooks/practitioner/claude-code-setup) |
 | **OpenAI Codex** | Free with ChatGPT Plus/Pro | If you already pay for ChatGPT | [Codex Setup](/docs/playbooks/practitioner/codex-setup) |
 
-Other harnesses work too: [OpenCode](https://github.com/opencode-ai/opencode), Cursor, and more. They all read files and run commands. The overall usage patterns (brain dumps, user profiles, skill files, relationship files) work with any harness that can read your workspace. Check the [AI Dev Tool Power Rankings](https://blog.logrocket.com/ai-dev-tool-power-rankings/) or [Best AI Coding Agents comparison](https://www.faros.ai/blog/best-ai-coding-agents-2026) for current rankings.
+Other harnesses work too: [OpenCode](https://github.com/opencode-ai/opencode), Cursor, and more. The usage patterns in this tutorial (brain dumps, user profiles, skill files, relationship files) work with any harness that can read your workspace. Your files are plain markdown on your computer. You can switch tools at any time and keep everything.
 
-The competitive pressure between American companies, Chinese labs, and the open source community is driving quality up and cost down at a pace that benefits you. Today's default might be one tool. Tomorrow it might be something else. Your files do not care. That is what sovereignty means in this context. For a deeper dive, see [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os) and [The Lock-In Is Coming](/docs/concepts/the-lock-in-is-coming).
+**The rest of this tutorial uses Claude Code as the default.** If you chose Hermes or Codex, follow your setup guide above and rejoin at Phase 2. The workspace setup and daily usage are identical across harnesses.
 
-**The rest of this tutorial uses Hermes as the default** because it is free and open source. If you chose Claude Code or Codex, follow your setup guide above and then rejoin this tutorial at Step 1C. The workspace setup and daily usage are identical across harnesses.
+**Install Claude Code:**
 
-**Install Hermes:**
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
-```
-
-The installer handles everything automatically: Python, Node.js, ripgrep, ffmpeg, the repo clone, virtual environment, and the global `hermes` command. After installation, reload your shell:
+Make sure you completed Step 0 (Node.js must be installed). Then run:
 
 ```bash
-source ~/.zshrc  # or source ~/.bashrc
+npm install -g @anthropic-ai/claude-code
 ```
 
-Then configure your model:
+**First launch:** Type `claude` in your terminal. On first run, it will ask you to log in with your Anthropic account. Follow the prompts to authenticate. Once logged in, you are ready to go.
 
-```bash
-hermes model
-```
-
-Select your provider and enter your API key. OpenRouter, Anthropic, OpenAI, and other providers all work.
-
-:::caution[A note on free and cheap models]
-Free models on OpenRouter (Qwen, Gemma, etc.) are great for getting started and learning the patterns, but understand the tradeoffs. When you use a free or cheap model through a routing service, your prompts and data may be used for training, logged, or handled with less privacy protection than paid tiers from established providers. If you are feeding your Personal Agentic OS sensitive information (business strategy, client details, financial data, personal relationships), you should be using a paid model from a provider with clear data handling policies. Anthropic (Claude), OpenAI (GPT), and Google (Gemini) all have enterprise-grade data handling on their paid tiers. The free tier is fine for learning. Once your system has real context about your life and work, treat model selection like you would treat choosing who gets access to your most private documents.
+:::tip[Approval prompts]
+By default, Claude Code asks permission before making changes to your files or running commands. This is a good safety net while you are learning. As you get comfortable, you can adjust the permission mode to allow more actions automatically.
 :::
-
-**First launch:** Type `hermes` in your terminal. If this is your first time, Hermes will walk you through its setup flow. Follow the prompts to authenticate and pick your preferences.
-
-:::tip[Optional: YOLO mode]
-By default, Hermes asks permission before doing anything potentially dangerous. If you find approval prompts annoying, run `hermes --yolo` to bypass them, or type `/yolo` inside a session to toggle it on and off. Entirely optional.
-:::
-
----
-
-## Why Hermes Is Different
-
-Hermes is not just another AI coding agent. It is **Claude Code and OpenClaw in one tool**:
-
-- **AI coding agent.** Reads files, writes files, runs commands, operates inside your workspace.
-- **Always-on agent.** Runs cron jobs, manages messaging platforms, maintains persistent memory.
-- **Works when your terminal session is gone.** The gateway keeps running, cron jobs fire, messages get delivered. The agent grows the longer it runs.
-
-[Nous Research](https://nousresearch.com) is an AI research company known for the Hermes model family. They build frontier open source AI models, and now they build full agent infrastructure. Hermes Agent is their answer to closed, platform-locked AI systems.
-
-For context: before switching to Hermes, the Applied AI Society ran on OpenClaw + Claude at ~$200/mo in API costs. Cron jobs were timing out. Four out of six active jobs were failing. The agent was broken and costing money for it to break. After migrating to Hermes + Qwen 3.6 via OpenRouter, the monthly inference cost dropped significantly, with better reliability and the full skill architecture preserved.
-
-That is what Hermes makes possible: an agent system with very low marginal cost per message. Run the heartbeat. Run the triage. Run the morning briefing with deeper context. The economic friction is dramatically reduced. You stop optimizing for API cost and start optimizing for capability. As your system grows and holds more sensitive context, consider upgrading to a paid model with stronger privacy guarantees (see the note above).
 
 ---
 
@@ -151,12 +145,9 @@ Visual Studio Code is your window into the file system. Download it for free fro
 
 ### Step 2B: Git and GitHub
 
+If you completed Step 0, Git is already installed. If not, go back and do that now.
+
 **What is the difference between Git and GitHub?** Git is a tool that runs on your computer. It tracks changes to your files over time, like an infinite undo history that also records *what* changed, *when*, and *why*. GitHub is a website (github.com) where you can store a copy of your Git-tracked files in the cloud, so they are backed up and accessible from anywhere. Think of Git as the engine and GitHub as the garage where you park your car. You need Git. GitHub is strongly recommended but technically optional. For a deeper explanation, [GitHub's own guide](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) is excellent.
-
-**Installing Git:**
-
-- **macOS:** Git often comes pre-installed. Open your terminal and type `git --version`. If it prints a version number, you are good. If not, install it from [https://git-scm.com/downloads/mac](https://git-scm.com/downloads/mac) or via Homebrew: `brew install git`.
-- **Windows:** Download the installer from [https://git-scm.com/downloads/win](https://git-scm.com/downloads/win). Run it and accept the defaults.
 
 **Setting up GitHub:**
 
@@ -166,39 +157,49 @@ Visual Studio Code is your window into the file system. Download it for free fro
 
 ### Step 2C: Clone and Open Your Workspace
 
-We have created a starter repo with the default folder structure for your Personal Agentic OS. You are going to use Hermes to clone it to your computer. This is a good first rep of telling Hermes to do something for you.
+We have created a starter repo with the default folder structure for your Personal Agentic OS. You are going to use your AI agent to clone it and personalize it. This is a good first rep of telling your agent to do something for you.
 
-**Use Hermes to clone and personalize the repo:**
+**Clone and personalize the repo:**
 
 1. Open any terminal on your computer (you do not need to be in any particular folder).
-2. Type `hermes` to start a Hermes session.
+2. Type `claude` to start a Claude Code session.
 3. Tell it something like:
 
 > "Clone the repo at github.com/Applied-AI-Society/minimum-viable-jarvis into a folder that makes sense on my computer for storing projects. If I don't have a folder for that yet, create one. After cloning, ask me what I want to name my workspace and what my name is, then rename the folder and update all the files (AGENTS.md, README, etc.) to reflect my name and workspace name."
 
-Hermes will figure out the right location for your operating system. On Mac, it might put it in `~/Documents/github-repos/` or `~/Projects/`. On Windows, it might use `C:\Users\YourName\Documents\`. Then it will ask you two quick questions:
+Your agent will figure out the right location. On Mac, it might put it in `~/Documents/github-repos/` or `~/Projects/`. On Windows, it might use `C:\Users\YourName\Documents\`. Then it will ask you two quick questions:
 
 - **What do you want to call your workspace?** Pick something that feels like yours. Your name, your company name, a codename. Examples: `sarah-command-center`, `apex-os`, `my-jarvis`. This becomes the folder name and shows up in your file tree every day, so make it something you like.
 - **What is your name?** So it can personalize the AGENTS.md and any starter files with your identity.
 
-Hermes will rename the folder, update the internal files, and personalize the workspace so it feels like yours from the first moment. This is your system, not a generic template.
+Your agent will rename the folder, update the internal files, and personalize the workspace so it feels like yours from the first moment. This is your system, not a generic template.
 
-4. Once the clone and personalization is done, note the folder path that Hermes tells you it cloned into. You will need this in a moment.
-5. Type `/exit` to quit the Hermes session.
+4. Once the clone and personalization is done, note the folder path. You will need this in a moment.
+5. Type `/exit` to quit the session.
 
 **Open the workspace in VS Code:**
 
 1. Open VS Code.
 2. Go to File > Open Folder (or `Ctrl+K Ctrl+O` on Windows, `Cmd+O` on Mac).
-3. Navigate to the folder that Hermes just cloned and select it.
+3. Navigate to the folder that was just cloned and select it.
 4. Now open the terminal inside VS Code. This is important: you want the terminal to be scoped to your workspace folder.
    - **Mac:** Terminal > New Terminal from the menu bar, or press `` Ctrl+` ``
    - **Windows:** Terminal > New Terminal from the menu bar, or press `` Ctrl+` ``
-5. In the VS Code terminal, type `hermes`. Hermes is now running inside your workspace and can see all the starter files.
+5. In the VS Code terminal, type `claude`. Your agent is now running inside your workspace and can see all the starter files.
 
-You are now in the cockpit. The left panel shows your file tree. The bottom panel is Hermes in your terminal. The right panel is for viewing whatever file you are working on.
+You are now in the cockpit. The left panel shows your file tree. The bottom panel is your agent in the terminal. The right panel is for viewing whatever file you are working on.
 
-**If you do not have Git installed or prefer to start from scratch**, you can skip the clone and tell Hermes to create the folders for you instead. Start a Hermes session and say:
+:::tip[Create a `clauded` shortcut]
+You will be opening this workspace and launching Claude Code often. Create a shell shortcut so you can do it in one command from anywhere. Add this to your `~/.zshrc` (Mac) or `~/.bashrc` (Linux/Windows WSL):
+
+```bash
+clauded() { cd "$1" && claude; }
+```
+
+Then reload your shell: `source ~/.zshrc`. Now you can type `clauded ~/Documents/github-repos/my-jarvis` from any terminal and it will navigate to your workspace and start Claude Code in one shot. Replace the path with wherever your workspace lives.
+:::
+
+**If you prefer to start from scratch** without cloning, you can tell your agent to create the folders for you instead:
 
 > "Create a folder for my Personal Agentic OS in a good location on my computer. Ask me what I want to name it and what my name is. Set up subfolders for user, people, artifacts, meeting-transcripts, and skills. Create an AGENTS.md file personalized with my name that instructs you on how to operate as my chief of staff."
 
@@ -210,7 +211,7 @@ The starter repo comes with five folders. Together, these form your [context lak
 - **meeting-transcripts/** for raw or processed transcripts from conversations
 - **skills/** for SOPs that define repeatable tasks for your AI agent
 
-It also includes an `AGENTS.md` file that gives Hermes instructions on how to operate within your workspace (this is what makes Hermes understand the structure of your business OS from the first session), and a skill file that will interview you on your first session to create your `user/USER.md` profile.
+It also includes an `AGENTS.md` file that gives your agent instructions on how to operate within your workspace (this is what makes it understand the structure of your business OS from the first session), and a skill file that will interview you on your first session to create your `user/USER.md` profile.
 
 ### Step 2D: Meeting Transcription (Optional)
 
@@ -312,7 +313,7 @@ This is the real shift. Your job as a leader is not editing documents. Your job 
 
 ### Step 4C: "Who Do I Know?" (10 minutes)
 
-Create 3 to 5 relationship files for key people in your professional life. Use voice-to-text to dictate into Hermes. For each person, capture:
+Create 3 to 5 relationship files for key people in your professional life. Use voice-to-text to dictate into your agent. For each person, capture:
 
 - **Name and role**
 - **How you met**
@@ -320,7 +321,7 @@ Create 3 to 5 relationship files for key people in your professional life. Use v
 - **Last meaningful interaction**
 - **Anything you want to remember** (their kid's name, that project they mentioned, the thing they're excited about)
 
-Tell Hermes to create a file for each person in the `people/` directory (already set up in the starter repo from Step 2C). The format doesn't matter much right now. What matters is that these people now exist in your system.
+Tell your agent to create a file for each person in the `people/` directory (already set up in the starter repo from Step 2C). The format doesn't matter much right now. What matters is that these people now exist in your system.
 
 **The moment:** These people now exist in structured form that AI can reference. You will never forget a detail about them again. The next time you have a meeting with one of them, your business OS can brief you on everything you know.
 
@@ -358,7 +359,7 @@ Create a strategic document capturing one major decision you have made recently.
 
 ### Step 4F: "My System Talks Back" (10 minutes)
 
-Now ask Hermes to generate a briefing from everything you've created. Something like:
+Now ask your agent to generate a briefing from everything you've created. Something like:
 
 > "Based on everything in this workspace, give me a briefing. Who am I? What's my strategic plan? Who are my key relationships? What decisions have I made? What should I be paying attention to?"
 
@@ -374,29 +375,29 @@ Once your Personal Agentic OS is set up, the default interaction pattern is simp
 
 ### Step 5A: Open Your Workspace
 
-**The fast way (Mac):** Right-click on the VS Code icon in your Dock. You will see a list of recently opened projects. Click your workspace name. Done. This is the fastest way to get back into your Personal Agentic OS every day. No navigating folders, no remembering file paths.
+**The fast way:** If you set up the `clauded` shortcut from Step 2C, open any terminal and type `clauded ~/path/to/your-workspace`. It navigates to your workspace and starts Claude Code. Done.
 
-**The manual way:** Open VS Code, go to File > Open Recent, and select your workspace. Or File > Open Folder and navigate to it.
+**From VS Code:** Open your workspace in VS Code (File > Open Recent is fastest), then open the terminal (Terminal > New Terminal) and type `claude`. This gives you the file tree on the left and your agent in the terminal at the bottom.
 
-Once your workspace is open, open the terminal within VS Code (Terminal > New Terminal). Type `hermes` to start Hermes.
+**Either way works.** Some people prefer working entirely in the terminal. Others like having VS Code open so they can see the file tree and read files side-by-side with their agent. Try both and see what feels natural.
 
-**Resuming a previous session:** If you had a session going yesterday and want to pick up where you left off, type `hermes` and then `/resume`. You will see a list of recent sessions. Pick the one with the most kilobytes (that is the session with the most context). Use the arrow keys to select it and press Enter. You are back where you were, with all the context from your last session intact.
+**Resuming a previous session:** Claude Code automatically has access to your workspace files every time you start it. Your context lives in the files, not in the chat history, so you can pick up right where you left off. Just open a new session and start talking.
 
 ### Step 5B: Brain Dump
 
 Start talking. Voice-to-text into the terminal. Just dump whatever is on your mind. It might be a meeting debrief, a strategic thought, an update on a relationship, a new idea, a decision you need to make. Do not worry about structure. Just say what is true.
 
-### Step 5C: Let Hermes Route It
+### Step 5C: Let Your Agent Route It
 
-Based on what you said, Hermes determines which existing documents to update, whether new documents need to be created, and how to maintain coherence across everything.
+Based on what you said, your agent determines which existing documents to update, whether new documents need to be created, and how to maintain coherence across everything.
 
 ### Step 5D: Review the Changes
 
-Look at what Hermes did. Approve, correct, or refine. This is you being the "dictator of truth" for your operation. The AI proposes; you approve.
+Look at what your agent did. Approve, correct, or refine. This is you being the "dictator of truth" for your operation. The AI proposes; you approve.
 
 ### Step 5E: Repeat
 
-Over time, Hermes learns the structure of your business OS and keeps everything consistent. Cross-references stay accurate. Outdated information gets flagged.
+Over time, your agent learns the structure of your business OS and keeps everything consistent. Cross-references stay accurate. Outdated information gets flagged.
 
 The brain dump is the lowest-friction way to keep your business OS current. You don't need to think about where information goes. You just need to say what's true, and the system handles the rest.
 
@@ -410,11 +411,7 @@ These are real issues that come up when people set up their Personal Agentic OS 
 
 **Remap your Caps Lock key.** Make it a Control key. This is a small thing that makes terminal life dramatically better. On macOS: System Settings, Keyboard, Keyboard Shortcuts, Modifier Keys. You'll thank yourself.
 
-**Hermes sometimes times out on long operations.** This is normal. Just resume the session. Your files are already saved. Nothing is lost.
-
-**The multiple-choice UI in Hermes can be confusing.** When Hermes presents options, it can feel like you need to pick from a menu. You can tell it to default to free text input instead. Just say "don't give me multiple choice, I'll tell you what I want."
-
-**Understand the yolo mode tradeoff.** See the optional note in Phase 1. You can run `hermes --yolo` or type `/yolo` inside a session to toggle approval prompts.
+**Approval prompts can feel slow at first.** Claude Code asks permission before making file changes or running commands. This is a safety feature. As you get comfortable, you can adjust permissions. Type `/permissions` in a session to see your options.
 
 **Voice transcription quality can vary.** Apple's built-in dictation can regress across OS updates. If you notice accuracy dropping, switch to Superwhisper or Wispr Flow as your primary and keep the other as backup.
 
@@ -436,7 +433,7 @@ The MVP is the seed. Here's what the growth trajectory looks like.
 
 - Regular brain dumps are becoming habit. You speak into the system at least a few times a week.
 - Your artifact library is growing: status updates, decision records, relationship files, strategic notes.
-- You're starting to see the compounding effect. Your [context lake](/docs/concepts/context-lake) is deepening. Hermes's briefings are getting noticeably more useful because there's more context to draw from.
+- You're starting to see the compounding effect. Your [context lake](/docs/concepts/context-lake) is deepening. Your agent's briefings are getting noticeably more useful because there's more context to draw from.
 
 ### Step 7C: Month 3
 
