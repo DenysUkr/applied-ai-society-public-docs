@@ -79,13 +79,13 @@ The [liberation architecture](/docs/concepts/liberation-architecture) principle 
 
 ## Who Builds These
 
-The [Applied AI Consultant](/docs/roles/applied-ai-consultant) role is the natural fit. The workflow looks like this:
+The [Applied AI Streamliner](/docs/roles/applied-ai-streamliner) is the role emerging around this work. The workflow looks like this:
 
 1. **Discovery.** Sit with the client. Map their week. Identify every task that is repetitive, time-consuming, or soul-draining. Find the patterns.
 2. **Architecture.** Design a wrapper app with pre-built functions for the highest-impact workflows. Choose the right [harness](/docs/concepts/harness-engineering) under the hood.
 3. **Build.** Stand up the app. Connect it to the client's existing tools (calendar, email, spreadsheets, CRM, whatever they use). Populate it with their business context.
 4. **Deliver.** Hand it to them. Watch them click a button and get a result that would have taken them 45 minutes. Watch their face.
-5. **Iterate.** As they use it, new needs surface. Add functions. The app compounds, just like a [Personal Agentic OS](/docs/concepts/personal-agentic-os) does, but through the consultant rather than the user.
+5. **Iterate.** As they use it, new needs surface. Add functions. The app compounds, just like a [Personal Agentic OS](/docs/concepts/personal-agentic-os) does, but through the Streamliner rather than the user.
 
 Gary's [media automation work](/docs/case-studies/gary-sheng-media-automation) is an early example of this pattern: building custom AI-powered tools for specific clients' specific workflows.
 
@@ -107,5 +107,6 @@ The important thing is that everyone gets access to compounding, context-rich AI
 - [Harness Engineering](/docs/concepts/harness-engineering): The engineering principles that power both wrapper apps and terminal systems.
 - [Liberation Architecture](/docs/concepts/liberation-architecture): The philosophy of wrapping existing systems rather than replacing them.
 - [Robot Mode](/docs/concepts/robot-mode): What personal software eliminates. The mechanical tasks that drain your soul and your time.
-- [Applied AI Consultant](/docs/roles/applied-ai-consultant): The role that builds personal software for clients.
+- [Applied AI Streamliner](/docs/roles/applied-ai-streamliner): The role dedicated to building personal software for individual professionals.
+- [Applied AI Consultant](/docs/roles/applied-ai-consultant): The broader consulting role, which may include personal software as part of larger engagements.
 - [Gary Sheng: Media Automation](/docs/case-studies/gary-sheng-media-automation): A case study in building custom AI tools for specific workflows.
