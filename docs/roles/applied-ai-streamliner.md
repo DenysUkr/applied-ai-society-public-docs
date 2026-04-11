@@ -97,6 +97,7 @@ The Streamliner combines building skills with consulting instincts.
 
 ## Further Reading
 
+- [Personal Software](/docs/concepts/personal-software): The concept behind what Streamliners build: software designed for one person's exact workflow
 - [Gary Sheng: Media Automation](/docs/case-studies/gary-sheng-media-automation): The case study that shows this pattern in action across multiple content tools
 - [Workflow Decomposition](/docs/playbooks/business-owner/workflow-decomposition): The framework for breaking down professional workflows into automatable components
 - [Practitioner Pricing Guide](/docs/playbooks/practitioner/pricing): Principles-based pricing for high-value AI engagements

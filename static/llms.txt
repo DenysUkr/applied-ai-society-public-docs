@@ -49,6 +49,7 @@
 - [Observable Behavior Engineering](https://docs.appliedaisociety.org/docs/concepts/observable-behavior-engineering)
 - [Permissionless Knowledge](https://docs.appliedaisociety.org/docs/concepts/permissionless-knowledge)
 - [Personal Agentic OS](https://docs.appliedaisociety.org/docs/concepts/personal-agentic-os)
+- [Personal Software](https://docs.appliedaisociety.org/docs/concepts/personal-software)
 - [Raise the Floor](https://docs.appliedaisociety.org/docs/concepts/raise-the-floor)
 - [Robot Mode](https://docs.appliedaisociety.org/docs/concepts/robot-mode)
 - [The Roles-to-Workflows Shift](https://docs.appliedaisociety.org/docs/concepts/roles-to-workflows)
@@ -83,6 +84,7 @@
 - [Voices from the Applied AI Frontier](https://docs.appliedaisociety.org/docs/philosophy/voices-from-the-frontier): What the people building and shaping AI say about the future of work, ownership, and human value. Their words validate what Applied AI teaches.
 - [Why Field Notes](https://docs.appliedaisociety.org/docs/philosophy/why-field-notes)
 - [Why Making Money Matters](https://docs.appliedaisociety.org/docs/philosophy/why-making-money-matters)
+- [Working Smart](https://docs.appliedaisociety.org/docs/philosophy/working-smart)
 - [Your Two Futures](https://docs.appliedaisociety.org/docs/philosophy/your-two-futures)
 - [AI Readiness by Business Function](https://docs.appliedaisociety.org/docs/playbooks/business-owner/ai-readiness-by-function)
 - [Don't Accept Automation as the Goal](https://docs.appliedaisociety.org/docs/playbooks/business-owner/beyond-automation)
@@ -141,7 +143,9 @@
 - [The Five Levels of Value in the AI Age](https://docs.appliedaisociety.org/docs/playbooks/student/five-levels-of-value)
 - [Student / Explorer](https://docs.appliedaisociety.org/docs/playbooks/student)
 - [Agentic OS Trainer](https://docs.appliedaisociety.org/docs/roles/agentic-os-trainer)
+- [AI Enablement Architect](https://docs.appliedaisociety.org/docs/roles/ai-enablement-architect)
 - [Applied AI Consultant](https://docs.appliedaisociety.org/docs/roles/applied-ai-consultant)
+- [Applied AI Streamliner](https://docs.appliedaisociety.org/docs/roles/applied-ai-streamliner)
 - [Business OS Administrator](https://docs.appliedaisociety.org/docs/roles/business-os-administrator)
 - [Chief AI Officer](https://docs.appliedaisociety.org/docs/roles/chief-ai-officer)
 - [Applied AI Community Leader](https://docs.appliedaisociety.org/docs/roles/community-leader)
@@ -162,6 +166,7 @@
 - [Don't Assume Common Sense](https://docs.appliedaisociety.org/docs/truth-management/dont-assume-common-sense)
 - [Empower Your Truth Manager](https://docs.appliedaisociety.org/docs/truth-management/empower-your-truth-manager)
 - [Truth Management](https://docs.appliedaisociety.org/docs/truth-management)
+- [Maintain Coherence](https://docs.appliedaisociety.org/docs/truth-management/maintain-coherence)
 - [Make Every File Count](https://docs.appliedaisociety.org/docs/truth-management/make-every-file-count)
 - [Make Your Company Refactorable](https://docs.appliedaisociety.org/docs/truth-management/make-your-company-refactorable)
 - [Migrate to Refactorable Systems](https://docs.appliedaisociety.org/docs/truth-management/migrate-to-refactorable-systems)
@@ -177,4 +182,4 @@
 - [The Supersuit Up Workshop](https://docs.appliedaisociety.org/docs/workshops/supersuit-up): Build your Personal Agentic OS (aka Jarvis Yourself). A step-by-step guide to AI-augmented recall, strategic clarity, and compounding context.
 
 ---
-Generated at build time. 171 pages indexed.
+Generated at build time. 176 pages indexed.

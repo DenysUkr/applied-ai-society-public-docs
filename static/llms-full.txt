@@ -372,6 +372,20 @@ Without applied AI literacy, people can't see the opportunities forming around t
 
 We are committed to building the best open-source applied AI literacy [source material](/docs/applied-ai-literacy/earthshot) in the world, co-created by leading practitioners. Courses, tools, and translations all derive from it.
 
+## Beyond the Chat Window
+
+Applied AI Society does not teach people to use ChatGPT. That is a common misconception about what we do, and it is important to address directly.
+
+Most people's relationship with AI looks like this: open a chat window, type a question, read the answer, close the tab. They use the most powerful technology ever built the same way they use Google. Andrew Chen of a16z calls this being an "AI normie," and the pattern captures almost none of the available value.
+
+Power laws are emerging in AI usage. The top 1% of users generate the vast majority of the economic value, because they are doing something fundamentally different from casual chat. They build persistent systems. They run local models. They create multi-agent workflows, encode their expertise into reusable [skill files](/docs/concepts/instruction-files), and compound their capabilities every day. A professional who sets up this kind of infrastructure does not become 2x more effective. They become 100x or 1000x more effective, because they know how to multiply their output through [AI leverage](/docs/concepts/hyperagency). The gap between casual use and pro use is the defining economic divide of this decade.
+
+The non-technical user who only engages with whatever chat window is in front of them is leaving transformational value on the table. Often the difference between casual use and life-changing use is a single additional step: setting up a [personal agentic OS](/docs/concepts/personal-agentic-os), installing a coding harness, or working with a practitioner who builds a custom system for you.
+
+Applied AI Society exists to get people on the pro side. If you want to learn the systems yourself, we teach you. If you want someone to build a custom system for you, we connect you with a [practitioner](/docs/roles/applied-ai-consultant) who can. Either way, the destination is pro-level AI leverage across your entire operation.
+
+If you are not going to hand people the terminal, you need to hand them something as powerful as the terminal. There has to be a pathway to pro-level capability. The gap between casual users and pro users widens every day. You cannot afford to stay on the wrong side of it.
+
 ## Learning to Apply AI Is the New Learning How to Read
 
 Learning to apply AI is not "the new learning how to code." It is the new learning how to read. It is that foundational. Not knowing how to apply AI to your business, your career, your community is the new illiteracy.
@@ -3821,6 +3835,8 @@ URL: https://docs.appliedaisociety.org/docs/concepts/hyperagency
 
 The economy is not declining evenly. It is splitting. Some people are accelerating faster than at any point in human history. Others are watching their skills, their roles, and their relevance erode in real time. This is the elevator economy: some people are going up, and there is no visible ceiling. Everyone else is standing still or sinking.
 
+The numbers make this concrete. Power laws are emerging in AI usage: the top 1% of AI users generate roughly 80% of the value. They are building persistent systems, running multi-agent workflows, encoding their expertise into compounding knowledge bases. Everyone else is using AI as a chat window, the same way they use Google. A 10x engineer who learns to harness AI properly does not become a 20x engineer. They become a 1000x engineer, because the leverage multiplies everything they already bring to the table. The non-technical professional who only uses what is in front of them is leaving orders of magnitude of value untouched, often just one additional step away.
+
 The word for the people going up is **hyperagents**.
 
 A hyperagent is not a robot. It is not an AI. It is a human being who has wrapped themselves in AI systems that amplify their unique capabilities, judgment, and vision. They think faster, execute faster, learn faster, and compound faster than anyone operating without that amplification. They are not replaced by AI. They are augmented by it. The star of the show is still the human. The AI is the suit.
@@ -5170,6 +5186,120 @@ The [Agentic OS Trainer](/docs/roles/agentic-os-trainer) role describes the prog
 - [Command Centers](/docs/concepts/command-centers): The meta-concept that Personal Agentic OS is an instance of
 - [Hyperagency](/docs/concepts/hyperagency): What becomes possible when your Personal Agentic OS compounds
 - [The Slopacalypse](/docs/concepts/slopacalypse): Why hyper-specific command centers are replacing generic apps
+
+
+---
+# Personal Software
+URL: https://docs.appliedaisociety.org/docs/concepts/personal-software
+
+
+# Personal Software
+
+*Most people will never use a terminal. The future of personal AI is not "learn to code." It is software built for one person's exact workflow.*
+
+---
+
+## The Insight
+
+A lot of life is turning one version of thoughts into a formatted version of thoughts. Meeting notes into follow-up emails. Strategy sessions into project plans. Raw footage into polished edits. Client calls into invoices. If you can save someone 40% of the time they spend on that translation work, they will be very, very happy.
+
+The [Personal Agentic OS](/docs/concepts/personal-agentic-os) approach works. Terminal-based AI harnesses like Claude Code, Hermes, and Codex are extraordinarily powerful. They give you unlimited possibilities, persistent context, and compounding returns over time. The Supersuit Up workshop teaches this path, and it transforms the people who take it.
+
+But here is the honest truth: maybe 10 to 20 percent of working professionals will ever adopt a terminal-based system. The rest have ADHD brains, chaotic schedules, overflowing inboxes, and zero interest in changing their core habits. Showing them a terminal and saying "type commands here" overwhelms them. Not because they are incapable. Because the cognitive overhead of unlimited possibility is itself a barrier for people whose days are already maxed out.
+
+Those people do not need unlimited possibility. They need their specific workflows streamlined.
+
+---
+
+## The Spectrum
+
+There is a spectrum of personal AI systems, and most people end up somewhere in the middle.
+
+### Level 1: Chat Interfaces
+
+ChatGPT, Claude.ai, Gemini. You open a tab, type a question, get an answer. This is where most people start and where many stay.
+
+The limitation: no persistence. Every conversation resets. The AI does not know your goals, your clients, your voice, your history. You re-explain yourself every single time. It is useful, but it does not compound. You are starting from zero every session.
+
+### Level 2: Terminal-Based Harnesses
+
+Claude Code, Hermes, Codex, and similar tools. These are the [Personal Agentic OS](/docs/concepts/personal-agentic-os) in its most powerful form. File-based context. Persistent memory. Skills that compound. The ability to do essentially anything a computer can do, orchestrated through natural language.
+
+The limitation: learning curve. You need to be comfortable (or willing to become comfortable) with a terminal, with Git, with file structures, with thinking in terms of system architecture. For the right person, this is a superpower. For the majority of busy professionals, it is a wall.
+
+### Level 3: Custom Wrapper Apps
+
+A web or desktop application built specifically for one person's (or one role's) workflow. It has pre-defined actions, full business context baked in, and connected tools. The user opens it and sees buttons, not a blinking cursor. They click "Draft deal memo for [artist]" and it happens. They click "Generate weekly bookkeeping summary" and it happens. No prompting. No commands. No learning curve.
+
+This is where most professionals will end up. Not because it is technically superior to a terminal harness (it is not). But because it meets them where they are, and the best system is the one people actually use.
+
+---
+
+## What a Wrapper App Looks Like
+
+Think of it as a personal dashboard with AI superpowers. The interface is simple. Behind it, the same [harness engineering](/docs/concepts/harness-engineering) principles apply: context files, skill definitions, model routing, guardrails. The user just never sees any of that.
+
+A real example: Gary built a custom web app called "the Dawson Streamliner" for his roommate Dawson, who runs a YouTube strategy and video editing business. The app had pre-built functions for the things Dawson actually does every day: content calendar management, client communication templates, video project tracking, performance analytics summaries. Dawson opened it, clicked buttons, and got results. It saved roughly 40% of his working time. He never touched a terminal.
+
+Another example: imagine a music manager (someone like Amal, who manages Teezo Touchdown). Her days are packed with scheduling, deal negotiation, bookkeeping, publishing administration, brand deal tracking, and artist communication. She is not going to learn Claude Code. She does not have time to adopt a new system. But a custom wrapper app with six or seven pre-built functions covering her core workflows? She would use that immediately. Open it up, hit "Draft brand deal response," review the output, send. That is the entire interaction.
+
+The wrapper eliminates [robot mode](/docs/concepts/robot-mode). It does not require the user to learn a new paradigm. It just makes their existing paradigm faster.
+
+---
+
+## Why This Is the Future of Software
+
+Generic SaaS products serve the average user. But AI makes it economically viable to build software for an audience of one. The cost of building a custom app has collapsed. What used to require a team of developers and months of work can now be built in days by a single [applied AI consultant](/docs/roles/applied-ai-consultant) using AI-assisted development.
+
+This changes the economics completely:
+
+**Old model:** Software companies build one product for millions of users. Every user compromises. The product serves no one perfectly.
+
+**New model:** A practitioner interviews you about your workflow, builds you a custom app in a week, and you have software that fits your life like a glove. It does exactly what you need and nothing you do not need.
+
+The progression looks like this:
+
+1. Today, applied AI consultants build personal software for clients as a bespoke service.
+2. Soon, there will be platforms and frameworks specifically designed for creating personal software quickly (drag-and-drop streamliner builders, template libraries for common roles).
+3. Eventually, courses and workshops will teach people to build their own streamliners, even without deep technical skills.
+
+The [liberation architecture](/docs/concepts/liberation-architecture) principle applies here. You are not replacing the tools someone already uses. You are wrapping their existing workflow with an intelligent layer that removes the friction.
+
+---
+
+## Who Builds These
+
+The [Applied AI Streamliner](/docs/roles/applied-ai-streamliner) is the role emerging around this work. The workflow looks like this:
+
+1. **Discovery.** Sit with the client. Map their week. Identify every task that is repetitive, time-consuming, or soul-draining. Find the patterns.
+2. **Architecture.** Design a wrapper app with pre-built functions for the highest-impact workflows. Choose the right [harness](/docs/concepts/harness-engineering) under the hood.
+3. **Build.** Stand up the app. Connect it to the client's existing tools (calendar, email, spreadsheets, CRM, whatever they use). Populate it with their business context.
+4. **Deliver.** Hand it to them. Watch them click a button and get a result that would have taken them 45 minutes. Watch their face.
+5. **Iterate.** As they use it, new needs surface. Add functions. The app compounds, just like a [Personal Agentic OS](/docs/concepts/personal-agentic-os) does, but through the Streamliner rather than the user.
+
+Gary's [media automation work](/docs/case-studies/gary-sheng-media-automation) is an early example of this pattern: building custom AI-powered tools for specific clients' specific workflows.
+
+---
+
+## The Relationship to the Terminal OS
+
+Personal software and the terminal-based Personal Agentic OS are not competing approaches. They serve different people at different points on the adoption spectrum.
+
+Some people will start with a wrapper app and eventually graduate to a terminal harness as their comfort with AI systems grows. Some will stay with wrapper apps forever and that is perfectly fine. Some will use both: a terminal OS for their deep work and a wrapper app they hand to their assistant or team members.
+
+The important thing is that everyone gets access to compounding, context-rich AI systems. The terminal should not be a bottleneck that locks out 80% of professionals from the benefits of personal AI. Personal software is how we remove that bottleneck.
+
+---
+
+## Further Reading
+
+- [Personal Agentic OS](/docs/concepts/personal-agentic-os): The terminal-based version. Maximum power, higher learning curve.
+- [Harness Engineering](/docs/concepts/harness-engineering): The engineering principles that power both wrapper apps and terminal systems.
+- [Liberation Architecture](/docs/concepts/liberation-architecture): The philosophy of wrapping existing systems rather than replacing them.
+- [Robot Mode](/docs/concepts/robot-mode): What personal software eliminates. The mechanical tasks that drain your soul and your time.
+- [Applied AI Streamliner](/docs/roles/applied-ai-streamliner): The role dedicated to building personal software for individual professionals.
+- [Applied AI Consultant](/docs/roles/applied-ai-consultant): The broader consulting role, which may include personal software as part of larger engagements.
+- [Gary Sheng: Media Automation](/docs/case-studies/gary-sheng-media-automation): A case study in building custom AI tools for specific workflows.
 
 
 ---
@@ -7945,7 +8075,7 @@ URL: https://docs.appliedaisociety.org/docs/philosophy/principles
 
 # Principles
 
-The [Canon](/docs/philosophy/canon) defines what we believe. These six principles define how we operate as a community.
+The [Canon](/docs/philosophy/canon) defines what we believe. These seven principles define how we operate as a community.
 
 ---
 
@@ -8003,6 +8133,18 @@ We build environments where builders, open source contributors, advocates, and p
 
 ---
 
+## 07. Strategy is the new execution
+
+AI handles more and more of the execution. The quality of your strategic thinking has never mattered more.
+
+The old economy rewarded people who could grind through implementation. The new economy rewards people who can think clearly about what should be built, why, and in what order. [The spec is the product](/docs/concepts/spec-writing). The person who can define the right thing to build is now more valuable than the person who builds it. This is not a demotion of execution. It is a recognition that execution is being commoditized, and the bottleneck has moved upstream to clarity of thought, quality of judgment, and precision of intent.
+
+If you are spending your days in [robot mode](/docs/concepts/robot-mode), you are competing with machines on their terms. If you are spending your days thinking clearly about strategy, you are doing the one thing machines cannot replace: deciding what matters.
+
+[Read the full argument for working smart →](/docs/philosophy/working-smart)
+
+---
+
 *These principles guide everything we do, starting with the young people at the center of our mission. For what we believe, see the [Canon](/docs/philosophy/canon). For how these ideas are validated by leaders at the frontier, see [Voices from the Applied AI Frontier](/docs/philosophy/voices-from-the-frontier).*
 
 
@@ -8034,6 +8176,8 @@ A person with deep integrity operating at AI speed builds trust at scale. A pers
 A person with strong communication skills producing 10x more output reaches 10x more people with clarity. A person with weak communication skills producing 10x more output spreads 10x more confusion.
 
 The math is simple and unforgiving. The cost of a B player is not linearly higher than before. It is exponentially higher. Because AI amplifies the gap between what an A player and a B player produce per unit of time, and it does so across every dimension: skill, judgment, integrity, communication, follow-through.
+
+This effect extends beyond team composition. Across the entire economy, power laws are emerging in AI usage. The top 1% of users generate roughly 80% of the economic value, because their systems amplify judgment, expertise, and execution simultaneously. A casual user who treats AI as a chat window gets marginal improvement. A professional who builds persistent systems, compounds context, and layers AI into every workflow gets [exponential improvement](/docs/concepts/hyperagency). The 10x engineer becomes a 1000x engineer. This is the amplification effect applied to the individual: AI does not just make you faster. It multiplies whatever infrastructure you have built around yourself. If that infrastructure is a single chat window, the multiplication is small. If it is a [personal agentic OS](/docs/concepts/personal-agentic-os) with deep context, shared skills, and always-on agents, the multiplication is staggering.
 
 ## What Makes a B Player
 
@@ -8472,6 +8616,126 @@ We would rather you build something useful, get paid for it, learn from the expe
 
 
 ---
+# Working Smart
+URL: https://docs.appliedaisociety.org/docs/philosophy/working-smart
+
+
+# Working Smart
+
+*The days of getting a pat on the back for working hard are over. The question is whether you are working smart.*
+
+---
+
+## The Shift
+
+For decades, the formula was simple. Work more hours. Grind harder. Show up early, stay late, wear the exhaustion like a badge. Hard work was the proxy for value, and the people who logged the most hours got the most respect.
+
+That formula is broken.
+
+Not because hard work stopped mattering. It matters as much as ever. But the *kind* of work that matters has changed. When AI can execute at a level that took teams of people weeks to accomplish, the value of raw execution collapses. The value of *knowing what to execute* goes through the roof.
+
+Working smart is recognizing this shift and reorganizing your entire approach around it.
+
+---
+
+## Strategy Is the New Execution
+
+This is the foundational principle. [We named it our seventh operating principle](/docs/philosophy/principles) because it is that important.
+
+AI handles more and more of the execution layer. Which means the quality of your strategic thinking is the single largest variable in the quality of your outcomes. A mediocre strategy executed brilliantly by AI still produces mediocre results. A brilliant strategy executed competently by AI produces extraordinary results.
+
+The old economy had a saying: "Ideas are cheap. Execution is everything." That was true when execution required hundreds of hours of human labor. It is no longer true when execution can be automated, delegated, and scaled by machines.
+
+[The spec is the product](/docs/concepts/spec-writing). If you accept that premise, then the most valuable thing you can do on any given day is think clearly about what you are building, why you are building it, and in what order the pieces should come together. The days of doing things just because they tire you out, just because you want a pat on the back for "working hard," are over. You want to work smart. Here is what that means.
+
+---
+
+## The Working Smart Checklist
+
+### 1. If you don't have a Jarvis, get one. Now.
+
+A [personal agentic OS](/docs/concepts/personal-agentic-os) is not optional anymore. It is the minimum viable infrastructure for operating in the AI economy. Every day you spend without one is a day your competitors are compounding and you are not.
+
+Getting suited up is not a weekend project you will get to eventually. It is the single highest-leverage thing you can do for your career, your business, and your capacity to think clearly. [The encounter](/docs/concepts/the-encounter) is step one. Everything else follows from it.
+
+### 2. Not every strategy is created equal.
+
+Working smart means being honest about which strategies actually move the needle and which ones feel productive but produce nothing. Most people fill their days with activity that looks like progress. Emails answered. Meetings attended. Posts published. But activity is not strategy. Strategy is identifying the three things that actually matter and doing those things with everything you have.
+
+Before you start your day, ask: what is the one thing I could do today that would make everything else easier or unnecessary? That is strategy. Everything else is maintenance.
+
+### 3. Your files should compound.
+
+Every document you write should make your AI agent smarter. Every smarter agent output should make the next document faster. This is the [compounding docs](/docs/concepts/compounding-docs) flywheel, and it is the single most underrated advantage in the AI economy.
+
+You want to have files such that, as LLMs get better, your whole system gets better automatically. Because the LLMs can now handle richer context. The person who has been building their [context lake](/docs/concepts/context-lake) for six months is operating in a different reality than the person who opens a blank chat window every morning.
+
+### 4. Refine the process of priming your AI.
+
+Any time you are giving your LLM context so it can act on your behalf, you should be thinking about how to make that handoff cleaner, more precise, and more reusable. Every [skill file](/docs/concepts/instruction-files), every CLAUDE.md, every prompt template is an investment in execution quality. Continually refine the process of setting up your AIs to be excellent executors of your will.
+
+This is meta work. Working on the system rather than in the system. And it is some of the highest-leverage time you will ever spend.
+
+### 5. Think in principles, not implementations.
+
+A principle endures. An implementation is contextual. When you design systems, lead with the principle: "I want my team to never lose track of a commitment." That is eternal. "I want a Slack bot that posts daily reminders" is an implementation that may be obsolete next quarter.
+
+[The spec is the product](/docs/concepts/spec-writing) page goes deep on this: a spec built from principles survives technology changes. A spec built from feature lists becomes stale the moment the tooling shifts. Think in terms of what you are trying to achieve at the deepest level, and let the implementation follow.
+
+### 6. Never get attached to a setup.
+
+If a new tool, a new workflow, or a new architecture enables your system to embody the characteristics that move the needle better than your current setup, switch. Loyalty to a setup is a liability. Loyalty to the outcome is an asset.
+
+The best practitioners audit their stack regularly. Not because they chase shiny objects, but because the landscape is moving fast enough that yesterday's optimal configuration is tomorrow's bottleneck. [Self-improving systems](/docs/concepts/self-improving-systems) are ones that evolve their own infrastructure in response to what they learn.
+
+### 7. Fewer clicks. Always fewer clicks.
+
+Every manual step in a workflow is a tax on your attention and your time. The goal is to reduce the distance between your intent and the outcome to as close to zero as possible. If you are clicking through the same five screens every morning, that is a workflow begging to be automated.
+
+This is what [flow state infrastructure](/docs/concepts/flow-state-infra) is about: designing your environment so that the mechanics disappear and you can focus entirely on the thinking.
+
+### 8. Never do the same thing twice.
+
+If you find yourself doing something for the second time, stop and build the system that does it for you. Write the skill file. Create the template. Set up the automation. The second time is the signal. The third time is a failure of discipline.
+
+This is not premature optimization. This is the foundational habit of anyone who takes compounding seriously. Every repeated task you automate frees up cognitive bandwidth for the strategic work that actually matters.
+
+### 9. Understand the power of cron jobs.
+
+A cron job is a task that runs on a schedule without you thinking about it. Most people underestimate how much of their cognitive load comes from remembering to do recurring tasks. Check the inbox. Sync the data. Review the dashboard. Follow up on the email.
+
+When those tasks run automatically, you do not just save time. You save mental energy. You free up the part of your brain that was tracking fifteen open loops so it can focus on the one thing that matters right now. [Always-on agents](/docs/concepts/always-on-agents) are the natural extension of this idea: systems that work while you sleep, think, or do the soul-requiring work that no machine can touch.
+
+### 10. Get out of robot mode.
+
+This is the foundation everything else sits on. [Robot mode](/docs/concepts/robot-mode) is when your work does not require your judgment, your creativity, or your personality. Just your hands and your time. If the job description is "be a robot," a robot will take your job.
+
+Working smart means recognizing what you, in your unique human soul, should be doing versus what a machine should be doing. Then ruthlessly delegating the machine work to machines. Not someday. Today.
+
+---
+
+## The Compound Effect
+
+These ten practices are not independent. They reinforce each other. Having a Jarvis makes it easier to compound your docs. Compounding docs makes your cron jobs smarter. Smarter automation means fewer clicks. Fewer clicks means more time for strategy. Better strategy means you build the right things. Building the right things means your files contain high-signal context. High-signal context makes your Jarvis more capable. The flywheel spins.
+
+This is what working smart looks like from the inside. It does not feel like less effort. It feels like effort applied to the right things. And the results compound in a way that raw hard work never could.
+
+---
+
+## Further Reading
+
+- [Principles](/docs/philosophy/principles): The seven operating principles, including "strategy is the new execution"
+- [The Spec Is the Product](/docs/concepts/spec-writing): Why clarity of intent is the highest-leverage skill
+- [Robot Mode](/docs/concepts/robot-mode): What you are escaping from
+- [Compounding Docs](/docs/concepts/compounding-docs): The flywheel that makes your system smarter over time
+- [Personal Agentic OS](/docs/concepts/personal-agentic-os): Your Jarvis, the minimum viable infrastructure
+- [Flow State Infrastructure](/docs/concepts/flow-state-infra): Designing for fewer clicks and deeper focus
+- [Self-Improving Systems](/docs/concepts/self-improving-systems): Systems that evolve their own infrastructure
+- [Always-On Agents](/docs/concepts/always-on-agents): Cron jobs and autonomous systems that work while you don't
+- [Crutching](/docs/concepts/crutching): The trap of letting AI think for you instead of with you
+
+
+---
 # Your Two Futures
 URL: https://docs.appliedaisociety.org/docs/philosophy/your-two-futures
 
@@ -8537,6 +8801,8 @@ The printing press created a fork. The people who learned to read and distribute
 The internet created a fork. The people who built online, who understood distribution and networks, gained access to markets and audiences that the previous generation could not imagine. The people who waited too long spent years catching up, and some never did.
 
 AI is creating the same fork, but faster. The cycle that used to take decades is now playing out in months. The distance between the people who suited up in January and the people who are still thinking about it in October is already significant. By next year, it will be staggering.
+
+There is a fantasy that you can opt out entirely. Go off-grid. Reject the digital world and live an analog life. Here is the honest reality of that path: it requires skills that most people do not have and are not building. Growing your own food, maintaining your own infrastructure, thriving without digital systems. The learning curve for a genuine analog life is just as steep as suiting up with AI. Steeper, actually, because the analog world does not offer 100x leverage on your effort. You either go deeply digital or deeply analog. The comfortable middle (using a few apps casually, skimming headlines about AI, treating the whole thing as someone else's problem) is the path that leads nowhere. It is the illusion of stability in a world that is actively restructuring around you.
 
 This is not a technology problem. It is a human decision. And like every fork, the window where both paths are equally available does not stay open forever.
 
@@ -16685,15 +16951,18 @@ If you're doing applied AI work that doesn't fit neatly into any of these catego
 URL: https://docs.appliedaisociety.org/docs/playbooks/practitioner/claude-code-setup
 
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Setting Up Claude Code
 
-*Claude Code is Anthropic's terminal-based AI agent. It reads your files, writes files, runs commands, and operates inside your workspace. This guide gets it running as the engine for your [Personal Agentic OS](/docs/concepts/personal-agentic-os).*
+*Claude Code is Anthropic's AI agent. It reads your files, writes files, runs commands, and operates inside your workspace. This guide gets it running as the engine for your [Personal Agentic OS](/docs/concepts/personal-agentic-os).*
 
 ---
 
 ## Why Claude Code
 
-Claude Code is Anthropic's terminal agent. It reads your workspace, runs commands, writes files, and supports persistent [instruction files](/docs/concepts/instruction-files) (CLAUDE.md) that shape how it operates across sessions. It is one of several harnesses that work well for building a Personal Agentic OS. Others include [OpenAI Codex](/docs/playbooks/practitioner/codex-setup), [Hermes](/docs/playbooks/practitioner/hermes-setup), OpenCode, and Cursor.
+Claude Code is Anthropic's agentic coding tool. It reads your workspace, runs commands, writes files, and supports persistent [instruction files](/docs/concepts/instruction-files) (CLAUDE.md) that shape how it operates across sessions. It is available as a CLI, a desktop app (Mac and Windows), and a web app. It is one of several harnesses that work well for building a Personal Agentic OS. Others include [OpenAI Codex](/docs/playbooks/practitioner/codex-setup), [Hermes](/docs/playbooks/practitioner/hermes-setup), OpenCode, and Cursor.
 
 The tradeoff: Claude Code requires a paid Anthropic subscription (Claude Max at $100/mo or $200/mo, or API usage). If cost is a constraint, see [Hermes Setup](/docs/playbooks/practitioner/hermes-setup) for a zero-cost open source alternative, or [Codex Setup](/docs/playbooks/practitioner/codex-setup) if you already have a ChatGPT subscription. All harnesses work with the same Personal Agentic OS folder structure. Your files are portable.
 
@@ -16701,55 +16970,131 @@ The tradeoff: Claude Code requires a paid Anthropic subscription (Claude Max at 
 
 ## Prerequisites
 
-You need three things installed before Claude Code:
+**Git** is required on all platforms. **Windows also requires [Git for Windows](https://git-scm.com/downloads/win)** specifically, because Claude Code uses Git Bash internally to run commands.
 
-**1. Node.js** (version 18 or higher)
+<Tabs>
+<TabItem value="mac" label="Mac">
 
-Download from [nodejs.org](https://nodejs.org) and run the installer. Pick the LTS version. To verify:
-
-```bash
-node --version
-```
-
-If you see `v18.x.x` or higher, you are good.
-
-**2. Git**
-
-Download from [git-scm.com](https://git-scm.com) and run the installer. To verify:
+Git comes preinstalled on most Macs. If not:
 
 ```bash
-git --version
+xcode-select --install
 ```
 
-**3. VS Code** (recommended, not required)
+</TabItem>
+<TabItem value="windows" label="Windows">
 
-Download from [code.visualstudio.com](https://code.visualstudio.com). Claude Code runs in any terminal, but VS Code gives you a file explorer and terminal side by side, which makes it easy to see what your agent is doing.
+Install [Git for Windows](https://git-scm.com/downloads/win) and accept the defaults. This also installs Git Bash, which Claude Code uses internally. Or via winget:
+
+```powershell
+winget install Git.Git
+```
+
+</TabItem>
+<TabItem value="linux" label="Linux">
+
+```bash
+sudo apt install git    # Debian/Ubuntu
+sudo dnf install git    # Fedora
+```
+
+</TabItem>
+</Tabs>
+
+**VS Code** (recommended, not required): Download from [code.visualstudio.com](https://code.visualstudio.com). Available for Mac, Windows, and Linux. Claude Code runs in any terminal, but VS Code gives you a file explorer and terminal side by side, which makes it easy to see what your agent is doing.
 
 ---
 
 ## Install Claude Code
 
-**Option A: Native installer (recommended)**
+### Option 1: Native installer (recommended)
+
+The native installer is the fastest method, requires no dependencies (Node.js is not needed), and auto-updates in the background.
+
+<Tabs>
+<TabItem value="mac" label="Mac / Linux / WSL">
 
 ```bash
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-**Option B: npm**
+</TabItem>
+<TabItem value="windows-ps" label="Windows (PowerShell)">
 
-```bash
-npm install -g @anthropic-ai/claude-code
+```powershell
+irm https://claude.ai/install.ps1 | iex
 ```
 
-Do not use `sudo` with npm. If you get permission errors, install Node via [nvm](https://github.com/nvm-sh/nvm) instead.
+If you see `The token '&&' is not a valid statement separator`, you are in PowerShell, not CMD. Use the PowerShell command above.
 
-Verify it installed:
+</TabItem>
+<TabItem value="windows-cmd" label="Windows (CMD)">
+
+```batch
+curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+```
+
+Your prompt shows `PS C:\` when you are in PowerShell. If you see that, use the PowerShell tab instead.
+
+</TabItem>
+</Tabs>
+
+### Option 2: Package managers
+
+<Tabs>
+<TabItem value="homebrew" label="Homebrew (Mac / Linux)">
+
+```bash
+brew install --cask claude-code
+```
+
+Homebrew installations do not auto-update. Run `brew upgrade claude-code` periodically.
+
+</TabItem>
+<TabItem value="winget" label="WinGet (Windows)">
+
+```powershell
+winget install Anthropic.ClaudeCode
+```
+
+WinGet installations do not auto-update. Run `winget upgrade Anthropic.ClaudeCode` periodically.
+
+</TabItem>
+</Tabs>
+
+### Option 3: Desktop app
+
+If you prefer a graphical interface over the terminal, download the Claude Code desktop app for [Mac](https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect) or [Windows](https://claude.com/download). The desktop app provides the same capabilities in a dedicated window.
+
+### Option 4: Web app (no install)
+
+Try Claude Code instantly at [claude.ai/code](https://claude.ai/code). No installation required. The CLI and desktop app offer deeper integration with your local filesystem, but the web app is the fastest way to start.
+
+### Verify
 
 ```bash
 claude --version
 ```
 
-On first launch, Claude Code will walk you through authenticating with your Anthropic account.
+On first launch, Claude Code walks you through authenticating with your Anthropic account. You need a Pro, Max, Team, or Enterprise plan (the free Claude.ai plan does not include Claude Code).
+
+---
+
+## Windows-Specific Notes
+
+Claude Code on Windows runs in PowerShell, CMD, or Git Bash. You do not need to run PowerShell as Administrator.
+
+If Claude Code cannot find your Git Bash installation, set the path in your settings (run `/config` inside Claude Code, or edit `~/.claude/settings.json`):
+
+```json
+{
+  "env": {
+    "CLAUDE_CODE_GIT_BASH_PATH": "C:\\Program Files\\Git\\bin\\bash.exe"
+  }
+}
+```
+
+WSL is also supported (both WSL 1 and WSL 2). If you use WSL, install Claude Code inside the WSL terminal using the Mac/Linux instructions.
 
 ---
 
@@ -16776,7 +17121,7 @@ my-jarvis/
 
 The CLAUDE.md file is already configured. It tells Claude Code to act as your Jarvis: route brain dumps to the right folders, maintain cross-references between people and transcripts, and run the user profile interview on first session.
 
-Open the workspace in VS Code:
+Open the workspace in VS Code (works on all platforms):
 
 ```bash
 code my-jarvis
@@ -16814,7 +17159,10 @@ The core loop is simple: talk to your Jarvis. Some examples of what to say:
 
 ## Useful Aliases
 
-Add these to your `~/.zshrc` or `~/.bashrc` for convenience:
+<Tabs>
+<TabItem value="mac-linux" label="Mac / Linux">
+
+Add these to your `~/.zshrc` or `~/.bashrc`:
 
 ```bash
 # Launch Claude Code in dangerous mode (no approval prompts)
@@ -16824,13 +17172,31 @@ alias clauded="claude --dangerously-skip-permissions"
 alias jarvis="cd ~/my-jarvis && claude"
 ```
 
+</TabItem>
+<TabItem value="windows" label="Windows (PowerShell)">
+
+Add these to your PowerShell profile (`notepad $PROFILE`):
+
+```powershell
+# Launch Claude Code in dangerous mode (no approval prompts)
+function clauded { claude --dangerously-skip-permissions @args }
+
+# Launch Claude Code in your Jarvis workspace from anywhere
+function jarvis { Set-Location "$HOME\my-jarvis"; claude }
+```
+
+If the profile file does not exist yet, create it: `New-Item -Path $PROFILE -ItemType File -Force`
+
+</TabItem>
+</Tabs>
+
 Use `clauded` when you trust the operations (brain dumps, file updates). Use `claude` when working with credentials or production systems.
 
 ---
 
 ## Tips
 
-**Voice input changes everything.** Install [Superwhisper](https://superwhisper.com) (free, fully local) or [Wispr Flow](https://wisprflow.ai) (~$10/mo). Hold a key, talk, release. The text appears wherever your cursor is, including the Claude Code terminal. Speaking is 3 to 5x faster than typing and keeps you in flow state instead of editing yourself mid-thought.
+**Voice input changes everything.** On Mac, install [Superwhisper](https://superwhisper.com) (free, fully local) or [Wispr Flow](https://wisprflow.ai) (~$10/mo). On Windows, Wispr Flow is available, or use the built-in Windows dictation (Win+H). Hold a key, talk, release. The text appears wherever your cursor is, including the Claude Code terminal. Speaking is 3 to 5x faster than typing and keeps you in flow state instead of editing yourself mid-thought.
 
 **The system compounds.** Day one is thin. At 30 days, your Jarvis knows your key relationships, your strategic context, and your communication patterns well enough to draft emails in your voice. At 90 days, it briefs you before every meeting with full relationship history. The compounding effect is the entire point. Feed it daily.
 
@@ -16850,13 +17216,17 @@ gh repo create my-jarvis --private --push
 
 ## Troubleshooting
 
-**`claude: command not found`:** Restart your terminal or run `source ~/.zshrc`. If still missing, check that npm's global bin directory is on your PATH: `npm config get prefix` should show a path, and `{that path}/bin` should be in your PATH.
+**`claude: command not found` (Mac/Linux):** Restart your terminal or run `source ~/.zshrc`. The native installer places the binary at `~/.local/bin/claude`. Make sure `~/.local/bin` is on your PATH.
 
-**Authentication issues:** Run `claude` and follow the login prompts. You need an active Anthropic account with Claude Max or API access.
+**`claude: command not found` (Windows):** Close and reopen PowerShell. The native installer places the binary at `%USERPROFILE%\.local\bin\claude.exe`. You may need to log out and back in for PATH changes to take effect.
 
-**Old Node.js version:** Claude Code requires Node 18+. Run `node --version` to check. If you need to upgrade, download the latest LTS from [nodejs.org](https://nodejs.org) or use `nvm install --lts`.
+**Authentication issues:** Run `claude` and follow the login prompts. You need an active Anthropic account with a Pro, Max, Team, or Enterprise plan.
 
-**Windows users:** Claude Code works best in WSL2 (Windows Subsystem for Linux). Install WSL2 first, then follow the Linux instructions inside your WSL terminal.
+**Windows: long path errors:** Enable long paths in Git: `git config --global core.longpaths true`.
+
+**Windows: Git Bash not found:** Install [Git for Windows](https://git-scm.com/downloads/win). If already installed but Claude Code cannot find it, set `CLAUDE_CODE_GIT_BASH_PATH` in settings (see Windows-Specific Notes above).
+
+**More help:** Run `claude doctor` for a detailed check of your installation and configuration. See the [official troubleshooting guide](https://docs.anthropic.com/en/docs/claude-code/troubleshooting) for additional issues.
 
 ---
 
@@ -18319,6 +18689,46 @@ The relationship files and decision records (Steps 4C and 4D) are bonuses. The c
 
 ---
 
+## The Speed Run: Get Them to the Aha Moment Fast
+
+The full workshop walks people through installation, configuration, and setup. That is the right approach for a group session where everyone learns the whole stack. But there is a faster path when you are working one-on-one with a client or student and want them talking to their AI as fast as possible.
+
+The principle: **the instructor does all the installation. The student does all the thinking.**
+
+Installation is not where the aha moment lives. The aha moment lives in the user profile interview, where the AI reflects their thinking back to them and they realize this thing actually knows them. Every minute spent debugging Node.js versions is a minute stolen from that moment.
+
+### The Protocol
+
+**Before the session (15-20 min, instructor only):**
+
+1. Install Node.js, Git, and VS Code on their machine (or verify they are installed)
+2. Install Claude Code (or Hermes) and authenticate
+3. Clone the [starter repo](https://github.com/Applied-AI-Society/minimum-viable-jarvis) and open it in VS Code
+4. Set up voice-to-text (Superwhisper or Wispr Flow)
+5. Run one test command in the terminal to confirm everything works
+6. If the student has any existing documents about themselves (LinkedIn, bio, personal website, previous strategic docs), drop them into the `user/` folder
+
+The student's machine should be ready to go before they sit down. When they open their laptop, they see VS Code with the workspace open and an agent ready to talk.
+
+**With the student (30-45 min):**
+
+1. **Explain what they are looking at** (2 min). "This is your workspace. These folders are your brain. The AI reads them. Let me show you."
+2. **Interview them about something they are actually puzzling over** (15-20 min). Not a generic profile. Ask them: "What is the thing you are trying to figure out right now that matters most for your business, your career, or your growth?" Then tell the agent to interview them about that. The student talks (voice-to-text). The agent asks hard follow-up questions, pushes for specificity, surfaces assumptions they did not know they were making. This is where the magic happens. They are [seeing their own thinking](/docs/concepts/see-your-own-thinking) reflected back to them by an intelligent system for the first time, on a problem they actually care about.
+3. **Generate an actionable plan from the interview** (10 min). The agent takes everything from the conversation and produces a concrete plan for the thing they are puzzling over. The student reads it and realizes: "This thing just synthesized my situation better than I could have articulated it myself." Paste it into a Google Doc (Edit > Paste from Markdown) and they walk away with a professional strategic document they can share with a partner, investor, or team member. Created in 30 minutes from a conversation.
+4. **Show them the daily workflow** (5 min). Open the terminal, brain dump something, show how the agent routes it to the right file. "This is what you do every day. Talk, let it route, review."
+
+**After the session:**
+
+They now have a working system with their actual data in it. The installation barrier is gone. The aha moment happened. From here, they build the habit on their own. You check in a week later to see if they are doing daily brain dumps.
+
+### Why This Works
+
+[Ramp learned the same lesson](/docs/case-studies/ramp-glass): "The people who got the most value were not the ones who attended training sessions. They were the ones who installed a skill on day one and immediately got a result." The speed run is the same insight applied to one-on-one onboarding. Remove every barrier between the person and their first real result. The product teaches faster than any explanation.
+
+The full workshop is still the right format for group sessions where people need to learn the stack. The speed run is for when you have someone's laptop in front of you and 45 minutes to change how they think about AI forever.
+
+---
+
 ## Lessons Learned (From Real Sessions)
 
 *This section is updated after each workshop. Dates indicate when the lesson was added.*
@@ -18901,6 +19311,126 @@ The key insight is that the activation is a one-time event, but the progression 
 
 
 ---
+# AI Enablement Architect
+URL: https://docs.appliedaisociety.org/docs/roles/ai-enablement-architect
+
+
+# AI Enablement Architect
+
+*The person who deploys company-wide AI upskilling infrastructure. They build the platform, connect the tools, design the skill marketplace, and get every employee from "I've heard of ChatGPT" to "I shipped an app that saves my team 10 hours a week."*
+
+---
+
+## What They Do
+
+The AI Enablement Architect builds and operates the internal AI suite that levels up an entire workforce. Think of Ramp's [Glass](/docs/case-studies/ramp-glass): the platform that took 700 employees from scattered ChatGPT usage to 6,300% growth in AI adoption, 1,500 apps shipped in six weeks, and non-engineers committing code to production.
+
+Every company needs their version of Glass. The AI Enablement Architect is the person who builds it.
+
+Three core functions:
+
+**1. Deploy the platform.** Stand up the internal AI environment: SSO authentication, pre-connected integrations (CRM, data warehouse, communication tools, document systems), and a workspace where every employee can use AI agents with full organizational context from day one. The principle: if someone has to file a ticket, configure a tool, or debug an install before they can use AI, you have already lost them. The platform should work on first login.
+
+**2. Build the skill marketplace.** This is where compounding happens. When a sales rep discovers the best way to analyze call recordings, they write it up as a [skill file](/docs/concepts/instruction-files) and share it. Overnight, every rep on the team has that capability. The AI Enablement Architect designs the marketplace (Ramp calls theirs "the Dojo"), sets up the review and versioning process, and seeds it with high-value skills that demonstrate what good looks like. Over time, the marketplace becomes self-sustaining: employees contribute skills faster than the architect creates them.
+
+**3. Drive adoption from zero to compound.** Infrastructure without adoption is expensive furniture. The AI Enablement Architect designs the proficiency ladder (what does L0, L1, L2, L3 look like at this company?), builds leaderboards and visibility mechanics, runs hackathons, coaches teams through their first builds, and works with leadership to make AI proficiency part of hiring and performance conversations. The goal is not 100% adoption of AI tools. The goal is 100% adoption of AI as a way of working.
+
+---
+
+## How This Differs from Other Roles
+
+This role sits in a specific lane. The boundaries matter.
+
+**vs. [Applied AI Consultant](/docs/roles/applied-ai-consultant):** The consultant builds specific AI solutions for specific business problems (automate this workflow, build this agent, integrate these systems). The Enablement Architect builds the platform that enables everyone in the company to build their own solutions. The consultant delivers fish. The Enablement Architect teaches a company to fish by building the fishing infrastructure.
+
+**vs. [Chief AI Officer](/docs/roles/chief-ai-officer):** The CAIO is the strategic leader who sets the transformation vision, leads identity shifts, and designs the self-improving organization at the executive level. The Enablement Architect reports to (or works alongside) the CAIO and handles the implementation: the platform, the integrations, the skill marketplace, the adoption mechanics. The CAIO says "we will become the most productive company in the world." The Enablement Architect builds the infrastructure that makes it possible.
+
+**vs. [Business OS Administrator](/docs/roles/business-os-administrator):** The BOS Admin maintains the ongoing sovereign business OS: agent orchestration, context curation, access governance. The Enablement Architect focuses specifically on the upskilling and adoption layer: getting every employee productive with AI, building the skill-sharing infrastructure, and driving the cultural transformation. In mature organizations, these roles work in tandem. The Enablement Architect builds the platform. The BOS Admin keeps it running.
+
+**vs. [Agentic OS Trainer](/docs/roles/agentic-os-trainer):** The Trainer runs workshops and coaches individuals through personal Jarvis setup. The Enablement Architect operates at the organizational level: deploying the company-wide platform, designing the skill marketplace, building adoption mechanics, and integrating with enterprise systems. A Trainer might run a Supersuit Up workshop at the company. The Enablement Architect builds the permanent infrastructure that makes every employee's daily AI experience seamless.
+
+---
+
+## Why This Role Is Emerging Now
+
+The AI tools are ready. The companies are not.
+
+Most organizations hit the same wall. They tell everyone to use AI. They buy subscriptions. Adoption spikes for a week. Then it flatlines, because the tools are disconnected from the work. A sales rep has Claude but it does not know about the CRM. A support engineer has Copilot but it cannot access the ticket system. Everyone is using AI in isolation, reinventing the same prompts, hitting the same friction, and quietly going back to doing things the old way.
+
+This is exactly the problem Ramp described: 99% of employees had AI tools. Most were stuck. The models were not the bottleneck. The [harness](/docs/concepts/harness-engineering) was the bottleneck.
+
+The AI Enablement Architect solves this by building the harness at the organizational level: pre-connected integrations, shared skills, persistent memory, and adoption mechanics that make AI usage the path of least resistance rather than an extra thing to figure out.
+
+The demand is massive and the supply is tiny. Every company with more than 50 employees needs this function. Almost none of them have it. The people who develop this skill set now are positioning themselves at the center of the most important organizational transformation since the internet.
+
+---
+
+## What a Typical Engagement Looks Like
+
+**Week 1: Audit and architecture.** Map the company's tool landscape (CRM, communication, data, documents, project management). Identify the 10 integrations that cover 80% of daily work. Assess current AI usage patterns. Interview power users and skeptics.
+
+**Weeks 2 to 4: Deploy the platform.** Stand up the internal AI suite with SSO, pre-connected integrations, and a workspace that works on first login. Seed the skill marketplace with 10 to 15 high-value skills based on what power users are already doing manually.
+
+**Weeks 4 to 8: Drive adoption.** Run the first company-wide hackathon. Launch the leaderboard. Coach teams through their first builds. Work with leadership to integrate AI proficiency into onboarding and performance conversations.
+
+**Ongoing: Compound.** Monitor adoption metrics. Identify teams that are stuck and diagnose why. Expand the skill marketplace. Add integrations as needs emerge. The platform should get more valuable every week without the architect doing more work, because the employees are now contributing skills and building on each other's work.
+
+---
+
+## The Economics
+
+This is high-value, high-leverage work. A single AI Enablement Architect can transform a 200-person company in 90 days. The productivity gains from getting an entire workforce building with AI compound rapidly: Ramp's non-engineers automated workflows worth 16 hours per month, replaced multi-org spreadsheet models in 48 hours, and built training simulators in 15 minutes.
+
+Engagement models vary, but the principles are consistent:
+
+**Full build (3 to 6 months):** You deploy the entire platform from scratch: integrations, skill marketplace, adoption mechanics, and coaching. This is the most comprehensive engagement and commands the highest fees because the architect is building permanent infrastructure that the company will use for years.
+
+**Fractional (ongoing, 2 to 3 days/week):** You embed part-time to sustain enablement after the initial build. Expanding the skill marketplace, onboarding new teams, adding integrations, and keeping the adoption curve compounding. Pricing scales with the size and complexity of the organization.
+
+**Sprint (2 to 4 weeks):** The company already has AI tools deployed but adoption has stalled. You come in to diagnose friction, design adoption mechanics (leaderboards, hackathons, proficiency ladder), and run the first company-wide push. Shorter engagement, high intensity.
+
+The pricing principle: the value of getting an entire workforce productive with AI far exceeds the cost of the engagement. Token consumption per employee is a rounding error compared to salary. If AI makes someone 2x productive, the company should spend aggressively on the infrastructure that makes it happen. Price accordingly. For detailed pricing frameworks, see the [Practitioner Pricing Guide](/docs/playbooks/practitioner/pricing).
+
+---
+
+## Skills and Background
+
+People entering this role tend to come from one of three directions:
+
+**Technical operators** who have built internal tools, developer platforms, or IT infrastructure. They know how to stand up systems, connect APIs, and make things work at organizational scale. The new skill is understanding AI workflows and skill file architecture.
+
+**Applied AI practitioners** who have been building Personal Agentic OS setups for individual clients and are ready to scale up to organizational deployments. They understand [harness engineering](/docs/concepts/harness-engineering), [instruction files](/docs/concepts/instruction-files), and [context engineering](/docs/concepts/context-engineering). The new skill is enterprise integration and change management.
+
+**Change management professionals** who understand organizational adoption, training design, and cultural transformation. They know how to get 500 people to actually use a new system. The new skill is the technical AI layer: understanding agents, skill files, and platform architecture well enough to design and deploy the infrastructure.
+
+The strongest AI Enablement Architects combine all three: they can build the platform, design the adoption mechanics, and coach teams through the cultural shift. That combination is rare, which is why the role pays well.
+
+---
+
+## Getting Started
+
+1. **Build your own system first.** You cannot teach what you have not done. Complete the [Supersuit Up Workshop](/docs/workshops/supersuit-up) and use your Personal Agentic OS daily for at least 30 days before trying to deploy one for an organization.
+
+2. **Study the Ramp playbook.** The [Glass case study](/docs/case-studies/ramp-glass) is the most detailed public documentation of company-wide AI enablement done right. Understand every layer: platform, skills, memory, adoption mechanics, organizational design.
+
+3. **Start with a pilot team.** Find a company (or a team within a company) willing to let you deploy a skill marketplace and pre-connected AI workspace for 10 to 20 people. Document the results. That case study becomes your pitch for the next engagement.
+
+4. **Learn the enterprise stack.** SSO (OAuth, SAML), API integrations for common business tools (Salesforce, Slack, Notion, Google Workspace, Snowflake), and enough infrastructure knowledge to deploy and maintain the platform reliably.
+
+---
+
+## Further Reading
+
+- [Ramp: Glass](/docs/case-studies/ramp-glass): The case study that defines what company-wide AI enablement looks like at scale
+- [Harness Engineering](/docs/concepts/harness-engineering): The models are good enough. The harness is what matters.
+- [Instruction Files](/docs/concepts/instruction-files): The unit of shared knowledge. Skill files are how the marketplace works.
+- [Raise the Floor](/docs/concepts/raise-the-floor): One person's breakthrough becomes everyone's baseline. The principle behind the skill marketplace.
+- [The Self-Improving Enterprise](/docs/concepts/self-improving-enterprise): The end state. An organization that gets better at getting better.
+- [Four Levels of Applied AI](/docs/concepts/four-levels-of-applied-ai-for-existing-businesses): The diagnostic framework for assessing where a company is and what it takes to move up.
+- [Working Smart](/docs/philosophy/working-smart): The philosophy behind why every company needs this infrastructure.
+
+
+---
 # Applied AI Consultant
 URL: https://docs.appliedaisociety.org/docs/roles/applied-ai-consultant
 
@@ -19008,6 +19538,113 @@ The best consultants are stack-flexible. They ask the client "what are you runni
 - [Context Engineering](/docs/concepts/context-engineering): A core skill for building agent systems that actually work
 - [Intent Engineering](/docs/concepts/intent-engineering): The discipline of encoding organizational purpose into AI systems
 - [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy): The broader landscape of practitioner paths
+
+
+---
+# Applied AI Streamliner
+URL: https://docs.appliedaisociety.org/docs/roles/applied-ai-streamliner
+
+
+# Applied AI Streamliner
+
+*The person who builds hyper-personalized software for individual professionals. They sit with the person, decompose their daily workflows, and build custom apps that wrap agentic capabilities around exactly how that person works.*
+
+> **This role is for builders who want to serve one person at a time.** Not company-wide platforms. Not terminal-based harnesses. The Streamliner builds the app so the professional sees buttons, forms, and actions that map to their actual work. Under the hood: full business context, agentic capabilities, and AI doing the heavy lifting. On the surface: "Draft a brand deal proposal" or "Reconcile this month's royalties." The professional never touches a command line.
+
+---
+
+## What They Do
+
+The Applied AI Streamliner builds one-of-one (or small-niche) software for a specific professional's workflows. The process has three phases.
+
+**1. Workflow decomposition.** Sit with the person. Watch what they do every day. Ask questions. Map the repeatable workflows: what triggers them, what steps they follow, what outputs they produce, where they lose time, where mistakes happen. This is a consulting skill, and it is the foundation of everything that follows.
+
+**2. Design the wrapper.** The professional will never use a terminal, and they should not have to. The Streamliner designs a clean interface (web app, desktop app, or mobile tool) where every action maps to something the professional already does. The goal is simpler than what it replaces, not more complex. If the person currently juggles three spreadsheets and two email threads to reconcile royalties, the app should have one screen and one button.
+
+**3. Build with full context.** The app is not a generic tool. It has the professional's business context baked in: personal data, public data, client or customer data (with appropriate permissions), brand guidelines, pricing history, templates, and anything else the workflows require. Agentic capabilities (drafting, summarizing, analyzing, scheduling, formatting) run under the hood, connected to the specific data and rules that make the output actually useful on the first try.
+
+In practice, this looks like:
+
+- Interviewing a YouTube strategist about his daily workflow, then building a custom app that automated ~40% of his work time across client projects
+- Building [custom meme generators, video reformatters, and image stylizers](/docs/case-studies/gary-sheng-media-automation) for content teams who need brand-specific tools, not generic editors
+- Designing a manager dashboard for a music professional who handles schedules, deals, bookkeeping, publishing, brand deals, concerts, and merch. Even automating three or four of those functions is more valuable than anything else on the market.
+
+---
+
+## How This Differs from Other Roles
+
+The Streamliner occupies a specific position. The boundaries are important.
+
+**vs. [Applied AI Consultant](/docs/roles/applied-ai-consultant):** The consultant works on business-level problems: workflow decomposition, agent architecture, system integration across departments. The Streamliner builds personal software for individual professionals. There is overlap in the workflow decomposition skill, but the output is different. Consultants deliver systems and integrations for organizations. Streamliners deliver personal apps for people.
+
+**vs. [AI Enablement Architect](/docs/roles/ai-enablement-architect):** The Architect deploys company-wide platforms (the [Glass/Dojo pattern](/docs/case-studies/ramp-glass)). The Streamliner builds one-of-one or niche apps for individuals or very small teams. The Architect's output scales across hundreds of employees. The Streamliner's output is built for one person's exact workflows.
+
+**vs. [Agentic OS Trainer](/docs/roles/agentic-os-trainer):** The Trainer teaches people to use terminal-based harnesses and coaches them through building their own [Personal Agentic OS](/docs/concepts/personal-agentic-os). The Streamliner builds the alternative for professionals who will never open a terminal. Both roles serve people who want AI in their daily work, but the delivery mechanism is completely different.
+
+---
+
+## Why This Role Is Emerging Now
+
+Most professionals will never use a terminal. That is not a knock on them. They are busy doing high-value work in their domain: managing artists, editing video, running campaigns, closing deals. The AI tooling that exists today is overwhelmingly built for technical users. Chat interfaces are too generic. Developer tools assume coding ability. The gap between "AI can help you" and "here is AI actually helping you" is enormous for non-technical professionals.
+
+The Streamliner closes that gap by building the last mile: a custom app that wraps AI capabilities in the professional's own language, their own workflows, their own data. The professional does not need to learn prompting, configure tools, or understand what an API is. They open the app and do their work, faster.
+
+The tools have matured enough to make this practical. A single full-stack developer with AI framework fluency can build and deploy a personalized app in days or weeks, not months. Modern stacks (Next.js, React, Vercel AI SDK, model APIs) make it possible for one person to deliver what used to require a product team.
+
+The demand is there. Every professional who manages complex, repeatable workflows is a potential client. The supply is almost zero, because most developers are building products for markets, not personal software for individuals. This is a lane with very little competition and very high willingness to pay.
+
+---
+
+## The Economics
+
+This is high-touch, high-value work. You are building personal software for someone whose time is expensive and whose workflows are well-defined.
+
+**The value equation is straightforward.** If a professional earns based on how many clients they serve and how efficiently they operate, and your app saves them 30-40% of their working hours, the value is immediately obvious. You are not pitching "AI transformation." You are showing them a screen that does in seconds what used to take an hour.
+
+**Revenue streams for the professional matter.** Take a music manager as an example. Their income depends on streams, publishing, brand deals, concerts, merchandise, and new business ventures. They wear all those hats. Even automating three or four of those functions is transformational. The more hats the professional wears, the more surface area you have to build on.
+
+**Engagement models.** Typically hourly or project-based. Workflow decomposition sessions, build sprints, iteration cycles based on real usage feedback. The engagement often starts small (one workflow) and expands as the professional sees what is possible.
+
+**Pricing principle:** price by the transformation, not by the hour. Frame the engagement around time saved, capacity unlocked, and workflows simplified. For detailed pricing frameworks, see the [Practitioner Pricing Guide](/docs/playbooks/practitioner/pricing).
+
+---
+
+## Skills and Background
+
+The Streamliner combines building skills with consulting instincts.
+
+**Full-stack development.** You need to ship complete apps: frontend, backend, deployment. The typical stack is Next.js, React, and a hosting platform like Vercel. The professional sees a polished interface, not a prototype.
+
+**Workflow decomposition.** The consulting skill of sitting with someone, understanding their daily work at a granular level, and identifying where time, quality, or sanity is being lost. This is the same skill the [Applied AI Consultant](/docs/roles/applied-ai-consultant) uses, applied at the individual level. See also the [business owner workflow decomposition guide](/docs/playbooks/business-owner/workflow-decomposition) for the framework.
+
+**UX design sense.** The app has to be simpler than what it replaces. If you build something that requires training to use, you have failed. The professional should open it and immediately understand what to do. Buttons, not menus. Actions, not options.
+
+**Domain familiarity.** It helps enormously to know the industry you are building for. A Streamliner who understands the music business, or the content creation workflow, or the real estate closing process, can decompose workflows faster and design better interfaces because they already speak the language.
+
+**Agentic system design.** Connecting AI capabilities (drafting, summarizing, analyzing, generating) to the app's actions, with the right context and the right guardrails. The professional should not see "AI" anywhere in the app. They should see their work getting done.
+
+---
+
+## Getting Started
+
+1. **Build a personal app for yourself first.** Pick one of your own repeatable workflows and build a custom tool that wraps it. Experience the full cycle: decompose, design, build, iterate.
+
+2. **Study the case studies.** The [Gary Sheng media automation case study](/docs/case-studies/gary-sheng-media-automation) walks through the pattern: sit with the team, understand the workflow, build specific tools, iterate based on real usage.
+
+3. **Find your first professional.** Look for someone in your network who has well-defined, repeatable workflows and is not technical. Offer to build one tool that simplifies one part of their day. Document the results.
+
+4. **Build the muscle of saying "show me your day."** The workflow decomposition conversation is the highest-leverage skill. Practice it. The better you get at understanding someone's work, the better the apps you build.
+
+---
+
+## Further Reading
+
+- [Gary Sheng: Media Automation](/docs/case-studies/gary-sheng-media-automation): The case study that shows this pattern in action across multiple content tools
+- [Workflow Decomposition](/docs/playbooks/business-owner/workflow-decomposition): The framework for breaking down professional workflows into automatable components
+- [Practitioner Pricing Guide](/docs/playbooks/practitioner/pricing): Principles-based pricing for high-value AI engagements
+- [The Applied AI Economy](/docs/playbooks/practitioner/applied-ai-economy): The broader landscape of practitioner paths, including where the Streamliner fits
+- [Context Engineering](/docs/concepts/context-engineering): Building apps that have the right context to be useful on the first try
+- [The Chat Is Not the Product](/docs/concepts/the-chat-is-not-the-product): Why wrapping AI in a real interface matters more than exposing a chat box
 
 
 ---
@@ -19373,6 +20010,8 @@ AI is doing the same thing, faster. The roles forming now sit at the intersectio
 - [Business OS Administrator](/docs/roles/business-os-administrator): The person who maintains and evolves an organization's sovereign agentic business OS: agent orchestration, context architecture, and access governance.
 - [Agentic OS Trainer](/docs/roles/agentic-os-trainer): The person who takes someone from zero to a working Personal Agentic OS, then coaches them through progressively deeper levels of integration.
 - [Community Leader](/docs/roles/community-leader): Applied AI Community Leader, the person who brings applied AI to their city, campus, or community through events, partnerships, and local network building.
+- [AI Enablement Architect](/docs/roles/ai-enablement-architect): The person who deploys company-wide AI upskilling infrastructure: the platform, the skill marketplace, the integrations, and the adoption mechanics that get every employee building with AI.
+- [Applied AI Streamliner](/docs/roles/applied-ai-streamliner): The person who builds hyper-personalized software for individual professionals. Sits with the person, decomposes their workflows, and builds custom apps that wrap agentic capabilities around exactly how they work.
 
 *More roles being added. If you're doing applied AI work that doesn't fit a known category, you may be early to something. [Tell us about it.](https://appliedaisociety.org/contribute)*
 
@@ -21352,6 +21991,7 @@ Systematic workflows for implementing truth management:
 - [**Start Your Company Bible**](/docs/truth-management/start-your-company-bible) - Build comprehensive documentation capturing your organization's "way"
 - [**Migrate to Refactorable Systems**](/docs/truth-management/migrate-to-refactorable-systems) - Move from siloed tools to grep-able, version-controlled formats
 - [**Truth as Context**](/docs/truth-management/truth-as-context) - Ensure AI agents have full organizational context when creating or modifying documentation
+- [**Maintain Coherence**](/docs/truth-management/maintain-coherence) - Documents decay by default. Coherence is an active practice: automated checks, cross-linking, and scheduled audits that keep your truth repository reflecting current reality
 
 ### Tools
 
@@ -21371,6 +22011,153 @@ We live in an age of embellishment where social media algorithms reward hype ove
 This framework was created by [Gary Sheng](https://garysheng.com), founder of the Applied AI Society. It emerges from observing that competitive advantage increasingly comes from organizational capability rather than just proprietary technology. As AI agents become integral to how work gets done, organizations with well-documented truth gain compounding advantages: their agents operate from the same foundations as their humans, enabling coordinated action at unprecedented speed.
 
 Truth management as a discipline is still nascent territory. The Applied AI Society is committed to doing this right from day zero: building our entire organizational infrastructure on these principles from the start, rather than retrofitting them later. Our workspace is a living implementation of this framework, and we're learning and evolving these ideas in real time.
+
+
+---
+# Maintain Coherence
+URL: https://docs.appliedaisociety.org/docs/truth-management/maintain-coherence
+
+
+# Maintain Coherence
+
+Your truth repository is a living system. Like any living system, it decays by default. Documents go stale. Cross-references break. Terminology drifts. Two files contradict each other because one was updated and the other was not. A decision made in March is still listed as "pending" in July.
+
+Coherence is not a one-time achievement. It is an ongoing practice. If you are not actively maintaining it, you are actively losing it.
+
+---
+
+## Why Documents Decay
+
+Every document in your truth repository was accurate when it was written. The moment you write it, the clock starts ticking. The world changes. Your strategy evolves. People join and leave. Projects finish or pivot. A document that was the truth six months ago may now be confidently wrong.
+
+The danger is not that the document exists. The danger is that an AI agent (or a new team member) reads it and treats it as current. Stale truth is worse than no truth, because it produces confident, well-reasoned actions based on outdated premises. Your agent will execute brilliantly on information that is no longer real.
+
+This is the coherence problem: your truth repository must reflect your **current operational reality**, not a historical snapshot. Every file that an agent reads as context needs to be alive.
+
+---
+
+## What Coherence Looks Like
+
+A coherent truth repository has three properties:
+
+**1. Internal consistency.** No two documents contradict each other. If your strategy doc says the priority is X and your status doc says the priority is Y, one of them is wrong. An agent reading both will make unpredictable decisions.
+
+**2. Temporal freshness.** Every document reflects the current state. Dates are accurate. Statuses are current. People who left are not listed as active. Projects that finished are archived, not lingering in active directories.
+
+**3. Structural connectedness.** Documents link to each other where the connections are real. A person's profile links to the transcripts they appear in. A strategy doc links to the case studies that informed it. A concept page links to the playbook that implements it. Cross-links create a web of context that agents can traverse to build understanding.
+
+---
+
+## The Coherence Skill Pattern
+
+Coherence checks should not depend on you remembering to do them. They should be automated. The pattern:
+
+### 1. Write a coherence check skill
+
+A [skill file](/docs/concepts/instruction-files) that your agent can run on a schedule. The skill audits your truth repository for drift:
+
+- **Freshness checks.** When was each file last updated? Flag anything older than 30 days as potentially stale. Flag anything older than 90 days as almost certainly stale.
+- **Consistency checks.** Do names, titles, statuses, and priorities match across files? If a person's role changed, does every file that mentions them reflect the change?
+- **Cross-reference checks.** Do links between documents still resolve? Are there orphaned pages that nothing links to? Are there pages that should link to each other but do not?
+- **Structural checks.** Does the directory structure match the index? Are there files that exist on disk but are not registered in any navigation or index?
+
+### 2. Schedule it
+
+Run the coherence check on a recurring schedule. Weekly is a good default for active repositories. Monthly works for repositories that change slowly. The check should produce a report: what is stale, what contradicts, what is disconnected.
+
+With a [Personal Agentic OS](/docs/concepts/personal-agentic-os) or any agentic harness, this is a cron job. The agent runs the check, produces the report, and either fixes what it can or flags what needs human judgment.
+
+### 3. Act on the report
+
+A coherence report that nobody reads is worse than no report (it creates the illusion of maintenance). Two approaches:
+
+**Auto-fix where safe.** If the check finds a date that needs updating, a link that needs adding, or a status that clearly changed, the agent can fix it directly. These are mechanical corrections that do not require judgment.
+
+**Flag for human review.** If the check finds a contradiction between two documents, a strategic priority that may have shifted, or a section that might need rewriting, flag it. A human decides.
+
+---
+
+## Cross-Linking as Coherence Infrastructure
+
+A wiki or truth repository with no internal links is a collection of isolated files. An agent reading one document has no way to discover related context unless you explicitly point it there.
+
+Cross-links serve three purposes:
+
+**For agents:** Links are navigation. When an agent reads a strategy document and finds a link to a case study, it can follow that link to get deeper context. The richer the link graph, the better the agent can build understanding without you manually loading every relevant file.
+
+**For humans:** Links are discovery. When a new team member reads a concept page and finds links to the playbook that implements it, they learn faster. The wiki teaches itself.
+
+**For coherence:** Links are contracts. When Document A links to Document B, any change to Document B that breaks the relationship is a coherence violation that a check can detect. Cross-links make your truth repository auditable.
+
+### Practical guidelines
+
+- Every concept page should link to at least 2 to 3 related pages
+- Every person profile should link to transcripts and projects they are involved in
+- Every strategy document should link to the case studies or data that informed it
+- When you create a new page, add links TO it from existing related pages (bidirectional linking)
+- Periodically audit for orphan pages (pages with zero inbound links)
+
+---
+
+## The Meta-Coherence Template
+
+Every truth repository (personal wiki, company docs, community knowledge base) needs its own coherence check. But the pattern is the same. Here is the template you can adapt for any repository:
+
+```
+Coherence Check: [Repository Name]
+
+1. FRESHNESS
+   - List all files with "last updated" or "last verified" dates
+   - Flag anything > 30 days as REVIEW
+   - Flag anything > 90 days as STALE
+
+2. CONSISTENCY
+   - Cross-check names, roles, statuses across all files
+   - Verify that index/README matches what exists on disk
+   - Check that terminology is used consistently (no "Personal Agentic OS" in one file and "Jarvis System" in another)
+
+3. CROSS-REFERENCES
+   - Verify all internal links resolve
+   - Identify orphan pages (zero inbound links)
+   - Identify highly-linked pages that may need extra attention when updated
+
+4. STRUCTURAL
+   - Does the sidebar/navigation match the files on disk?
+   - Are there files not registered in any index?
+   - Are there empty or stub files that should be completed or removed?
+
+5. REPORT
+   - Auto-fix: [list mechanical corrections made]
+   - Human review: [list items requiring judgment]
+   - Next check: [date]
+```
+
+Adapt this template for your specific repository. Add domain-specific checks (e.g., for a CRM-style repo, check that interaction dates are current; for a project repo, check that milestones reflect reality). The template is a starting point, not a ceiling.
+
+---
+
+## The Compounding Effect
+
+Coherence compounds in the same way that [compounding docs](/docs/concepts/compounding-docs) compound. Every coherence check that fixes a stale reference or adds a missing cross-link makes the next agent interaction slightly better. Over months, the difference between a maintained repository and an unmaintained one is enormous.
+
+An unmaintained repository after 6 months: half the files are stale, cross-references are broken, new content contradicts old content, and agents produce increasingly unreliable output because their context is polluted.
+
+A maintained repository after 6 months: every file reflects current reality, the link graph is rich and navigable, terminology is consistent, and agents produce high-quality output because they are working from clean truth.
+
+The cost of maintenance is low (a weekly check that takes 15 minutes of agent time). The cost of not maintaining is high (a gradual, invisible degradation of everything your system produces).
+
+> **Coherence is not a feature of good documentation. It is the thing that makes documentation useful at all.**
+
+---
+
+## Further Reading
+
+- [Make Every File Count](/docs/truth-management/make-every-file-count): The pruning discipline that keeps repositories lean
+- [Truth as Context](/docs/truth-management/truth-as-context): How agents use your truth repository as context for decisions
+- [Empower Your Truth Manager](/docs/truth-management/empower-your-truth-manager): The authority needed to enforce coherence at the organizational level
+- [Compounding Docs](/docs/concepts/compounding-docs): The flywheel that coherent documentation enables
+- [Instruction Files](/docs/concepts/instruction-files): How to write the skill files that automate coherence checks
+- [Always-On Agents](/docs/concepts/always-on-agents): Scheduling coherence checks as automated cron jobs
 
 
 ---
@@ -22162,7 +22949,7 @@ URL: https://docs.appliedaisociety.org/docs/workshops/supersuit-up
 
 **Time estimate:** 3.5 to 4 hours to complete everything in this guide, even with some prior technical experience. If you are completely new to the terminal and have never installed developer tools before, expect the upper end.
 
-**The value of in-person help:** This guide is designed to be self-paced, but having a trained applied AI engineer walk you through it in person makes a significant difference. Every machine is slightly different. You will hit edge cases (a Windows PowerShell permission error, an old Python version conflict, a corporate firewall blocking a download) that are too niche to document here but take 30 seconds for an experienced person to debug. An instructor gets you across the finish line instead of stuck at Step 1B for an hour.
+**The value of in-person help:** This guide is designed to be self-paced, but having a trained applied AI engineer walk you through it in person makes a significant difference. Every machine is slightly different. You will hit edge cases (a Windows PowerShell permission error, a Node.js version conflict, a corporate firewall blocking a download) that are too niche to document here but take 30 seconds for an experienced person to debug. An instructor gets you across the finish line instead of stuck at Step 1B for an hour.
 
 The [Applied AI Society](https://appliedaisociety.org) runs Supersuit Up workshops with trained practitioners who have helped hundreds of people through this process. If you want to attend one or request a workshop for your team, school, or community, visit [appliedaisociety.org](https://appliedaisociety.org) or join the [Discord](https://discord.gg/K7uWJBMFaN).
 
@@ -22188,24 +22975,88 @@ For the full philosophy behind why documented truth matters, see [Truth Manageme
 
 ---
 
+## Phase 0: Before You Start (Do This the Night Before)
+
+This phase takes zero technical skill but saves you hours of frustration. Do all of this **before** you sit down to build your system. If you are attending an in-person workshop, do this the night before so you show up ready to build, not sitting around waiting for a 2-hour OS update.
+
+### Update your operating system
+
+Claude Code and other developer tools require a recent OS. If you are behind on updates, this alone can take 1 to 2 hours.
+
+- **Mac:** Apple menu > System Settings > General > Software Update. You need macOS 13.0 (Ventura) or later. macOS 15 (Sequoia) is recommended.
+- **Windows:** Settings > Windows Update > Check for updates. You need Windows 10 1809+ or Windows 11.
+- **Linux:** Run your package manager's upgrade process (`sudo apt update && sudo apt upgrade` on Ubuntu/Debian).
+
+Plug in your charger and let it finish. Do not start the workshop with a pending OS update.
+
+### Check your hardware
+
+If your computer is more than 5 to 6 years old, the workshop will be slower and more frustrating than it needs to be. AI tools benefit from modern hardware. If you are considering an upgrade, a MacBook Air with 16 GB of RAM (starting around $1,000) is a strong default that will serve you well for years. It is a genuine investment in your future. You need at least 4 GB of RAM and a 64-bit processor (x64 or ARM64).
+
+### Get your accounts ready
+
+You will be signing up for several tools during the workshop. Having these decisions made in advance means fewer interruptions:
+
+- **Pick the email you want to use.** If you are using Gmail, make sure you are logged into the right account in your browser before you start. You do not want to accidentally create accounts under the wrong email.
+- **Have a working credit card ready.** Most tools in this workshop have free tiers or free trials, but nearly all of them require a credit card on file, even for the free tier. If you do not have a card ready, you will get stuck at signup screens. (You can look for completely free alternatives, but they take longer to set up and often have a worse experience.)
+- **Create a GitHub account.** Go to [github.com](https://github.com) and sign up if you do not already have one. You will need this for version control and backup. Do this now so it is not a speed bump later.
+
+### Set up your environment
+
+- **Good Wi-Fi is essential.** You will be downloading tools, cloning repos, and making API calls. Do this from a home with reliable internet, not a random cafe with spotty Wi-Fi.
+- **Close unnecessary apps.** Free up RAM and screen space. You want your terminal, VS Code, and a browser. That is it.
+- **Block 3 to 4 hours of uninterrupted time.** This is not something you do in 20-minute increments between meetings. Protect the block.
+
+---
+
 ## Phase 1: Install Your Tools
 
-Most of what you need is free or cheap. The entire stack can be running in under 30 minutes.
+Most of what you need is free or cheap. The entire stack can be running in under 30 minutes if your machine already has developer basics and you completed Phase 0. If this is your first time installing developer tools, budget an extra 15 to 20 minutes for the prerequisites below.
 
-**Before you start:** if you are unfamiliar with any of these tools and want to verify they are safe and legitimate, that is smart. You can paste the link to this tutorial into any AI chat (ChatGPT, Claude, Gemini) and ask: "Is this all safe to install? What does each tool cost? What are the advantages?" It will walk you through every tool listed here. Spoiler: almost everything is free and open source. The one potential cost is LLM API usage, which depends on your provider and how much you use it.
+**Before you start:** if you are unfamiliar with any of these tools and want to verify they are safe and legitimate, that is smart. You can paste the link to this tutorial into any AI chat (ChatGPT, Claude, Gemini) and ask: "Is this all safe to install? What does each tool cost? What are the advantages?" It will walk you through every tool listed here.
 
 Here is the cost breakdown upfront:
 
 | Tool | Cost | Notes |
 |------|------|-------|
-| [Hermes Agent](https://hermes-agent.nousresearch.com) | Free, open source | Installed via one-line installer. Handles all dependencies automatically. |
-| [OpenRouter](https://openrouter.ai) | Free tier available | Routes to multiple model providers. Free models available but read the privacy note below. Paid models (Claude, GPT) are also available through OpenRouter. |
+| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Included with Claude Max ($100/mo) or Pro ($20/mo with usage limits) | Recommended. All-in-one: AI agent + subscription, no API keys needed. |
 | [VS Code](https://code.visualstudio.com) | Free, open source | Made by Microsoft |
+| [Node.js](https://nodejs.org) | Free, open source | Required to install Claude Code |
 | [Git](https://git-scm.com) | Free, open source | Version control |
 | [GitHub](https://github.com) | Free | Paid tiers exist but you do not need them |
 | [Superwhisper](https://superwhisper.com) | Free tier available | Voice-to-text, fully local |
 | [Wispr Flow](https://wisprflow.ai) | ~$10/mo | Voice-to-text, cloud-based |
 | [Granola](https://granola.ai) | Free tier available | Meeting transcription (optional) |
+
+### Step 0: Prerequisites
+
+Before you can install your AI agent, you need a few foundational tools. If you already have these, skip ahead.
+
+**macOS:**
+
+1. **Homebrew** (package manager): Open Terminal and paste:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+   Follow the prompts. After it finishes, it may tell you to run two extra commands to add Homebrew to your PATH. Run those.
+
+2. **Node.js**: `brew install node` (this also installs npm, the package manager you need to install Claude Code)
+
+3. **Git**: Type `git --version` in Terminal. If it prints a version number, you are good. If not: `brew install git`
+
+**Windows:**
+
+1. **Node.js**: Download the LTS installer from [nodejs.org](https://nodejs.org) and run it. Accept the defaults.
+
+2. **Git**: Download from [git-scm.com/downloads/win](https://git-scm.com/downloads/win) and run the installer. Accept the defaults.
+
+**Verify everything works:** Open a fresh terminal and run:
+```bash
+node --version
+npm --version
+git --version
+```
+All three should print version numbers. If any fail, the tool is not installed correctly. Ask your AI (ChatGPT, Claude, Gemini) to help you debug: paste the error message and it will tell you exactly what to do.
 
 ### Step 1A: Voice-to-Text
 
@@ -22224,71 +23075,35 @@ Either works. You hold a key, you talk, you release, and the text appears wherev
 
 ### Step 1B: Choose and Install Your Harness
 
-Your terminal-based AI agent is the engine of your Personal Agentic OS. Important distinction: the harness on its own is not the system. Your Personal Agentic OS is the combination of your file structure, your documented context, and how you use the harness to operate on all of it. Your files are yours. You could switch to a different tool tomorrow and keep everything.
+Your terminal-based AI agent is the engine of your Personal Agentic OS. The harness on its own is not the system. Your Personal Agentic OS is the combination of your file structure, your documented context, and how you use the harness to operate on all of it.
 
-**Why not just use ChatGPT, Gemini, or any other chatbot?** The big AI platforms want you locked into their ecosystem. Your conversation history lives on their servers. Your context resets every session or is trapped behind their interface. You cannot export it, version-control it, or run a different AI on top of it.
+**Why not just use ChatGPT or Gemini in a browser?** Browser-based AI resets its memory every conversation. It cannot read your files, run commands, or operate on your workspace. A terminal-based harness can. It reads your documents, creates files, updates your system, and remembers context across sessions. That is the difference between a chatbot and an operating system.
 
-The Personal Agentic OS approach is the opposite. Your files live on your computer. They are plain markdown. Any AI tool can read them. You are not a user of someone else's platform. You are the operator of your own system.
-
-**This tutorial is not an ad for any AI company.** When choosing your harness, find the one that maximizes a good balance of **utility, cost, and sovereignty**. We have dedicated setup guides for the three most popular options:
+**We recommend Claude Code as the default.** It is the simplest setup: one subscription, no API keys to manage, strong reasoning, and a good user experience. If cost is a concern or you want to explore alternatives, we have setup guides for other options below.
 
 | Harness | Cost | Best For | Setup Guide |
 |---------|------|----------|-------------|
+| **Claude Code** (recommended) | Included with Claude Max ($100/mo) or Pro ($20/mo with limits) | Simplest setup, strong reasoning, no API keys needed | [Claude Code Setup](/docs/playbooks/practitioner/claude-code-setup) |
 | **Hermes** | Free (open source models) | Zero-cost setup, always-on agents, cron jobs | [Hermes Setup](/docs/playbooks/practitioner/hermes-setup) |
-| **Claude Code** | $100-200/mo (Anthropic) | Deep context, strong reasoning | [Claude Code Setup](/docs/playbooks/practitioner/claude-code-setup) |
 | **OpenAI Codex** | Free with ChatGPT Plus/Pro | If you already pay for ChatGPT | [Codex Setup](/docs/playbooks/practitioner/codex-setup) |
 
-Other harnesses work too: [OpenCode](https://github.com/opencode-ai/opencode), Cursor, and more. They all read files and run commands. The overall usage patterns (brain dumps, user profiles, skill files, relationship files) work with any harness that can read your workspace. Check the [AI Dev Tool Power Rankings](https://blog.logrocket.com/ai-dev-tool-power-rankings/) or [Best AI Coding Agents comparison](https://www.faros.ai/blog/best-ai-coding-agents-2026) for current rankings.
+Other harnesses work too: [OpenCode](https://github.com/opencode-ai/opencode), Cursor, and more. The usage patterns in this tutorial (brain dumps, user profiles, skill files, relationship files) work with any harness that can read your workspace. Your files are plain markdown on your computer. You can switch tools at any time and keep everything.
 
-The competitive pressure between American companies, Chinese labs, and the open source community is driving quality up and cost down at a pace that benefits you. Today's default might be one tool. Tomorrow it might be something else. Your files do not care. That is what sovereignty means in this context. For a deeper dive, see [Sovereign Agentic Business OS](/docs/sovereign-agentic-business-os) and [The Lock-In Is Coming](/docs/concepts/the-lock-in-is-coming).
+**The rest of this tutorial uses Claude Code as the default.** If you chose Hermes or Codex, follow your setup guide above and rejoin at Phase 2. The workspace setup and daily usage are identical across harnesses.
 
-**The rest of this tutorial uses Hermes as the default** because it is free and open source. If you chose Claude Code or Codex, follow your setup guide above and then rejoin this tutorial at Step 1C. The workspace setup and daily usage are identical across harnesses.
+**Install Claude Code:**
 
-**Install Hermes:**
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
-```
-
-The installer handles everything automatically: Python, Node.js, ripgrep, ffmpeg, the repo clone, virtual environment, and the global `hermes` command. After installation, reload your shell:
+Make sure you completed Step 0 (Node.js must be installed). Then run:
 
 ```bash
-source ~/.zshrc  # or source ~/.bashrc
+npm install -g @anthropic-ai/claude-code
 ```
 
-Then configure your model:
+**First launch:** Type `claude` in your terminal. On first run, it will ask you to log in with your Anthropic account. Follow the prompts to authenticate. Once logged in, you are ready to go.
 
-```bash
-hermes model
-```
-
-Select your provider and enter your API key. OpenRouter, Anthropic, OpenAI, and other providers all work.
-
-:::caution[A note on free and cheap models]
-Free models on OpenRouter (Qwen, Gemma, etc.) are great for getting started and learning the patterns, but understand the tradeoffs. When you use a free or cheap model through a routing service, your prompts and data may be used for training, logged, or handled with less privacy protection than paid tiers from established providers. If you are feeding your Personal Agentic OS sensitive information (business strategy, client details, financial data, personal relationships), you should be using a paid model from a provider with clear data handling policies. Anthropic (Claude), OpenAI (GPT), and Google (Gemini) all have enterprise-grade data handling on their paid tiers. The free tier is fine for learning. Once your system has real context about your life and work, treat model selection like you would treat choosing who gets access to your most private documents.
+:::tip[Approval prompts]
+By default, Claude Code asks permission before making changes to your files or running commands. This is a good safety net while you are learning. As you get comfortable, you can adjust the permission mode to allow more actions automatically.
 :::
-
-**First launch:** Type `hermes` in your terminal. If this is your first time, Hermes will walk you through its setup flow. Follow the prompts to authenticate and pick your preferences.
-
-:::tip[Optional: YOLO mode]
-By default, Hermes asks permission before doing anything potentially dangerous. If you find approval prompts annoying, run `hermes --yolo` to bypass them, or type `/yolo` inside a session to toggle it on and off. Entirely optional.
-:::
-
----
-
-## Why Hermes Is Different
-
-Hermes is not just another AI coding agent. It is **Claude Code and OpenClaw in one tool**:
-
-- **AI coding agent.** Reads files, writes files, runs commands, operates inside your workspace.
-- **Always-on agent.** Runs cron jobs, manages messaging platforms, maintains persistent memory.
-- **Works when your terminal session is gone.** The gateway keeps running, cron jobs fire, messages get delivered. The agent grows the longer it runs.
-
-[Nous Research](https://nousresearch.com) is an AI research company known for the Hermes model family. They build frontier open source AI models, and now they build full agent infrastructure. Hermes Agent is their answer to closed, platform-locked AI systems.
-
-For context: before switching to Hermes, the Applied AI Society ran on OpenClaw + Claude at ~$200/mo in API costs. Cron jobs were timing out. Four out of six active jobs were failing. The agent was broken and costing money for it to break. After migrating to Hermes + Qwen 3.6 via OpenRouter, the monthly inference cost dropped significantly, with better reliability and the full skill architecture preserved.
-
-That is what Hermes makes possible: an agent system with very low marginal cost per message. Run the heartbeat. Run the triage. Run the morning briefing with deeper context. The economic friction is dramatically reduced. You stop optimizing for API cost and start optimizing for capability. As your system grows and holds more sensitive context, consider upgrading to a paid model with stronger privacy guarantees (see the note above).
 
 ---
 
@@ -22302,54 +23117,61 @@ Visual Studio Code is your window into the file system. Download it for free fro
 
 ### Step 2B: Git and GitHub
 
+If you completed Step 0, Git is already installed. If not, go back and do that now.
+
 **What is the difference between Git and GitHub?** Git is a tool that runs on your computer. It tracks changes to your files over time, like an infinite undo history that also records *what* changed, *when*, and *why*. GitHub is a website (github.com) where you can store a copy of your Git-tracked files in the cloud, so they are backed up and accessible from anywhere. Think of Git as the engine and GitHub as the garage where you park your car. You need Git. GitHub is strongly recommended but technically optional. For a deeper explanation, [GitHub's own guide](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) is excellent.
-
-**Installing Git:**
-
-- **macOS:** Git often comes pre-installed. Open your terminal and type `git --version`. If it prints a version number, you are good. If not, install it from [https://git-scm.com/downloads/mac](https://git-scm.com/downloads/mac) or via Homebrew: `brew install git`.
-- **Windows:** Download the installer from [https://git-scm.com/downloads/win](https://git-scm.com/downloads/win). Run it and accept the defaults.
 
 **Setting up GitHub:**
 
-1. Create a free account at [https://github.com](https://github.com) if you do not have one.
+1. You should already have a GitHub account from Phase 0. If not, create one at [https://github.com](https://github.com).
 2. Install the GitHub CLI so you can interact with GitHub from your terminal. On **macOS**: `brew install gh` (if you have Homebrew) or download from [https://cli.github.com](https://cli.github.com). On **Windows**: download the installer from [https://cli.github.com](https://cli.github.com).
 3. Log in by typing `gh auth login` in your terminal and following the prompts.
 
 ### Step 2C: Clone and Open Your Workspace
 
-We have created a starter repo with the default folder structure for your Personal Agentic OS. You are going to use Hermes to clone it to your computer. This is a good first rep of telling Hermes to do something for you.
+We have created a starter repo with the default folder structure for your Personal Agentic OS. You are going to use your AI agent to clone it and personalize it. This is a good first rep of telling your agent to do something for you.
 
-**Use Hermes to clone and personalize the repo:**
+**Clone and personalize the repo:**
 
 1. Open any terminal on your computer (you do not need to be in any particular folder).
-2. Type `hermes` to start a Hermes session.
+2. Type `claude` to start a Claude Code session.
 3. Tell it something like:
 
 > "Clone the repo at github.com/Applied-AI-Society/minimum-viable-jarvis into a folder that makes sense on my computer for storing projects. If I don't have a folder for that yet, create one. After cloning, ask me what I want to name my workspace and what my name is, then rename the folder and update all the files (AGENTS.md, README, etc.) to reflect my name and workspace name."
 
-Hermes will figure out the right location for your operating system. On Mac, it might put it in `~/Documents/github-repos/` or `~/Projects/`. On Windows, it might use `C:\Users\YourName\Documents\`. Then it will ask you two quick questions:
+Your agent will figure out the right location. On Mac, it might put it in `~/Documents/github-repos/` or `~/Projects/`. On Windows, it might use `C:\Users\YourName\Documents\`. Then it will ask you two quick questions:
 
 - **What do you want to call your workspace?** Pick something that feels like yours. Your name, your company name, a codename. Examples: `sarah-command-center`, `apex-os`, `my-jarvis`. This becomes the folder name and shows up in your file tree every day, so make it something you like.
 - **What is your name?** So it can personalize the AGENTS.md and any starter files with your identity.
 
-Hermes will rename the folder, update the internal files, and personalize the workspace so it feels like yours from the first moment. This is your system, not a generic template.
+Your agent will rename the folder, update the internal files, and personalize the workspace so it feels like yours from the first moment. This is your system, not a generic template.
 
-4. Once the clone and personalization is done, note the folder path that Hermes tells you it cloned into. You will need this in a moment.
-5. Type `/exit` to quit the Hermes session.
+4. Once the clone and personalization is done, note the folder path. You will need this in a moment.
+5. Type `/exit` to quit the session.
 
 **Open the workspace in VS Code:**
 
 1. Open VS Code.
 2. Go to File > Open Folder (or `Ctrl+K Ctrl+O` on Windows, `Cmd+O` on Mac).
-3. Navigate to the folder that Hermes just cloned and select it.
+3. Navigate to the folder that was just cloned and select it.
 4. Now open the terminal inside VS Code. This is important: you want the terminal to be scoped to your workspace folder.
    - **Mac:** Terminal > New Terminal from the menu bar, or press `` Ctrl+` ``
    - **Windows:** Terminal > New Terminal from the menu bar, or press `` Ctrl+` ``
-5. In the VS Code terminal, type `hermes`. Hermes is now running inside your workspace and can see all the starter files.
+5. In the VS Code terminal, type `claude`. Your agent is now running inside your workspace and can see all the starter files.
 
-You are now in the cockpit. The left panel shows your file tree. The bottom panel is Hermes in your terminal. The right panel is for viewing whatever file you are working on.
+You are now in the cockpit. The left panel shows your file tree. The bottom panel is your agent in the terminal. The right panel is for viewing whatever file you are working on.
 
-**If you do not have Git installed or prefer to start from scratch**, you can skip the clone and tell Hermes to create the folders for you instead. Start a Hermes session and say:
+:::tip[Create a `clauded` shortcut]
+You will be opening this workspace and launching Claude Code often. Create a shell shortcut so you can do it in one command from anywhere. Add this to your `~/.zshrc` (Mac) or `~/.bashrc` (Linux/Windows WSL):
+
+```bash
+clauded() { cd "$1" && claude; }
+```
+
+Then reload your shell: `source ~/.zshrc`. Now you can type `clauded ~/Documents/github-repos/my-jarvis` from any terminal and it will navigate to your workspace and start Claude Code in one shot. Replace the path with wherever your workspace lives.
+:::
+
+**If you prefer to start from scratch** without cloning, you can tell your agent to create the folders for you instead:
 
 > "Create a folder for my Personal Agentic OS in a good location on my computer. Ask me what I want to name it and what my name is. Set up subfolders for user, people, artifacts, meeting-transcripts, and skills. Create an AGENTS.md file personalized with my name that instructs you on how to operate as my chief of staff."
 
@@ -22361,7 +23183,7 @@ The starter repo comes with five folders. Together, these form your [context lak
 - **meeting-transcripts/** for raw or processed transcripts from conversations
 - **skills/** for SOPs that define repeatable tasks for your AI agent
 
-It also includes an `AGENTS.md` file that gives Hermes instructions on how to operate within your workspace (this is what makes Hermes understand the structure of your business OS from the first session), and a skill file that will interview you on your first session to create your `user/USER.md` profile.
+It also includes an `AGENTS.md` file that gives your agent instructions on how to operate within your workspace (this is what makes it understand the structure of your business OS from the first session), and a skill file that will interview you on your first session to create your `user/USER.md` profile.
 
 ### Step 2D: Meeting Transcription (Optional)
 
@@ -22407,19 +23229,50 @@ This is what a first session looks like. Five exercises, about an hour total. By
 
 This is the most important first step. Before your Personal Agentic OS can help you with anything, it needs to know who you are. Think about it like briefing a new chief of staff. If you were hiring the best possible team partner, someone with full access to your life who could execute on everything you are doing, what would you want them to know?
 
-**The recommended approach: brief your AI directly.** If you already have documents that capture who you are (a bio, a personal website, a LinkedIn profile, previous strategic docs, a blog, a wiki, anything), drop them into the `user/` folder or paste them into the terminal and tell your AI:
+**The recommended approach: export your existing AI history.** You have probably been having conversations with ChatGPT, Claude, Gemini, or other AI tools for months or years. That history is full of context about who you are, what you care about, and how you think. Export it and feed it to your new system.
 
-> "Here is everything about me. Read all of it and create a USER.md that captures who I am, what I care about, how I make decisions, and what I am working on right now."
+:::caution[Important: filter sensitive information]
+Your AI conversation history probably contains things you would not share with a coworker: personal health questions, relationship processing, financial details, dating conversations, venting about people, therapy-style reflections, and other private topics. Your Jarvis workspace lives on your machine, but you will likely push it to GitHub, share your screen, or collaborate with others at some point. **Do not dump raw exports into your workspace without filtering.**
 
-This is faster and richer than any interview because the truth is already documented. Your AI reads it, synthesizes it, and creates a comprehensive profile in minutes. You review, correct, and approve. Done.
+The prompt below tells your AI to extract only the professionally useful context (skills, goals, interests, projects, decision-making patterns) and ignore everything personal or sensitive. Always review the output before saving it.
+:::
 
-The more context you give upfront, the less your AI has to guess. If you have been [wikimaxxing](https://garysheng.com/wiki/wikimaxxing), writing strategic docs, or documenting your thinking anywhere, bring all of it in. Your AI should know you the way a chief of staff who has worked with you for years would know you.
+**For ChatGPT:** Go to Settings > Data Controls > Export Data. You will receive an email with a zip file containing all your conversations. Unzip it and drop the conversations file into a temporary location (like your Desktop, not directly into your workspace). Then tell your AI:
 
-**The backup approach: the interview.** If you do not have existing documents to draw from, the starter repo includes a skill file that will guide your AI through an interview with you.
+> "I have my ChatGPT export at [path to file]. Read through it and synthesize a USER.md file about me. Focus on extracting:
+>
+> - My professional skills, expertise, and domain knowledge
+> - Projects I have worked on or am working on
+> - Goals, ambitions, and what I am trying to build
+> - How I make decisions and what I value professionally
+> - Industries, tools, and technologies I am familiar with
+> - My communication style and how I think through problems
+>
+> Do NOT include or reference:
+>
+> - Personal health, medical, or mental health conversations
+> - Relationship, dating, or sexual orientation details
+> - Financial details (account numbers, salaries, debts)
+> - Private venting, gossip, or complaints about specific people
+> - Any content that would be embarrassing or inappropriate in a professional context
+>
+> If something is borderline, leave it out. I would rather add context later than have sensitive information in my workspace. After synthesizing, show me the full output so I can review before saving."
+
+After your AI generates the USER.md, read through it carefully. Remove anything you would not want a collaborator, employer, or someone looking over your shoulder to see. Then save it to `user/USER.md` and delete the raw export from your machine.
+
+**For Claude:** Go to claude.ai, open Settings > Account > Export Data. Same process: use the filtered prompt above.
+
+**For any other source:** LinkedIn profile, personal website, blog posts, strategic docs, a bio you wrote for a conference. These are already curated for public or professional consumption, so they are generally safe to drop directly into `user/`. The filtering concern is mainly for raw AI conversation exports, which tend to contain everything you have ever asked about.
+
+This approach is faster and richer than answering questions from scratch because the truth is already documented across months of conversations. Your AI reads everything, extracts the professional context, and creates a focused profile in minutes. You review, correct, and approve. Done.
+
+**The quick alternative: ask your old AI about you.** If you do not want to deal with data exports and filtering, open ChatGPT (or whichever AI you have been using the longest) in a browser and ask it: "Based on everything you know about me from our conversations, write a detailed professional profile. Cover my skills, expertise, projects, goals, decision-making style, interests, and what I am currently working on. Skip anything personal or sensitive." Copy the output, paste it into your Jarvis session, and tell it to save it as `user/USER.md`. This gives you a solid starting point without touching any export files. It will be thinner than the full export approach (the AI only surfaces what it actively remembers, not patterns buried in old conversations), but it is fast, safe, and good enough to start. You can always deepen it later.
+
+**The from-scratch alternative: a live interview.** If you do not have AI conversation history to export (or prefer to start completely fresh), the starter repo includes a skill file that will interview you.
 
 Tell your AI:
 
-> "Read the skill file at skills/create-user-profile.md and run it."
+> "Read the skill file at skills/create-user-profile/SKILL.md and run it."
 
 It will interview you one question at a time. It will ask about who you are, what you care about, how you make decisions, the current state of your operation, and your biggest strategic blocker. Use voice-to-text. Speak naturally. Do not overthink your answers.
 
@@ -22433,9 +23286,11 @@ The `user/` folder is not limited to `USER.md`. You can add any file that helps 
 
 ### Step 4B: "What's My Plan?" (15 minutes)
 
-At the end of the user profile interview, Hermes will ask if you want to think through your strategic blocker. Say yes.
+Now that your AI knows who you are, tell it about the thing you are most stuck on or trying to figure out. The starter repo includes a skill for this:
 
-This is the payoff. Hermes now has deep context on who you are, what you are working on, and what is in the way. It will help you break your blocker into actionable steps and save the result as a strategic plan in `artifacts/`.
+> "Read the skill file at skills/think-through-it/SKILL.md and run it."
+
+This is the payoff. Your AI now has deep context on who you are, what you are working on, and what is in the way. It will interview you about your most important blocker, push for specificity, and produce an actionable plan saved to `artifacts/`.
 
 If you skipped this during the interview, you can trigger it yourself:
 
@@ -22457,7 +23312,7 @@ This is the real shift. Your job as a leader is not editing documents. Your job 
 
 ### Step 4C: "Who Do I Know?" (10 minutes)
 
-Create 3 to 5 relationship files for key people in your professional life. Use voice-to-text to dictate into Hermes. For each person, capture:
+Create 3 to 5 relationship files for key people in your professional life. Use voice-to-text to dictate into your agent. For each person, capture:
 
 - **Name and role**
 - **How you met**
@@ -22465,7 +23320,7 @@ Create 3 to 5 relationship files for key people in your professional life. Use v
 - **Last meaningful interaction**
 - **Anything you want to remember** (their kid's name, that project they mentioned, the thing they're excited about)
 
-Tell Hermes to create a file for each person in the `people/` directory (already set up in the starter repo from Step 2C). The format doesn't matter much right now. What matters is that these people now exist in your system.
+Tell your agent to create a file for each person in the `people/` directory (already set up in the starter repo from Step 2C). The format doesn't matter much right now. What matters is that these people now exist in your system.
 
 **The moment:** These people now exist in structured form that AI can reference. You will never forget a detail about them again. The next time you have a meeting with one of them, your business OS can brief you on everything you know.
 
@@ -22503,7 +23358,7 @@ Create a strategic document capturing one major decision you have made recently.
 
 ### Step 4F: "My System Talks Back" (10 minutes)
 
-Now ask Hermes to generate a briefing from everything you've created. Something like:
+Now ask your agent to generate a briefing from everything you've created. Something like:
 
 > "Based on everything in this workspace, give me a briefing. Who am I? What's my strategic plan? Who are my key relationships? What decisions have I made? What should I be paying attention to?"
 
@@ -22519,29 +23374,29 @@ Once your Personal Agentic OS is set up, the default interaction pattern is simp
 
 ### Step 5A: Open Your Workspace
 
-**The fast way (Mac):** Right-click on the VS Code icon in your Dock. You will see a list of recently opened projects. Click your workspace name. Done. This is the fastest way to get back into your Personal Agentic OS every day. No navigating folders, no remembering file paths.
+**The fast way:** If you set up the `clauded` shortcut from Step 2C, open any terminal and type `clauded ~/path/to/your-workspace`. It navigates to your workspace and starts Claude Code. Done.
 
-**The manual way:** Open VS Code, go to File > Open Recent, and select your workspace. Or File > Open Folder and navigate to it.
+**From VS Code:** Open your workspace in VS Code (File > Open Recent is fastest), then open the terminal (Terminal > New Terminal) and type `claude`. This gives you the file tree on the left and your agent in the terminal at the bottom.
 
-Once your workspace is open, open the terminal within VS Code (Terminal > New Terminal). Type `hermes` to start Hermes.
+**Either way works.** Some people prefer working entirely in the terminal. Others like having VS Code open so they can see the file tree and read files side-by-side with their agent. Try both and see what feels natural.
 
-**Resuming a previous session:** If you had a session going yesterday and want to pick up where you left off, type `hermes` and then `/resume`. You will see a list of recent sessions. Pick the one with the most kilobytes (that is the session with the most context). Use the arrow keys to select it and press Enter. You are back where you were, with all the context from your last session intact.
+**Resuming a previous session:** Claude Code automatically has access to your workspace files every time you start it. Your context lives in the files, not in the chat history, so you can pick up right where you left off. Just open a new session and start talking.
 
 ### Step 5B: Brain Dump
 
 Start talking. Voice-to-text into the terminal. Just dump whatever is on your mind. It might be a meeting debrief, a strategic thought, an update on a relationship, a new idea, a decision you need to make. Do not worry about structure. Just say what is true.
 
-### Step 5C: Let Hermes Route It
+### Step 5C: Let Your Agent Route It
 
-Based on what you said, Hermes determines which existing documents to update, whether new documents need to be created, and how to maintain coherence across everything.
+Based on what you said, your agent determines which existing documents to update, whether new documents need to be created, and how to maintain coherence across everything.
 
 ### Step 5D: Review the Changes
 
-Look at what Hermes did. Approve, correct, or refine. This is you being the "dictator of truth" for your operation. The AI proposes; you approve.
+Look at what your agent did. Approve, correct, or refine. This is you being the "dictator of truth" for your operation. The AI proposes; you approve.
 
 ### Step 5E: Repeat
 
-Over time, Hermes learns the structure of your business OS and keeps everything consistent. Cross-references stay accurate. Outdated information gets flagged.
+Over time, your agent learns the structure of your business OS and keeps everything consistent. Cross-references stay accurate. Outdated information gets flagged.
 
 The brain dump is the lowest-friction way to keep your business OS current. You don't need to think about where information goes. You just need to say what's true, and the system handles the rest.
 
@@ -22555,11 +23410,7 @@ These are real issues that come up when people set up their Personal Agentic OS 
 
 **Remap your Caps Lock key.** Make it a Control key. This is a small thing that makes terminal life dramatically better. On macOS: System Settings, Keyboard, Keyboard Shortcuts, Modifier Keys. You'll thank yourself.
 
-**Hermes sometimes times out on long operations.** This is normal. Just resume the session. Your files are already saved. Nothing is lost.
-
-**The multiple-choice UI in Hermes can be confusing.** When Hermes presents options, it can feel like you need to pick from a menu. You can tell it to default to free text input instead. Just say "don't give me multiple choice, I'll tell you what I want."
-
-**Understand the yolo mode tradeoff.** See the optional note in Phase 1. You can run `hermes --yolo` or type `/yolo` inside a session to toggle approval prompts.
+**Approval prompts can feel slow at first.** Claude Code asks permission before making file changes or running commands. This is a safety feature. As you get comfortable, you can adjust permissions. Type `/permissions` in a session to see your options.
 
 **Voice transcription quality can vary.** Apple's built-in dictation can regress across OS updates. If you notice accuracy dropping, switch to Superwhisper or Wispr Flow as your primary and keep the other as backup.
 
@@ -22581,7 +23432,7 @@ The MVP is the seed. Here's what the growth trajectory looks like.
 
 - Regular brain dumps are becoming habit. You speak into the system at least a few times a week.
 - Your artifact library is growing: status updates, decision records, relationship files, strategic notes.
-- You're starting to see the compounding effect. Your [context lake](/docs/concepts/context-lake) is deepening. Hermes's briefings are getting noticeably more useful because there's more context to draw from.
+- You're starting to see the compounding effect. Your [context lake](/docs/concepts/context-lake) is deepening. Your agent's briefings are getting noticeably more useful because there's more context to draw from.
 
 ### Step 7C: Month 3
 

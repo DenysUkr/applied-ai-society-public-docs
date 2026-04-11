@@ -103,7 +103,7 @@ You do not need to be a professional developer. You need:
 
 4. **A bias toward action.** The cost of building is so low that the main bottleneck is deciding to start. If you can describe the problem, you can build the solution. Today. Not next quarter.
 
-## Relationship to Other Concepts
+## Further Reading
 
 - **[Personal Agentic OS](/docs/concepts/personal-agentic-os):** Your Personal Agentic OS is the context layer. Flow-state infra is what you build when that context reveals friction.
 - **[Harness Engineering](/docs/concepts/harness-engineering):** The coding harness is the tool that makes flow-state infra possible at low cost.
