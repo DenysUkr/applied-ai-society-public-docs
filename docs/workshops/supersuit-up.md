@@ -21,6 +21,8 @@ If neither option is available to you right now, this guide plus your AI agent (
 
 ## Why This Matters
 
+Most people use AI the way they use Google: type a question, get an answer, move on. That is the casual side. This workshop is about crossing to the pro side. The difference is not incremental. It is [the difference between marginal improvement and orders-of-magnitude improvement](/docs/applied-ai-literacy#beyond-the-chat-window). If you get your whole system set up, your life can look completely different. We cannot emphasize this enough.
+
 You have a dozen inboxes. Discord, Telegram, iMessage, email, Slack, LinkedIn, X, Instagram, phone calls, in-person conversations. Right now, you probably have 50 open threads across 12 platforms. No human brain can track all of that. And the honest truth is: you're dropping balls. We all are.
 
 The thing nobody tells you about leveling up as a professional or leader is that the job changes underneath you. At a certain point, the most important work is no longer doing the work. It's defining reality, setting objectives, and evaluating whether the system is working. You shift from working *in* the business to working *on* the business. Meta work becomes the work. This shift from execution to design is what we call [game design](/docs/concepts/game-design): the discipline of defining objectives, rules, guardrails, and scoring for the AI agents in your system.
