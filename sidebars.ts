@@ -69,6 +69,7 @@ const sidebars: SidebarsConfig = {
         'concepts/vibe-curation',
         'concepts/liberation-architecture',
         'concepts/the-encounter',
+        'concepts/activation',
         'concepts/the-token-economy',
         'concepts/roles-to-workflows',
         'concepts/observable-behavior-engineering',
