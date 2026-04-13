@@ -382,3 +382,8 @@ so we can do bilateral evaluation: https://docs.appliedaisociety.org/docs/standa
 ## Version Note
 
 This is v0.1. It's intentionally minimal. We're publishing based on what we've learned from evaluating partnerships at AAS and Imagos, where misalignment surfaced late and cost real time. As more organizations publish ALIGN.md files, the spec will evolve based on real usage patterns.
+
+## Further Reading
+
+- [ALIGN.md Example](/docs/standards/align-md/example): A worked example showing what a complete ALIGN.md looks like in practice.
+- [ALIGN.md Writing Guide](/docs/standards/align-md/writing-guide): How to write your own ALIGN.md, including common mistakes to avoid.

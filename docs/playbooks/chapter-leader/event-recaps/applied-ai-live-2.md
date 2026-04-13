@@ -70,7 +70,7 @@ Applied AI Live #2 was the second gathering of the Applied AI Society, co-hosted
 
 ## Founding Sponsors
 
-Applied AI Live #2 was made possible with the support of the Applied AI Society's founding sponsors: **OpenTeams** and **OT Incubator**. [Learn more about our founding sponsors](/).
+Applied AI Live #2 was made possible with the support of the Applied AI Society's founding sponsors: **OpenTeams** and **OT Incubator**. [Learn more about our founding sponsors](/docs/about).
 
 ---
 

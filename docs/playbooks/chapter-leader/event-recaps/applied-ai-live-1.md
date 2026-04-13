@@ -71,7 +71,7 @@ Applied AI Live #1 was the inaugural event for the Applied AI Society. Hosted at
 
 ## Founding Sponsors
 
-Applied AI Live #1 was made possible with the support of the Applied AI Society's founding sponsors: **OpenTeams** and **OT Incubator**. [Learn more about our founding sponsors](/).
+Applied AI Live #1 was made possible with the support of the Applied AI Society's founding sponsors: **OpenTeams** and **OT Incubator**. [Learn more about our founding sponsors](/docs/about).
 
 ---
 

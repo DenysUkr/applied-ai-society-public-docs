@@ -173,7 +173,7 @@ Find people who want to be there anyway. The photographer who's an aspiring appl
 
 Sponsorship gives you more flexibility, but it's not a precedent you need to set. The beauty of keeping events cheap is that any chapter can run them without waiting for funding. Sponsorship is a nice-to-have, not a requirement.
 
-The Applied AI Society is supported by founding sponsors **OpenTeams** and **OT Incubator**. [Learn more about our founding sponsors](/).
+The Applied AI Society is supported by founding sponsors **OpenTeams** and **OT Incubator**. [Learn more about our founding sponsors](/docs/about).
 
 ---
 
