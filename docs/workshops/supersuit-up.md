@@ -29,6 +29,8 @@ The thing nobody tells you about leveling up as a professional or leader is that
 
 Here is the uncomfortable truth: **you are the bottleneck.** Not the tools. Not the AI. You. The quality of your strategic thinking, the clarity of your communication, and your willingness to document what you actually know are the limiting factors. That is not a criticism. It is empowering. Because if you are the bottleneck, you are also the one who can unblock everything. And AI can help you see your own thinking more clearly, pressure-test your strategy, and refine your plans in ways that used to require an expensive advisor or a very patient co-founder.
 
+Most people running complex operations are walking around with what we call [creative congestion](/docs/concepts/creative-congestion): too many ideas, relationships, and decisions stuck in one head, with no system to offload them. A Personal Agentic OS is the relief valve.
+
 Meta thinking is the new thinking. The highest-leverage skill you can develop right now is not execution. It is the ability to design your business as a system: the objectives, the rules, the guardrails, the scoring. Execution is increasingly commoditized. Your ability to define what should be executed is not.
 
 Here's the key insight behind everything that follows: **the truth in your head is not the truth.** Not operationally. Not for AI. Not for your team. The truth that matters is the truth that exists in documents that AI can read and act on. If it's only in your head, it might as well not exist. It's unsearchable. Your brain has no search bar, no version history, and no way for an AI to read it.
@@ -108,19 +110,24 @@ Before you can install your AI agent, you need a few foundational tools. If you 
 
 3. **Git**: Type `git --version` in Terminal. If it prints a version number, you are good. If not: `brew install git`
 
+4. **GitHub CLI**: `brew install gh`, then `gh auth login`. This is required. It handles GitHub authentication for your workspace and is what lets the built-in hourly sync script push your work to GitHub without prompting.
+
 **Windows:**
 
 1. **Node.js**: Download the LTS installer from [nodejs.org](https://nodejs.org) and run it. Accept the defaults.
 
 2. **Git**: Download from [git-scm.com/downloads/win](https://git-scm.com/downloads/win) and run the installer. Accept the defaults.
 
+3. **GitHub CLI**: `winget install GitHub.cli`, then `gh auth login`. Required (same reason as above).
+
 **Verify everything works:** Open a fresh terminal and run:
 ```bash
 node --version
 npm --version
 git --version
+gh --version
 ```
-All three should print version numbers. If any fail, the tool is not installed correctly. Ask your AI (ChatGPT, Claude, Gemini) to help you debug: paste the error message and it will tell you exactly what to do.
+All four should print version numbers. If any fail, the tool is not installed correctly. Ask your AI (ChatGPT, Claude, Gemini) to help you debug: paste the error message and it will tell you exactly what to do.
 
 ### Step 1A: Voice-to-Text
 
@@ -187,9 +194,8 @@ If you completed Step 0, Git is already installed. If not, go back and do that n
 
 **Setting up GitHub:**
 
-1. You should already have a GitHub account from Phase 0. If not, create one at [https://github.com](https://github.com).
-2. Install the GitHub CLI so you can interact with GitHub from your terminal. On **macOS**: `brew install gh` (if you have Homebrew) or download from [https://cli.github.com](https://cli.github.com). On **Windows**: download the installer from [https://cli.github.com](https://cli.github.com).
-3. Log in by typing `gh auth login` in your terminal and following the prompts.
+1. You should already have a GitHub account from Phase 0 and the GitHub CLI (`gh`) installed and authenticated from Step 0. If you skipped ahead, install it now: `brew install gh` on Mac, `winget install GitHub.cli` on Windows.
+2. Verify you are logged in: `gh auth status`. If not, run `gh auth login` and follow the prompts.
 
 ### Step 2C: Clone and Open Your Workspace
 
@@ -249,7 +255,33 @@ The starter repo comes with five folders. Together, these form your [context lak
 
 It also includes an `AGENTS.md` file that gives your agent instructions on how to operate within your workspace (this is what makes it understand the structure of your business OS from the first session), and a skill file that will interview you on your first session to create your `user/USER.md` profile.
 
-### Step 2D: Meeting Transcription (Optional)
+### Step 2D: Push to GitHub and Turn On Hourly Sync
+
+Before you start filling your workspace with real thinking, get backup wired up. This takes 60 seconds and means you never have to think about it again.
+
+Inside your workspace, push it up to GitHub as a private repo:
+
+```bash
+gh repo create my-jarvis --private --source . --push
+```
+
+(Replace `my-jarvis` with whatever you named your workspace.)
+
+Then turn on the hourly sync cron that ships in the starter repo:
+
+```bash
+bash scripts/install-sync-cron.sh
+```
+
+That registers a cron entry that runs `scripts/sync.sh` every hour. The script commits anything new, pulls remote changes, and pushes. It writes to `.jarvis-sync.log`. Now:
+
+- Your work is backed up continuously.
+- You can jump between machines and keep going (just `git pull` first).
+- If you invite a collaborator (`gh repo edit --add-collaborator <username>`), their changes show up in your workspace automatically.
+
+To remove the cron later: `crontab -l | grep -v scripts/sync.sh | crontab -`.
+
+### Step 2E: Meeting Transcription (Optional)
 
 Tools like [Granola](https://granola.ai/) run in the background during meetings and give you a transcript afterward. This becomes raw material for your business OS. Not every meeting needs to be transcribed, but the important ones should be captured so you can extract insights and commitments later.
 
@@ -539,6 +571,7 @@ That's the shift. And it starts with the Supersuit Up workshop.
 - [Training the Workshop](/docs/playbooks/practitioner/training-the-workshop): If you want to teach others how to set up their Personal Agentic OS
 - [Harness Engineering](/docs/concepts/harness-engineering): Why the code wrapped around an AI model matters as much as the model itself, and why harnesses will soon improve themselves
 - [Personal Agentic OS](/docs/concepts/personal-agentic-os): The concept behind the system you are building
+- [Creative Congestion](/docs/concepts/creative-congestion): The condition a Personal Agentic OS exists to relieve
 
 ---
 

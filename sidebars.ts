@@ -104,6 +104,7 @@ const sidebars: SidebarsConfig = {
         'concepts/zero-question-assessments',
         'concepts/the-sovereignty-stack',
         'concepts/externalize-your-brain',
+        'concepts/creative-congestion',
         'concepts/clips',
         'concepts/slopacalypse',
         'concepts/command-centers',

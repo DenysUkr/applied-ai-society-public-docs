@@ -110,3 +110,4 @@ The gap between "I use AI sometimes" and "AI operates from my full context" is t
 - [Supersuit Up Workshop](/docs/workshops/supersuit-up): The tutorial to get started
 - [Crutching](/docs/concepts/crutching): Externalizing your brain is the right move. Outsourcing your thinking is the wrong one. Know the difference.
 - [See Your Own Thinking](/docs/concepts/see-your-own-thinking): What happens after you externalize. AI reflects your thinking back to you and you gain metacognition you could not achieve alone.
+- [Creative Congestion](/docs/concepts/creative-congestion): The condition that makes externalization urgent. Too many ideas, relationships, and open loops stuck in one head.
