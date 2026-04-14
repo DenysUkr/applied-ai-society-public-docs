@@ -114,6 +114,10 @@ Before you can install your AI agent, you need a few foundational tools. If you 
 
 **Windows:**
 
+:::note[Windows]
+When following the steps below, open **Command Prompt** (cmd.exe) — not Windows PowerShell or Terminal.
+:::
+
 1. **Node.js**: Download the LTS installer from [nodejs.org](https://nodejs.org) and run it. Accept the defaults.
 
 2. **Git**: Download from [git-scm.com/downloads/win](https://git-scm.com/downloads/win) and run the installer. Accept the defaults.
@@ -172,6 +176,10 @@ npm install -g @anthropic-ai/claude-code
 
 **First launch:** Type `claude` in your terminal. On first run, it will ask you to log in with your Anthropic account. Follow the prompts to authenticate. Once logged in, you are ready to go.
 
+:::note[Windows]
+Models cannot be launched in Terminal. On Windows, launch them from Command Prompt, WSL, or Ubuntu instead.
+:::
+
 :::tip[Approval prompts]
 By default, Claude Code asks permission before making changes to your files or running commands. This is a good safety net while you are learning. As you get comfortable, you can adjust the permission mode to allow more actions automatically.
 :::
@@ -228,6 +236,10 @@ Your agent will rename the folder, update the internal files, and personalize th
    - **Mac:** Terminal > New Terminal from the menu bar, or press `` Ctrl+` ``
    - **Windows:** Terminal > New Terminal from the menu bar, or press `` Ctrl+` ``
 5. In the VS Code terminal, type `claude`. Your agent is now running inside your workspace and can see all the starter files.
+
+:::note[Windows]
+The terminal and Visual Studio Code must be switched to WSL for Claude to work. Make sure you are using a WSL terminal (not Command Prompt or PowerShell) inside VS Code, and that VS Code is also connected to WSL.
+:::
 
 You are now in the cockpit. The left panel shows your file tree. The bottom panel is your agent in the terminal. The right panel is for viewing whatever file you are working on.
 
