@@ -109,6 +109,7 @@ const sidebars: SidebarsConfig = {
         'concepts/slopacalypse',
         'concepts/command-centers',
         'concepts/hyperagency',
+        'concepts/the-self-improving-human',
         'concepts/effective-agi',
         'concepts/four-levels-of-applied-ai-for-existing-businesses',
         'concepts/the-judgment-line',
